@@ -1,0 +1,20 @@
+<div class="container"> 
+      <p tx-contenteditable  
+         ng-model="childNode.widgetdata.text">
+         {{childNode.widgetdata.text || ' '}}
+      </p>
+      <ul class="social-icons">
+        <li ng-repeat="socialicon in childNode.widgetdata.social">
+            <a style="background-color:{{socialicon.background}}" 
+               data-toggle="modal" 
+               data-target="#myModal_social_{{childNode.id}}"  
+               href="#" 
+               class="fa {{socialicon.icons}}">
+            </a>
+        </li>
+      </ul>
+</div>
+
+<div socialsettings>
+
+</div>

@@ -1,0 +1,18 @@
+<div class="container">
+      <p tx-contenteditable  
+         ng-model="childNode.widgetdata.text">
+         {{childNode.widgetdata.text || ' '}}
+      </p>
+      <ul class="links">    	
+        <li ng-repeat="nav in childNode.widgetdata.nav">
+          <a href="#"
+             data-toggle="modal" 
+             data-target="#myModal{{childNode.id}}">
+             {{nav.title}}
+          </a>
+        </li>
+      </ul>
+</div>
+<div navsettings>
+
+</div>

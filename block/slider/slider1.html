@@ -1,0 +1,43 @@
+<flex-slider
+		slide="s in childNode.widgetdata.slides track by $index"
+		animation="slide" prevText="" nextText="">
+		<li>
+			<img ng-src="{{s.image}}"/>
+			<div class="slider-config">
+                <button addarticle 
+                        ng-model="childNode.widgetdata.slides" 
+                        currentslide="s" 
+                        class="btn btn-primary">
+                        <i class="fa 
+                                  fa-plus 
+                                  fa-3x">
+                        </i>
+                </button>
+                <button ng-click="TriggerSliderUpload(childNode.id,$index)" 
+                        class="btn btn-primary">
+                        <i class="fa 
+                                  fa-pencil 
+                                  fa-3x">
+                        </i>
+                </button>
+                <button removeslide 
+                        ng-model="childNode.widgetdata.slides" 
+                        slideindex="$index" 
+                        class="btn btn-primary">
+                        <i class="fa 
+                                  fa-trash-o 
+                                  fa-3x">
+                        </i>
+                </button>
+                <span style="display:none;" 
+                      class="btn btn-primary fileinput-button">
+                      <span>Change</span>
+                      <input id="slider_file_{{childNode.id}}_{{$index}}" 
+                             class="slider_image_upload" 
+                             type="file" 
+                             filemodel 
+                             ng-model="s.image"/>
+                </span>
+            </div>
+		</li>
+</flex-slider>

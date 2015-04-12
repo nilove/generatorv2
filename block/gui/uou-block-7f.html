@@ -1,0 +1,74 @@
+<article ng-repeat="article in childNode.widgetdata.posts track by $index" class="uou-block-7f">
+      <img src="{{article.image}}" alt="" class="thumb">
+
+      <div class="meta">
+        <span class="time-ago" 
+              plaintx-contenteditable 
+              ng-model="article.time_ago">
+              {{article.time_ago || ''}}<span></span>
+        </span>
+        <span class="category" 
+              plaintx-contenteditable 
+              ng-model="article.category">
+              {{article.category || ''}}<span></span>
+        </span>
+        <a href="#" 
+           class="comments" 
+           plaintx-contenteditable 
+           ng-model="article.comment_text">
+           {{article.comment_text || ''}}<span></span>
+        </a>
+      </div>
+
+      <h1>
+          <a href="#" 
+             plaintx-contenteditable 
+             ng-model="article.title">{{article.title || ''}}<span></span>
+          </a>
+      </h1>
+
+      <p tx-contenteditable  
+         ng-model="article.text">
+         {{article.text || ' '}}
+         <span></span>
+      </p>
+
+      <a href="#" class="btn btn-primary" 
+         plaintx-contenteditable 
+         ng-model="article.button">{{article.button || ' '}}
+         <span></span>
+      </a>
+      <div class="upload_button_container">
+                <span class="btn btn-primary fileinput-button">
+                    <i class="fa fa-upload  fa-3x"></i>
+                        <input type="file" 
+                        accept="image/*"
+                             filemodel 
+                             ng-model="article.image"/>
+                </span>
+      </div>
+
+      <div class="slider-config-article">
+                <button addarticle 
+                        ng-model="childNode.widgetdata.posts" 
+                        currentslide="article" 
+                        class="btn btn-primary">
+                        <i class="fa 
+                                  fa-plus 
+                                  fa-3x">
+                        </i>
+                </button>
+                
+                <button removeslide 
+                        ng-model="childNode.widgetdata.posts" 
+                        slideindex="$index" 
+                        class="btn btn-primary">
+                        <i class="fa 
+                                  fa-trash-o 
+                                  fa-3x">
+                        </i>
+                </button>
+                
+            </div>
+
+</article> <!-- end .uou-block-7f -->

@@ -1,0 +1,43 @@
+<div class="uou-block-6b {{childNode.widgetdata.class}}">
+          <img src="{{childNode.widgetdata.image}}" alt="">
+          <ul class="social-icons">
+            <li ng-repeat="socialicon in childNode.widgetdata.social">
+              <a data-toggle="modal" 
+                 data-target="#myModal_social_{{childNode.id}}"  
+                 href="#" 
+                 class="fa {{socialicon.icons}}">
+              </a>
+            </li>
+          </ul>
+          <div class="content">
+            <h6>
+              <div plaintx-contenteditable 
+                   ng-model="childNode.widgetdata.name">{{childNode.widgetdata.name || ' '}}>
+                   <span></span>
+              </div> 
+              <span plaintx-contenteditable 
+                    ng-model="childNode.widgetdata.company">
+                    {{childNode.widgetdata.company || ' '}}>
+                    <span></span>
+              </span>
+            </h6>
+            <p tx-contenteditable  
+               ng-model="childNode.widgetdata.text">
+               {{childNode.widgetdata.text || ' '}}>
+               <span></span>
+            </p>
+          </div>
+          <div class="upload_button_container">
+                <span class="btn btn-primary fileinput-button">
+                    <i class="fa fa-upload fa-3x"></i>
+                        <input type="file" 
+                             filemodel 
+                             ng-model="childNode.widgetdata.image"
+                             accept="image/*"
+                            />
+                </span>
+          </div>
+</div> <!-- end .uou-block-6b -->
+<div socialsettings>
+
+</div>

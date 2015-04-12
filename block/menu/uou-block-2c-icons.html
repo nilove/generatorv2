@@ -1,0 +1,30 @@
+<div class="container">
+      <a href="#" class="logo">
+        <span plaintx-contenteditable 
+              ng-model="childNode.widgetdata.title">
+              {{childNode.widgetdata.title}}
+              <span></span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <ul sfmenu class="sf-menu">
+          <li class="" ng-repeat="nav in childNode.widgetdata.nav">
+            <a ng-if="nav.items.length == 0" href="#" data-toggle="modal" data-target="#myModal{{childNode.id}}"><i class="fa {{nav.icons}}"></i>{{nav.title}}<span>{{nav.text}}</span></a>
+            <a ng-if="nav.items.length > 0" class="sf-with-ul" href="{{nav.link}}"><i class="fa {{nav.icons}}"></i>{{nav.title}}<span>{{nav.text}}</span></a>
+            <ul ng-if="nav.items.length > 0">
+              <li ng-repeat="nav1 in nav.items">
+                <a ng-if="nav1.items.length == 0" href="{{nav1.link}}" data-toggle="modal" data-target="#myModal{{childNode.id}}">{{nav.title}}</a>
+                <a ng-if="nav1.items.length > 0" class="sf-with-ul" href="{{nav1.link}}" data-toggle="modal" data-target="#myModal{{childNode.id}}">{{nav1.title}}</a>
+                <ul ng-if="nav1.items.length > 0">
+                  <li ng-repeat="nav1 in nav1.items"><a href="{{nav1.link}}" data-toggle="modal" data-target="#myModal{{childNode.id}}">{{nav1.title}}</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+</div>
+  <div navsettings>
+
+  </div>

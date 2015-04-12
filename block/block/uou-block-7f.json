@@ -1,0 +1,29 @@
+{
+	"background":"",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"text":"<p>There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. UOU Apps, is by far one of the worlds best known brands.</p>",
+	"footertext":"Steve Jobs, Apple",
+	"backgrondimage":"",
+	"wrapper_class":"container has-bg-image",
+	"posts":[
+			{
+				"image":"http://placehold.it/200/34495e/34495e",
+				"title":"Perspiciatis Sint Pariatur Velit Corrupti",
+				"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
+				"button":"Read More",
+				"time_ago":"3 days ago",
+				"category":"Posted in: Design",
+				"comment_text":" 12 COMMENTS"
+			},
+			{
+				"image":"http://placehold.it/200/34495e/34495e",
+				"title":"Perspiciatis Sint Pariatur Velit Corrupti",
+				"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
+				"button":"Read More",
+				"time_ago":"3 days ago",
+				"category":"Posted in: Design",
+				"comment_text":" 12 COMMENTS"
+			}	
+		]
+}

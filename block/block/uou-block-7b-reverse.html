@@ -1,0 +1,38 @@
+<div class="css-table">
+  <div class="css-table-cell content">
+    <span class="time-ago" plaintx-contenteditable ng-model="childNode.widgetdata.timetext">{{childNode.widgetdata.timetext || ' '}}<span></span>
+    </span>
+
+    <h1 plaintx-contenteditable 
+        ng-model="childNode.widgetdata.company">
+        {{childNode.widgetdata.company || ' '}}>
+        <span></span>
+    </h1>
+
+    <p tx-contenteditable  
+       ng-model="childNode.widgetdata.text">
+       {{childNode.widgetdata.text || ' '}}>
+       <span></span>
+    </p>
+
+    <a href="#" class="btn btn-primary" 
+       plaintx-contenteditable 
+       ng-model="childNode.widgetdata.button">
+       {{childNode.widgetdata.button || ' '}}
+       <span></span>
+    </a>
+  </div>
+
+  <div class="css-table-cell image has-bg-image" data-bg-image="{{childNode.widgetdata.image}}" style="background-image: url({{childNode.widgetdata.image}});">
+    <img class="hidden-image" src="{{childNode.widgetdata.image}}" alt="">
+    <div class="upload_button_container">
+                <span class="btn btn-primary fileinput-button">
+                    <i class="fa fa-upload fa-3x"></i>
+                        <input type="file" 
+                              accept="image/*"
+                             filemodel 
+                             ng-model="childNode.widgetdata.image"/>
+                </span>
+    </div>
+  </div>  
+</div>

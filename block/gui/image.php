@@ -1,0 +1,1 @@
+<img class="img-thumbnail" src='<?=copyimage($params["widgetdata"]["image"]);?>'/>

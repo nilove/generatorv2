@@ -1,0 +1,31 @@
+<article class="uou-block-7c">
+          <img class="image" src="{{childNode.widgetdata.image}}" alt="">
+
+          <span class="date" 
+                plaintx-contenteditable 
+                ng-model="childNode.widgetdata.date">
+              	{{childNode.widgetdata.date || ' '}}>
+              	<span></span>
+          </span>
+
+          <h1 plaintx-contenteditable 
+              ng-model="childNode.widgetdata.name">
+              {{childNode.widgetdata.name || ' '}}>
+              <span></span>
+          </h1>
+
+          <p tx-contenteditable  
+           ng-model="childNode.widgetdata.text">
+           {{childNode.widgetdata.text || ' '}}>
+           <span></span>
+          </p>
+</article>
+<div class="upload_button_container row_edit_area">
+    <span class="btn btn-primary fileinput-button">
+       <i class="fa fa-upload fa-3x"></i>
+            <input type="file" 
+                    accept="image/*"
+                             filemodel 
+                             ng-model="childNode.widgetdata.image"/>
+    </span>
+</div>

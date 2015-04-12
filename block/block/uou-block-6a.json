@@ -1,0 +1,61 @@
+{
+	"wrapper_class":"container has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"rows":
+	[
+		{
+			"columns":[
+						{
+						"image":"http://placehold.it/300x200/34495e/34495e",
+						 "name":"Jessica Walsh",
+						 "company":"Founder & Web Designer",
+						 "text":"Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
+						 "social":
+							[
+								{"title":"Facebook","link":"https://www.facebook.com/","icons":"fa-facebook"},
+								{"title":"Twitter","link":"https://twitter.com/","icons":"fa-twitter"},
+								{"title":"Google","link":"https://www.google.com.bd/?gws_rd=ssl","icons":"fa-google-plus"}	 		
+							],
+						 "template":"block/gui/uou-block-6a.html",
+						 "type":"uou-block-6a",
+						 "wrapper_class":"col-md-4",
+						 "wrapper_extra_class":"col-sm-4"		
+						},
+						{
+						"image":"http://placehold.it/300x200/34495e/34495e",
+						 "name":"Jessica Walsh",
+						 "company":"Founder & Web Designer",
+						 "text":"Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
+						 "social":
+							[
+								{"title":"Facebook","link":"https://www.facebook.com/","icons":"fa-facebook"},
+								{"title":"Twitter","link":"https://twitter.com/","icons":"fa-twitter"},
+								{"title":"Google","link":"https://www.google.com.bd/?gws_rd=ssl","icons":"fa-google-plus"}	 		
+							],
+						  "template":"block/gui/uou-block-6a.html",
+						  "type":"uou-block-6a",
+						  "wrapper_class":"col-md-4",
+							"wrapper_extra_class":"col-sm-4"			
+						},
+						{
+						"image":"http://placehold.it/300x200/34495e/34495e",
+						 "name":"Jessica Walsh",
+						 "company":"Founder & Web Designer",
+						 "text":"Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
+						 "social":
+							[
+								{"title":"Facebook","link":"https://www.facebook.com/","icons":"fa-facebook"},
+								{"title":"Twitter","link":"https://twitter.com/","icons":"fa-twitter"},
+								{"title":"Google","link":"https://www.google.com.bd/?gws_rd=ssl","icons":"fa-google-plus"}	 		
+							],
+						 "template":"block/gui/uou-block-6a.html",
+						  "type":"uou-block-6a",
+						  "wrapper_class":"col-md-4",
+							"wrapper_extra_class":"col-sm-4"	
+						}	
+					]
+		}
+	]
+}

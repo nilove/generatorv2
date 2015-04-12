@@ -1,0 +1,28 @@
+<div class="container">
+  <a href="#" class="logo">
+    <span plaintx-contenteditable 
+              ng-model="childNode.widgetdata.title">
+              {{childNode.widgetdata.title}}
+              <span></span>
+    </span>
+  </a>
+  <div class="search">
+        <form action="">
+          <input type="text" class="search-input" placeholder="Search ...">
+        </form>
+      </div>
+
+      <ul class="buttons">
+        <li ng-repeat="nav in childNode.widgetdata.nav">
+          <a href="" 
+             data-toggle="modal" 
+             data-target="#myModal{{childNode.id}}">
+             <i class="fa {{nav.icons}}"></i>
+          </a>
+        </li>
+      </ul>
+  </div>
+
+<div navsettings>
+
+</div>

@@ -1,0 +1,20 @@
+{
+  "wrapper_class":"container",
+  "slides":[
+  			{
+  				"image":"img/blog-image-1.png",
+  				"text":"",
+  				"heading":""
+  			},
+  			{
+  				"image":"img/blog-image-2.png",
+  				"text":"",
+  				"heading":""
+  			},
+  			{
+  				"image":"img/blog-image-3.png",
+  				"text":"",
+  				"heading":""
+  			}
+  			]
+}

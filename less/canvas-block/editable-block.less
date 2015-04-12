@@ -1,0 +1,55 @@
+.editable {
+  position: relative;
+ &.floating-element {
+  float: left;
+ }
+
+  &:hover {
+    .hover-edit-block {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .logo {
+    float: none;
+  }
+
+  .hover-edit-block {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: darken(@uou-secondary-color, 10%);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+  transition: all .3s ease;
+  z-index: 999;
+
+
+    a {
+      color: #fff;
+      margin: 0 5px;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -6px;
+      left: 9px;
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+
+      border-bottom: 7px solid darken(@uou-secondary-color, 10%);
+    }
+  }
+}
+
+
+.page-button-for-edit a {
+  margin-left: 10px !important;
+}

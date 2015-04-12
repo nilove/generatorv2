@@ -1,0 +1,40 @@
+<div q-recurse="hornav">
+            <div ng-repeat="(row_key,childNode) in hornav.nodes" 
+                 ng-if="childNode.w_type == 'row' || childNode.w_type == 'column' || childNode.w_type == 'widget'" 
+                 q-recurse-node="childNode" 
+                 class="{{childNode.class}} {{childNode.extraclass}} {{childNode.margintopclass}} {{childNode.marginbottomclass}}" 
+                ng-include src="childNode.template" 
+                acceptwidget 
+                ng-model="childNode"
+                data-id="{{childNode.id}}" 
+                style="background-image:url('{{childNode.background_property.background_image}}');
+                       min-height:{{childNode.background_property.height}}px">
+            </div>
+</div>
+<div class="upload_button_container edit-buttons">
+     <button addnewtab 
+             ng-model="childNode.widgetdata.tabs" 
+             currenttab="hornav" 
+             class="btn btn-primary">
+             <i class="fa fa-plus-square fa-3x"></i>
+     </button>
+     <button removeslide 
+             ng-model="childNode.widgetdata.tabs" 
+             slideindex="key"  
+             class="btn btn-primary">
+             <i class="fa fa-trash-o fa-3x"></i>
+     </button>   
+
+                
+</div>
+<div class="addrowbutton edit-buttons">
+     <button style="width:140px;" 
+             class="btn btn-primary" 
+             addnode 
+             widgettype="'row'" 
+             extraclass="'row'" 
+             wclass="''" 
+             ng-model="hornav">
+             <i class="fa fa-plus-square fa-3x"></i> Add new row
+     </button>          
+</div>

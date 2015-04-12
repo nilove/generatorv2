@@ -1,0 +1,104 @@
+{
+	"wrapper_class":"container has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"tabs":[
+	{
+		"id":"verticalnode14168224614344324",
+		"title":"Team",
+		"nodes":[
+			      {
+			        "id": "vnode14168224614344324",
+			        "name": "row 1",
+			        "w_type": "row",
+			        "class": "",
+			        "extraclass":"row mn-height",
+                	"margintopclass":"mt0",
+                	"marginbottomclass":"mb0",
+			        "background_property": {
+			          "background_color": "",
+			          "background_image": "none",
+			          "background_position": "center center",
+			          "background_repeat": "no-repeat",
+			          "height": 200
+			        },
+			        "template": "templates/row_tab.html",
+			        "nodes": []
+			      }
+			    ]
+	},
+	{
+		"id":"verticalnode1416822461434432423",
+		"title":"About",
+		"nodes":[
+		      {
+		        "id": "vnode1416822461434432423",
+		        "name": "row 1",
+		        "w_type": "row",
+		        "class": "",
+		        "extraclass":"row mn-height",
+                "margintopclass":"mt0",
+                "marginbottomclass":"mb0",
+		        "background_property": {
+		          "background_color": "",
+		          "background_image": "none",
+		          "background_position": "center center",
+		          "background_repeat": "no-repeat",
+		          "height": 200
+		        },
+		        "template": "templates/row_tab.html",
+		        "nodes": []
+		      }
+		    ]
+	},
+	{
+		"id":"verticalnode1416822461434323232",
+		"title":"Privacy",
+		"nodes":[
+		      {
+		        "id": "vnode1416822461434323232",
+		        "name": "row 1",
+		        "w_type": "row",
+		        "class": "",
+		        "extraclass":"row mn-height",
+                "margintopclass":"mt0",
+                "marginbottomclass":"mb0",
+		        "background_property": {
+		          "background_color": "",
+		          "background_image": "none",
+		          "background_position": "center center",
+		          "background_repeat": "no-repeat",
+		          "height": 200
+		        },
+		        "template": "templates/row_tab.html",
+		        "nodes": []
+		      }
+		    ]
+	},
+	{
+		"id":"verticalnode14168224614343232",
+		"title":"Contact",
+		"nodes":[
+		      {
+		        "id": "vnode14168224614343232",
+		        "name": "row 1",
+		        "w_type": "row",
+		        "class": "",
+		        "extraclass":"row mn-height",
+                "margintopclass":"mt0",
+                "marginbottomclass":"mb0",
+		        "background_property": {
+		          "background_color": "",
+		          "background_image": "none",
+		          "background_position": "center center",
+		          "background_repeat": "no-repeat",
+		          "height": 200
+		        },
+		        "template": "templates/row_tab.html",
+		        "nodes": []
+		      }
+		    ]
+	}
+]
+}

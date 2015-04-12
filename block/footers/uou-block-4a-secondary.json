@@ -1,0 +1,18 @@
+{
+	"text":"<p>Copyright &copy; 2014 Chameleon. All Rights reserved.</p>",
+	"nav":
+		[
+		  {
+		  	"title":"Privacy Policy",
+		    "link":""
+		  },
+		  {
+		  	"title":"Terms & Conditions",
+		    "link":""
+		  }
+		],
+	"wrapper_class":"uou-block-4a secondary has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""		
+}

@@ -1,0 +1,112 @@
+<div class="container">
+      <div class="row">
+        <div class="col-md-3 hidden-sm hidden-xs">
+          <a class="logo" 
+             href="#" 
+             plaintx-contenteditable 
+             ng-model="childNode.widgetdata.title">
+             {{childNode.widgetdata.title}}
+              <span></span>
+           </a>
+        </div>
+
+        <div class="col-md-6 col-sm-8">
+          <div class="row">
+            <div class="col-sm-4">
+              <h5 plaintx-contenteditable 
+             	  ng-model="childNode.widgetdata.text1">
+              	  {{childNode.widgetdata.text1}}
+                  <span></span>
+          	  </h5>
+
+              <ul class="links">
+              	<li ng-repeat="nv in childNode.widgetdata.nav1">
+              		<a href="#" 
+              		   plaintx-contenteditable 
+             	       ng-model="nv.title">{{nv.title}}<span></span>
+             	    </a>
+             	</li>
+              </ul>
+              <button twitterfeed ng-model="childNode.widgetdata.nav1" class="btn btn-primary edit-buttons">
+                    <i class="fa fa-plus-square fa-3x"></i>
+              </button>
+              <button removetwitterfeed 
+                    ng-model="childNode.widgetdata.nav1"  
+                    class="btn btn-primary edit-buttons">
+                    <i class="fa fa-trash-o fa-3x"></i>
+              </button>
+            </div>
+
+            <div class="col-sm-4">
+              <h5 plaintx-contenteditable 
+             	  ng-model="childNode.widgetdata.text2">
+              	  {{childNode.widgetdata.text2}}
+                <span></span>
+          	  </h5>
+
+              <ul class="links">
+              	<li ng-repeat="nv in childNode.widgetdata.nav2">
+              		<a href="#" 
+              		   plaintx-contenteditable 
+             	       ng-model="nv.title">{{nv.title}}<span></span>
+             	    </a>
+              	</li>
+              </ul>
+              <button twitterfeed ng-model="childNode.widgetdata.nav2" class="btn btn-primary edit-buttons">
+                    <i class="fa fa-plus-square fa-3x"></i>
+              </button>
+              <button removetwitterfeed 
+                    ng-model="childNode.widgetdata.nav2"  
+                    class="btn btn-primary edit-buttons">
+                    <i class="fa fa-trash-o fa-3x"></i>
+              </button>
+            </div>
+
+            <div class="col-sm-4">
+              <h5 plaintx-contenteditable 
+             	  ng-model="childNode.widgetdata.text3">
+              	  {{childNode.widgetdata.text3}}
+                <span></span>
+          	  </h5>
+
+              <ul class="links">
+              	<li ng-repeat="nv in childNode.widgetdata.nav3">
+              		<a href="#" 
+              		   plaintx-contenteditable 
+             	       ng-model="nv.title">{{nv.title}}<span></span>
+             	    </a>
+             	</li>
+              </ul>
+              <button twitterfeed ng-model="childNode.widgetdata.nav3" class="btn btn-primary edit-buttons">
+                    <i class="fa fa-plus-square fa-3x"></i>
+              </button>
+              <button removetwitterfeed 
+                    ng-model="childNode.widgetdata.nav3"  
+                    class="btn btn-primary edit-buttons">
+                    <i class="fa fa-trash-o fa-3x"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4">
+          <h5 plaintx-contenteditable 
+             	  ng-model="childNode.widgetdata.text4">
+              	  {{childNode.widgetdata.text4}}
+                <span></span>
+          </h5>
+
+          
+          <p plaintx-contenteditable 
+             	  ng-model="childNode.widgetdata.text5">
+              	  {{childNode.widgetdata.text5}}
+                <span></span>
+          </p>
+
+          <form class="newsletter-form" action="">
+            <input type="email" placeholder="Enter your email address">
+            <input type="submit" class="btn btn-primary" value="Subscribe">
+          </form>
+        </div>
+      </div>
+</div>

@@ -1,0 +1,29 @@
+{
+	"text":"<p>Copyright &copy; 2014 Chameleon. All Rights reserved.</p>",
+	"social":
+		[
+		  {"title":"Facebook",
+		    "link":"https://www.facebook.com/",
+		   "icons":"fa-facebook"
+		  },
+		  {
+		  	"title":"Twitter",
+		     "link":"https://twitter.com/",
+		     "icons":"fa-twitter"
+		     },
+		  {
+		  	"title":"Google",
+		  	"link":"https://www.google.com.bd/?gws_rd=ssl",
+		  	"icons":"fa-google-plus"
+		  },
+		  {
+		  	"title":"Google",
+		  	"link":"https://www.google.com.bd/?gws_rd=ssl",
+		  	"icons":"fa-dribbble"
+		  }
+		],
+	"wrapper_class":"uou-block-4a has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""	
+}

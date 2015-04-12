@@ -1,0 +1,48 @@
+{
+	"wrapper_class":"container has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"rows":[
+			{
+				"columns":[
+						{
+							"image":"img/blog-image-1.png",
+							"name":"Puerto Prinsesa",
+							"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam ipsam doloremque eius aliquam suscipit.",
+							"price":"95.99",
+							"button":"Book",
+							"class":"",
+							"template":"block/gui/uou-block-9a.html",
+						 	"type":"uou-block-9a",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"
+						},
+						{
+							"image":"img/blog-image-2.png",
+							"name":"Honda Bay",
+							"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam ipsam doloremque eius aliquam suscipit.",
+							"price":"95.99",
+							"button":"Book",
+							"class":"secondary",
+							"template":"block/gui/uou-block-9a.html",
+						 	"type":"uou-block-9a",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"
+						},
+						{
+							"image":"img/blog-image-1.png",
+							"name":"Puerto Prinsesa",
+							"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam ipsam doloremque eius aliquam suscipit.",
+							"price":"95.99",
+							"button":"Book",
+							"class":"",
+							"template":"block/gui/uou-block-9a.html",
+						 	"type":"uou-block-9a",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"
+						}
+					]
+			}
+		]
+}

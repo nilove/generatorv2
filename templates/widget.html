@@ -1,0 +1,103 @@
+
+<!--
+
+START MODAL FOR CONTENT BLOCK
+
+-->
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="uou-block-3b secondary">
+
+          <h1>Add Content Block</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div> <!-- end uou-block-3b -->
+
+        <div class="modal-block-tabs">
+          <div class="uou-tabs" staticuoutabs>
+            <ul class="tabs">
+              <li class="active"><a href="#uou-tab-6">Templates</a></li>
+              <li><a href="#uou-tab-1">Headers</a></li>
+              <li><a href="#uou-tab-2">Toolbars</a></li>
+              <li><a href="#uou-tab-4">Content Sections</a></li>
+              <li><a href="#uou-tab-5">Footers</a></li>
+            </ul>
+
+            <div class="content">
+              <div class="header-block-content" id="uou-tab-1">
+
+                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'menu'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
+
+                  <img src="{{widgetdf.src}}" alt="">
+
+                  <button class="btn btn-small btn-success" data-dismiss="modal" aria-label="Close" ng-click="AddThisBlock(key_def);"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+              </div> <!-- end header-block-content -->
+
+
+              <div id="uou-tab-2" class="toolbar-content-block">
+
+                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'toolbar'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
+
+                  <img src="{{widgetdf.src}}" alt="">
+
+                  <button class="btn btn-small btn-success" data-dismiss="modal" aria-label="Close" ng-click="AddThisBlock(key_def);"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+              </div> <!-- end toolbar-content-block -->
+
+
+
+              <div id="uou-tab-4" class="toolbar-content-block">
+                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'block'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
+
+                  <img src="{{widgetdf.src}}" alt="">
+
+                  <button class="btn btn-small btn-success" data-dismiss="modal" aria-label="Close" ng-click="AddThisBlock(key_def);"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+              </div>
+
+              <div id="uou-tab-5" class="footer-content-block">
+                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'footer'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
+
+                  <img src="{{widgetdf.src}}" alt="">
+
+                  <button class="btn btn-small btn-success" data-dismiss="modal" aria-label="Close" ng-click="AddThisBlock(key_def);"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+              </div> <!-- end footer-block layout -->
+
+              <div id="uou-tab-6" class="page-layout-block active">
+                <div class="block-preview-image" ng-repeat="temp in templatelist">
+                  <img src="{{temp.src}}" alt="">
+
+                  <button class="btn btn-small btn-success" data-dismiss="modal" aria-label="Close" ng-click="ApplyTemplate(temp.template);"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+              </div> <!-- end page-block-layout -->
+
+            </div>
+          </div> <!-- end .uou-tabs -->
+
+        </div> <!-- end modal-bloc-tab -->
+
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+<!--
+
+END CONTENT BLOCK MODAL
+
+-->

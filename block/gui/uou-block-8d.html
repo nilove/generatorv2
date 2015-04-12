@@ -1,0 +1,23 @@
+<div class="uou-block-8d">
+          <i data-toggle="modal" 
+       data-target="#icons-popup{{childNode.id}}" class="fa {{childNode.widgetdata.icon}}"></i>
+
+          <h4 plaintx-contenteditable 
+              ng-model="childNode.widgetdata.title">
+                {{childNode.widgetdata.title || ' '}}<span></span>
+          </h4>
+
+          <p tx-contenteditable  
+           ng-model="childNode.widgetdata.text">
+           {{childNode.widgetdata.text || ' '}}>
+           <span></span>
+          </p>
+
+          <a href="#" 
+             class="btn btn-primary" 
+             plaintx-contenteditable 
+             ng-model="childNode.widgetdata.button">{{childNode.widgetdata.button || ' '}}<span></span></a>
+</div> <!-- end .uou-block-8d -->
+<div icons>
+
+</div>

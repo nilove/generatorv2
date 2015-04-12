@@ -1,0 +1,184 @@
+/* Buttons */
+/* ======================== */
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: inherit;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 0;
+  white-space: nowrap;
+  color: @uou-text-color-inverted;
+  padding: round(@uou-line-height * .333) (@uou-line-height * .625);
+  transition: all @uou-transition-speed;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    text-decoration: none;
+    color: @uou-text-color-inverted;
+    outline: 0;
+    background-image: none;
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: default;
+    pointer-events: none;
+    opacity: .5;
+  }
+}
+
+/* Colors */
+
+.btn-default {
+  background-color: @uou-tertiary-color;
+  color: @uou-secondary-color;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: @uou-tertiary-color-hover;
+    color: @uou-secondary-color-hover;
+  }
+}
+
+.btn-primary {
+  background-color: @uou-primary-color;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: @uou-primary-color-hover;
+  }
+}
+
+.btn-secondary {
+  background-color: @uou-secondary-color;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: @uou-secondary-color-hover;
+  }
+}
+
+.btn-success {
+  background-color: @uou-success-color;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: @uou-success-color-hover;
+  }
+}
+
+.btn-info {
+  background-color: @uou-info-color;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: @uou-info-color-hover;
+  }
+}
+
+.btn-warning {
+  background-color: @uou-warning-color;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: @uou-warning-color-hover;
+  }
+}
+
+.btn-error {
+  background-color: @uou-error-color;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: @uou-error-color-hover;
+  }
+}
+
+/* Link button */
+
+.btn-link {
+  color: @uou-primary-color;
+  font-weight: normal;
+  border-radius: 0;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    color: @uou-primary-color-hover;
+    text-decoration: underline;
+  }
+}
+
+/* Large */
+
+.btn-large {
+  font-size: @uou-font-size-large;
+  padding: round(@uou-line-height * .541) ((@uou-line-height * .625) + round(@uou-line-height * .541));
+}
+
+/* Small */
+
+.btn-small {
+  font-size: @uou-font-size-small;
+  padding: round(@uou-line-height * .125) ((@uou-line-height * .625) - round(@uou-line-height * .125));
+}
+
+/* Block */
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}

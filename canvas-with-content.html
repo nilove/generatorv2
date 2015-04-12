@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>canvas</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700|Droid+Serif:400,700,400italic">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div id="main-wrapper">
+  <div class="uou-block-canvas uou-block-2a secondary">
+    <div class="container">
+      <a href="#" class="logo">Chameleon</a>
+
+      <div class="add-content-block">
+        <a href="#"  data-toggle="modal" data-target="#myModalOne"><i class="fa fa-plus"></i>Content Block</a>
+      </div>
+
+      <div class="add-element-block">
+        <a href="#"><i class="fa fa-plus"></i>Element</a>
+      </div>
+
+
+      <div class="save-preview-button">
+        <button class="btn btn-small btn-success">Preview</button>
+
+        <button class="btn btn-small btn-primary">Save</button>
+      </div>
+
+    </div> <!-- end container -->
+  </div> <!-- end uou-block-canvas -->
+
+
+
+
+
+<!--
+
+HEADER NAVBAR BEGIN
+
+-->
+
+<div class="uou-block-2b">
+  <div class="container">
+
+    <div class="editable floating-element">
+      <a href="#" class="logo">Chameleon</a>
+
+      <div class="hover-edit-block">
+        <a data-toggle="modal" data-target="#myModalTwo" href="#"><i class="fa fa-picture-o"></i></a>
+        <a href="#"><i class="fa fa-link"></i></a>
+
+      </div>
+    </div>
+
+    <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
+
+    <nav class="nav">
+      <ul class="sf-menu">
+        <li class="active"><a href="#">Home</a></li>
+        <li>
+          <a href="#">Store</a>
+
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div> <!-- end .uou-block-2b -->
+
+<!--
+
+HEADER NAVBAR END
+-->
+
+<div class="uou-block-10a has-bg-image" data-bg-image="img/img-3.png" data-bg-color="34495e" data-bg-opacity=".5">
+  <div class="container">
+    <div class="css-table">
+      <div class="css-table-cell">
+        <h3 class="editable">
+          Share your travel experience with your friends and discover the world’s most wonderful places
+          <div class="hover-edit-block">
+            <a data-toggle="modal" data-target="#myModalThree" href="#"><i class="fa fa-pencil"></i></a>
+            <a href="#" class="delete"><i class="fa fa-trash"></i></a>
+
+          </div>
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora accusamus consequuntur aliquid suscipit vitae deleniti ad, totam ipsa alias ullam error itaque possimus pariatur vero.</p>
+      </div>
+
+      <div class="css-table-cell">
+        <div class="editable mb10">
+          <a href="#" class="btn btn-primary">Sign Up</a>
+
+          <div class="hover-edit-block">
+            <a data-toggle="modal" data-target="#myModalFour" href="#"><i class="fa fa-pencil"></i></a>
+            <a href="#" class="delete"><i class="fa fa-trash"></i></a>
+
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-success">Take a Tour</a>
+      </div>
+    </div>
+  </div>
+</div> <!-- end .uou-block-10a -->
+
+
+
+
+
+<!--
+
+START MODAL FOR CONTENT BLOCK
+
+-->
+
+  <div class="modal fade" id="myModalOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="uou-block-3b secondary">
+
+          <h1>Add Content Block</h1>
+        </div> <!-- end uou-block-3b -->
+
+        <div class="modal-block-tabs">
+          <div class="uou-tabs">
+            <ul class="tabs">
+              <li class="active"><a href="#uou-tab-1">Header</a></li>
+              <li><a href="#uou-tab-2">Toolbar</a></li>
+              <li><a href="#uou-tab-3">Banner</a></li>
+              <li><a href="#uou-tab-4">Content Section</a></li>
+              <li><a href="#uou-tab-5">Footer</a></li>
+              <li><a href="#uou-tab-6">Page</a></li>
+            </ul>
+
+            <div class="content">
+              <div class="active header-block-content" id="uou-tab-1">
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header1.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header2.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header3.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header4.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header5.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header6.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header7.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header8.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header9.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header10.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header11.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header12.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header13.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header14.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header15.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header16.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header17.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header18.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header19.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header20.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/header/header21.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+
+
+
+              </div> <!-- end header-block-content -->
+
+
+              <div id="uou-tab-2" class="toolbar-content-block">
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/toolbar/toolbar1.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/toolbar/toolbar2.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/toolbar/toolbar3.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/toolbar/toolbar4.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/toolbar/toolbar5.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/toolbar/toolbar6.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+
+
+
+              </div> <!-- end toolbar-content-block -->
+
+              <div id="uou-tab-3">
+                <h6>Tab 3</h6>
+              </div>
+
+              <div id="uou-tab-4">
+                <h6>Tab 4</h6>
+              </div>
+
+              <div id="uou-tab-5" class="footer-content-block">
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/footer/footer1.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/footer/footer2.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/footer/footer3.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/footer/footer4.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/footer/footer5.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/footer/footer6.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+              </div> <!-- end footer-block layout -->
+
+              <div id="uou-tab-6" class="page-layout-block">
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/page/page-layout1.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/page/page-layout2.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/page/page-layout3.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/page/page-layout4.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/page/page-layout1.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/page/page-layout2.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/page/page-layout3.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+                <div class="block-preview-image">
+                  <img src="img/block-preview-image/page/page-layout4.jpg" alt="">
+
+                  <button class="btn btn-small btn-success"><i class="fa fa-plus"></i>Add</button>
+
+                </div> <!-- end block-preview image -->
+
+
+              </div> <!-- end page-block-layout -->
+
+            </div>
+          </div> <!-- end .uou-tabs -->
+
+        </div> <!-- end modal-bloc-tab -->
+
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+<!--
+
+END CONTENT BLOCK MODAL
+
+-->
+
+
+<!--
+
+MODAL FOR LOGO IMAGE CHANGE
+ -->
+<div class="modal fade" id="myModalTwo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="uou-block-3b secondary">
+        <h1>Edit Image</h1>
+      </div> <!-- end uou-block-3b -->
+
+      <div class="image-edit-block">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="upload-image-content">
+
+              <input type="file">
+
+              <div class="image-size">
+                <p>76x38 pixels</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <form action="#">
+              <div class="single-form-content">
+                <p class="form-title">Image Source:</p>
+                <input type="text">
+              </div>
+
+
+              <div class="single-form-content">
+                <p class="form-title">Image Alt:</p>
+                <input type="text">
+              </div>
+
+              <div class="single-form-content">
+                <p class="form-title">Image Link:</p>
+                <input type="text">
+              </div>
+
+
+            </form>
+          </div>
+
+          <div class="col-md-5">
+            <form action="#">
+              <div class="single-form-content">
+                <p class="form-title">Margin top:</p>
+                <select name="">
+                  <option value="1">0px</option>
+                  <option value="1">5px</option>
+                  <option value="1">10px</option>
+                </select>
+              </div>
+
+
+              <div class="single-form-content">
+                <p class="form-title">Margin Bottom:</p>
+                <select name="">
+                  <option value="1">0px</option>
+                  <option value="1">5px</option>
+                  <option value="1">10px</option>
+                </select>
+              </div>
+
+              <div class="single-form-content">
+                <p class="form-title">Extra Class Name:</p>
+                <input type="text">
+              </div>
+            </form>
+
+            <p class="info-text">If you wish to style perticular content elements differently , then use this field to add a class
+              name and then refer to it in your css file</p>
+          </div>
+
+        </div> <!-- end row -->
+      </div> <!-- end imag-edit-block -->
+
+
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> <!--  end modal-image-content block -->
+
+<!--
+
+MODAL END FOR LOGO IMAGE CHANGE
+
+ -->
+
+
+ <!--
+
+ MODAL FOR EDITOR
+  -->
+ <div class="modal fade" id="myModalThree" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+      <div class="content-edit-textarea">
+        <textarea name="" cols="30" rows="10"></textarea>
+      </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+         <button type="button" class="btn btn-primary">Save changes</button>
+       </div>
+     </div>
+   </div>
+ </div> <!--  end modal-image-content block -->
+
+ <!--
+
+ MODAL END FOR EDITOR
+
+  -->
+
+
+
+  <!--
+
+  MODAL FOR LOGO IMAGE CHANGE
+   -->
+  <div class="modal fade" id="myModalFour" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="uou-block-3b secondary">
+          <h1>Edit Button</h1>
+        </div> <!-- end uou-block-3b -->
+
+        <div class="image-edit-block">
+          <div class="row">
+
+
+            <div class="col-md-6">
+              <form action="#">
+                <div class="single-form-content">
+                  <p class="form-title">Button URL:</p>
+                  <input type="text" value="http://">
+                </div>
+
+
+                <div class="single-form-content">
+                  <p class="form-title">Button Align:</p>
+                  <select name="">
+                    <option value="1">Center</option>
+                    <option value="1">Left</option>
+                    <option value="1">Right</option>
+                  </select>
+                </div>
+
+                <div class="single-form-content">
+                  <p class="form-title">Text:</p>
+                  <input type="text" placeholder="Find out More">
+                </div>
+
+
+              </form>
+            </div>
+
+            <div class="col-md-6">
+              <form action="#">
+                <div class="single-form-content">
+                  <p class="form-title">Color:</p>
+                  <input type="text" class="color" placeholder="Find out More">
+
+                </div>
+
+
+                <div class="single-form-content">
+                  <p class="form-title">Button Size:</p>
+                  <select name="">
+                    <option value="1">Large</option>
+                    <option value="1">Medium</option>
+                    <option value="1">Small</option>
+                  </select>
+                </div>
+
+                <div class="single-form-content">
+                  <p class="form-title">Extra Class Name:</p>
+                  <input type="text">
+                </div>
+              </form>
+
+              <p class="info-text">If you wish to style perticular content elements differently , then use this field to add a class
+                name and then refer to it in your css file</p>
+            </div>
+
+          </div> <!-- end row -->
+        </div> <!-- end imag-edit-block -->
+
+
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div> <!--  end modal-image-content block -->
+
+  <!--
+
+  MODAL END FOR LOGO IMAGE CHANGE
+
+   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <!-- end #main-wrapper -->
+
+<!-- Scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-2.1.3.min.js"><\/script>')</script>
+<script src="js/bootstrap.js"></script>
+<script src="js/uou-tabs.js"></script>
+
+<script src="js/jquery.nicescroll.js"></script>
+
+
+<script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script>
+
+<script type="text/javascript" src="jscolor/jscolor.js"></script>
+
+<script src="js/scripts.min.js"></script>
+
+<script type="text/javascript">
+
+
+  bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+</script>
+
+</body>
+</html>

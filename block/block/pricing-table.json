@@ -1,0 +1,88 @@
+{
+	"wrapper_class":"container has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"columns":[
+				{
+					"title":"Starter",
+					"price":"19",
+					"month":"/ month",
+					"button":"Sign Up",
+					"plans":[
+								{
+									"number":"250MB",
+									"detail":"Memory"
+								},
+								{
+									"number":"10",
+									"detail":"Projects"
+								},
+								{
+									"number":"10GB",
+									"detail":"Amount of Space"
+								}
+							]
+			   	},
+			   	{
+					"title":"Starter",
+					"price":"19",
+					"month":"/ month",
+					"button":"Sign Up",
+					"plans":[
+								{
+									"number":"250MB",
+									"detail":"Memory"
+								},
+								{
+									"number":"10",
+									"detail":"Projects"
+								},
+								{
+									"number":"10GB",
+									"detail":"Amount of Space"
+								}
+							]
+			   	},
+			   	{
+					"title":"Starter",
+					"price":"19",
+					"month":"/ month",
+					"button":"Sign Up",
+					"plans":[
+								{
+									"number":"250MB",
+									"detail":"Memory"
+								},
+								{
+									"number":"10",
+									"detail":"Projects"
+								},
+								{
+									"number":"10GB",
+									"detail":"Amount of Space"
+								}
+							]
+			   	},
+			   	{
+					"title":"Starter",
+					"price":"19",
+					"month":"/ month",
+					"button":"Sign Up",
+					"plans":[
+								{
+									"number":"250MB",
+									"detail":"Memory"
+								},
+								{
+									"number":"10",
+									"detail":"Projects"
+								},
+								{
+									"number":"10GB",
+									"detail":"Amount of Space"
+								}
+							]
+			   	}
+			  ]
+}

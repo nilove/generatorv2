@@ -1,0 +1,31 @@
+{
+	"nav":[
+		   {
+		   	"title":"HOME",
+		     "link":"",
+		    "items":[]
+		   },
+	       {
+	       	"title":"STORE",
+	       	 "link":"",
+	       	"items":[]
+	       	},
+	       {
+	       	"title":"BLOG",
+	       	 "link":"",
+	       	"items":[]},
+	       {
+	       	"title":"ABOUT",
+	       	 "link":"",
+	       	"items":[]},
+	       {
+	       	"title":"CONTACT",
+	       	 "link":"",
+	       	"items":[]}
+	      ],
+	"wrapper_class":"uou-block-2f has-bg-image",
+	"backgroundcolor":"#fff",
+    "backgroundopacity":0,
+	"background":"",
+	"phone":"(02) 123-456-7890"      
+}

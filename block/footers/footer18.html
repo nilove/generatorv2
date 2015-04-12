@@ -1,0 +1,95 @@
+<div class="uou-block-4e secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <a class="logo" 
+             href="#" 
+             plaintx-contenteditable 
+             ng-model="childNode.widgetdata.title">
+             {{childNode.widgetdata.title}}
+              <span></span>
+           </a>
+
+          <ul hasbgimage class="contact-info has-bg-image contain" data-bg-image="img/footer-map-bg.png">
+            <li ng-repeat="cont in childNode.widgetdata.contact">
+              <i class="fa {{cont.icons}}"></i>
+              <div style="display:inline;" ng-bind-html="cont.text"></div>
+            </li>
+          </ul>
+          <button data-toggle="modal" data-target="#myModal_text_{{childNode.id}}" class="btn btn-primary edit-buttons">
+              <i class="fa fa-plus-square fa-3x"></i>
+          </button>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <h5 plaintx-contenteditable 
+             ng-model="childNode.widgetdata.twitter">{{childNode.widgetdata.twitter}}<span></span>
+          </h5>
+
+          <ul class="twitter-feed">
+            <li ng-repeat="tw in childNode.widgetdata.twitterfeed">
+              <div tx-contenteditable  
+                   ng-model="tw.title">
+                  {{tw.title}}
+                  <span></span>
+              </div>
+              <a plaintx-contenteditable 
+                 ng-model="tw.text" 
+                 href="#" 
+                 class="time">
+                 {{tw.text}}
+              </a>
+            </li>
+          </ul>
+          <button twitterfeed ng-model="childNode.widgetdata.twitterfeed" class="btn btn-primary edit-buttons">
+                    <i class="fa fa-plus-square fa-3x"></i>
+            </button>
+            <button removetwitterfeed ng-model="childNode.widgetdata.twitterfeed"  class="btn btn-primary edit-buttons">
+                    <i class="fa fa-trash-o fa-3x"></i>
+            </button>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <h5 plaintx-contenteditable 
+             ng-model="childNode.widgetdata.photostream">{{childNode.widgetdata.photostream}}<span></span>
+          </h5>
+
+          <ul class="photos-list">
+            <li ng-repeat="nav in childNode.widgetdata.nav">
+              <a href="#" data-toggle="modal" data-target="#myModal_image_{{childNode.id}}">
+                <img src="{{nav.image}}" alt="{{nav.title}}" title="{{nav.title}}"/>
+              </a>
+            </li>
+          </ul>
+          <button data-toggle="modal" data-target="#myModal_image_{{childNode.id}}" class="btn btn-primary edit-buttons">
+                    <i class="fa fa-plus-square fa-3x"></i>
+          </button>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <h5 plaintx-contenteditable 
+              ng-model="childNode.widgetdata.newsletter">{{childNode.widgetdata.newsletter}}<span></span>
+          </h5>
+
+          <p plaintx-contenteditable 
+             ng-model="childNode.widgetdata.newslettertext">{{childNode.widgetdata.newslettertext}}<span></span></p>
+
+          <form class="newsletter-form" action="">
+            <input type="email" placeholder="Enter your email address">
+            <input type="submit" class="btn btn-primary" value="Subscribe">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> <!-- end .uou-block-4e -->
+
+  <div navsettingswithimage>
+
+  </div>
+  <div navsettingswithtext>
+
+  </div>
+  <div navsettingswithtext>
+  
+  </div>

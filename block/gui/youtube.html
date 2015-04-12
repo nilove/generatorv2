@@ -1,0 +1,11 @@
+<div class='embed-container'>
+	<iframe ng-src="{{filterUrl('http://www.youtube.com/embed/'+childNode.widgetdata.url)}}" 
+			frameborder='0' 
+			allowfullscreen>
+    </iframe>
+</div>
+<div class="clearfix"></div>
+	<button data-toggle="modal" data-target="#youtube{{childNode.id}}" class="btn btn-primary">
+        <i class="fa fa-plus-square fa-3x"></i>
+    </button>
+<div youtubemodal></div>

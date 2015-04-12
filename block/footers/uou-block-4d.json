@@ -1,0 +1,66 @@
+{
+	"title":"Chameleon",
+	"text1":"Company",
+	"nav1":[
+			 {
+			 	"title":"Our Story",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Mission and Vision",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Journal",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Careers",
+			 	"link":""
+			 }
+		   ],
+	"text2":"Legal",
+	"nav2":[
+			 {
+			 	"title":"Privacy Policy",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Terms & Conditions",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Secure Payments",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Careers",
+			 	"link":""
+			 }
+		   ],
+	"text3":"Social",
+	"nav3":[
+			 {
+			 	"title":"Facebook",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Twitter",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Google Plus",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Pinterest",
+			 	"link":""
+			 }
+		   ],
+	"text4":"Newsletter",
+	"text5":"Subscribe to our newsletter to receive our latest news and updates. We do not spam.",
+	"wrapper_class":"uou-block-4d has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""	   	   	   
+}

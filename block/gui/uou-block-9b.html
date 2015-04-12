@@ -1,0 +1,35 @@
+<div class="uou-block-9b">
+          <img class="image" src="{{childNode.widgetdata.image}}" alt="">
+
+          <div class="content">
+            <h4><a href="#" 
+                   plaintx-contenteditable 
+                   ng-model="childNode.widgetdata.name">
+                   {{childNode.widgetdata.name || ' '}}
+                   <span></span>
+                 </a>
+            </h4>
+
+            <ul class="stars">
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star"></li>
+              <li class="fa fa-star-half-o"></li>
+              <li class="fa fa-star-o"></li>
+            </ul>
+
+            <p tx-contenteditable  
+             ng-model="childNode.widgetdata.text">
+             {{childNode.widgetdata.text || ' '}}
+             <span></span>
+            </p>
+          </div>
+          <div class="upload_button_container">
+                <span class="btn btn-primary fileinput-button">
+                    <i class="fa fa-upload fa-3x"></i>
+                        <input type="file" accept="image/*"
+                             filemodel 
+                             ng-model="childNode.widgetdata.image"/>
+                </span>
+          </div>
+</div> <!-- end .uou-block-9b -->

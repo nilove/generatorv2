@@ -1,0 +1,41 @@
+{
+	"rows":[
+			{
+				"columns":[
+						{
+							"text":"Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque. Omnis aspernatur consequatur, sint quis facere.",
+							"image":"img/avatar.png",
+							"name":"Jason Santa Maria",
+							"url":"smashingmagazine.com",
+							"class":"secondary",
+							"template":"block/gui/uou-block-5d.html",
+							"type":"uou-block-5d",
+							"wrapper_class":"col-md-4",
+							"wrapper_extra_class":"col-sm-4"
+						},
+						{
+							"text":"Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque. Omnis aspernatur consequatur, sint quis facere.",
+							"image":"img/avatar.png",
+							"name":"Jason Santa Maria",
+							"url":"smashingmagazine.com",
+							"class":"",
+							"template":"block/gui/uou-block-5d.html",
+							"type":"uou-block-5d",
+							"wrapper_class":"col-md-4",
+							"wrapper_extra_class":"col-sm-4"
+						},
+						{
+							"text":"Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque. Omnis aspernatur consequatur, sint quis facere.",
+							"image":"img/avatar.png",
+							"name":"Jason Santa Maria",
+							"url":"smashingmagazine.com",
+							"class":"secondary",
+							"template":"block/gui/uou-block-5d.html",
+							"type":"uou-block-5d",
+							"wrapper_class":"col-md-4",
+							"wrapper_extra_class":"col-sm-4"
+						}
+					]
+			}
+		]
+}

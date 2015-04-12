@@ -1,0 +1,23 @@
+{
+	"slides":[
+				{
+					"text":"There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. UOU Apps, is by far one of the worlds best known brands.",
+					"title":"Jason Santa Maria",
+					"company":"Founder &amp; CEO, <a href='#'>alistapart.com</a>."
+				},
+				{
+					"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates est accusamus perferendis nulla! Quidem iure voluptates tempore ad veniam doloribus error sequi, facilis recusandae ipsam a inventore labore est quas?",
+					"title":"John Kevin Mara",
+					"company":"<p>Founder &amp; CEO, <a href='#'>smashingmagazine.com</a>.</p>"
+				},
+				{
+					"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque! Omnis aspernatur consequatur, sint quis facere. Voluptate error quas, consequatur amet dolores atque accusantium tempora pariatur, ut vitae, vel officia molestiae odio tenetur veniam.",
+					"title":"Tracy Chapman",
+					"company":"Founder &amp; CEO, <a href='#'>webdesign.tutsplus.com</a>."
+				}
+			],
+	"wrapper_class":"uou-block-5c has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""			
+}

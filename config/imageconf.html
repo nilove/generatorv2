@@ -1,0 +1,21 @@
+<div  class="medium-editor-toolbar medium-toolbar-arrow-under medium-editor-toolbar-active widget-image-conf">
+  <span style="display:none;" 
+        class="btn btn-success fileinput-button">
+        <span>Change</span>
+        <input id="slider_file_{{childNode.id}}{{key}}_1" 
+               class="slider_image_upload" 
+               type="file" 
+               filemodel 
+               ng-model="block.image"/>
+  </span>
+  <ul id="medium-editor-toolbar-actions" 
+      class="medium-editor-toolbar-actions clearfix" 
+      style="display: block;">
+    <li>
+      <button ng-click="TriggerSliderUpload(childNode.id+key,1)"  
+              class="medium-editor-action medium-editor-action-bold medium-editor-button">
+              <i class="fa fa-upload fa-3x"></i>
+      </button>
+    </li>        
+  </ul>
+</div>

@@ -1,0 +1,20 @@
+<div class="pricing-table columns-4">
+  <div class="columns-container">
+    <div ng-repeat="col in childNode.widgetdata.columns" class="column">
+      <header>
+        <h6 plaintx-contenteditable ng-model="col.title">{{col.title || ''}}<span></span></h6>
+        <span class="price"><div style="display:inline;" plaintx-contenteditable ng-model="col.price">{{col.price || ''}}<span></span></div><span plaintx-contenteditable ng-model="col.month">{{col.month || ''}}<span></span></span></span>
+      </header>
+
+      <ul>
+        <li ng-repeat="plan in col.plans">
+        	<span plaintx-contenteditable ng-model="plan.number">{{plan.number || ''}}</span> <div style="display:inline;" plaintx-contenteditable ng-model="plan.detail">{{plan.detail || ''}}</div>
+        </li>
+      </ul>
+
+      <footer>
+        <a href="#" class="btn btn-primary" plaintx-contenteditable ng-model="col.button">{{col.button || ''}}</a>
+      </footer>
+    </div>
+    </div>
+</div>

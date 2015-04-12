@@ -1,0 +1,15 @@
+<div class="container">
+    <a href="#" class="logo" 
+       plaintx-contenteditable  
+       ng-model="childNode.widgetdata.title">
+       {{childNode.widgetdata.title || ' '}}
+       <span></span>
+    </a>
+    <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
+
+    <a href="#" class="cart"><i class="fa fa-shopping-cart"></i>
+    	<span plaintx-contenteditable  
+       		  ng-model="childNode.widgetdata.cart">
+       		  {{childNode.widgetdata.cart || ' '}}<span></span>
+       	</span></a>
+</div>

@@ -1,0 +1,51 @@
+{
+	"title":"(02) 123-456-7890",
+	"languagetitle":"NDL",
+	"language":
+			[
+				{
+					"title":"PT",
+					"image":"img/PT.png"
+				},
+				{
+					"title":"FR",
+					"image":"img/FR.png"
+				},
+				{
+					"title":"ES",
+					"image":"img/ES.png"
+				}
+			],
+	"social":
+		[
+			{
+				"title":"Facebook",
+				"background":"#3b5999",
+				"link":"https://www.facebook.com/",
+				"icons":"fa-facebook",
+				"items":[]
+			},
+		  	{
+		  		"title":"Twitter",
+		  		"background":"#55acee",
+		  		"link":"https://twitter.com/",
+		  		"icons":"fa-twitter","items":[]
+		  	},
+		  	{
+		  		"title":"Google",
+		  		"background":"#dd4b39",
+		  		"link":"https://www.google.com.bd/?gws_rd=ssl",
+		  		"icons":"fa-google-plus",
+		  		"items":[]
+		  	}	 		
+		 ],
+	"authentication":
+			[
+				{"title":"Login"},
+				{"title":"Register"}
+			],
+	"wrapper_class":"uou-block-1e has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""		
+}

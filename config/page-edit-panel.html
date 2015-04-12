@@ -1,0 +1,86 @@
+
+<!--
+  Page settings
+-->
+<div class="modal fade" id="myModal_settings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="uou-block-3b secondary">
+
+          <h1>Page settings</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div> <!-- end uou-block-3b -->
+
+        <div class="modal-block-tabs">
+          <div class="image-edit-block">
+            <div class="row">
+              <div class="col-md-6">
+                  <div class="form-container">
+                    <form class="form-horizontal" role="form">
+
+                            <input type="text"
+                                 class="form-control"
+                                 colorpicker
+                                 ng-model="accachedwidget[skey].background_property.background_color"
+                                 placeholder="Background Color"/>
+
+                            <span class="btn btn-primary for-bg fileinput-button">
+                              <span>Background Image</span>
+                              <input filemodel
+                                   ng-model="accachedwidget[skey].background_property.background_image"
+                                   type="file"/>
+                            </span>
+
+                              <select ng-model="accachedwidget[skey].background_property.background_position">
+                                <option value="">Background position</option>
+                                <option ng-repeat="pos in bgposition" value="{{pos.value}}">{{pos.value}}</option>
+                              </select>
+
+                            <select ng-model="accachedwidget[skey].background_property.background_repeat">
+                                  <option value="">Background repeat</option>
+                                  <option value="repeat">repeat</option>
+                                  <option value="repeat-x">repeat-x</option>
+                                  <option value="repeat-y">repeat-y</option>
+                                  <option value="no-repeat">no-repeat</option>
+                                  <option value="initial">initial</option>
+                                </select>
+                    </form>
+                  </div>
+              </div>
+              <div class="col-md-6">
+
+                  <div class="generator-sidebar modal-row-side">
+
+                      <ul class="pages" ng-repeat="(key,page) in accachedwidget" ng-if="key == skey" sortablewidget ng-model="page">
+                        <li ng-repeat="(row_key,row) in page.nodes" data-id="{{row.id}}">
+                          <span class="dragholder">{{row_key+1}}</span>
+                          <div style="width:100px;display:inline;" plaintx-contenteditable ng-model="row.name">{{row.name}}<span></span></div>
+                          <a removenode ng-model="page.nodes" key="row_key" href="#"><i class="fa fa-times"></i></a>
+                          <a ng-click="ShowSettings(row.id)" href="#"><i class="fa fa-pencil-square-o"></i></a>
+                        </li>
+                      </ul>
+
+                      <a href="#" ng-repeat="(key,page) in accachedwidget" ng-if="key == skey" addnode widgettype="'row'" extraclass="'row'" wclass="''" ng-model="page" class="add-new-page btn btn-primary for-bg"><i class="fa fa-plus"> Add new row</i></a>
+                      <div class="clearfix"></div>
+
+
+                  </div>
+                  <div class="clearfix"></div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- end modal-bloc-tab -->
+
+        <div class="modal-footer">
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!--
+  End of page settings
+-->

@@ -1,0 +1,27 @@
+{
+	"title":"Chameleon",
+	"nav":[
+			{
+				"title":"Home",
+				"link":"#",
+				"icons":"fa-plus",
+				"items":[]
+			},
+	       	{
+	       		"title":"Shop",
+	       		"link":"#",
+	       		"icons":"fa-globe",
+	       		"items":[]
+	       	},
+	       	{
+	       		"title":"Lookbook",
+	       		"link":"#",
+	       		"icons":"fa-user",
+	       		"items":[]
+	       	}
+	      ],
+	"wrapper_class":"uou-block-1c has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""      
+}

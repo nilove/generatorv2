@@ -1,0 +1,36 @@
+{
+	"title":"Chameleon",
+	"nav":[
+		   {
+		   	"title":"HOME",
+		     "link":"",
+		    "icons":"fa-home",
+		    "items":[]
+		   },
+	       {
+	       	"title":"STORE",
+	       	 "link":"",
+	       	"icons":"fa-shopping-cart",
+	       	"items":[]
+	       	},
+	       {
+	       	"title":"BLOG",
+	       	 "link":"",
+	       	"icons":"fa-edit",
+	       	"items":[]},
+	       {
+	       	"title":"ABOUT",
+	       	 "link":"",
+	       	"icons":"fa-user",
+	       	"items":[]},
+	       {
+	       	"title":"CONTACT",
+	       	 "link":"",
+	       	"icons":"fa-envelope",
+	       	"items":[]}
+	      ],
+	"wrapper_class":"uou-block-2b icons has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""      
+}

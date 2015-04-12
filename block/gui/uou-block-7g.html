@@ -1,0 +1,29 @@
+<article class="uou-block-7g" data-badge-color="{{childNode.widgetdata.color}}">
+          <img class="image" src="{{childNode.widgetdata.image}}" alt="">
+
+          <span style="background-color:#{{childNode.widgetdata.color}}" class="badge" plaintx-contenteditable 
+                ng-model="childNode.widgetdata.badge">{{childNode.widgetdata.badge || ''}}<span></span></span>
+
+          <div class="content">
+            <span class="date" plaintx-contenteditable 
+                ng-model="childNode.widgetdata.date">{{childNode.widgetdata.date || ''}}<span></span></span>
+
+            <h1 plaintx-contenteditable 
+                ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h1>
+
+            <p tx-contenteditable  
+           ng-model="childNode.widgetdata.text">
+           {{childNode.widgetdata.text || ' '}}>
+           <span></span>
+          </p>
+          </div>
+</article> <!-- end .uou-block-7g -->
+<div class="upload_button_container row_edit_area">
+    <span class="btn btn-primary fileinput-button">
+       <i class="fa fa-upload fa-3x"></i>
+            <input type="file" 
+                    accept="image/*"
+                             filemodel 
+                             ng-model="childNode.widgetdata.image"/>
+    </span>
+</div>

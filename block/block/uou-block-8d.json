@@ -1,0 +1,42 @@
+{
+	"wrapper_class":"container has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"rows":[
+			{
+				"columns":[
+						{
+							"icon":"fa-cubes",
+							"title":"Bootstrap 3",
+							"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+							"button":"Read More",
+							"template":"block/gui/uou-block-8d.html",
+						 	"type":"uou-block-8d",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"		
+						},
+						{
+							"icon":"fa-list",
+							"title":"Mega Menu",
+							"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+							"button":"Read More",
+							"template":"block/gui/uou-block-8d.html",
+						 	"type":"uou-block-8d",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"		
+						},
+						{
+							"icon":"fa-paper-plane",
+							"title":"Font Awesome",
+							"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+							"button":"Read More",
+							"template":"block/gui/uou-block-8d.html",
+						 	"type":"uou-block-8d",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"		
+						}
+					]
+			}
+		]
+}

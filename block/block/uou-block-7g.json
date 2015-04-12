@@ -1,0 +1,50 @@
+{
+	"wrapper_class":"container has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"rows":
+	[
+		{
+			"columns":[
+	{
+		"badge":"In The Lab",
+		"date":"01 / 24 / 2015",
+		"title":"Pariatur Velit Corrupti",
+		"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+		"image":"img/blog-image-1.png",
+		"template":"block/gui/uou-block-7g.html",
+	 	"type":"uou-block-7g",
+	 	"wrapper_class":"col-md-4",
+	 	"wrapper_extra_class":"col-sm-4",
+	 	"color":"0099ff"
+	},
+	{
+		"badge":"In The Lab",
+		"date":"01 / 24 / 2015",
+		"title":"Pariatur Velit Corrupti",
+		"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+		"image":"img/blog-image-2.png",
+  		"template":"block/gui/uou-block-7g.html",
+	 	"type":"uou-block-7g",
+	 	"wrapper_class":"col-md-4",
+	 	"wrapper_extra_class":"col-sm-4",	
+	 	"color":"ff0099"
+	},
+	{
+		"badge":"In The Lab",
+		"date":"01 / 24 / 2015",
+		"title":"Pariatur Velit Corrupti",
+		"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+		"image":"img/blog-image-3.png",
+		"template":"block/gui/uou-block-7g.html",
+	 	"type":"uou-block-7g",
+	 	"wrapper_class":"col-md-4",
+	 	"wrapper_extra_class":"col-sm-4",
+	 	"color":"ff9900"
+	}
+
+]
+		}
+	]
+}

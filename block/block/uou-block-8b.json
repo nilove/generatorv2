@@ -1,0 +1,32 @@
+{
+	"background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"container has-bg-image",
+	"nav":[{"icons":"fa-android",
+			  "title":"Technology",
+			  "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+			 },
+			 {"icons":"fa-users",
+			  "title":"Social Networks",
+			  "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+			 },
+			 {"icons":"fa-anchor",
+			  "title":"Design",
+			  "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+			 },
+			 {"icons":"fa-lightbulb-o",
+			  "title":"Strategy",
+			  "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+			 },
+			 {"icons":"fa-cubes",
+			  "title":"Development",
+			  "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+			 },
+			 {"icons":"fa-rocket",
+			  "title":"Performance",
+			  "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+			 }
+			]
+}

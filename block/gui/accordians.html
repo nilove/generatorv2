@@ -1,0 +1,9 @@
+<ul class="uou-accordions" uouaccordians tabs="childNode.widgetdata.tabs">
+      <li ng-repeat="(key,hornav) in childNode.widgetdata.tabs" 
+          ng-class="{active: key==0}">
+          <a href="#" plaintx-contenteditable ng-model="hornav.title">{{hornav.title || ''}}<span></span></a>
+          <div>
+              <div ng-include="'block/gui/tabtemplate.html'"></div>
+          </div>
+      </li>      
+</ul> <!-- end .uou-accordions -->

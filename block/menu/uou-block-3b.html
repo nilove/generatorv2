@@ -1,0 +1,20 @@
+<div class="container">
+      <h1 plaintx-contenteditable 
+          ng-model="childNode.widgetdata.text">{{childNode.widgetdata.text || ''}}<span></span></h1>
+
+      <ul class="breadcrumbs">
+        <li ng-repeat="nav in childNode.widgetdata.nav">
+          <a  href="#" 
+              data-toggle="modal" 
+              data-target="#myModal{{childNode.id}}">{{nav.title}}
+          </a>
+        </li>
+        <li><span plaintx-contenteditable 
+                  ng-model="childNode.widgetdata.text1">{{childNode.widgetdata.text1 || ''}}<span></span>
+            </span>
+        </li>
+      </ul>
+</div>
+<div navsettings>
+
+</div>

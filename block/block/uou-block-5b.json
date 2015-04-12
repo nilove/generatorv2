@@ -1,0 +1,26 @@
+{
+	"tabs":[
+		{
+			"name":"Tracy Chapman",
+			"image":"img/avatar.png",
+			"url":"webdesign.tutsplus.com",
+			"text":"There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. UOU Apps, is by far one of the worlds best known brands."
+		},
+		{
+			"name":"John Kevin Mara",
+			"image":"img/avatar.png",
+			"url":"smashingmagazine.com",
+			"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates est accusamus perferendis nulla! Quidem iure voluptates tempore ad veniam doloribus error sequi, facilis recusandae ipsam a inventore labore est quas?"
+		},
+		{
+			"name":"Jason Santa Maria",
+			"image":"img/avatar.png",
+			"url":"alistapart.com",
+			"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque! Omnis aspernatur consequatur, sint quis facere. Voluptate error quas, consequatur amet dolores atque accusantium tempora pariatur, ut vitae, vel officia molestiae odio tenetur veniam."
+		}
+	],
+	"wrapper_class":"uou-block-5b has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""
+}

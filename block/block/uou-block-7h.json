@@ -1,0 +1,27 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"container has-bg-image",
+  "slides":[
+  			{
+  				"image":"img/blog-image-1.png",
+  				"text":"Saturday’s Surf NYC’s Co-Founders Talk About the Brand",
+  				"heading":"3 hours ago",
+          "items":[]
+  			},
+  			{
+  				"image":"img/blog-image-2.png",
+  				"text":"Nam quas numquam repudiandae nobis natus blanditiis",
+  				"heading":"17 hours ago",
+          "items":[]
+  			},
+  			{
+  				"image":"img/blog-image-3.png",
+  				"text":"Officia ut aspernatur expedita illum",
+  				"heading":"2 days ago",
+          "items":[]
+  			}
+  			]
+}

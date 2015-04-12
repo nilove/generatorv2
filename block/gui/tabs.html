@@ -1,0 +1,21 @@
+<div class="uou-tabs" uoutabs tabs="childNode.widgetdata.tabs">
+          <ul class="tabs">
+            <li ng-repeat="(key,tab) in childNode.widgetdata.tabs" 
+                ng-class="{active: key==0}">
+                <a href="#{{tab.id}}" 
+                   plaintx-contenteditable  
+                   ng-model="tab.title" 
+                   href="#">
+                   {{tab.title}}
+                   <span></span>
+                </a>
+            </li>
+          </ul>
+          <div class="content">
+              <div ng-repeat="(key,hornav) in childNode.widgetdata.tabs" 
+                   ng-class="{active: key==0}"
+                   id="{{hornav.id}}">
+                <div ng-include="'block/gui/tabtemplate.html'"></div>
+              </div>
+          </div>
+</div>

@@ -1,0 +1,741 @@
+[
+    {
+        "id": "page1428380562725",
+        "name": "Page 1",
+        "nodes": [
+            {
+                "id": "node1428380591845",
+                "name": "uou-block-2a-search",
+                "w_type": "row",
+                "extraclass": "uou-block-2a has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb30",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428380591845",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "menu",
+                        "template": "block/menu/uou-block-2a-search.html",
+                        "widgetdata": {
+                            "title": "Chameleon",
+                            "wrapper_class": "uou-block-2a has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "menu ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428380619178",
+                "name": "uou-block-2f",
+                "w_type": "row",
+                "extraclass": "uou-block-2f has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb30",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428380619178",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "menu",
+                        "template": "block/menu/uou-block-2f.html",
+                        "widgetdata": {
+                            "nav": [
+                                {
+                                    "title": "HOME",
+                                    "link": "",
+                                    "items": []
+                                },
+                                {
+                                    "title": "STORE",
+                                    "link": "",
+                                    "items": []
+                                },
+                                {
+                                    "title": "BLOG",
+                                    "link": "",
+                                    "items": []
+                                },
+                                {
+                                    "title": "ABOUT",
+                                    "link": "",
+                                    "items": []
+                                },
+                                {
+                                    "title": "CONTACT",
+                                    "link": "",
+                                    "items": []
+                                }
+                            ],
+                            "wrapper_class": "uou-block-2f has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "menu ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428380666189",
+                "name": "uou-block-8d",
+                "w_type": "row",
+                "class": "",
+                "extraclass": "container has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "node142838066618916",
+                        "name": "uou-block-8d",
+                        "w_type": "row",
+                        "class": "",
+                        "extraclass": "row",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "no-repeat",
+                            "height": 100
+                        },
+                        "template": "templates/row.html",
+                        "nodes": [
+                            {
+                                "id": "node142838066619091",
+                                "name": "Column 1",
+                                "w_type": "column",
+                                "class": "col-md-4 ",
+                                "extraclass": "col-sm-4",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 100,
+                                    "backgroundopacity": 0
+                                },
+                                "template": "templates/row.html",
+                                "nodes": [
+                                    {
+                                        "id": "widget142838066619049",
+                                        "class": "posrelative",
+                                        "extraclass": "",
+                                        "w_type": "widget",
+                                        "type": "uou-block-8d",
+                                        "template": "block/gui/uou-block-8d.html",
+                                        "widgetdata": {
+                                            "icon": "fa-users",
+                                            "title": "Bootstrap 3",
+                                            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                            "button": "Read More",
+                                            "template": "block/gui/uou-block-8d.html",
+                                            "type": "uou-block-8d",
+                                            "wrapper_class": "col-md-4",
+                                            "wrapper_extra_class": "col-sm-4"
+                                        },
+                                        "name": "uou-block-8d"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "node142838066619038",
+                                "name": "Column 1",
+                                "w_type": "column",
+                                "class": "col-md-4 ",
+                                "extraclass": "col-sm-4",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 100,
+                                    "backgroundopacity": 0
+                                },
+                                "template": "templates/row.html",
+                                "nodes": [
+                                    {
+                                        "id": "widget142838066619088",
+                                        "class": "posrelative",
+                                        "extraclass": "",
+                                        "w_type": "widget",
+                                        "type": "uou-block-8d",
+                                        "template": "block/gui/uou-block-8d.html",
+                                        "widgetdata": {
+                                            "icon": "fa-list",
+                                            "title": "Mega Menu",
+                                            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                            "button": "Read More",
+                                            "template": "block/gui/uou-block-8d.html",
+                                            "type": "uou-block-8d",
+                                            "wrapper_class": "col-md-4",
+                                            "wrapper_extra_class": "col-sm-4"
+                                        },
+                                        "name": "uou-block-8d"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "node142838066619036",
+                                "name": "Column 1",
+                                "w_type": "column",
+                                "class": "col-md-4 ",
+                                "extraclass": "col-sm-4",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 100,
+                                    "backgroundopacity": 0
+                                },
+                                "template": "templates/row.html",
+                                "nodes": [
+                                    {
+                                        "id": "widget142838066619052",
+                                        "class": "posrelative",
+                                        "extraclass": "",
+                                        "w_type": "widget",
+                                        "type": "uou-block-8d",
+                                        "template": "block/gui/uou-block-8d.html",
+                                        "widgetdata": {
+                                            "icon": "fa-paper-plane",
+                                            "title": "Font Awesome",
+                                            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                            "button": "Read More",
+                                            "template": "block/gui/uou-block-8d.html",
+                                            "type": "uou-block-8d",
+                                            "wrapper_class": "col-md-4",
+                                            "wrapper_extra_class": "col-sm-4"
+                                        },
+                                        "name": "uou-block-8d"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "node1428380705034",
+                "name": "uou-block-7a-secondary",
+                "w_type": "row",
+                "extraclass": "uou-block-7a secondary has-bg-image ",
+                "margintopclass": "mt20",
+                "marginbottomclass": "mb20",
+                "background_property": {
+                    "background_color": "#fff",
+                    "background_image": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428380705034",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/block/uou-block-7a.html",
+                        "widgetdata": {
+                            "background": "",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
+                            "footertext": "Steve Jobs, Apple",
+                            "backgrondimage": "",
+                            "wrapper_class": "uou-block-7a secondary has-bg-image",
+                            "slides": [
+                                {
+                                    "image": "img/blog-image-1.png"
+                                },
+                                {
+                                    "image": "img/blog-image-2.png"
+                                },
+                                {
+                                    "image": "img/blog-image-3.png"
+                                }
+                            ],
+                            "image": "http://placehold.it/50/34495e/34495e",
+                            "company": "About The Company",
+                            "button": "Read More"
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428380734546",
+                "name": "uou-block-7c",
+                "w_type": "row",
+                "class": "",
+                "extraclass": "container has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "node142838073454624",
+                        "name": "uou-block-7c",
+                        "w_type": "row",
+                        "class": "",
+                        "extraclass": "row",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "no-repeat",
+                            "height": 100
+                        },
+                        "template": "templates/row.html",
+                        "nodes": [
+                            {
+                                "id": "node142838073454792",
+                                "name": "Column 1",
+                                "w_type": "column",
+                                "class": "col-md-4 ",
+                                "extraclass": "col-sm-4",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 100,
+                                    "backgroundopacity": 0
+                                },
+                                "template": "templates/row.html",
+                                "nodes": [
+                                    {
+                                        "id": "widget142838073454753",
+                                        "class": "posrelative",
+                                        "extraclass": "",
+                                        "w_type": "widget",
+                                        "type": "uou-block-7c",
+                                        "template": "block/gui/uou-block-7c.html",
+                                        "widgetdata": {
+                                            "name": "Pariatur Velit Corrupti",
+                                            "date": "01 / 24 / 2015",
+                                            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                            "image": "img/blog-image-1.png",
+                                            "template": "block/gui/uou-block-7c.html",
+                                            "type": "uou-block-7c",
+                                            "wrapper_class": "col-md-4",
+                                            "wrapper_extra_class": "col-sm-4"
+                                        },
+                                        "name": "uou-block-7c"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "node142838073454719",
+                                "name": "Column 1",
+                                "w_type": "column",
+                                "class": "col-md-4 ",
+                                "extraclass": "col-sm-4",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 100,
+                                    "backgroundopacity": 0
+                                },
+                                "template": "templates/row.html",
+                                "nodes": [
+                                    {
+                                        "id": "widget142838073454780",
+                                        "class": "posrelative",
+                                        "extraclass": "",
+                                        "w_type": "widget",
+                                        "type": "uou-block-7c-slider",
+                                        "template": "block/gui/uou-block-7c-slider.html",
+                                        "widgetdata": {
+                                            "name": "Pariatur Velit Corrupti",
+                                            "date": "01 / 24 / 2015",
+                                            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                            "slides": [
+                                                {
+                                                    "image": "img/blog-image-1.png",
+                                                    "text": "",
+                                                    "heading": ""
+                                                },
+                                                {
+                                                    "image": "img/blog-image-2.png",
+                                                    "text": "",
+                                                    "heading": ""
+                                                },
+                                                {
+                                                    "image": "img/blog-image-3.png",
+                                                    "text": "",
+                                                    "heading": ""
+                                                }
+                                            ],
+                                            "template": "block/gui/uou-block-7c-slider.html",
+                                            "type": "uou-block-7c-slider",
+                                            "wrapper_class": "col-md-4",
+                                            "wrapper_extra_class": "col-sm-4"
+                                        },
+                                        "name": "uou-block-7c-slider"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "node142838073454748",
+                                "name": "Column 1",
+                                "w_type": "column",
+                                "class": "col-md-4 ",
+                                "extraclass": "col-sm-4",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 100,
+                                    "backgroundopacity": 0
+                                },
+                                "template": "templates/row.html",
+                                "nodes": [
+                                    {
+                                        "id": "widget142838073454777",
+                                        "class": "posrelative",
+                                        "extraclass": "",
+                                        "w_type": "widget",
+                                        "type": "uou-block-7c",
+                                        "template": "block/gui/uou-block-7c.html",
+                                        "widgetdata": {
+                                            "name": "Pariatur Velit Corrupti",
+                                            "date": "01 / 24 / 2015",
+                                            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                            "image": "img/blog-image-1.png",
+                                            "template": "block/gui/uou-block-7c.html",
+                                            "type": "uou-block-7c",
+                                            "wrapper_class": "col-md-4",
+                                            "wrapper_extra_class": "col-sm-4"
+                                        },
+                                        "name": "uou-block-7c"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "node1428380753556",
+                "name": "uou-block-5a",
+                "w_type": "row",
+                "extraclass": "uou-block-5a has-bg-image ",
+                "margintopclass": "mt40",
+                "marginbottomclass": "mb40",
+                "background_property": {
+                    "background_color": "#34495e",
+                    "background_image": "img/img-1.png",
+                    "height": 20,
+                    "backgroundopacity": 0.75
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428380753556",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/block/uou-block-5a.html",
+                        "widgetdata": {
+                            "background": "img/img-1.png",
+                            "backgroundcolor": "#34495e",
+                            "backgroundopacity": 0.75,
+                            "text": "<p>There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. UOU Apps, is by far one of the worlds best known brands.</p>",
+                            "footertext": "Steve Jobs, Apple",
+                            "backgrondimage": "img/img-1.png",
+                            "wrapper_class": "uou-block-5a has-bg-image"
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428380777659",
+                "name": "uou-block-8b",
+                "w_type": "row",
+                "extraclass": "container has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "background_image": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428380777659",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/block/uou-block-8b.html",
+                        "widgetdata": {
+                            "background": "",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "backgrondimage": "",
+                            "wrapper_class": "container has-bg-image",
+                            "nav": [
+                                {
+                                    "icons": "fa-android",
+                                    "title": "Technology",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                },
+                                {
+                                    "icons": "fa-users",
+                                    "title": "Social Networks",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                },
+                                {
+                                    "icons": "fa-anchor",
+                                    "title": "Design",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                },
+                                {
+                                    "icons": "fa-lightbulb-o",
+                                    "title": "Strategy",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                },
+                                {
+                                    "icons": "fa-cubes",
+                                    "title": "Development",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                },
+                                {
+                                    "icons": "fa-rocket",
+                                    "title": "Performance",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                }
+                            ]
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428380810163",
+                "name": "uou-block-4c",
+                "w_type": "row",
+                "extraclass": "uou-block-4c has-bg-image ",
+                "margintopclass": "mt40",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428380810163",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/footers/uou-block-4c.html",
+                        "widgetdata": {
+                            "nav": [
+                                {
+                                    "title": "Home",
+                                    "link": "#"
+                                },
+                                {
+                                    "title": "Shortcodes",
+                                    "link": "#"
+                                },
+                                {
+                                    "title": "Features",
+                                    "link": "#"
+                                },
+                                {
+                                    "title": "Portfolio",
+                                    "link": "#"
+                                },
+                                {
+                                    "title": "Blog",
+                                    "link": "#"
+                                },
+                                {
+                                    "title": "Contact Us",
+                                    "link": "#"
+                                }
+                            ],
+                            "contact": [
+                                {
+                                    "text": "<address>795 Folsom Ave, Suite 600, San Francisco, CA 94107</address>",
+                                    "icons": "fa-map-marker"
+                                },
+                                {
+                                    "text": "<a href='tel:#'>(123) 456-7890</a>",
+                                    "icons": "fa-phone"
+                                },
+                                {
+                                    "text": "<a href='mailto:#'>first.last@example.com</a>",
+                                    "icons": "fa-envelope"
+                                }
+                            ],
+                            "wrapper_class": "uou-block-4c has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428380835212",
+                "name": "uou-block-4a-social-icons-secondary",
+                "w_type": "row",
+                "extraclass": "uou-block-4a secondary has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428380835212",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/footers/uou-block-4a-social-icons.html",
+                        "widgetdata": {
+                            "text": "<p>Copyright &copy; 2014 Chameleon. All Rights reserved.</p>",
+                            "social": [
+                                {
+                                    "title": "Facebook",
+                                    "link": "https://www.facebook.com/",
+                                    "icons": "fa-facebook"
+                                },
+                                {
+                                    "title": "Twitter",
+                                    "link": "https://twitter.com/",
+                                    "icons": "fa-twitter"
+                                },
+                                {
+                                    "title": "Google",
+                                    "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                    "icons": "fa-google-plus"
+                                },
+                                {
+                                    "title": "Google",
+                                    "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                    "icons": "fa-dribbble"
+                                }
+                            ],
+                            "wrapper_class": "uou-block-4a secondary has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "background_property": {
+            "background_color": "#fff",
+            "background_image": "",
+            "background_position": "",
+            "background_repeat": "",
+            "height": "auto"
+        }
+    }
+]

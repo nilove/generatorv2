@@ -1,0 +1,28 @@
+{
+	"nav":[
+		   {
+		   	"title":"HOME",
+		     "link":"",
+		    "icons":"",
+		    "items":[]
+		   },
+	       {
+	       	"title":"Portfolio",
+	       	 "link":"",
+	       	"icons":"",
+	       	"items":[]
+	       	},
+	       {
+	       	"title":"Categories",
+	       	 "link":"",
+	       	"icons":"",
+	       	"items":[]
+	       }
+	      ],
+	"text":"Web Design",
+	"wrapper_class":"uou-block-3a has-bg-image secondary",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""      
+
+}

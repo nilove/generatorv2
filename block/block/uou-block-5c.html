@@ -1,0 +1,47 @@
+<div class="container">
+      <flex-slider
+      slide="s in childNode.widgetdata.slides track by $index"
+      animation="fade" prevText="" nextText="">
+      <li>
+        <blockquote>
+                <p tx-contenteditable  
+                     ng-model="s.text">
+                     {{s.text || ' '}}><span></span>
+                </p>
+
+                <footer>
+                  <cite plaintx-contenteditable 
+                          ng-model="s.title">
+                          {{s.title || ' '}}><span></span>
+                  </cite>
+                  <p tx-contenteditable  
+                       ng-model="s.company">{{s.company}}<span></span>
+                  </p>
+                </footer>
+                
+        </blockquote>
+              <div class="slider-config edit-buttons">
+                  <button addarticle 
+                          ng-model="childNode.widgetdata.slides" 
+                          currentslide="s" 
+                          class="btn btn-primary">
+                          <i class="fa 
+                                    fa-plus 
+                                    fa-3x">
+                          </i>
+                  </button>
+                  <button removetextslide 
+                          ng-model="childNode.widgetdata.slides" 
+                          slideindex="$index" 
+                          class="btn btn-primary">
+                          <i class="fa 
+                                    fa-trash-o 
+                                    fa-3x">
+                          </i>
+                  </button>
+                </div>
+      </li>
+  </flex-slider>  
+</div>
+
+    

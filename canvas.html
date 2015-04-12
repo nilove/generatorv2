@@ -1,0 +1,139 @@
+
+<!doctype html>
+<html lang="en" ng-app="drag-app">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>canvas</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700|Droid+Serif:400,700,400italic">
+    <link rel="stylesheet" href="css/medium-editor.min.css">
+    <link rel="stylesheet" href="css/default.css">
+
+    <link rel="stylesheet" media="screen" type="text/css" href="css/angular-ui-tree.min.css" />
+    <link rel="stylesheet" href="css/icon-picker.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="css/colorpicker.css" />
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon-picker.min.css">
+</head>
+
+<body ng-controller="DragDropController">
+    <div id="main-wrapper">
+        <div class="uou-block-canvas uou-block-2a secondary posbottom">
+            <div class="container">
+                <a href="#" class="logo">Chameleon</a>
+
+                <div class="add-content-block">
+                    <a href="#" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false"><i class="fa fa-plus"></i>Content Block</a>
+                </div>
+
+
+
+                <div class="add-element-block">
+                    <a href="#" data-toggle="modal" data-target="#myModal_settings" data-backdrop="static" data-keyboard="false"><i class="fa fa-cogs"></i>Page settings</a>
+                </div>
+
+                <div class="add-element-block">
+                    <a href="#" data-toggle="modal" data-target="#myModal_pages" data-backdrop="static" data-keyboard="false"><i class="fa fa-cogs"></i>Pages</a>
+                </div>
+
+
+                <div class="save-preview-button">
+
+                    <button ng-click="EnablePrview();" class="btn btn-small btn-primary">
+                        {{previewtext}}
+                    </button>
+                    <button ng-click="resetcanvas();" class="btn btn-small btn-primary">
+                        Reset
+                    </button>
+                    <button data-toggle="modal" data-target="#import" class="btn btn-small btn-primary">
+                        Import
+                    </button>
+                    <button data-toggle="modal" data-target="#export" class="btn btn-small btn-primary">
+                        Export
+                    </button>
+                </div>
+
+            </div>
+            <!-- end container -->
+
+        </div>
+        <!-- end uou-block-canvas -->
+
+
+        <!--<div ng-include="'icons.html'"></div>-->
+        <div ng-include="'config/page-edit-panel.html'"></div>
+        <div style="margin-bottom:100px;">
+            <div ng-repeat="(page_key,page) in accachedwidget">
+                <div ng-if="page_key == skey" class="widget_container  cons" style="background-color:{{page.background_property.background_color}};
+                  background-image:url('{{page.background_property.background_image}}');
+                  background-repeat:{{page.background_property.background_repeat}};
+                  background-position:{{page.background_property.background_position}};
+                  min-height:{{page.background_property.height}}px" ng-model="page">
+                    <div q-recurse="page">
+                        <div ng-repeat="(row_key,childNode) in page.nodes" ng-if="childNode.w_type == 'row' || childNode.w_type == 'column' || childNode.w_type == 'widget'" q-recurse-node="childNode" class="posrelative mn-height {{childNode.class}} {{childNode.extraclass}} {{childNode.margintopclass}} {{childNode.marginbottomclass}}" ng-include src="childNode.template" ng-model="childNode" data-id="{{childNode.id}}" style="background-image:url('{{childNode.background_property.background_image}}');
+                       min-height:{{childNode.background_property.height}}px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ng-include="'templates/widget.html'"></div>
+        <div ng-include="'templates/pages.html'"></div>
+
+        <div exportmodal></div>
+        <div importmodal></div>
+        <div ng-include="'icons.html'"></div>
+    </div>
+    <!-- end #main-wrapper -->
+
+    <!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-2.1.3.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/uou-tabs.js"></script>
+
+    <script src="js/jquery.nicescroll.js"></script>
+
+    <script src="js/scripts.min.js"></script>
+
+    <script src="js/medium-editor.min.js"></script>
+
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/plugins/hoverIntent.js"></script>
+    <script src="js/plugins/superfish.min.js"></script>
+
+
+    <script src="js/angular.js"></script>
+    <script src="js/angular-sanitize.js"></script>
+    <script src="js/ui-bootstrap-custom-0.12.0.js"></script>
+    <script src="js/xeditable.js"></script>
+    <script type="text/javascript" src="js/colorpicker.js"></script>
+    <script type="text/javascript" src="js/angular-medium-editor.js"></script>
+    <script type="text/javascript" src="js/angular-recursive.js"></script>
+    <script src="js/angular-ui-tree.js"></script>
+    <script type="text/javascript" src="js/icon-picker.min.js"></script>
+    <script src="js/plugins/jquery.flexslider-min.js"></script>
+    <script src="js/angular-flexslider.js"></script>
+    <script src="js/plugins1.js"></script>
+    <script src="js/plugins2.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="js/render_v.js?v=3244389890"></script>
+
+
+    <script>
+    </script>
+
+</body>
+
+</html>

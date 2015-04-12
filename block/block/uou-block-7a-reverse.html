@@ -1,0 +1,73 @@
+<div class="css-table">
+  <div class="css-table-cell content">
+    <img src="http://placehold.it/50/34495e/34495e" alt="">
+
+    <h1 plaintx-contenteditable 
+        ng-model="childNode.widgetdata.company">
+        {{childNode.widgetdata.company || ' '}}>
+        <span></span>
+    </h1>
+
+    <p tx-contenteditable  
+       ng-model="childNode.widgetdata.text">
+       {{childNode.widgetdata.text || ' '}}>
+       <span></span>
+    </p>
+
+    <a href="#" class="btn btn-primary" 
+       plaintx-contenteditable 
+       ng-model="childNode.widgetdata.button">
+       {{childNode.widgetdata.button || ' '}}>
+       <span></span>
+    </a>
+  </div>
+
+  <div class="css-table-cell slider">
+    <flex-slider slide="s in childNode.widgetdata.slides track by $index"
+                 animation="fade" 
+                 prevText="" 
+                 nextText="">
+        <li class="has-bg-image">
+            <div class="slider-config row_edit_area">
+                <button addslide 
+                        ng-model="childNode.widgetdata.slides" 
+                        currentslide="s" 
+                        class="btn btn-primary">
+                        <i class="fa 
+                                  fa-plus 
+                                  fa-3x">
+                        </i>
+                </button>
+                <button ng-click="TriggerSliderUpload(childNode.id,$index)" 
+                        class="btn btn-primary">
+                        <i class="fa 
+                                  fa-pencil 
+                                  fa-3x">
+                        </i>
+                </button>
+                <button removeslide 
+                        ng-model="childNode.widgetdata.slides" 
+                        slideindex="$index" 
+                        class="btn btn-primary">
+                        <i class="fa 
+                                  fa-trash-o 
+                                  fa-3x">
+                        </i>
+                </button>
+                <span style="display:none;" 
+                      class="btn btn-primary fileinput-button">
+                      <span>Change</span>
+                      <input id="slider_file_{{childNode.id}}_{{$index}}" 
+                             class="slider_image_upload" 
+                             type="file"
+                             accept="image/*" 
+                             filemodel 
+                             ng-model="s.image"/>
+                </span>
+            </div>
+            <img src="{{s.image}}" alt="">
+            
+        </li>
+    </flex-slider>
+  </div>
+</div>

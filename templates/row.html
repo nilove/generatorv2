@@ -1,0 +1,192 @@
+
+
+<div class="row_edit_area posleft" ng-if="childNode.w_type == 'row'">
+  <a href="#" class="btn btn-primary" ng-click="EnablePrview();" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#myModal_{{childNode.id}}"><i class="fa fa-pencil fa-3x"></i></a>
+  <a href="#" class="btn btn-primary" data-backdrop="static" data-keyboard="false"  ng-click="EnablePrview();" data-toggle="modal" data-target="#myModal_add_block_{{childNode.id}}"><i class="fa fa-plus"></i></a>
+
+  <a href="#" class="btn btn-primary" removenode ng-model="page.nodes" key="row_key"><i class="fa fa-trash"></i></a>
+</div>
+
+<div class="row_edit_area posright" ng-if="childNode.w_type == 'column'">
+  <a href="#" class="btn btn-primary" ng-click="EnablePrview();" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#myModal_{{childNode.id}}"><i class="fa fa-pencil fa-3x"></i></a>
+  <a href="#" class="btn btn-primary"  data-backdrop="static" data-keyboard="false" data-toggle="modal" ng-click="EnablePrview();" data-target="#myModal_add_block_{{childNode.id}}"><i class="fa fa-plus"></i></a>
+  <!--<a href="#" class="btn btn-primary" removenode ng-model="page.nodes" key="row_key"><i class="fa fa-trash"></i></a>-->
+</div>
+
+
+
+
+
+<!--
+
+START MODAL FOR CONTENT BLOCK
+
+-->
+
+  <div class="modal fade" id="myModal_add_block_{{childNode.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="uou-block-3b secondary">
+
+          <h1>Add GUI Element</h1>
+          <button type="button" class="close" data-dismiss="modal" ng-click="EnablePrview();" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div> <!-- end uou-block-3b -->
+
+        <div class="modal-body">
+
+
+
+        <div class="page-layout-block">
+          <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'layout'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
+
+                  <img src="{{widgetdf.src}}" alt="">
+
+
+
+                  <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
+
+            </div> <!-- end block-preview image -->
+
+            <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'gui'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
+
+                    <img  src="{{widgetdf.src}}" alt="">
+
+                    <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
+
+                  </div> <!-- end block-preview image -->
+
+
+
+
+
+        </div> <!-- end modal-bloc-tab -->
+
+        </div>
+
+
+
+
+
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+<!--
+
+END CONTENT BLOCK MODAL
+
+-->
+
+
+
+
+
+
+<div class="modal fade" id="myModal_{{childNode.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="uou-block-3b secondary">
+
+          <h1>Block settings</h1>
+          <button type="button" ng-click="EnablePrview();" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div> <!-- end uou-block-3b -->
+        <div class="image-edit-block">
+        <div class="row">
+          
+
+          <div class="col-md-6">
+
+            <form action="#">
+              <div class="single-form-content" ng-if="childNode.w_type == 'column'">
+                <p class="form-title">Width: {{filtermargin(childNode.class)}} %</p>
+                <div columnslider ng-model="childNode.class" initialwidth="4"></div>
+              </div>
+
+
+             <!-- <div class="single-form-content">
+                <p class="form-title">Height:</p>
+                <input type="number" class="form-control" ng-model="childNode.background_property.height" placeholder="Height"/>
+              </div>-->
+              <span class="btn btn-primary for-bg fileinput-button">
+                              <span>Background Image</span>
+                              <input filemodel
+                                   ng-model="childNode.background_property.background_image"
+                                   type="file"/>
+                            </span>
+              <div class="single-form-content">
+                <p class="form-title">Background-color:</p>
+                <input type="text" class="form-control" colorpicker ng-model="childNode.background_property.background_color" placeholder="Color"/>
+              </div>
+
+              <div class="single-form-content">
+                <p class="form-title">Background opacity: {{childNode.background_property.backgroundopacity}}</p>
+                <div opacityslider initialwidth="0" ng-model="childNode.background_property.backgroundopacity"></div>
+              </div>
+              <div class="single-form-content">
+                <p class="form-title">Margin-top : {{childNode.margintopclass}}</p>
+                <div marginslider ng-model="childNode.margintopclass" initialwidth="4" marginpos="'mt'"></div>
+              </div>
+              <div class="single-form-content">
+                <p class="form-title">Margin Bottom : {{childNode.marginbottomclass}}</p>
+                <div marginslider ng-model="childNode.marginbottomclass" initialwidth="4" marginpos="'mb'"></div>
+              </div>
+              <div class="single-form-content">
+                <p class="form-title">Extra Class Name:</p>
+                <input type="text" class="form-control" ng-model="childNode.extraclass" placeholder="Extra class"/>
+              </div>
+              <p class="info-text">If you wish to style perticular content elements differently , then use this field to add a class
+              name and then refer to it in your css file</p>
+            </form>
+          </div>
+
+          <div class="col-md-6">
+              
+                  <div class="generator-sidebar modal-row-side">
+
+              <ul class="pages" 
+               sortablewidget 
+               ng-model="childNode">
+               <li bindonce ng-repeat="(row_key,row) in childNode.nodes" 
+                   data-id="{{row.id}}">
+                   <span class="dragholder">{{row_key+1}}</span>
+                   <div style="width:100px;display:inline;" plaintx-contenteditable  
+                        ng-model="row.name">
+                        {{row.name}} 
+                        <span></span>
+                   </div>
+                   <a href="#" 
+                      removenode 
+                      ng-model="childNode.nodes" 
+                      key="row_key">
+                      <i class="fa fa-times"></i>
+                   </a>
+                   
+                </li>
+            </ul> 
+          </div>
+          </div>
+
+        </div> <!-- end row -->
+      </div> <!-- end imag-edit-block -->
+
+          <div class="modal-footer">
+        
+
+      </div>
+
+      </div>
+    </div>
+</div>
+
+
+<div class="background"
+     style="opacity:{{childNode.background_property.backgroundopacity}};
+              background-color:{{childNode.background_property.background_color}};">
+</div>
+
+
+

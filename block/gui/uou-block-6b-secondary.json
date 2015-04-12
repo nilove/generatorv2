@@ -1,0 +1,25 @@
+{
+	"image":"http://placehold.it/100/34495e/34495e",
+	 "name":"Jessica Walsh",
+	 "company":"Founder & Web Designer",
+	 "text":"Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
+	 "social":
+		[
+			{
+				"title":"Facebook",
+				"link":"https://www.facebook.com/",
+				"icons":"fa-facebook"
+			},
+			{
+				"title":"Twitter",
+				"link":"https://twitter.com/",
+				"icons":"fa-twitter"
+			},
+			{
+				"title":"Google",
+				"link":"https://www.google.com.bd/?gws_rd=ssl",
+				"icons":"fa-google-plus"
+			}	 		
+		],
+	"class":"secondary"	
+}

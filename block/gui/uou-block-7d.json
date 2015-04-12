@@ -1,0 +1,19 @@
+{
+	"posts":[
+				{
+					"timetext":"3 hours ago",
+					   "title":"Perspiciatis Sint Pariatur Velit Corrupti",
+					    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+				},
+				{
+					"timetext":"17 HOURS AGO",
+					   "title":"Nam quas numquam repudiandae nobis natus blanditiis",
+					    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+				},
+				{
+					"timetext":"2 DAYS AGO",
+					   "title":"Officia ut aspernatur expedita illum",
+					    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+				}
+			]
+}

@@ -1,0 +1,49 @@
+<div class="modal fade" id="myModal_pages" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog page-add-modal">
+      <div class="modal-content">
+        <div class="uou-block-3b secondary">
+
+          <h1>Pages</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div> <!-- end uou-block-3b -->
+
+      	<div class="image-edit-block">
+      		<div class="row">
+      			<div class="col-md-12">
+      				<div class="generator-sidebar">
+  					    <ul class="pages">
+  					      <li ng-repeat="(key,page) in accachedwidget track by $index">
+  					        <span>{{key+1}}</span>
+  					        <div style="margin-bottom:10px;">
+  					            <div placeholder="Type page name" style="width:100px;display:block;float:left;"  plaintx-contenteditable
+  					               ng-model="page.name">{{page.name}} <span></span>
+  					            </div>
+  					            <div class="page-button-for-edit"  style="width:100px;display:block;float:right;">
+  					              <a ng-click="DeletePage(key)" href="#"><i class="fa fa-times"></i></a>
+  					              <a ng-click="setPageScope(key)"  href="#"><i class="fa fa-pencil-square-o"></i></a>
+  					              <a addarticle
+  					                 ng-model="accachedwidget"
+  					                 currentslide="page"  href="#"><i class="fa fa-files-o"></i></a>
+  					            </div>
+  					        </div>
+  					      </li>
+  					    </ul>
+						</div>
+						<div class="clearfix"></div>
+            <div class="modal-footer">
+              <div style="margin-top:20px;margin-bottom:20px;">
+                <button type="button" ng-click="addThisPage()" class="btn btn-primary">Add new page</button>
+                
+              </div>
+            </div>
+
+					</div>
+
+      		</div>
+      		<div class="clearfix"></div>
+      	</div>
+
+      </div>
+
+    </div>
+</div>

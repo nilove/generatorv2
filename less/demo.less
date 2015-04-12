@@ -1,0 +1,39 @@
+/* Demo Styles */
+/* ======================== */
+
+.demo-section {
+  padding: 50px 0;
+  margin: 0;
+  border-bottom: 1px solid @uou-tertiary-color;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .demo-section-title {
+    display: block;
+    color: #F62459;
+    font-size: 18px;
+    margin-top: 0;
+
+    &:before {
+      content: @fa-var-cubes;
+      font-family: 'FontAwesome';
+      color: #F62459;
+      margin: 0 15px;
+    }
+  }
+
+  .demo-section-subtitle {
+    display: block;
+    color: #F62459;
+    font-size: 18px;
+
+    &:before {
+      content: @fa-var-cubes;
+      font-family: 'FontAwesome';
+      color: lighten(@uou-secondary-color, 15%);
+      margin: 0 15px;
+    }
+  }
+}

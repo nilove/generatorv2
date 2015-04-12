@@ -1,0 +1,75 @@
+.image-edit-block {
+  position: relative;
+  padding: 40px 50px 0;
+
+  .generator-sidebar {
+    width: 100%;
+  }
+
+  .generator-sidebar .pages li {
+    padding: 21px 20px 32px 55px;
+  }
+
+
+  .upload-image-content {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    display: table;
+    vertical-align: middle;
+
+    .image-size {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding: 0 4px;
+      background: #ddd;
+      border-top-left-radius: 3px;
+
+      p {
+        color: #fff;
+        font-size: 13px;
+        margin: 0;
+      }
+    }
+
+    input[type="file"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0 !important;
+      cursor: pointer;
+      z-index: 99;
+    }
+  }
+
+
+  .single-form-content {
+    position: relative;
+
+    .form-title {
+      font-size: 13px;
+      color: #666;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+
+    input,
+    select {
+      margin-bottom: 15px;
+      color: #666;
+    }
+  }
+
+
+  .info-text {
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+}

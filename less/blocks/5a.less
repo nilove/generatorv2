@@ -1,0 +1,32 @@
+/* Block 5a */
+/* ======================== */
+
+.uou-block-5a {
+  .clearfix();
+  position: relative;
+  display: block;
+  padding: round(@uou-line-height * 3) 0;
+  background: @uou-secondary-color;
+
+  blockquote {
+    .blockquote-unstyled();
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    color: @uou-text-color-inverted;
+    font-size: round(@uou-font-size * 1.5);
+    line-height: 1.5em;
+
+    footer {
+      display: block;
+      font-size: @uou-font-size-small;
+      color: @uou-text-color-lighter;
+
+      cite {
+        font-style: normal;
+        font-family: @uou-font-family;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

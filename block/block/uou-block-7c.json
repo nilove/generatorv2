@@ -1,0 +1,60 @@
+{
+	"wrapper_class":"container has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"rows":
+	[
+		{
+			"columns":[
+						{
+							"name":"Pariatur Velit Corrupti",
+							"date":"01 / 24 / 2015",
+							"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+							"image":"img/blog-image-1.png",
+							"template":"block/gui/uou-block-7c.html",
+						 	"type":"uou-block-7c",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"
+						},
+						{
+							"name":"Pariatur Velit Corrupti",
+							"date":"01 / 24 / 2015",
+							"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+							"slides":[
+					  			{
+					  				"image":"img/blog-image-1.png",
+					  				"text":"",
+					  				"heading":""
+					  			},
+					  			{
+					  				"image":"img/blog-image-2.png",
+					  				"text":"",
+					  				"heading":""
+					  			},
+					  			{
+					  				"image":"img/blog-image-3.png",
+					  				"text":"",
+					  				"heading":""
+					  			}
+					  			],
+					  		"template":"block/gui/uou-block-7c-slider.html",
+						 	"type":"uou-block-7c-slider",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"	
+						},
+						{
+							"name":"Pariatur Velit Corrupti",
+							"date":"01 / 24 / 2015",
+							"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+							"image":"img/blog-image-1.png",
+							"template":"block/gui/uou-block-7c.html",
+						 	"type":"uou-block-7c",
+						 	"wrapper_class":"col-md-4",
+						 	"wrapper_extra_class":"col-sm-4"
+						}
+
+					]
+		}
+	]
+}

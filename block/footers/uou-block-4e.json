@@ -1,0 +1,93 @@
+{
+	"title":"Chameleon",
+	"text1":"Lorem ipsum dolor sit amet consectetur adipisicing elit adipisci.",
+	"text2":"Consectetur adipisicing elit quisquam rem quas sapiente aliquid quo quibusdam, totam dolor corporis et sit.",
+	"text3":"From the Blog",
+	"text4":"Company",
+	"text5":"Categories",
+	"nav1":[
+			 {
+			 	"title":"The Science Behind Fonts",
+			 	"text":"May 22, 1014",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Sketching for Better Mobile Experience",
+			 	"text":"April 29, 1014",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Guidelines for Designing with Audio",
+			 	"text":"April 23, 1014",
+			 	"link":""
+			 }
+		   ],
+	"nav2":[
+			 {
+			 	"title":"Our Story",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Mission and Vision",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Journal",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Careers",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Privacy Policy",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Terms & Conditions",
+			 	"link":""
+			 }
+		   ],
+	"nav3":[
+			 {
+			 	"title":"User Expirience",
+			 	"link":""
+			 },
+			 {
+			 	"title":"HTML5",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Web Design",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Social Media",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Web Development",
+			 	"link":""
+			 },
+			 {
+			 	"title":"CSS3",
+			 	"link":""
+			 },
+			 {
+			 	"title":"Print Design",
+			 	"link":""
+			 },
+			 {
+			 	"title":"eCommerce",
+			 	"link":""
+			 },
+			 {
+			 	"title":"JavaScript",
+			 	"link":""
+			 }
+		   ],
+	"wrapper_class":"uou-block-4e has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":""	   	   	   
+}

@@ -1,0 +1,41 @@
+{
+	"title":"Chameleon",
+	"nav":[
+		   {
+		   	"title":"HOME",
+		   	"text":"Start here",
+		     "link":"",
+		    "icons":"",
+		    "items":[]
+		   },
+	       {
+	       	"title":"STORE",
+	       	"text":"Our products",
+	       	 "link":"",
+	       	"icons":"",
+	       	"items":[]
+	       	},
+	       {
+	       	"title":"BLOG",
+	       	"text":"Latest News",
+	       	 "link":"",
+	       	"icons":"",
+	       	"items":[]},
+	       {
+	       	"title":"ABOUT",
+	       	"text":"Our Company",
+	       	 "link":"",
+	       	"icons":"",
+	       	"items":[]},
+	       {
+	       	"title":"CONTACT",
+	       	"text":"Start here",
+	       	 "link":"",
+	       	"icons":"",
+	       	"items":[]}
+	      ],
+	      "wrapper_class":"uou-block-2c has-bg-image",
+		  "backgroundcolor":"#fff",
+		  "backgroundopacity":0,
+	      "background":""
+}

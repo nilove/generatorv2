@@ -1,0 +1,73 @@
+{
+    "version": "2.0",
+    "name": "Chameleon - Multipurpose Template & Page Builder",
+    "subline": "",
+    "username": "UOU apps",
+    "created": "04/09/2015",
+    "website": "http://uouapps.com/",
+    "update": "04/9/2015",
+    "update_today": true,
+    "email": "nilovecse05@gmail.com",
+    "description": "Chameleon - Multipurpose Template & Page Builder is an app where you will be able to design page using Chameleon block,configure block finally designed page will be downloaded as HTML",
+    "intro": "",
+    "button_1_text": "",
+    "button_2_text": "",
+    "button_3_text": "",
+    "button_1_url": "",
+    "button_2_url": "",
+    "button_3_url": "",
+    "sections": [
+        {
+            "title": "Installation",
+            "id": "installation",
+            "content": "<p>\tChameleon - Multipurpose Template &amp; Page Builder, we have used php as backednd for Generating dynamic html, So its require a server to run(apache) . Inorder to install it just put it inside htdocs or /var/www folder. Finally make sure that if there in write permission inside sourcecode and uploads</p>\n"
+        },
+        {
+            "title": "Overview",
+            "id": "overview",
+            "content": "<p>\tChameleon - Multipurpose Template &amp; Page Builder is an app where you will be able to design page using Chameleon block,configure block finally designed page will be downloaded as HTML.</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2011.09.11.png?_subject_uid=35421680&amp;w=AABossRi3V6GXNkYLGCXxRY9fEXiK0Q8uWVVRSI7iBa5Xg\" style=\"width: 500px; height: 227px;\"></p>\n<p>\t&nbsp;</p>\n<p>\tInitially there will be a containing some button at the bottom. Initially there is a button called &quot;Content block&quot;, by clicking on content block there will be a popup</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2011.26.36.png?_subject_uid=35421680&amp;w=AADrlOc8Qqk29q_B7JGp_sc7X3_pHTPUlTnKF709SWTsrw\" style=\"width: 500px; height: 262px;\"></p>\n<p>\t&nbsp;</p>\n<p>\tthere are several blocks under Header, Toolbar, Content Section and footer, Under page there are several layouts. Onhover over the block there will be a add button. By clicking over add button that block will be added to canvas</p>\n<p>\tThen there is &nbsp;a button &nbsp;&quot;Page settings&quot;, By clicking the button there will be a popup</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2011.35.59.png?_subject_uid=35421680&amp;w=AAB21YKSX_tXI5U4RBwS-JgOJWb3uatEYCHj6bF-14_VRg\" style=\"width: 500px; height: 197px;\"></p>\n<p>\tIn the left panel there are necessary settings for page background and in the right panel added block will be listed there, you can order the block by simply drag and drop.</p>\n<p>\tThe next button is called the &quot;Pages&quot;, By clicking on this button there will be popup</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2011.59.46.png?_subject_uid=35421680&amp;w=AABvTYb6nMh_OuYgClGeITSUEsXRfICeo85r5SMSN-4hbQ\" style=\"width: 500px; height: 238px;\"></p>\n<p>\tYou will be able to change the page inline and also add new page.&nbsp;</p>\n"
+        },
+        {
+            "title": "Create a page",
+            "id": "create_a_page",
+            "content": "<p>\tBy clicking on the button &quot;Pages&quot;, there will be a popup&nbsp;</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2016.15.38.png?_subject_uid=35421680&amp;w=AACyJL8zRHIq5rfDXI0zXlU06KoVXTGJxjhLc2YKf7B1rg\"></p>\n<p>\tyou can add as number of pages as you wish, you can also clone any page. by clicking on edit the corresponding page will be loaded in the canvas</p>\n"
+        },
+        {
+            "title": "Design a page",
+            "id": "design_a_page",
+            "content": "<p>\tFrom the pages pop you need to select which page you want to edit. After selecting a page click on content block, there will a popoup. For example select from toolbar popup&nbsp;</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2016.37.40.png?_subject_uid=35421680&amp;w=AAD9Hb7ZlUeRZwOhshNZUmwyqA--vNj_UvHDLSm2NTSd1A\" style=\"width: 500px; height: 18px;\"></p>\n<p>\tThen we are going to add menu block&nbsp;</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2016.41.14.png?_subject_uid=35421680&amp;w=AAC--V02_4iQXWrnA0bgLz3IjnAw3DBfqCUD7cKuRa3InQ\" style=\"width: 500px; height: 34px;\"></p>\n<p>\tif you want to add menu or submenu then just click over the menu, then there will be a popup</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2016.44.20.png?_subject_uid=35421680&amp;w=AAAOhVi-b0cMYMRBHcJ-HeUdF1gjIk66LNaXF_jtSMgaIA\" style=\"width: 500px; height: 234px;\"></p>\n<p>\tin order to add new menu just type on the left panel and click save changes, and to order menu or submenu, simply drag and drop.</p>\n<p>\t<img alt=\"\" src=\"https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-04-09%2016.59.08.png?_subject_uid=35421680&amp;w=AABSpz4PnB2EtT5oTM-oM7G-aJvv-6NU1a7bu_TgezDpSA\" style=\"width: 500px; height: 54px;\"></p>\n<p>\t&nbsp;</p>\n"
+        }
+    ],
+    "use_sub": true,
+    "logo": "",
+    "favicon": "",
+    "customcss": "",
+    "easing": "swing",
+    "easingduration": "500",
+    "bgimage": "",
+    "bgrepeat": "repeat",
+    "bgattachment": "scroll",
+    "bgcolor": "FFFFFF",
+    "textcolor": "383838",
+    "linkcolor": "0000FF",
+    "hrcolor1": "EBEBEB",
+    "hrcolor2": "FFFFFF",
+    "btncolor": "FFFFFF",
+    "btncolor1": "0088CC",
+    "btncolor2": "0044CC",
+    "sidebarbgimage": "",
+    "sidebarbgrepeat": "repeat",
+    "sidebarbgcolor": "DDDDDD",
+    "sidebartextcolor": "222222",
+    "sidebarlinkcolor": "444444",
+    "sidebaractivecolor": "444444",
+    "sidebaractivetextcolor": "DDDDDD",
+    "sidebarhrcolor1": "AAAAAA",
+    "sidebarhrcolor2": "EEEEEE",
+    "cufon": "",
+    "documentationttype": "default",
+    "itemURL": "",
+    "sendJSON": "",
+    "sendZIP": "",
+    "sendPWD": ""
+}

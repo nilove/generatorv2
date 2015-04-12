@@ -1,0 +1,66 @@
+{
+	"wrapper_class":"container has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"rows":[
+			{
+				"columns":[
+							{
+								"image":"http://placehold.it/100/34495e/34495e",
+								"name":"Puerto Prinsesa",
+								"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam.",
+								"template":"block/gui/uou-block-9b.html",
+								"type":"uou-block-9b",
+								"wrapper_class":"col-md-4",
+								"wrapper_extra_class":"col-md-4 col-sm-6"
+							},
+							{
+								"image":"http://placehold.it/100/34495e/34495e",
+								"name":"Puerto Prinsesa",
+								"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam.",
+								"template":"block/gui/uou-block-9b.html",
+								"type":"uou-block-9b",
+								"wrapper_class":"col-md-4",
+								"wrapper_extra_class":"col-md-4 col-sm-6"
+							},
+							{
+								"image":"http://placehold.it/100/34495e/34495e",
+								"name":"Puerto Prinsesa",
+								"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam.",
+								"template":"block/gui/uou-block-9b.html",
+								"type":"uou-block-9b",
+								"wrapper_class":"col-md-4",
+								"wrapper_extra_class":"col-md-4 col-sm-6"
+							},
+							{
+								"image":"http://placehold.it/100/34495e/34495e",
+								"name":"Puerto Prinsesa",
+								"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam.",
+								"template":"block/gui/uou-block-9b.html",
+								"type":"uou-block-9b",
+								"wrapper_class":"col-md-4",
+								"wrapper_extra_class":"col-md-4 col-sm-6"
+							},
+							{
+								"image":"http://placehold.it/100/34495e/34495e",
+								"name":"Puerto Prinsesa",
+								"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam.",
+								"template":"block/gui/uou-block-9b.html",
+								"type":"uou-block-9b",
+								"wrapper_class":"col-md-4",
+								"wrapper_extra_class":"col-md-4 col-sm-6"
+							},
+							{
+								"image":"http://placehold.it/100/34495e/34495e",
+								"name":"Puerto Prinsesa",
+								"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis numquam magni eveniet aperiam.",
+								"template":"block/gui/uou-block-9b.html",
+								"type":"uou-block-9b",
+								"wrapper_class":"col-md-4",
+								"wrapper_extra_class":"col-md-4 col-sm-6"
+							}
+						]
+			}
+		]
+}

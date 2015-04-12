@@ -1,0 +1,995 @@
+[
+    {
+        "id": "page1428644381653",
+        "name": "Page 1",
+        "nodes": [
+            {
+                "id": "node1428644397583",
+                "name": "uou-block-1c",
+                "w_type": "row",
+                "extraclass": "uou-block-1c has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428644397583",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "menu",
+                        "template": "block/menu/uou-block-1c.html",
+                        "widgetdata": {
+                            "title": "Chameleon",
+                            "nav": [
+                                {
+                                    "title": "Home",
+                                    "link": "#",
+                                    "icons": "fa-plus",
+                                    "items": []
+                                },
+                                {
+                                    "title": "Shop",
+                                    "link": "#",
+                                    "icons": "fa-globe",
+                                    "items": []
+                                },
+                                {
+                                    "title": "Lookbook",
+                                    "link": "#",
+                                    "icons": "fa-user",
+                                    "items": []
+                                }
+                            ],
+                            "wrapper_class": "uou-block-1c has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "menu ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428644407283",
+                "name": "uou-block-2e-cart",
+                "w_type": "row",
+                "extraclass": "uou-block-2e has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428644407283",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "menu",
+                        "template": "block/menu/uou-block-2e-cart.html",
+                        "widgetdata": {
+                            "nav": [
+                                {
+                                    "title": "HOME",
+                                    "link": "",
+                                    "items": []
+                                },
+                                {
+                                    "title": "STORE",
+                                    "link": "",
+                                    "items": []
+                                },
+                                {
+                                    "title": "BLOG",
+                                    "link": "",
+                                    "items": []
+                                },
+                                {
+                                    "title": "ABOUT",
+                                    "link": "",
+                                    "items": []
+                                },
+                                {
+                                    "title": "CONTACT",
+                                    "link": "",
+                                    "items": []
+                                }
+                            ],
+                            "righttext": "Shopping Cart (0)",
+                            "wrapper_class": "uou-block-2e has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "menu ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428644420934",
+                "name": "uou-block-7h",
+                "w_type": "row",
+                "extraclass": "",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "background_image": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428644420934",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/block/uou-block-7h.html",
+                        "widgetdata": {
+                            "background": "",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "backgrondimage": "",
+                            "wrapper_class": "container has-bg-image",
+                            "slides": [
+                                {
+                                    "image": "img/blog-image-1.png",
+                                    "text": "Saturday’s Surf NYC’s Co-Founders Talk About the Brand",
+                                    "heading": "3 hours ago",
+                                    "items": []
+                                },
+                                {
+                                    "image": "img/blog-image-2.png",
+                                    "text": "Nam quas numquam repudiandae nobis natus blanditiis",
+                                    "heading": "17 hours ago",
+                                    "items": []
+                                },
+                                {
+                                    "image": "img/blog-image-3.png",
+                                    "text": "Officia ut aspernatur expedita illum",
+                                    "heading": "2 days ago",
+                                    "items": []
+                                }
+                            ]
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428644442692",
+                "name": "row 4",
+                "w_type": "row",
+                "class": " ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "extraclass": "container",
+                "background_property": {
+                    "background_position": "center center",
+                    "background_repeat": "no-repeat",
+                    "height": 20
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428644481721",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "HTML",
+                        "template": "block/gui/htmlwidget.html",
+                        "widgetdata": {
+                            "html": "<div class=\"block-title-conten-left pt50\">\n      <h4>About The Company</h4>\n    </div>"
+                        },
+                        "name": "HTML ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    },
+                    {
+                        "id": "node1428644520321",
+                        "name": "row 2",
+                        "w_type": "row",
+                        "class": "row",
+                        "extraclass": "  ",
+                        "margintopclass": "mt0",
+                        "marginbottomclass": "mb0",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 100,
+                            "backgroundopacity": 0
+                        },
+                        "template": "templates/row.html",
+                        "nodes": [
+                            {
+                                "id": "node1428644525421",
+                                "name": "column 1",
+                                "w_type": "column",
+                                "class": "col-md-12",
+                                "extraclass": "container has-bg-image",
+                                "margintopclass": "mt0",
+                                "marginbottomclass": "mb0",
+                                "background_property": {
+                                    "background_color": "#fff",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 20,
+                                    "backgroundopacity": 0
+                                },
+                                "template": "templates/row.html",
+                                "nodes": [
+                                    {
+                                        "id": "widget1428644556312",
+                                        "class": "posrelative",
+                                        "extraclass": "",
+                                        "w_type": "widget",
+                                        "type": "footer",
+                                        "template": "block/gui/tabs.html",
+                                        "widgetdata": {
+                                            "wrapper_class": "container has-bg-image",
+                                            "backgroundcolor": "#fff",
+                                            "backgroundopacity": 0,
+                                            "background": "",
+                                            "tabs": [
+                                                {
+                                                    "id": "horizontalnode14168224614344324",
+                                                    "title": "Tab1",
+                                                    "nodes": [
+                                                        {
+                                                            "id": "node14168224614344324",
+                                                            "name": "row 1",
+                                                            "w_type": "row",
+                                                            "class": "",
+                                                            "extraclass": "row ",
+                                                            "margintopclass": "mt0",
+                                                            "marginbottomclass": "mb0",
+                                                            "background_property": {
+                                                                "background_image": "",
+                                                                "height": 200
+                                                            },
+                                                            "template": "templates/row_tab.html",
+                                                            "nodes": [
+                                                                {
+                                                                    "id": "node1428644591349",
+                                                                    "name": "column 1",
+                                                                    "w_type": "column",
+                                                                    "class": "col-md-4",
+                                                                    "extraclass": "col-xs-12 col-sm-12  ",
+                                                                    "margintopclass": "mt0",
+                                                                    "marginbottomclass": "mb0",
+                                                                    "background_property": {
+                                                                        "background_position": "",
+                                                                        "background_repeat": "",
+                                                                        "height": 20
+                                                                    },
+                                                                    "template": "templates/row.html",
+                                                                    "nodes": [
+                                                                        {
+                                                                            "id": "widget1428644606734",
+                                                                            "class": "posrelative",
+                                                                            "extraclass": "",
+                                                                            "w_type": "widget",
+                                                                            "type": "uou-block-7c",
+                                                                            "template": "block/gui/uou-block-7c.html",
+                                                                            "widgetdata": {
+                                                                                "name": "Pariatur Velit Corrupti",
+                                                                                "date": "01 / 24 / 2015",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                                                                "image": "img/blog-image-1.png"
+                                                                            },
+                                                                            "name": "uou-block-7c ",
+                                                                            "background_property": {
+                                                                                "background_color": "",
+                                                                                "background_image": "",
+                                                                                "background_position": "",
+                                                                                "background_repeat": "",
+                                                                                "height": 20,
+                                                                                "backgroundopacity": 0
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "node1428644594289",
+                                                                    "name": "column 2",
+                                                                    "w_type": "column",
+                                                                    "class": "col-md-4",
+                                                                    "extraclass": "col-xs-12 col-sm-12  ",
+                                                                    "margintopclass": "mt0",
+                                                                    "marginbottomclass": "mb0",
+                                                                    "background_property": {
+                                                                        "background_position": "",
+                                                                        "background_repeat": "",
+                                                                        "height": 20
+                                                                    },
+                                                                    "template": "templates/row.html",
+                                                                    "nodes": [
+                                                                        {
+                                                                            "id": "widget1428644612442",
+                                                                            "class": "posrelative",
+                                                                            "extraclass": "",
+                                                                            "w_type": "widget",
+                                                                            "type": "uou-block-7c-slider",
+                                                                            "template": "block/gui/uou-block-7c-slider.html",
+                                                                            "widgetdata": {
+                                                                                "name": "Pariatur Velit Corrupti",
+                                                                                "date": "01 / 24 / 2015",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                                                                "slides": [
+                                                                                    {
+                                                                                        "image": "img/blog-image-1.png",
+                                                                                        "text": "",
+                                                                                        "heading": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "image": "img/blog-image-2.png",
+                                                                                        "text": "",
+                                                                                        "heading": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "image": "img/blog-image-3.png",
+                                                                                        "text": "",
+                                                                                        "heading": ""
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "name": "uou-block-7c-slider ",
+                                                                            "background_property": {
+                                                                                "background_color": "",
+                                                                                "background_image": "",
+                                                                                "background_position": "",
+                                                                                "background_repeat": "",
+                                                                                "height": 20,
+                                                                                "backgroundopacity": 0
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "node1428644597085",
+                                                                    "name": "column 3",
+                                                                    "w_type": "column",
+                                                                    "class": "col-md-4",
+                                                                    "extraclass": "col-xs-12 col-sm-12  ",
+                                                                    "margintopclass": "mt0",
+                                                                    "marginbottomclass": "mb0",
+                                                                    "background_property": {
+                                                                        "background_position": "",
+                                                                        "background_repeat": "",
+                                                                        "height": 20
+                                                                    },
+                                                                    "template": "templates/row.html",
+                                                                    "nodes": [
+                                                                        {
+                                                                            "id": "widget1428644623745",
+                                                                            "class": "posrelative",
+                                                                            "extraclass": "",
+                                                                            "w_type": "widget",
+                                                                            "type": "uou-block-7c",
+                                                                            "template": "block/gui/uou-block-7c.html",
+                                                                            "widgetdata": {
+                                                                                "name": "Pariatur Velit Corrupti",
+                                                                                "date": "01 / 24 / 2015",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
+                                                                                "image": "img/blog-image-1.png"
+                                                                            },
+                                                                            "name": "uou-block-7c ",
+                                                                            "background_property": {
+                                                                                "background_color": "",
+                                                                                "background_image": "",
+                                                                                "background_position": "",
+                                                                                "background_repeat": "",
+                                                                                "height": 20,
+                                                                                "backgroundopacity": 0
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "horizontalnode1416822461434432423",
+                                                    "title": "Tab2",
+                                                    "nodes": [
+                                                        {
+                                                            "id": "node1416822461434432423",
+                                                            "name": "row 1",
+                                                            "w_type": "row",
+                                                            "class": "",
+                                                            "extraclass": "row ",
+                                                            "margintopclass": "mt0",
+                                                            "marginbottomclass": "mb0",
+                                                            "background_property": {
+                                                                "background_image": "",
+                                                                "height": 20,
+                                                                "backgroundopacity": 0,
+                                                                "background_color": ""
+                                                            },
+                                                            "template": "templates/row_tab.html",
+                                                            "nodes": [
+                                                                {
+                                                                    "id": "widget1428644652889",
+                                                                    "class": "posrelative",
+                                                                    "extraclass": "",
+                                                                    "w_type": "widget",
+                                                                    "type": "footer",
+                                                                    "template": "block/block/uou-block-8b.html",
+                                                                    "widgetdata": {
+                                                                        "background": "",
+                                                                        "backgroundcolor": "",
+                                                                        "backgroundopacity": 0,
+                                                                        "backgrondimage": "",
+                                                                        "nav": [
+                                                                            {
+                                                                                "icons": "fa-android",
+                                                                                "title": "Technology",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            },
+                                                                            {
+                                                                                "icons": "fa-users",
+                                                                                "title": "Social Networks",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            },
+                                                                            {
+                                                                                "icons": "fa-anchor",
+                                                                                "title": "Design",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            },
+                                                                            {
+                                                                                "icons": "fa-lightbulb-o",
+                                                                                "title": "Strategy",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            },
+                                                                            {
+                                                                                "icons": "fa-cubes",
+                                                                                "title": "Development",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            },
+                                                                            {
+                                                                                "icons": "fa-rocket",
+                                                                                "title": "Performance",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "name": "footer ",
+                                                                    "background_property": {
+                                                                        "background_color": "",
+                                                                        "background_image": "",
+                                                                        "background_position": "",
+                                                                        "background_repeat": "",
+                                                                        "height": 20,
+                                                                        "backgroundopacity": 0
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "title": "Tab3",
+                                                    "id": "node1428644568115",
+                                                    "nodes": [
+                                                        {
+                                                            "id": "node_1428644568115",
+                                                            "name": "Row ",
+                                                            "w_type": "row",
+                                                            "class": "row",
+                                                            "extraclass": "",
+                                                            "margintopclass": "mt0",
+                                                            "marginbottomclass": "mb0",
+                                                            "background_property": {
+                                                                "background_color": "",
+                                                                "background_image": "",
+                                                                "background_position": "",
+                                                                "background_repeat": "",
+                                                                "height": 200
+                                                            },
+                                                            "template": "templates/row.html",
+                                                            "nodes": [
+                                                                {
+                                                                    "id": "node1428644667003",
+                                                                    "name": "column 1",
+                                                                    "w_type": "column",
+                                                                    "class": "col-md-4",
+                                                                    "extraclass": "col-xs-12 col-sm-12  ",
+                                                                    "margintopclass": "mt0",
+                                                                    "marginbottomclass": "mb0",
+                                                                    "background_property": {
+                                                                        "background_position": "",
+                                                                        "background_repeat": "",
+                                                                        "height": 20
+                                                                    },
+                                                                    "template": "templates/row.html",
+                                                                    "nodes": [
+                                                                        {
+                                                                            "id": "widget1428644708641",
+                                                                            "class": "posrelative",
+                                                                            "extraclass": "",
+                                                                            "w_type": "widget",
+                                                                            "type": "uou-block-7g",
+                                                                            "template": "block/gui/uou-block-7g.html",
+                                                                            "widgetdata": {
+                                                                                "color": "0099ff",
+                                                                                "image": "img/blog-image-1.png",
+                                                                                "badge": "In The Lab",
+                                                                                "date": "01 / 24 / 2015",
+                                                                                "title": "Pariatur Velit Corrupti",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            },
+                                                                            "name": "uou-block-7g ",
+                                                                            "background_property": {
+                                                                                "background_color": "",
+                                                                                "background_image": "",
+                                                                                "background_position": "",
+                                                                                "background_repeat": "",
+                                                                                "height": 20,
+                                                                                "backgroundopacity": 0
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "node1428644671452",
+                                                                    "name": "column 2",
+                                                                    "w_type": "column",
+                                                                    "class": "col-md-4",
+                                                                    "extraclass": "col-xs-12 col-sm-12  ",
+                                                                    "margintopclass": "mt0",
+                                                                    "marginbottomclass": "mb0",
+                                                                    "background_property": {
+                                                                        "background_position": "",
+                                                                        "background_repeat": "",
+                                                                        "height": 20
+                                                                    },
+                                                                    "template": "templates/row.html",
+                                                                    "nodes": [
+                                                                        {
+                                                                            "id": "widget1428644714127",
+                                                                            "class": "posrelative",
+                                                                            "extraclass": "",
+                                                                            "w_type": "widget",
+                                                                            "type": "uou-block-7g",
+                                                                            "template": "block/gui/uou-block-7g.html",
+                                                                            "widgetdata": {
+                                                                                "color": "0099ff",
+                                                                                "image": "img/blog-image-1.png",
+                                                                                "badge": "In The Lab",
+                                                                                "date": "01 / 24 / 2015",
+                                                                                "title": "Pariatur Velit Corrupti",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            },
+                                                                            "name": "uou-block-7g ",
+                                                                            "background_property": {
+                                                                                "background_color": "",
+                                                                                "background_image": "",
+                                                                                "background_position": "",
+                                                                                "background_repeat": "",
+                                                                                "height": 20,
+                                                                                "backgroundopacity": 0
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "node1428644675064",
+                                                                    "name": "column 3",
+                                                                    "w_type": "column",
+                                                                    "class": "col-md-4",
+                                                                    "extraclass": "col-xs-12 col-sm-12  ",
+                                                                    "margintopclass": "mt0",
+                                                                    "marginbottomclass": "mb0",
+                                                                    "background_property": {
+                                                                        "background_position": "",
+                                                                        "background_repeat": "",
+                                                                        "height": 20
+                                                                    },
+                                                                    "template": "templates/row.html",
+                                                                    "nodes": [
+                                                                        {
+                                                                            "id": "widget1428644721048",
+                                                                            "class": "posrelative",
+                                                                            "extraclass": "",
+                                                                            "w_type": "widget",
+                                                                            "type": "uou-block-7g",
+                                                                            "template": "block/gui/uou-block-7g.html",
+                                                                            "widgetdata": {
+                                                                                "color": "0099ff",
+                                                                                "image": "img/blog-image-1.png",
+                                                                                "badge": "In The Lab",
+                                                                                "date": "01 / 24 / 2015",
+                                                                                "title": "Pariatur Velit Corrupti",
+                                                                                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum."
+                                                                            },
+                                                                            "name": "uou-block-7g ",
+                                                                            "background_property": {
+                                                                                "background_color": "",
+                                                                                "background_image": "",
+                                                                                "background_position": "",
+                                                                                "background_repeat": "",
+                                                                                "height": 20,
+                                                                                "backgroundopacity": 0
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "name": "footer ",
+                                        "background_property": {
+                                            "background_color": "",
+                                            "background_image": "",
+                                            "background_position": "",
+                                            "background_repeat": "",
+                                            "height": 20,
+                                            "backgroundopacity": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "node1428644868895",
+                "name": "uou-block-7f",
+                "w_type": "row",
+                "extraclass": "container has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "height": 20
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428644891254",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "HTML",
+                        "template": "block/gui/htmlwidget.html",
+                        "widgetdata": {
+                            "html": "<div class=\"block-title-conten-left pt50\">\n      <h4>Latest From Blog</h4>\n</div>"
+                        },
+                        "name": "HTML ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    },
+                    {
+                        "id": "widget1428644868895",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/block/uou-block-7f.html",
+                        "widgetdata": {
+                            "background": "",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "text": "<p>There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. UOU Apps, is by far one of the worlds best known brands.</p>",
+                            "footertext": "Steve Jobs, Apple",
+                            "backgrondimage": "",
+                            "wrapper_class": "container has-bg-image",
+                            "posts": [
+                                {
+                                    "image": "http://placehold.it/200/34495e/34495e",
+                                    "title": "Perspiciatis Sint Pariatur Velit Corrupti",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
+                                    "button": "Read More",
+                                    "time_ago": "3 days ago",
+                                    "category": "Posted in: Design",
+                                    "comment_text": " 12 COMMENTS"
+                                },
+                                {
+                                    "image": "http://placehold.it/200/34495e/34495e",
+                                    "title": "Perspiciatis Sint Pariatur Velit Corrupti",
+                                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
+                                    "button": "Read More",
+                                    "time_ago": "3 days ago",
+                                    "category": "Posted in: Design",
+                                    "comment_text": " 12 COMMENTS"
+                                }
+                            ]
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428645036143",
+                "name": "row 6",
+                "w_type": "row",
+                "class": " ",
+                "margintopclass": "mt50",
+                "marginbottomclass": "mb0",
+                "extraclass": "container",
+                "background_property": {
+                    "background_position": "center center",
+                    "background_repeat": "no-repeat",
+                    "height": 20
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428645111978",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "uou-block-7e",
+                        "template": "block/gui/uou-block-7e.html",
+                        "widgetdata": {
+                            "timetext": "3 days ago",
+                            "tags": "Design",
+                            "comments": "12 Comments",
+                            "title": "Perspiciatis Sint Pariatur Velit Corrupti",
+                            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
+                            "button": "Read more"
+                        },
+                        "name": "uou-block-7e ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    },
+                    {
+                        "id": "widget1428645132749",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "pagination-secondary",
+                        "template": "block/gui/pagination-secondary.html",
+                        "widgetdata": {},
+                        "name": "pagination-secondary ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428645164999",
+                "name": "uou-block-4e-photo-secondary",
+                "w_type": "row",
+                "extraclass": "uou-block-4e secondary has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428645164999",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/footers/uou-block-4e-photo.html",
+                        "widgetdata": {
+                            "title": "Chameleon",
+                            "contact": [
+                                {
+                                    "text": "198 West 21th Street,<br>Suite 721, New York NY 10010",
+                                    "icons": "fa-map-marker"
+                                },
+                                {
+                                    "text": "<a href='mailto:'>contact@company.com</a>",
+                                    "icons": "fa-envelope"
+                                },
+                                {
+                                    "text": "<a href='tel:'>+88 (0) 101 0000 000</a>",
+                                    "icons": "fa-phone"
+                                }
+                            ],
+                            "twitter": "From Twitter",
+                            "photostream": "Photostream",
+                            "newsletter": "NEWSLETTER",
+                            "buttontext": "Subscribe",
+                            "newslettertext": "Subscribe to our newsletter to receive news, updates, free stuff and new releases by email. We don't do spam.",
+                            "twitterfeed": [
+                                {
+                                    "title": "RT <a href='#'>@no1son</a>: Now this <a href='#'>http://t.co/TSfMW1qMAW</a> is one hell of a stunning site!!! Awesome work guys <a href='#'>@AIRNAUTS</a>",
+                                    "text": "May 25"
+                                },
+                                {
+                                    "title": "Check out the wordpress version of Tucson - <a href='#'>http://t.co/sBlU3GbapT</a>",
+                                    "text": "May 25"
+                                }
+                            ],
+                            "nav": [
+                                {
+                                    "title": "Image 1",
+                                    "image": "http://placehold.it/100x100/5dade0/5dade0",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Image 2",
+                                    "image": "http://placehold.it/100x100/5dade0/5dade0",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Image 3",
+                                    "image": "http://placehold.it/100x100/5dade0/5dade0",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Image 4",
+                                    "image": "http://placehold.it/100x100/5dade0/5dade0",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Image 5",
+                                    "image": "http://placehold.it/100x100/5dade0/5dade0",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Image 6",
+                                    "image": "http://placehold.it/100x100/5dade0/5dade0",
+                                    "link": ""
+                                }
+                            ],
+                            "wrapper_class": "uou-block-4e secondary has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1428645189815",
+                "name": "uou-block-4a-social-icons",
+                "w_type": "row",
+                "extraclass": "uou-block-4a has-bg-image ",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1428645189815",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/footers/uou-block-4a-social-icons.html",
+                        "widgetdata": {
+                            "text": "<p>Copyright © 2014 Chameleon. All Rights reserved.</p>",
+                            "social": [
+                                {
+                                    "title": "Facebook",
+                                    "link": "https://www.facebook.com/",
+                                    "icons": "fa-facebook"
+                                },
+                                {
+                                    "title": "Twitter",
+                                    "link": "https://twitter.com/",
+                                    "icons": "fa-twitter"
+                                },
+                                {
+                                    "title": "Google",
+                                    "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                    "icons": "fa-google-plus"
+                                },
+                                {
+                                    "title": "Google",
+                                    "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                    "icons": "fa-dribbble"
+                                }
+                            ],
+                            "wrapper_class": "uou-block-4a has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "background_property": {
+            "background_color": "#fff",
+            "background_image": "",
+            "background_position": "",
+            "background_repeat": "",
+            "height": "auto"
+        }
+    }
+]
