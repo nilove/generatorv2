@@ -26,52 +26,57 @@
 
 <body ng-controller="DragDropController">
     <div id="main-wrapper">
-        <div class="uou-block-canvas uou-block-2a secondary posbottom">
-            <div class="container">
-                <a href="#" class="logo">Chameleon</a>
-
-                <div class="add-content-block">
-                    <a href="#" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false"><i class="fa fa-plus"></i>Content Block</a>
-                </div>
-
-
-
-                <div class="add-element-block">
-                    <a href="#" data-toggle="modal" data-target="#myModal_settings" data-backdrop="static" data-keyboard="false"><i class="fa fa-cogs"></i>Page settings</a>
-                </div>
-
-                <div class="add-element-block">
-                    <a href="#" data-toggle="modal" data-target="#myModal_pages" data-backdrop="static" data-keyboard="false"><i class="fa fa-cogs"></i>Pages</a>
-                </div>
-
-
-                <div class="save-preview-button">
-
-                    <button ng-click="EnablePrview();" class="btn btn-small btn-primary">
-                        {{previewtext}}
-                    </button>
-                    <button ng-click="resetcanvas();" class="btn btn-small btn-primary">
-                        Reset
-                    </button>
-                    <button data-toggle="modal" data-target="#import" class="btn btn-small btn-primary">
-                        Import
-                    </button>
-                    <button data-toggle="modal" data-target="#export" class="btn btn-small btn-primary">
-                        Export
-                    </button>
-                </div>
-
-            </div>
-            <!-- end container -->
-
-        </div>
-        <!-- end uou-block-canvas -->
+        
 
 
         <!--<div ng-include="'icons.html'"></div>-->
         <div ng-include="'config/page-edit-panel.html'"></div>
         <div style="margin-bottom:100px;">
             <div ng-repeat="(page_key,page) in accachedwidget">
+
+                <div ng-if="page_key == skey" class="uou-block-canvas uou-block-2a secondary posbottom">
+                    <div class="container">
+                        <a href="#" class="logo">{{page.name}}</a>
+
+                        <div class="add-content-block">
+                            <a href="#" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false"><i class="fa fa-plus"></i>Content Block</a>
+                        </div>
+
+
+
+                        <div class="add-element-block">
+                            <a href="#" data-toggle="modal" data-target="#myModal_settings" data-backdrop="static" data-keyboard="false"><i class="fa fa-cogs"></i>Page settings</a>
+                        </div>
+
+                        <div class="add-element-block">
+                            <a href="#" data-toggle="modal" data-target="#myModal_pages" data-backdrop="static" data-keyboard="false"><i class="fa fa-cogs"></i>Pages</a>
+                        </div>
+
+
+                        <div class="save-preview-button">
+
+                            <button ng-click="EnablePrview();" class="btn btn-small btn-primary">
+                                {{previewtext}}
+                            </button>
+                            <button ng-click="resetcanvas();" class="btn btn-small btn-primary">
+                                Reset
+                            </button>
+                            <button data-toggle="modal" data-target="#import" class="btn btn-small btn-primary">
+                                Import
+                            </button>
+                            <button data-toggle="modal" data-target="#export" class="btn btn-small btn-primary">
+                                Export
+                            </button>
+                        </div>
+
+                    </div>
+                    <!-- end container -->
+
+                </div>
+                <!-- end uou-block-canvas -->
+
+
+
                 <div ng-if="page_key == skey" class="widget_container  cons" style="background-color:{{page.background_property.background_color}};
                   background-image:url('{{page.background_property.background_image}}');
                   background-repeat:{{page.background_property.background_repeat}};

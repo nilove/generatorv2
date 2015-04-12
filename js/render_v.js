@@ -164,7 +164,7 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
     $scope.ApplyTemplate = function(template) {
         $http.get(template).success(function(data) {
             //alert($scope.skey);
-            console.log(data);
+            //console.log(data);
             $scope.accachedwidget[$scope.skey]["nodes"] = data;
         });
     }
@@ -402,7 +402,7 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
     $scope.pagename = "";
     $scope.addThisPage = function() {
-        $scope.pagename = "Page " + ($scope.accachedwidget.length + 1);
+        $scope.pagename = "Chameleon " + ($scope.accachedwidget.length + 1);
         if ($scope.pagename != "") {
             $scope.addPage($scope.pagename);
             $scope.pagename = "";
