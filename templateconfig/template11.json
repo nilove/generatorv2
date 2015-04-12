@@ -1,8 +1,4 @@
 [
-    {
-        "id": "page1428647959354",
-        "name": "Page 1",
-        "nodes": [
             {
                 "id": "node1428647983767",
                 "name": "uou-block-1a",
@@ -1258,13 +1254,4 @@
                     }
                 ]
             }
-        ],
-        "background_property": {
-            "background_color": "#fff",
-            "background_image": "",
-            "background_position": "",
-            "background_repeat": "",
-            "height": "auto"
-        }
-    }
-]
+        ]

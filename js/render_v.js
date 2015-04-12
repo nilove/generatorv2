@@ -163,8 +163,9 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
     $scope.ApplyTemplate = function(template) {
         $http.get(template).success(function(data) {
-
-            $scope.accachedwidget = data;
+            //alert($scope.skey);
+            console.log(data);
+            $scope.accachedwidget[$scope.skey]["nodes"] = data;
         });
     }
 
