@@ -1,5 +1,6 @@
 .modal {
   background: fade(@uou-secondary-color, 50%);
+  padding-left: 0 !important;
 
 
 
@@ -8,12 +9,35 @@
     overflow: auto;
   }
 
+  .modal-body {
+    [class*="col-"] {
+      padding-right: 15px;
+    }
+
+    @media (max-width: 480px)  {
+      padding: 10px 0;
+    }
+
+
+  }
+
   .modal-content {
     border-radius: 0;
     border: 0;
 
     .uou-block-3b {
       padding: @uou-line-height - 20  @uou-line-height;
+
+      h1 {
+        @media (max-width: 768px) {
+          font-size: 15px;
+          text-align: left;
+        }
+      }
+
+      
+
+
     }
 
     button.close {
@@ -52,7 +76,7 @@
 
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 1170px;
+    width: 90%;
   }
 
   .page-add-modal.modal-dialog {
@@ -122,4 +146,7 @@
 .modal-backdrop {
   position: fixed;
 }
+
+
+
 

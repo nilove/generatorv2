@@ -11094,16 +11094,49 @@ CANVAS PAGE STYLE
   padding: 0;
   border-top: 1px solid #808080;
   z-index: 999;
+  display: inline-block;
 }
 .uou-block-canvas.uou-block-2a.secondary .logo {
   color: #ffffff;
   padding-top: 10px;
   margin-right: 24px;
 }
+@media (max-width: 768px) {
+  .uou-block-canvas.uou-block-2a.secondary .logo {
+    font-size: 16px;
+  }
+}
+@media (max-width: 520px) {
+  .uou-block-canvas.uou-block-2a.secondary .logo {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 5px;
+  }
+}
+@media (max-width: 560px) {
+  .uou-block-canvas.uou-block-2a.secondary .logo {
+    float: none;
+    display: block;
+  }
+}
 .uou-block-canvas.uou-block-2a.secondary .add-content-block,
 .uou-block-canvas.uou-block-2a.secondary .add-element-block {
   float: left;
   border-left: 1px solid #808080;
+}
+@media (max-width: 1200px) {
+  .uou-block-canvas.uou-block-2a.secondary .add-content-block,
+  .uou-block-canvas.uou-block-2a.secondary .add-element-block {
+    border-left: 0;
+    border-right: 0;
+  }
+}
+@media (max-width: 560px) {
+  .uou-block-canvas.uou-block-2a.secondary .add-content-block,
+  .uou-block-canvas.uou-block-2a.secondary .add-element-block {
+    float: none;
+    display: block;
+  }
 }
 .uou-block-canvas.uou-block-2a.secondary .add-content-block a,
 .uou-block-canvas.uou-block-2a.secondary .add-element-block a {
@@ -11127,8 +11160,26 @@ CANVAS PAGE STYLE
   color: #ffffff;
   outline: 0;
 }
+@media (max-width: 768px) {
+  .uou-block-canvas.uou-block-2a.secondary .add-content-block a,
+  .uou-block-canvas.uou-block-2a.secondary .add-element-block a {
+    font-size: 11px;
+  }
+}
+@media (max-width: 560px) {
+  .uou-block-canvas.uou-block-2a.secondary .add-content-block a,
+  .uou-block-canvas.uou-block-2a.secondary .add-element-block a {
+    padding: 0 9px;
+  }
+}
 .uou-block-canvas.uou-block-2a.secondary .add-element-block {
   border-right: 1px solid #808080;
+}
+@media (max-width: 1200px) {
+  .uou-block-canvas.uou-block-2a.secondary .add-element-block {
+    border-left: 0;
+    border-right: 0;
+  }
 }
 .uou-block-canvas.uou-block-2a.secondary .save-preview-button {
   float: right;
@@ -11140,12 +11191,32 @@ CANVAS PAGE STYLE
 .uou-block-canvas.uou-block-2a.secondary .save-preview-button button.btn {
   border-radius: 20px;
 }
+@media (max-width: 1200px) {
+  .uou-block-canvas.uou-block-2a.secondary .save-preview-button button {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .uou-block-canvas.uou-block-2a.secondary .save-preview-button {
+    float: left;
+    padding-top: 10px;
+  }
+}
 .modal {
   background: rgba(52, 73, 94, 0.5);
+  padding-left: 0 !important;
 }
 .modal .modal-dialog {
   border-radius: 0;
   overflow: auto;
+}
+.modal .modal-body [class*="col-"] {
+  padding-right: 15px;
+}
+@media (max-width: 480px) {
+  .modal .modal-body {
+    padding: 10px 0;
+  }
 }
 .modal .modal-content {
   border-radius: 0;
@@ -11153,6 +11224,12 @@ CANVAS PAGE STYLE
 }
 .modal .modal-content .uou-block-3b {
   padding: 4px 24px;
+}
+@media (max-width: 768px) {
+  .modal .modal-content .uou-block-3b h1 {
+    font-size: 15px;
+    text-align: left;
+  }
 }
 .modal .modal-content button.close {
   right: 8px;
@@ -11179,7 +11256,7 @@ CANVAS PAGE STYLE
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 1170px;
+    width: 90%;
   }
   .page-add-modal.modal-dialog {
     width: 600px;
@@ -11278,6 +11355,13 @@ CANVAS PAGE STYLE
   visibility: visible;
   opacity: 1;
 }
+@media (max-width: 992px) {
+  .header-block-content .block-preview-image,
+  .toolbar-content-block .block-preview-image,
+  .footer-content-block .block-preview-image {
+    margin-bottom: 25px;
+  }
+}
 .header-block-content .block-preview-image img,
 .toolbar-content-block .block-preview-image img,
 .footer-content-block .block-preview-image img {
@@ -11293,6 +11377,16 @@ CANVAS PAGE STYLE
   visibility: hidden;
   opacity: 0;
   transition: all .3s ease;
+}
+@media (max-width: 992px) {
+  .header-block-content .block-preview-image button,
+  .toolbar-content-block .block-preview-image button,
+  .footer-content-block .block-preview-image button {
+    visibility: visible;
+    opacity: 1;
+    font-size: 10px;
+    right: 0;
+  }
 }
 .header-block-content .block-preview-image button i,
 .toolbar-content-block .block-preview-image button i,
@@ -11337,11 +11431,40 @@ CANVAS PAGE STYLE
 .page-layout-block .block-preview-image:after {
   clear: both;
 }
+@media (max-width: 1200px) {
+  .page-layout-block .block-preview-image {
+    width: 23%;
+  }
+}
+@media (max-width: 768px) {
+  .page-layout-block .block-preview-image {
+    width: 47%;
+    height: 420px;
+  }
+}
+@media (max-width: 420px) {
+  .page-layout-block .block-preview-image {
+    width: 100%;
+    height: 420px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 420px) {
+  .page-layout-block .block-preview-image.for-ui-elements {
+    height: auto;
+  }
+}
 .page-layout-block .block-preview-image img {
   width: 100%;
   max-height: 300px;
   margin-bottom: 5px;
   display: block;
+}
+@media (max-width: 768px) {
+  .page-layout-block .block-preview-image img {
+    max-height: 380px;
+  }
 }
 .page-layout-block .block-preview-image button {
   position: relative;
@@ -11422,11 +11545,22 @@ CANVAS PAGE STYLE
   position: relative;
   padding: 40px 50px 0;
 }
+@media (max-width: 420px) {
+  .image-edit-block {
+    padding: 25px 0 0;
+  }
+}
 .image-edit-block .generator-sidebar {
   width: 100%;
 }
 .image-edit-block .generator-sidebar .pages li {
   padding: 21px 20px 32px 55px;
+}
+@media (max-width: 520px) {
+  .image-edit-block .generator-sidebar .pages li {
+    display: inline-block;
+    padding: 21px 10px 11px 55px;
+  }
 }
 .image-edit-block .upload-image-content {
   position: relative;
@@ -11536,6 +11670,20 @@ CANVAS PAGE STYLE
   height: 250px;
   background: url('../img/map-bg.JPG') top center no-repeat;
   background-size: cover;
+}
+.angular-ui-tree-handle {
+  display: inline-block;
+  width: 100%;
+}
+@media (max-width: 520px) {
+  .angular-ui-tree-handle {
+    font-size: 11px;
+  }
+}
+@media (max-width: 520px) {
+  .generator-sidebar .pages li {
+    display: inline-block;
+  }
 }
 /*
 ======================================================
