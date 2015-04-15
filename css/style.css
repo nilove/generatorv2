@@ -11685,6 +11685,9 @@ CANVAS PAGE STYLE
     display: inline-block;
   }
 }
+.btn.btn-for-edit {
+  padding: 1px 8px;
+}
 /*
 ======================================================
   MISC

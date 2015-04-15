@@ -1,10 +1,10 @@
 
 
 <div class="row_edit_area posleft" ng-if="childNode.w_type == 'row'">
-  <a href="#" class="btn btn-primary" ng-click="EnablePrview();" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#myModal_{{childNode.id}}"><i class="fa fa-pencil fa-3x"></i></a>
-  <a href="#" class="btn btn-primary" data-backdrop="static" data-keyboard="false"  ng-click="EnablePrview();" data-toggle="modal" data-target="#myModal_add_block_{{childNode.id}}"><i class="fa fa-plus"></i></a>
+  <a href="#" class="btn btn-primary btn-for-edit" ng-click="EnablePrview();" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#myModal_{{childNode.id}}"><i class="fa fa-pencil fa-3x"></i></a>
+  <a href="#" class="btn btn-primary btn-for-edit" data-backdrop="static" data-keyboard="false"  ng-click="EnablePrview();" data-toggle="modal" data-target="#myModal_add_block_{{childNode.id}}"><i class="fa fa-plus"></i></a>
 
-  <a href="#" class="btn btn-primary" removenode ng-model="page.nodes" key="row_key"><i class="fa fa-trash"></i></a>
+  <a href="#" class="btn btn-primary btn-for-edit" removenode ng-model="page.nodes" key="row_key"><i class="fa fa-trash"></i></a>
 </div>
 
 <div class="row_edit_area posright" ng-if="childNode.w_type == 'column'">
