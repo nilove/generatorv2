@@ -11682,6 +11682,14 @@ CANVAS PAGE STYLE
 .btn.btn-for-edit {
   padding: 1px 8px;
 }
+.block-preview-image.for-ui-elements {
+  height: 300px;
+}
+.block-preview-image.for-ui-elements img {
+  width: auto;
+  max-height: 250px;
+  height: auto;
+}
 /*
 ======================================================
   MISC
