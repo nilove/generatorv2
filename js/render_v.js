@@ -497,7 +497,7 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
         $http.post('export.php', data)
             .success(function(data, status, headers, config) {
-                //location.href = data;
+                location.href = data;
             })
             .error(function(data, status, headers, config) {
                 console.log('error');
