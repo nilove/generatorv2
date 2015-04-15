@@ -15,7 +15,7 @@
               <div style="display:inline;" ng-bind-html="cont.text"></div>
             </li>
           </ul>
-          <button data-toggle="modal" data-target="#myModal_text_{{childNode.id}}" class="btn btn-primary edit-buttons">
+          <button data-toggle="modal" data-target="#myModal_text_{{childNode.id}}" class="btn btn-primary edit-buttons btn-for-edit">
               <i class="fa fa-plus-square fa-3x"></i>
           </button>
           </ul>
@@ -41,10 +41,10 @@
                </a>
             </li>
           </ul>
-          <button twitterfeed ng-model="childNode.widgetdata.twitterfeed" class="btn btn-primary edit-buttons">
+          <button twitterfeed ng-model="childNode.widgetdata.twitterfeed" class="btn btn-primary edit-buttons btn-for-edit">
                     <i class="fa fa-plus-square fa-3x"></i>
             </button>
-            <button removetwitterfeed ng-model="childNode.widgetdata.twitterfeed"  class="btn btn-primary edit-buttons">
+            <button removetwitterfeed ng-model="childNode.widgetdata.twitterfeed"  class="btn btn-primary edit-buttons btn-for-edit">
                     <i class="fa fa-trash-o fa-3x"></i>
             </button>
         </div>
@@ -61,7 +61,7 @@
               </a>
             </li>
           </ul>
-          <button data-toggle="modal" data-target="#myModal_image_{{childNode.id}}" class="btn btn-primary edit-buttons">
+          <button data-toggle="modal" data-target="#myModal_image_{{childNode.id}}" class="btn btn-primary edit-buttons btn-for-edit">
                     <i class="fa fa-plus-square fa-3x"></i>
           </button>
         </div>
