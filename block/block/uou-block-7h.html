@@ -21,14 +21,14 @@
 		                <button addarticle 
 		                        ng-model="childNode.widgetdata.slides" 
 		                        currentslide="s" 
-		                        class="btn btn-primary">
+		                        class="btn btn-primary btn-for-edit">
 		                        <i class="fa 
 		                                  fa-plus 
 		                                  fa-3x">
 		                        </i>
 		                </button>
 		                <button ng-click="TriggerSliderUpload(childNode.id,$index)" 
-		                        class="btn btn-primary">
+		                        class="btn btn-primary btn-for-edit">
 		                        <i class="fa 
 		                                  fa-pencil 
 		                                  fa-3x">
@@ -37,14 +37,14 @@
 		                <button removeslide 
 		                        ng-model="childNode.widgetdata.slides" 
 		                        slideindex="$index" 
-		                        class="btn btn-primary">
+		                        class="btn btn-primary btn-for-edit">
 		                        <i class="fa 
 		                                  fa-trash-o 
 		                                  fa-3x">
 		                        </i>
 		                </button>
 		                <span style="display:none;" 
-		                      class="btn btn-primary fileinput-button">
+		                      class="btn btn-primary fileinput-button btn-for-edit">
 		                      <span>Change</span>
 		                      <input id="slider_file_{{childNode.id}}_{{$index}}" 
 		                             class="slider_image_upload" 
