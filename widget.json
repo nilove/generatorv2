@@ -344,6 +344,26 @@
         "category": "gui"
     },
     {
+        "id": "form3",
+        "title": "form3",
+        "widget_conf": "block/gui/form3.json",
+        "src": "img/block-preview-image/gui/gui36.JPG",
+        "type": "form3",
+        "class": "to_widget",
+        "template": "block/gui/form3.html",
+        "category": "gui"
+    },
+    {
+        "id": "form4",
+        "title": "form4",
+        "widget_conf": "block/gui/form4.json",
+        "src": "img/block-preview-image/gui/gui37.JPG",
+        "type": "form4",
+        "class": "to_widget",
+        "template": "block/gui/form4.html",
+        "category": "gui"
+    },
+    {
         "id": "object1",
         "title": "Row",
         "widget_conf": "",
