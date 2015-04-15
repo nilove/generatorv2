@@ -70,38 +70,6 @@
                                     "class": "btn-secondary"
                                 }
                             ],
-                            "nav": [
-                                {
-                                    "title": "Home",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Shop",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Lookbook",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Shortcodes",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Contact",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                }
-                            ],
                             "wrapper_class": "uou-block-1b has-bg-image",
                             "backgroundcolor": "#fff",
                             "backgroundopacity": 0,

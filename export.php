@@ -68,6 +68,7 @@ foreach ($data as $d)
               <nav class="main-nav">
                 <ul>
                   <?php 
+                  //print_r($globalmenu);
                   foreach ($globalmenu as $menu) 
                   {
                      foreach ($menu as $d) 
@@ -187,6 +188,7 @@ foreach ($data as $d)
             $out1 = ob_get_contents();
             ob_end_clean();
             $out1=trim($out1);
+            print_r($globalmenu);
             $file = fopen("{$base_path}{$folder}/{$page_name}.html","w+");
             file_put_contents("{$base_path}{$folder}/{$page_name}.html",$out1);
             //print_r($global_bg_array);     

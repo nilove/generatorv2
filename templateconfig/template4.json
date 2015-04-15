@@ -3,7 +3,7 @@
                 "id": "node1428469569792",
                 "name": "uou-block-1b",
                 "w_type": "row",
-                "extraclass": "uou-block-1b has-bg-image ",
+                "extraclass": "uou-block-1b has-bg-image",
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
@@ -68,38 +68,6 @@
                                 {
                                     "title": "Register",
                                     "class": "btn-secondary"
-                                }
-                            ],
-                            "nav": [
-                                {
-                                    "title": "Home",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Shop",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Lookbook",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Shortcodes",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Contact",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
                                 }
                             ],
                             "wrapper_class": "uou-block-1b has-bg-image",

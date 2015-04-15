@@ -1,0 +1,15 @@
+<form role="form">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" id="exampleInputEmail1" placeholder="Enter email">
+
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" id="exampleInputPassword1" placeholder="Password">
+
+      <label for="exampleInputSlider1">Slider</label>
+      <input type="range" id="exampleInputSlider1" min="10" max="100" step="1" value="50" data-unit-before="" data-unit-after=" km">
+
+      <label class="checkbox"><input type="checkbox"> Check me out</label>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="reset" class="btn btn-default">Reset</button>
+</form>

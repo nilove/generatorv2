@@ -339,6 +339,7 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
     $scope.RefreshScope = function() {
         //alert("here");
+        localStorage.setItem("pagescope", $scope.skey);
         localStorage.setItem("generatorscope", JSON.stringify($scope.accachedwidget));
         location.href = self.location;
     }
@@ -350,23 +351,33 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
     $scope.ReloadFromeScope = function() {
 
-        
+       
+        if($scope.accachedwidget.length == 0)
+        {
+            $scope.setPageScope(0);
+            localStorage.setItem("pagescope", $scope.skey);
+        }
         try {
             $scope.accachedwidget = JSON.parse(localStorage.getItem("generatorscope"));
+            $scope.setPageScope(parseInt(localStorage.getItem("pagescope")));
             if ($scope.accachedwidget.length == 0) {
                 $scope.addThisPage();
+                $scope.setPageScope(0);
+
             }
 
 
         } catch (e) {
             $scope.accachedwidget = [];
             $scope.addThisPage();
+            $scope.setPageScope(0);
             return false;
         }
-        $scope.executeAutoSave();
+        
 
         //alert();
-        $scope.setPageScope(parseInt(localStorage.getItem("pagescope")));
+        
+        $scope.executeAutoSave();
 
     }
 
@@ -412,7 +423,21 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
 
     $scope.DeletePage = function(pagekey) {
-        $scope.accachedwidget.splice(pagekey, 1);
+        if($scope.accachedwidget.length > 1)
+        {
+            if(pagekey > 0)
+            {
+                $scope.skey= pagekey-1;
+                $scope.accachedwidget.splice(pagekey, 1);
+            }
+            else
+            {
+                $scope.skey= pagekey+1;
+                $scope.accachedwidget.splice(pagekey, 1);
+            }
+                
+        }
+        
     };
 
 
@@ -472,7 +497,7 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
         $http.post('export.php', data)
             .success(function(data, status, headers, config) {
-                location.href = data;
+                //location.href = data;
             })
             .error(function(data, status, headers, config) {
                 console.log('error');
@@ -1449,6 +1474,27 @@ app.directive('staticuoutabs', ['$parse', function($parse) {
 
         link: function(scope, element, attrs) {
             $(element).uouTabs();
+
+        }
+    };
+}]);
+
+
+app.directive('rangeslider', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+
+        link: function(scope, element, attrs) {
+            $(element).rangeslider({
+                polyfill: false,
+                onInit: function () {
+                  this.$range.wrap('<div class="uou-rangeslider"></div>').parent().append('<div class="tooltip">' + this.$element.data('unit-before') + '<span></span>' + this.$element.data('unit-after') + '</div>');
+                },
+                onSlide: function(value, position) {
+                  var $span = this.$range.parent().find('.tooltip span');
+                  $span.html(position);
+                }
+              });
 
         }
     };

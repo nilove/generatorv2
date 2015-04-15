@@ -29,7 +29,7 @@ START MODAL FOR CONTENT BLOCK
 
                 <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'menu'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
 
-                  <img src="{{widgetdf.src}}" alt="">
+                  <img ng-src="{{widgetdf.src}}" alt="">
 
                   <button class="btn btn-small btn-success" data-dismiss="modal" aria-label="Close" ng-click="AddThisBlock(key_def);"><i class="fa fa-plus"></i>Add</button>
 
