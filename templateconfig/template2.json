@@ -68,38 +68,6 @@
                                     "title": "Register"
                                 }
                             ],
-                            "nav": [
-                                {
-                                    "title": "Home",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Shop",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Lookbook",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Shortcodes",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                },
-                                {
-                                    "title": "Contact",
-                                    "link": "",
-                                    "icons": "",
-                                    "items": []
-                                }
-                            ],
                             "wrapper_class": "uou-block-1a has-bg-image",
                             "backgroundcolor": "#fff",
                             "backgroundopacity": 0,
@@ -452,7 +420,7 @@
                                 "widgetdata": {
                                     "html": "<div class=\"block-title-conten\">\n      <h4>Recent Blog Posts</h4>\n</div>"
                                 },
-                                "name": "image ",
+                                "name": "html",
                                 "background_property": {
                                     "background_color": "",
                                     "background_image": "",
