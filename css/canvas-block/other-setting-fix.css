@@ -1,0 +1,63 @@
+.ui-slider {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.launch-icons {
+  width: 100%;
+  border-radius: 0 !important;
+  border: 2px solid #ccc !important;
+  margin-bottom: 20px !important;
+}
+.block-title-conten {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.block-title-conten-left {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.map-custom-content {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background: url('../img/map-bg.JPG') top center no-repeat;
+  background-size: cover;
+}
+.map-custom-small {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: url('../img/map-bg.JPG') top center no-repeat;
+  background-size: cover;
+}
+.angular-ui-tree-handle {
+  display: inline-block;
+  width: 100%;
+}
+@media (max-width: 520px) {
+  .angular-ui-tree-handle {
+    font-size: 11px;
+  }
+}
+@media (max-width: 520px) {
+  .generator-sidebar .pages li {
+    display: inline-block;
+  }
+}
+.btn.btn-for-edit {
+  padding: 1px 8px;
+}
+.block-preview-image.for-ui-elements {
+  height: 300px;
+}
+.block-preview-image.for-ui-elements img {
+  width: auto;
+  max-height: 250px;
+  height: auto;
+}

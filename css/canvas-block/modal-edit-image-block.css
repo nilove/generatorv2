@@ -1,0 +1,73 @@
+.image-edit-block {
+  position: relative;
+  padding: 40px 50px 0;
+}
+@media (max-width: 420px) {
+  .image-edit-block {
+    padding: 25px 0 0;
+  }
+}
+.image-edit-block .generator-sidebar {
+  width: 100%;
+}
+.image-edit-block .generator-sidebar .pages li {
+  padding: 21px 20px 32px 55px;
+}
+@media (max-width: 520px) {
+  .image-edit-block .generator-sidebar .pages li {
+    display: inline-block;
+    padding: 21px 10px 11px 55px;
+  }
+}
+.image-edit-block .upload-image-content {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  display: table;
+  vertical-align: middle;
+}
+.image-edit-block .upload-image-content .image-size {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 4px;
+  background: #ddd;
+  border-top-left-radius: 3px;
+}
+.image-edit-block .upload-image-content .image-size p {
+  color: #fff;
+  font-size: 13px;
+  margin: 0;
+}
+.image-edit-block .upload-image-content input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0 !important;
+  cursor: pointer;
+  z-index: 99;
+}
+.image-edit-block .single-form-content {
+  position: relative;
+}
+.image-edit-block .single-form-content .form-title {
+  font-size: 13px;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.image-edit-block .single-form-content input,
+.image-edit-block .single-form-content select {
+  margin-bottom: 15px;
+  color: #666;
+}
+.image-edit-block .info-text {
+  font-style: italic;
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 0;
+}
