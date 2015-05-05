@@ -3560,6 +3560,17 @@ fieldset[disabled] .btn {
   color: #278aca;
   text-decoration: underline;
 }
+.btn-magenta {
+  background-color: #8a4bd1;
+}
+.btn-magenta:hover,
+.btn-magenta.hover,
+.btn-magenta:focus,
+.btn-magenta.focus,
+.btn-magenta:active,
+.btn-magenta.active {
+  background-color: #702fba;
+}
 /* Large */
 .btn-large {
   font-size: 18px;
@@ -5711,6 +5722,60 @@ div.mejs-speed-button {
 /* End: Skip Back */
 .mejs-audio {
   width: 100% !important;
+}
+/* SLIDER */
+#slider {
+  position: relative;
+}
+#slider .slide {
+  padding: 230px 0 200px 0;
+  background-size: cover;
+  background-position: center;
+}
+#slider .slide .title {
+  position: relative;
+  padding-bottom: 45px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 42px;
+  line-height: 46px;
+}
+#slider .slide .title .color-magenta {
+  color: #8a4bd1;
+}
+#slider .slide .title:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 90px;
+  height: 1px;
+  background: #ffffff;
+}
+#slider .owl-controls {
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#slider .owl-controls .owl-pagination {
+  position: relative;
+}
+#slider .owl-controls .owl-pagination .owl-page {
+  margin: 0 3px;
+  display: inline-block;
+}
+#slider .owl-controls .owl-pagination .owl-page.active span {
+  background-color: #ffffff;
+}
+#slider .owl-controls .owl-pagination .owl-page span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /*
 ======================================================

@@ -566,4 +566,28 @@ $('.uou-block-12c').each(function () {
   });
 });
 
+
+
+  $("#slider").owlCarousel({
+    singleItem: true
+  });
+
+  // BACKGROUND FOR EACH SLIDE
+  $( '#slider' ).each(function(){
+
+    var self = $(this),
+    slide = self.find( '.slide' );
+
+    // SET BG IMAGES
+    slide.each(function(){
+      var img =  $(this).find( '.background' );
+      if ( img.length > 0 ) {
+        $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
+        img.hide();
+      }
+    });
+  });
+
+
+
 }(jQuery));
