@@ -1,0 +1,30 @@
+<div class="blog-single">
+    <div class="post-with-full-img">
+      <article class="uou-block-7c">
+        <img class="image" src="{{childNode.widgetdata.image}}" alt="">
+
+        <div class="blog-title">
+
+          <i class="fa fa-file-image-o"></i>
+          <span class="date text-left" plaintx-contenteditable ng-model="childNode.widgetdata.time">{{childNode.widgetdata.time || ''}}<span></span></span>
+
+          <h1 class="text-left"><a href="#" plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></a></h1>
+        </div>
+
+
+
+        <p class="text-left" tx-contenteditable ng-model="childNode.widgetdata.text">{{childNode.widgetdata.text || ''}}<span></span></p>
+
+      </article> <!-- end .uou-block-7c -->
+    </div>
+    <div class="upload_button_container">
+          <span class="btn btn-primary fileinput-button btn-for-edit">
+              <i class="fa fa-upload fa-3x"></i>
+                  <input type="file" 
+                       filemodel 
+                       ng-model="childNode.widgetdata.image"
+                       accept="image/*"
+                      />
+          </span>
+    </div>
+</div> <!--  end blog-single -->

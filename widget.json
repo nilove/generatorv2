@@ -1047,6 +1047,63 @@
         "category": "gui"
     },
     {
+        "id": "blog-single",
+        "title": "blog-single",
+        "widget_conf": "block/gui/blog-single.json",
+        "src": "img/block-preview-image/gui/gui42.JPG",
+        "type": "footer",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/gui/blog-single.html",
+        "category": "gui"
+    },
+    {
+        "id": "blog-single-image",
+        "title": "blog-single-image",
+        "widget_conf": "block/gui/blog-single-image.json",
+        "src": "img/block-preview-image/gui/gui38.JPG",
+        "type": "footer",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/gui/blog-single-image.html",
+        "category": "gui"
+    },
+    {
+        "id": "blog-single-slider",
+        "title": "blog-single-slider",
+        "widget_conf": "block/gui/blog-single-slider.json",
+        "src": "img/block-preview-image/gui/gui39.JPG",
+        "type": "footer",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/gui/blog-single-slider.html",
+        "category": "gui"
+    },
+    {
+        "id": "blog-single-video",
+        "title": "blog-single-video",
+        "widget_conf": "block/gui/blog-single-video.json",
+        "src": "img/block-preview-image/gui/gui40.JPG",
+        "type": "footer",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/gui/blog-single-video.html",
+        "category": "gui"
+    },
+    
+    {
+        "id": "sidebar",
+        "title": "sidebar",
+        "widget_conf": "block/gui/sidebar.json",
+        "src": "img/block-preview-image/gui/gui41.JPG",
+        "type": "gui",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/gui/sidebar.html",
+        "category": "gui"
+    },
+
+    {
         "id": "uou-block-5a",
         "title": "uou-block-5a",
         "widget_conf": "block/block/uou-block-5a.json",
