@@ -1,0 +1,54 @@
+/* CTA */
+
+#cta {
+	position: relative;
+	padding: 50px 0 80px;
+	background: url(../img/cta.jpg) no-repeat center fixed;
+	background-size: cover;
+	overflow: hidden;
+
+	.title {
+		padding-top: 12px;
+		margin: 0;
+		font-size: 20px;
+		color: @white;
+	}
+
+	.btn {
+		padding-left: 50px;
+		padding-right: 50px;
+		margin: 0;
+	}
+
+	.arrow {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		padding-bottom: 1%;
+		background-color: #FFF;
+
+		&:before {
+			position: absolute;
+			padding-bottom: inherit;
+			bottom: 99.5%;
+			width: 50%;
+			right: 50%;
+			transform-origin: 100% 100% 0px;
+			transform: skewX(45deg);
+			background-color: inherit;
+			content: "";
+		}
+
+		&:after {
+			position: absolute;
+			padding-bottom: inherit;
+			bottom: 99.5%;
+			width: 50%;
+			left: 50%;
+		    transform-origin: 0px 100% 0px;
+		    transform: skewX(-45deg);
+			background-color: inherit;
+			content: "";
+		}
+	}
+}

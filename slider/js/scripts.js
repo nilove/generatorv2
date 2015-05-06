@@ -24,6 +24,10 @@ $(document).ready(function() {
 		singleItem: true
 	});
 
+	$("#clients-slider").owlCarousel({
+		items: 6
+	});
+
 	// BACKGROUND FOR EACH SLIDE
   $( '#slider' ).each(function(){
 
@@ -40,6 +44,33 @@ $(document).ready(function() {
     });
   });
 });
+
+$(window).load(function(){
+	// ISOTOPE FILTERS
+	$('#portfolio').each(function() {
+	  var $container = $('.portfolio-filters-content');
+		// initialize
+		$container.masonry({
+			itemSelector: 'article'
+	});
+
+	 var filterFns = {};
+
+	  $('#portfolio .filters li a').on( 'click', function() {
+	    var filterValue = $( this ).attr('data-filter');
+	    // use filterFn if matches value
+	    filterValue = filterFns[ filterValue ] || filterValue;
+	    $container.isotope({ filter: filterValue });
+
+	    $('#portfolio .filters li a').each(function(){
+	      $(this).removeClass("active");
+	    });
+	    $(this).addClass("active");
+
+	    return false;
+	  });
+	});
+})
 
 
 
