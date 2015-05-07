@@ -52,9 +52,9 @@ $(window).load(function(){
 		// initialize
 		$container.masonry({
 			itemSelector: 'article'
-	});
+		});
 
-	 var filterFns = {};
+		var filterFns = {};
 
 	  $('#portfolio .filters li a').on( 'click', function() {
 	    var filterValue = $( this ).attr('data-filter');
@@ -70,7 +70,7 @@ $(window).load(function(){
 	    return false;
 	  });
 	});
-})
+});
 
 
 
