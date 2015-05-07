@@ -33,30 +33,21 @@
 		}
 	}
 
-	.owl-controls {
+	.flex-control-nav {
 		position: absolute;
 		bottom: 45px;
 		left: 0;
 		right: 0;
 		text-align: center;
+		z-index: 9999;
 
-		.owl-pagination {
-			position: relative;
+		li {
 
-			.owl-page {
-				margin: 0 3px;
-				display: inline-block;
+			a {
+				background: rgba(2552,255,255,0.5);
 
-				&.active span {
-					background-color: @white;
-				}
-
-				span {
-					display: inline-block;
-					width: 13px;
-					height: 13px;
-					border-radius: 50%;
-					background-color: rgba(255,255,255,0.5);
+				&.flex-active {
+					background: @white;
 				}
 			}
 		}
