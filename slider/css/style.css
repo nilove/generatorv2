@@ -3524,6 +3524,17 @@ hr {
   margin-bottom: 30px;
   float: left;
   width: 350px;
+  overflow: hidden;
+}
+#portfolio .portfolio-filters-content article:hover img {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  transform: scale(1.15);
+}
+#portfolio .portfolio-filters-content article img {
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 @media (max-width: 1200px) {
   #portfolio .portfolio-filters-content article {
