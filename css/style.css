@@ -11881,7 +11881,7 @@ CANVAS PAGE STYLE
 #cta {
   position: relative;
   padding: 50px 0 80px;
-  background: url(../img/cta.jpg) no-repeat center fixed;
+  background: url(../img/cta.jpg) no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
