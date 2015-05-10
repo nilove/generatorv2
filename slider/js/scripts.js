@@ -19,10 +19,8 @@ var $body = $('body');
 // var LG_MD = window.matchMedia('(min-width:992px)');
 
 $(document).ready(function() {
-	
-	$("#slider").owlCarousel({
-		singleItem: true
-	});
+
+	$('.flexslider').flexslider();
 
 	$("#clients-slider").owlCarousel({
 		items: 6
