@@ -12129,6 +12129,42 @@ CANVAS PAGE STYLE
     display: none;
   }
 }
+.uou-banner {
+  position: relative;
+  padding: 50px 0 ;
+}
+.uou-banner .uou-banner-title h2 {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0;
+}
+.uou-testimonial .uou-block-5b blockquote:before {
+  content: '“';
+  color: #e93d3d;
+}
+.uou-about-us-content {
+  position: relative;
+}
+.uou-about-us-content .uou-block-8b i {
+  color: #e93d3d;
+}
+.uou-about-us-content .uou-block-8b h6 {
+  color: #333333;
+}
+.uou-about-us-content .flex-direction-nav a,
+.uou-about-us-content .flex-control-nav li a {
+  background: rgba(233, 61, 61, 0.5);
+}
+.uou-about-us-content .flex-direction-nav a:hover,
+.uou-about-us-content .flex-control-nav li a:hover {
+  background: #e93d3d;
+}
+.footer {
+  position: relative;
+}
+.footer .uou-block-4d.secondary {
+  background: #141414;
+}
 /*
 ======================================================
   MISC
