@@ -12159,6 +12159,14 @@ CANVAS PAGE STYLE
 .uou-about-us-content .flex-control-nav li a:hover {
   background: #e93d3d;
 }
+.uou-about-us-content .list-icon-large li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  text-align: center;
+  font-size: 32px;
+}
 .footer {
   position: relative;
 }
