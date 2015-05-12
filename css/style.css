@@ -12222,6 +12222,99 @@ CANVAS PAGE STYLE
 .uou-contact-us .uou-contact-details .uou-block-8b .list-icon-large li span strong {
   padding-right: 5px;
 }
+.uou-gallery {
+  position: relative;
+  width: 100%;
+}
+.uou-gallery .image-single {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.uou-gallery .image-single figure {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  transition: all .4s ease;
+  cursor: pointer;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .uou-gallery .image-single figure {
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.uou-gallery .image-single figure:hover .overlay-hover h4,
+.uou-gallery .image-single figure:hover .overlay-hover a {
+  visibility: visible;
+  opacity: 1;
+}
+.uou-gallery .image-single figure:hover .uou-overlay {
+  visibility: visible;
+  opacity: 1;
+  right: 0;
+}
+.uou-gallery .image-single figure:hover img {
+  transform: scale(1.1);
+}
+.uou-gallery .image-single figure .overlay-hover {
+  position: absolute;
+  top: 20px;
+  height: 84%;
+  width: 87%;
+  z-index: 9999;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid #ffffff;
+  transition: all .3s ease;
+  text-align: center;
+  padding-top: 40px;
+}
+.uou-gallery .image-single figure .overlay-hover h4 {
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s ease;
+}
+@media screen and (max-width: 768px) {
+  .uou-gallery .image-single figure .overlay-hover h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+.uou-gallery .image-single figure .overlay-hover a {
+  visibility: hidden;
+  opacity: 0;
+}
+@media screen and (max-width: 768px) {
+  .uou-gallery .image-single figure .overlay-hover {
+    padding-top: 20px;
+    width: 84%;
+    height: 81%;
+  }
+}
+.uou-gallery .image-single figure .uou-overlay {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(233, 61, 61, 0.75);
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s ease;
+}
+.uou-gallery .image-single figure img {
+  width: 100%;
+  height: 100%;
+  transition: all .3s ease;
+  transform: scale(1);
+}
 /*
 ======================================================
   MISC
