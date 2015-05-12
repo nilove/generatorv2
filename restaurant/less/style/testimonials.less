@@ -1,0 +1,64 @@
+/* TESTIMONIALS */
+
+#testimonials {
+	position: relative;
+	padding: 60px 0;
+	text-align: center;
+
+	.quotation_mark {
+		position: absolute;
+		margin-top: 20px;
+		margin-left: -45px;
+		left: 50%;
+		font-size: 96px;
+		color: lighten(@gray, 30%);
+		z-index: -1;
+	}
+
+	blockquote {
+		padding: 0;
+		margin: 0 0 30px 0;
+		display: inline-block;
+		border: none;
+
+		p {
+			margin: 0 0 20px 0;
+			font-size: 15px;
+			line-height: 22px;
+
+			&.who {
+				margin-bottom: 0px;
+			}
+
+			&.where {
+				color: @gray;
+				font-style: italic;
+			}
+		}
+	}
+
+	.owl-pagination {
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		right: 0;
+		
+		.owl-page {
+			margin: 0 2px;
+			display: inline-block;
+
+			&.active span {
+				background: @red;
+				border-color: @red;
+			}
+
+			span {
+				display: inline-block;
+				width: 12px;
+				height: 12px;
+				border: 2px solid lighten(@gray, 20%);
+				border-radius: 50%;
+			}
+		}
+	}
+}

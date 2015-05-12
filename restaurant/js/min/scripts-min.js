@@ -1,0 +1,1 @@
+!function($){"use strict";var o=$("body");$(document).ready(function(){$("#testimonials-slider").owlCarousel({singleItem:!0}),$("#dishes-slider").owlCarousel({singleItem:!0})});var e=!1;o.on("touchmove",function(){e=!0}),o.on("touchstart",function(){e=!1})}(jQuery);
