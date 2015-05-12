@@ -3552,9 +3552,12 @@ hr {
 /* INTRO */
 #intro {
   position: relative;
-  padding: 160px 0 20px 0;
+  padding: 0;
   background: url(../img/intro.jpg) no-repeat center;
   background-size: cover;
+}
+#intro .slide-text {
+  padding: 170px 0 120px 0;
 }
 #intro .slide-text h5 {
   margin: 0 0 0 50px;
@@ -3575,7 +3578,7 @@ hr {
   font-style: italic;
 }
 #intro .slide-text h2 {
-  margin: 0 0 120px 0;
+  margin: 0 0 0 0;
   color: #ffffff;
   font-size: 46px;
   text-transform: uppercase;
@@ -3583,7 +3586,7 @@ hr {
 }
 #intro .owl-pagination {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   right: 0;
   text-align: center;
@@ -3602,4 +3605,40 @@ hr {
   height: 12px;
   border: 2px solid #cccccc;
   border-radius: 50%;
+}
+#intro .owl-buttons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+#intro .owl-buttons .owl-prev {
+  position: absolute;
+  margin-top: -27.5px;
+  left: 18px;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  background: #ef3f45;
+}
+#intro .owl-buttons .owl-prev .fa {
+  color: #ffffff;
+  font-size: 24px;
+}
+#intro .owl-buttons .owl-next {
+  position: absolute;
+  margin-top: -27.5px;
+  right: 18px;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  background: #ef3f45;
+}
+#intro .owl-buttons .owl-next .fa {
+  color: #ffffff;
+  font-size: 24px;
 }
