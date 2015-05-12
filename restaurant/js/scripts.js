@@ -27,6 +27,10 @@ $(document).ready(function() {
 	$("#dishes-slider").owlCarousel({
 		singleItem: true
 	});
+
+	$("#intro-slider").owlCarousel({
+		singleItem: true
+	});
 });
 
 

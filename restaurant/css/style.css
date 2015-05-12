@@ -3372,6 +3372,7 @@ hr {
   bottom: 0px;
   left: 0;
   right: 0;
+  text-align: center;
 }
 #testimonials .owl-pagination .owl-page {
   margin: 0 2px;
@@ -3481,6 +3482,9 @@ hr {
 #menu .dish .dish-image {
   margin-bottom: 20px;
 }
+#menu .dish .dish-image img {
+  border-radius: 50%;
+}
 /* ABOUT */
 #about {
   position: relative;
@@ -3543,5 +3547,59 @@ hr {
   width: 12px;
   height: 12px;
   border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+/* INTRO */
+#intro {
+  position: relative;
+  padding: 160px 0 20px 0;
+  background: url(../img/intro.jpg) no-repeat center;
+  background-size: cover;
+}
+#intro .slide-text h5 {
+  margin: 0 0 0 50px;
+  color: #ffffff;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#intro .slide-text h1 {
+  margin: -40px 0 0 0;
+  color: #ffffff;
+  font-size: 123px;
+}
+#intro .slide-text h3 {
+  margin: 0 0 15px 0;
+  color: #ffffff;
+  font-size: 39px;
+  font-style: italic;
+}
+#intro .slide-text h2 {
+  margin: 0 0 120px 0;
+  color: #ffffff;
+  font-size: 46px;
+  text-transform: uppercase;
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#intro .owl-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#intro .owl-pagination .owl-page {
+  margin: 0 2px;
+  display: inline-block;
+}
+#intro .owl-pagination .owl-page.active span {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+#intro .owl-pagination .owl-page span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #cccccc;
   border-radius: 50%;
 }
