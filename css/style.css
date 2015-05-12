@@ -12173,6 +12173,55 @@ CANVAS PAGE STYLE
 .footer .uou-block-4d.secondary {
   background: #141414;
 }
+.uou-contact-us {
+  position: relative;
+}
+.uou-contact-us .uou-contact-details {
+  position: relative;
+  width: 100%;
+  padding: 50px 0 100px;
+}
+.uou-contact-us .uou-contact-details .form {
+  background: #ffffff;
+  padding: 35px;
+  position: absolute;
+  top: -120px;
+}
+@media screen and (max-width: 768px) {
+  .uou-contact-us .uou-contact-details .form {
+    position: relative;
+    top: 0;
+  }
+}
+.uou-contact-us .uou-contact-details h4 {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+.uou-contact-us .uou-contact-details p {
+  font-size: 13px;
+}
+.uou-contact-us .uou-contact-details .uou-block-8b .list-icon-large li {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.uou-contact-us .uou-contact-details .uou-block-8b .list-icon-large li .fa {
+  top: 4px;
+  left: 0;
+  font-size: 25px;
+  color: #e93d3d;
+  width: 10px;
+}
+.uou-contact-us .uou-contact-details .uou-block-8b .list-icon-large li span {
+  font-size: 12px;
+  display: block;
+}
+.uou-contact-us .uou-contact-details .uou-block-8b .list-icon-large li span strong {
+  padding-right: 5px;
+}
 /*
 ======================================================
   MISC
