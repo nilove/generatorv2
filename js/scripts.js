@@ -568,25 +568,81 @@ $('.uou-block-12c').each(function () {
 
 
 
-  $("#slider").owlCarousel({
-    singleItem: true
-  });
+  // $("#slider").owlCarousel({
+  //   singleItem: true
+  // });
 
-  // BACKGROUND FOR EACH SLIDE
-  $( '#slider' ).each(function(){
+  // // BACKGROUND FOR EACH SLIDE
+  // $( '#slider' ).each(function(){
 
-    var self = $(this),
-    slide = self.find( '.slide' );
+  //   var self = $(this),
+  //   slide = self.find( '.slide' );
 
-    // SET BG IMAGES
-    slide.each(function(){
-      var img =  $(this).find( '.background' );
-      if ( img.length > 0 ) {
-        $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
-        img.hide();
-      }
+  //   // SET BG IMAGES
+  //   slide.each(function(){
+  //     var img =  $(this).find( '.background' );
+  //     if ( img.length > 0 ) {
+  //       $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
+  //       img.hide();
+  //     }
+  //   });
+  // });
+
+
+
+
+      $('.flexslider').flexslider();
+
+      $("#clients-slider").owlCarousel({
+        items: 6
+      });
+
+      // BACKGROUND FOR EACH SLIDE
+      $( '#slider' ).each(function(){
+
+        var self = $(this),
+        slide = self.find( '.slide' );
+
+        // SET BG IMAGES
+        slide.each(function(){
+          var img =  $(this).find( '.background' );
+          if ( img.length > 0 ) {
+            $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
+            img.hide();
+          }
+        });
+      });
+      
+    $(".swipebox").swipebox();
+
+
+  $(window).load(function(){
+    // ISOTOPE FILTERS
+    $('#portfolio').each(function() {
+      var $container = $('.portfolio-filters-content');
+      // initialize
+      $container.masonry({
+        itemSelector: 'article'
+      });
+
+      var filterFns = {};
+
+      $('#portfolio .filters li a').on( 'click', function() {
+        var filterValue = $( this ).attr('data-filter');
+        // use filterFn if matches value
+        filterValue = filterFns[ filterValue ] || filterValue;
+        $container.isotope({ filter: filterValue });
+
+        $('#portfolio .filters li a').each(function(){
+          $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+
+        return false;
+      });
     });
   });
+
 
 
 
