@@ -12266,6 +12266,13 @@ CANVAS PAGE STYLE
 #testimonials .slide blockquote {
   background: none;
 }
+.preamble .title {
+  margin: 0;
+  font-size: 34px;
+  line-height: 54px;
+  text-transform: none;
+  font-weight: 400;
+}
 .uou-gallery {
   position: relative;
   width: 100%;
