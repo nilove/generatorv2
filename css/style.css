@@ -12224,6 +12224,48 @@ CANVAS PAGE STYLE
 .uou-contact-us .uou-contact-details .uou-block-8b .list-icon-large li span strong {
   padding-right: 5px;
 }
+#intro-slider h1,
+#welcome h1,
+.opening h1,
+#menu h1,
+#testimonials h1,
+#about h1,
+#intro-slider h2,
+#welcome h2,
+.opening h2,
+#menu h2,
+#testimonials h2,
+#about h2,
+#intro-slider h3,
+#welcome h3,
+.opening h3,
+#menu h3,
+#testimonials h3,
+#about h3,
+#intro-slider h4,
+#welcome h4,
+.opening h4,
+#menu h4,
+#testimonials h4,
+#about h4,
+#intro-slider h5,
+#welcome h5,
+.opening h5,
+#menu h5,
+#testimonials h5,
+#about h5,
+#intro-slider h6,
+#welcome h6,
+.opening h6,
+#menu h6,
+#testimonials h6,
+#about h6 {
+  font-family: 'Playfair', Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+}
+#testimonials .slide blockquote {
+  background: none;
+}
 .uou-gallery {
   position: relative;
   width: 100%;
