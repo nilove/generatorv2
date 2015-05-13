@@ -3291,7 +3291,66 @@ hr {
 }
 /* HEADER */
 #header {
+  position: absolute;
+  z-index: 999;
+  top: 41px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+#header .uou-block-2b .nav {
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+}
+#header .uou-block-2b .nav .sf-menu {
   position: relative;
+  margin: 0;
+}
+#header .uou-block-2b .nav .sf-menu li {
+  margin-right: 50px;
+  height: 52px;
+  display: inline-block;
+  float: none;
+}
+@media (max-width: 992px) {
+  #header .uou-block-2b .nav .sf-menu li {
+    margin-right: 20px;
+  }
+}
+#header .uou-block-2b .nav .sf-menu li:last-child {
+  margin-right: 0;
+}
+#header .uou-block-2b .nav .sf-menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#header .uou-block-2b .nav .sf-menu li a:hover {
+  color: #ef3f45;
+}
+#header .uou-block-2b .nav .sf-menu li a:hover .fa {
+  color: #ef3f45;
+}
+#header .uou-block-2b .nav .sf-menu li a img {
+  margin: 0 auto;
+  display: block;
+}
+#header .uou-block-2b .nav .sf-menu li a.logo {
+  margin: 0 20px;
+  display: inline-block;
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-transform: uppercase;
+  border: 3px solid #ffffff;
+  padding: 12px 24px;
+}
+@media (max-width: 992px) {
+  #header .uou-block-2b .nav .sf-menu li a.logo {
+    margin: 0;
+  }
 }
 /* FOOTER */
 #footer {
