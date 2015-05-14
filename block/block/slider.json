@@ -1,0 +1,27 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"",
+  "slides":[
+  			{
+  				"image":"img/slider-1.jpg",
+  				"text":"Don't quack like<br> a duck, <b><span class='color-magenta'>soar like<br> an eagle.</span></b>",
+  				"heading":"Find Out More",
+          "items":[]
+  			},
+  			{
+  				"image":"img/slider-1.jpg",
+  				"text":"Don't quack like<br> a duck, <b><span class='color-magenta'>soar like<br> an eagle.</span></b>",
+  				"heading":"Find Out More",
+          "items":[]
+  			},
+  			{
+  				"image":"img/slider-1.jpg",
+  				"text":"Don't quack like<br> a duck, <b><span class='color-magenta'>soar like<br> an eagle.</span></b>",
+  				"heading":"Find Out More",
+          "items":[]
+  			}
+  			]
+}
