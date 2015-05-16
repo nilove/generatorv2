@@ -1536,5 +1536,28 @@
         "row": "full-width",
         "template": "block/block/clients.html",
         "category": "block"
+    },
+    {
+        "id": "restaurant-gallery",
+        "title": "restaurant-gallery",
+        "widget_conf": "block/block/restaurant-gallery.json",
+        "src": "img/block-preview-image/block/block40.JPG",
+        "type": "restaurant-gallery",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/restaurant-gallery.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-banner",
+        "title": "uou-banner",
+        "widget_conf": "block/block/uou-banner.json",
+        "src": "img/block-preview-image/block/block41.JPG",
+        "type": "uou-banner",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/uou-banner.html",
+        "category": "block"
     }
+    
 ]

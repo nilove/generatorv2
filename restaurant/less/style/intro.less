@@ -1,0 +1,108 @@
+/* INTRO */
+
+#intro {
+	position: relative;
+	padding: 0;
+	background: url(../img/intro.jpg) no-repeat center;
+	background-size: cover;
+
+	.slide-text {
+		padding: 170px 0 120px 0;
+
+		h5 {
+			margin: 0 0 0 50px;
+			color: @white;
+			font-size: 23px;
+			text-transform: uppercase;
+			font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+		h1 {
+			margin: -40px 0 0 0;
+			color: @white;
+			font-size: 123px;
+		}
+
+		h3 {
+			margin: 0 0 15px 0;
+			color: @white;
+			font-size: 39px;
+			font-style: italic;
+		}
+
+		h2 {
+			margin: 0 0 0 0;
+			color: @white;
+			font-size: 46px;
+			text-transform: uppercase;
+			font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+	}
+
+	.owl-pagination {
+		position: absolute;
+		bottom: 20px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		
+		.owl-page {
+			margin: 0 2px;
+			display: inline-block;
+
+			&.active span {
+				background: @white;
+				border-color: @white;
+			}
+
+			span {
+				display: inline-block;
+				width: 12px;
+				height: 12px;
+				border: 2px solid lighten(@gray, 20%);
+				border-radius: 50%;
+			}
+		}
+	}
+
+	.owl-buttons {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+
+		.owl-prev {
+			position: absolute;
+			margin-top: -27.5px;
+			left: 18px;
+			display: inline-block;
+			width: 55px;
+			height: 55px;
+			text-align: center;
+			line-height: 55px;
+			background: @red;
+
+			.fa {
+				color: @white;
+				font-size: 24px;
+			}
+		}
+
+		.owl-next {
+			position: absolute;
+			margin-top: -27.5px;
+			right: 18px;
+			display: inline-block;
+			width: 55px;
+			height: 55px;
+			text-align: center;
+			line-height: 55px;
+			background: @red;
+
+			.fa {
+				color: @white;
+				font-size: 24px;
+			}
+		}
+	}
+}

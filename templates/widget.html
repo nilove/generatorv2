@@ -53,12 +53,12 @@ START MODAL FOR CONTENT BLOCK
 
 
               <div id="uou-tab-4" class="toolbar-content-block">
-                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'block'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
+                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'block'" id="{{widgetdf.id}}_block" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
 
                   <img src="{{widgetdf.src}}" alt="">
 
                   <button class="btn btn-small btn-success" data-dismiss="modal" aria-label="Close" ng-click="AddThisBlock(key_def);"><i class="fa fa-plus"></i>Add</button>
-
+                  <div class="clearfix"></div>
                 </div> <!-- end block-preview image -->
               </div>
 
