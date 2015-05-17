@@ -1,0 +1,54 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"uou-gallery pt80 pb80",
+  "nav":[
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery1.jpg",
+            "link":""
+          },
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery2.jpg",
+            "link":""
+          },
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery3.jpg",
+            "link":""
+          },
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery4.jpg",
+            "link":""
+          },
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery5.jpg",
+            "link":""
+          },
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery6.jpg",
+            "link":""
+          },
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery7.jpg",
+            "link":""
+          },
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery8.jpg",
+            "link":""
+          },
+          {
+            "title":"Loren Ipsum Dolor",
+            "image":"img/res-gallery9.jpg",
+            "link":""
+          }
+      ]
+}
