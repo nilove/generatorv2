@@ -5797,62 +5797,6 @@ div.mejs-speed-button {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.5);
 }
-
-
-.flexslider {
-  position: relative;
-}
-.flexslider .slide {
-  padding: 230px 0 200px 0;
-  background-size: cover;
-  background-position: center;
-}
-.flexslider .slide .title {
-  position: relative;
-  padding-bottom: 45px;
-  margin-bottom: 30px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 42px;
-  line-height: 46px;
-}
-.flexslider .slide .title .color-magenta {
-  color: #8a4bd1;
-}
-.flexslider .slide .title:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  content: "";
-  width: 90px;
-  height: 1px;
-  background: #ffffff;
-}
-.flexslider .owl-controls {
-  position: absolute;
-  bottom: 45px;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-.flexslider .owl-controls .owl-pagination {
-  position: relative;
-}
-.flexslider .owl-controls .owl-pagination .owl-page {
-  margin: 0 3px;
-  display: inline-block;
-}
-.flexslider .owl-controls .owl-pagination .owl-page.active span {
-  background-color: #ffffff;
-}
-.flexslider .owl-controls .owl-pagination .owl-page span {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
 /*
 ======================================================
   BLOCKS
@@ -12185,6 +12129,28 @@ CANVAS PAGE STYLE
     display: none;
   }
 }
+.uou-client-slider {
+  position: relative;
+}
+.uou-client-slider .uou-clients-slide-section {
+  padding-bottom: 30px;
+}
+.uou-client-slider .uou-clients-slide-section .item {
+  margin: 3px;
+}
+.uou-client-slider .uou-clients-slide-section .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.uou-client-slider .block-title-conten h4,
+.uou-client-slider .block-title-conten p {
+  color: #ffffff !important;
+}
+.uou-client-slider .block-title-conten p {
+  text-transform: none;
+  font-size: 13px;
+}
 .uou-banner {
   position: relative;
   padding: 50px 0 ;
@@ -12519,6 +12485,22 @@ CANVAS PAGE STYLE
   padding-top: 30px;
   padding-bottom: 20px;
 }
+.uou-con-team .uou-block-6a h6 {
+  color: #333333;
+}
+.con-testimonial-content .uou-block-5a cite {
+  color: #ffffff;
+}
+.uou-constraction-toolbar .uou-block-1a {
+  background: #333333;
+}
+.uou-constraction-toolbar .uou-block-1a .toggle,
+.uou-constraction-toolbar .uou-block-1a .search.active .toggle,
+.uou-constraction-toolbar .uou-block-1a .search-input,
+.uou-constraction-toolbar .uou-block-1a input,
+.uou-constraction-toolbar .uou-block-1a .authentication li a {
+  color: #ffffff;
+}
 .uou-constraction-slider {
   position: relative;
 }
@@ -12586,6 +12568,64 @@ CANVAS PAGE STYLE
 .uou-service .uou-block-8d h4,
 .uou-service .uou-block-8d .fa {
   color: #333333;
+}
+.constraction-portfolio {
+  position: relative;
+  background: #f2f2f2;
+}
+.constraction-portfolio .block-title-conten {
+  padding-bottom: 0;
+}
+.constraction-portfolio .uou-portfolio {
+  padding: 0;
+}
+.constraction-portfolio .uou-portfolio .filters {
+  margin-bottom: 35px;
+  text-align: center;
+}
+.constraction-portfolio .uou-portfolio .filters li {
+  display: inline-block;
+}
+.constraction-portfolio .uou-portfolio .filters li a {
+  color: #333333;
+  text-transform: uppercase;
+}
+.constraction-portfolio .uou-portfolio .filters li a:hover,
+.constraction-portfolio .uou-portfolio .filters li a.active {
+  background-color: #ffcc30;
+  color: #333333;
+}
+@media (max-width: 768px) {
+  .constraction-portfolio .uou-portfolio .filters li {
+    display: block;
+    width: 100%;
+  }
+  .constraction-portfolio .uou-portfolio .filters li a {
+    display: block;
+  }
+}
+.con-blog-post {
+  position: relative;
+}
+.con-blog-post .flex-direction-nav a,
+.con-blog-post .flex-control-nav li {
+  background: rgba(255, 204, 48, 0.75);
+}
+.con-blog-post .flex-control-nav li a.flex-active {
+  background: rgba(255, 204, 48, 0);
+}
+.con-blog-post .uou-block-7c h1 {
+  color: #333333;
+}
+.constraction-footer {
+  position: relative;
+}
+.constraction-footer .uou-block-4e .logo,
+.constraction-footer .uou-block-4e h5 {
+  color: #333333;
+}
+.constraction-footer .uou-block-4a.secondary {
+  background: #333333;
 }
 /*
 ======================================================
