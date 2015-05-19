@@ -1,0 +1,170 @@
+.restaurant-menu-tab {
+	position: relative;
+
+	/* UOU Tabs */
+	/* ======================== */
+
+	.uou-tabs .content {
+		border: 0;
+	}
+
+	.uou-tabs .tabs li {
+		float: none;
+	}
+
+	
+
+
+	.uou-tabs {
+	  position: relative;
+	  margin: 0 0 0;
+	  padding-top: 30px;
+
+	  .tabs.constraction-tab {
+	    .clearfix();
+	    .list-unstyled();
+	    margin: 0;
+	    text-align: center;
+	    display: inline-block;
+	    width: 100%;
+
+	    .vertical& {
+	      float: left;
+	      width: 160px;
+	    }
+
+	    > li {
+	      position: relative;
+	      display: inline-block;
+	      margin-right: 5px;
+
+	      &:last-child {
+	        margin-right: 0;
+	      }
+
+	      > a {
+	        display: block;
+	        background: @white;
+	        color: @uou-text-color;
+	        padding: round(@uou-line-height * .333) @uou-line-height;
+	        .text-uppercase;
+	        font-weight: 600;
+
+	        &:hover {
+	          background: @uou-error-color;
+	          outline: 0;
+	          text-decoration: none;
+	          color: @white;
+	        }
+	      }
+
+	      &.active {
+	        > a {
+	          color: @white;
+	          background: @uou-error-color;
+	        }
+	      }
+
+	      .vertical& {
+	        float: none;
+	        margin-right: 0;
+	        margin-bottom: 5px;
+	      }
+	    }
+	  }
+
+	  .content {
+	    border-top: o !important;
+
+	    > div {
+	      display: none;
+	      position: relative;
+	      background: @white;
+	      padding: @uou-line-height *2 0;
+
+	      &.active {
+	        display: block;
+	      }
+
+
+	    }
+
+	    .vertical& {
+	      margin-left: 160px;
+	      border-top: 0;
+	      border-left: 3px solid @uou-secondary-color;
+	    }
+	  }
+
+	  .accordion-link {
+	    display: none;
+	    background: @uou-tertiary-color;
+	    color: @uou-text-color;
+	    padding: round(@uou-line-height * .333) @uou-line-height;
+	    margin-bottom: 5px;
+	    transition: all 0s;
+
+	    &:hover {
+	      background: @white;
+	      outline: 0;
+	    }
+
+	    &.active {
+	      color: @white;
+	      background: @uou-error-color;
+	    }
+	  }
+
+	  // Accordion media queries
+	  .accordion-toggle() {
+	    .tabs {
+	      display: none;
+	    }
+
+	    .accordion-link {
+	      display: block;
+	    }
+
+	    .content {
+	      border: 0;
+	      margin: 0;
+
+	      > div {
+	        margin-bottom: 5px;
+	      }
+	    }
+	  }
+
+	  @media (max-width: @screen-xs-max) {
+	    &.accordion-xs {
+	      .accordion-toggle();
+	    }
+	  }
+
+	  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+	    &.accordion-sm {
+	      .accordion-toggle();
+	    }
+	  }
+
+	  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+	    &.accordion-md {
+	      .accordion-toggle();
+	    }
+	  }
+
+	  @media (min-width: @screen-lg-min) {
+	    &.accordion-lg {
+	      .accordion-toggle();
+	    }
+	  }
+	}
+
+
+
+
+
+
+}
+
+

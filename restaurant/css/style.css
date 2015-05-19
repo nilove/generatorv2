@@ -3603,79 +3603,79 @@ hr {
   font-size: 24px;
 }
 /* MENU CARD */
-#menu-card {
+.restaturant-menu {
   position: relative;
-  padding: 70px 0;
-}
-#menu-card .book {
-  position: relative;
-}
-#menu-card .book .left-side {
   padding: 0;
 }
-#menu-card .book .left-side .menu-dishes {
+.restaturant-menu .book {
+  position: relative;
+}
+.restaturant-menu .book .left-side {
+  padding: 0;
+}
+.restaturant-menu .book .left-side .menu-dishes {
   background: #ef3f45;
 }
-#menu-card .book .left-side .menu-dishes li {
+.restaturant-menu .book .left-side .menu-dishes li {
   color: #ffffff;
 }
-#menu-card .book .left-side .menu-dishes li .subname:before {
-  border-bottom: 1px dotted #ffffff;
+.restaturant-menu .book .left-side .menu-dishes li .subname:before {
+  border-bottom: none;
 }
-#menu-card .book .right-side {
+.restaturant-menu .book .right-side {
   padding: 0;
   background: #cfbf8d;
 }
-#menu-card .book .right-side .menu-dishes li .subname:before {
-  border-bottom: 1px dotted #2a2a2c;
+.restaturant-menu .book .right-side .menu-dishes li .subname:before {
+  border-bottom: none;
 }
-#menu-card .book .header-banner,
-#menu-card .book .footer-banner {
+.restaturant-menu .book .header-banner,
+.restaturant-menu .book .footer-banner {
   position: relative;
   width: 100%;
 }
-#menu-card .book .header-banner img,
-#menu-card .book .footer-banner img {
+.restaturant-menu .book .header-banner img,
+.restaturant-menu .book .footer-banner img {
   width: 100%;
   height: auto;
 }
-#menu-card .book .menu-dishes {
+.restaturant-menu .book .menu-dishes {
   padding: 35px;
 }
-#menu-card .book .menu-dishes li {
+.restaturant-menu .book .menu-dishes li {
   position: relative;
   margin-bottom: 10px;
   font-size: 14px;
   width: 100%;
   display: inline-block;
 }
-#menu-card .book .menu-dishes li:last-child {
+.restaturant-menu .book .menu-dishes li:last-child {
   margin-bottom: 0;
 }
-#menu-card .book .menu-dishes li .name {
+.restaturant-menu .book .menu-dishes li .name {
   padding-right: 15px;
   font-weight: 700;
   z-index: 9999;
 }
-#menu-card .book .menu-dishes li .price {
+.restaturant-menu .book .menu-dishes li .price {
   padding-left: 10px;
   font-weight: 700;
   z-index: 9999;
 }
-#menu-card .book .menu-dishes li .subname {
+.restaturant-menu .book .menu-dishes li .subname {
   position: relative;
   width: 100%;
   font-size: 12px;
   line-height: 14px;
 }
-#menu-card .book .menu-dishes li .subname:before {
+.restaturant-menu .book .menu-dishes li .subname:before {
   position: absolute;
   top: -9px;
   width: 100%;
   left: 0;
   content: "";
 }
-#menu-card .book .ribbon {
+.restaturant-menu .book .ribbon {
   position: absolute;
   margin-top: -40px;
   right: 30px;
@@ -3691,36 +3691,36 @@ hr {
   font-family: 'Playfair', Georgia, "Times New Roman", Times, serif;
 }
 @media (max-width: 1200px) {
-  #menu-card .book .ribbon {
+  .restaturant-menu .book .ribbon {
     left: 0;
     right: 0;
     margin: -40px auto 0 auto;
   }
 }
-#menu-card .book .ribbon h5 {
+.restaturant-menu .book .ribbon h5 {
   margin: 0;
   color: #ef3f45;
   font-size: 27px;
 }
-#menu-card .book .ribbon h5 small {
+.restaturant-menu .book .ribbon h5 small {
   color: #1a1a1a;
   font-size: 13px;
   vertical-align: bottom;
 }
-#menu-card .book .thumbnails {
+.restaturant-menu .book .thumbnails {
   padding-bottom: 33px;
   padding-right: 45px;
   float: right;
 }
 @media (max-width: 1200px) {
-  #menu-card .book .thumbnails {
+  .restaturant-menu .book .thumbnails {
     margin: 0 auto;
     float: none;
     display: block;
     text-align: center;
   }
 }
-#menu-card .book .thumbnails img {
+.restaturant-menu .book .thumbnails img {
   margin-left: 15px;
   transform: rotate(15deg);
   display: inline-block;

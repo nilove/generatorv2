@@ -12388,6 +12388,174 @@ CANVAS PAGE STYLE
 .other-pages-menu .uou-block-2b.uou-block-2d {
   padding: 15px 0;
 }
+.restaurant-menu-tab {
+  position: relative;
+  /* UOU Tabs */
+  /* ======================== */
+}
+.restaurant-menu-tab .uou-tabs .content {
+  border: 0;
+}
+.restaurant-menu-tab .uou-tabs .tabs li {
+  float: none;
+}
+.restaurant-menu-tab .uou-tabs {
+  position: relative;
+  margin: 0 0 0;
+  padding-top: 30px;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab:before,
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab:after {
+  content: " ";
+  display: table;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab:after {
+  clear: both;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab:before,
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab:after {
+  content: " ";
+  display: table;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab:after {
+  clear: both;
+}
+.vertical.restaurant-menu-tab .uou-tabs .tabs.constraction-tab {
+  float: left;
+  width: 160px;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab > li {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab > li:last-child {
+  margin-right: 0;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab > li > a {
+  display: block;
+  background: #ffffff;
+  color: #333333;
+  padding: 8px 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab > li > a:hover {
+  background: #e93d3d;
+  outline: 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+.restaurant-menu-tab .uou-tabs .tabs.constraction-tab > li.active > a {
+  color: #ffffff;
+  background: #e93d3d;
+}
+.vertical.restaurant-menu-tab .uou-tabs .tabs.constraction-tab > li {
+  float: none;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+.restaurant-menu-tab .uou-tabs .content {
+  border-top: o !important;
+}
+.restaurant-menu-tab .uou-tabs .content > div {
+  display: none;
+  position: relative;
+  background: #ffffff;
+  padding: 48px 0;
+}
+.restaurant-menu-tab .uou-tabs .content > div.active {
+  display: block;
+}
+.vertical.restaurant-menu-tab .uou-tabs .content {
+  margin-left: 160px;
+  border-top: 0;
+  border-left: 3px solid #34495e;
+}
+.restaurant-menu-tab .uou-tabs .accordion-link {
+  display: none;
+  background: #f4f4f4;
+  color: #333333;
+  padding: 8px 24px;
+  margin-bottom: 5px;
+  transition: all 0s;
+}
+.restaurant-menu-tab .uou-tabs .accordion-link:hover {
+  background: #ffffff;
+  outline: 0;
+}
+.restaurant-menu-tab .uou-tabs .accordion-link.active {
+  color: #ffffff;
+  background: #e93d3d;
+}
+@media (max-width: 767px) {
+  .restaurant-menu-tab .uou-tabs.accordion-xs .tabs {
+    display: none;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-xs .accordion-link {
+    display: block;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-xs .content {
+    border: 0;
+    margin: 0;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-xs .content > div {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .restaurant-menu-tab .uou-tabs.accordion-sm .tabs {
+    display: none;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-sm .accordion-link {
+    display: block;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-sm .content {
+    border: 0;
+    margin: 0;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-sm .content > div {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .restaurant-menu-tab .uou-tabs.accordion-md .tabs {
+    display: none;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-md .accordion-link {
+    display: block;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-md .content {
+    border: 0;
+    margin: 0;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-md .content > div {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .restaurant-menu-tab .uou-tabs.accordion-lg .tabs {
+    display: none;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-lg .accordion-link {
+    display: block;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-lg .content {
+    border: 0;
+    margin: 0;
+  }
+  .restaurant-menu-tab .uou-tabs.accordion-lg .content > div {
+    margin-bottom: 5px;
+  }
+}
 .uou-gallery {
   position: relative;
   width: 100%;
