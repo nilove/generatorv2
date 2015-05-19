@@ -1787,3 +1787,74 @@ app.directive('uoublock12b', ['$parse', function($parse) {
         }
     };
 }]);
+
+
+app.directive('flexsliderwithcaption', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+
+        link: function(scope, element, attrs) {
+            $(element).flexslider();
+            $(element).each(function(){
+
+                var self = $(this),
+                slide = self.find( '.slide' );
+
+                // SET BG IMAGES
+                slide.each(function(){
+                  var img =  $(this).find( '.background' );
+                  if ( img.length > 0 ) {
+                    $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
+                    img.hide();
+                  }
+                });
+              });
+        }
+    };
+}]);
+
+app.directive('portfolio', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+
+        link: function(scope, element, attrs) {
+           $(element).each(function() {
+              var $container = $('.portfolio-filters-content');
+              // initialize
+              $container.masonry({
+                itemSelector: 'article'
+              });
+
+              var filterFns = {};
+
+              $('.filters li a',element).on( 'click', function() {
+                var filterValue = $( this ).attr('data-filter');
+                // use filterFn if matches value
+                filterValue = filterFns[ filterValue ] || filterValue;
+                $container.isotope({ filter: filterValue });
+
+                $('.filters li a',element).each(function(){
+                  $(this).removeClass("active");
+                });
+                $(this).addClass("active");
+
+                return false;
+              });
+            });
+        }
+    };
+}]);
+
+
+app.directive('owlslider', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs) {
+            $(element).owlCarousel(
+            {
+                items: 6
+            });
+        }
+    };
+}]);
+

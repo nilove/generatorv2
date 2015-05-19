@@ -58,11 +58,11 @@ var markers = [
 var dragging = false;
 
 $body.on('touchmove', function() {
-	dragging = true;
+  dragging = true;
 });
 
 $body.on('touchstart', function() {
-	dragging = false;
+  dragging = false;
 });
 
 
@@ -217,8 +217,6 @@ $('select').each(function () {
 }).change(function () {
   selectPlaceholder(this);
 });
-
-
 
 
 
@@ -568,6 +566,41 @@ $('.uou-block-12c').each(function () {
 
 
 
+  $(".swipebox").swipebox();
+
+
+$(window).load(function(){
+  // ISOTOPE FILTERS
+  $('.uou-portfolio').each(function() {
+    var $container = $('.portfolio-filters-content');
+    // initialize
+    $container.masonry({
+      itemSelector: 'article'
+    });
+
+    var filterFns = {};
+
+    $('.uou-portfolio .filters li a').on( 'click', function() {
+      var filterValue = $( this ).attr('data-filter');
+      // use filterFn if matches value
+      filterValue = filterFns[ filterValue ] || filterValue;
+      $container.isotope({ filter: filterValue });
+
+      $('.uou-portfolio .filters li a').each(function(){
+        $(this).removeClass("active");
+      });
+      $(this).addClass("active");
+
+      return false;
+    });
+  });
+});
+
+
+
+
+
+
   // $("#slider").owlCarousel({
   //   singleItem: true
   // });
@@ -616,34 +649,22 @@ $('.uou-block-12c').each(function () {
     $(".swipebox").swipebox();
 
 
-  $(window).load(function(){
-    // ISOTOPE FILTERS
-    $('#portfolio').each(function() {
-      var $container = $('.portfolio-filters-content');
-      // initialize
-      $container.masonry({
-        itemSelector: 'article'
-      });
 
-      var filterFns = {};
-
-      $('#portfolio .filters li a').on( 'click', function() {
-        var filterValue = $( this ).attr('data-filter');
-        // use filterFn if matches value
-        filterValue = filterFns[ filterValue ] || filterValue;
-        $container.isotope({ filter: filterValue });
-
-        $('#portfolio .filters li a').each(function(){
-          $(this).removeClass("active");
+      $(".uou-clients-slide-section").owlCarousel({
+       
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+       
+            items : 5,
+            itemsDesktop : [1199,3],
+            itemsDesktopSmall : [979,3]
+       
         });
-        $(this).addClass("active");
 
-        return false;
-      });
-    });
-  });
+  
 
 
 
 
 }(jQuery));
+
+ 

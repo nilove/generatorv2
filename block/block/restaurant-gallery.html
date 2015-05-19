@@ -1,0 +1,23 @@
+<div class="uou-gallery pt80 pb80">
+    <div class="container">
+      <div class="row">
+        <div ng-repeat="nav in childNode.widgetdata.nav" class="col-md-4 col-sm-6">
+          <div class="image-single">
+            <figure>
+              <div class="uou-overlay"></div>
+              <div class="overlay-hover">
+                <h4>{{nav.title}}</h4>
+                <a href="#" data-toggle="modal" data-target="#myModal_image_{{childNode.id}}" class="btn btn-error">Read more</a>
+              </div>
+              <img src="{{nav.image}}" alt="" class="img-responsive">
+            </figure>
+          </div> <!--  edn .iamge-single -->
+        </div>
+      </div>
+    </div>
+    <div class="load-more-button pt20 pb20 text-center clearfix">
+      <a href="#" class="btn btn-error">Load More</a>
+    </div>
+</div> <!--  end uou-gallery -->
+<div navsettingswithimage>
+</div>

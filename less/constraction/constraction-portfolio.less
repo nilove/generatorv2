@@ -1,0 +1,50 @@
+.constraction-portfolio {
+	position: relative;
+	background: #f2f2f2;
+
+	&.projects-page {
+		background: none;
+		margin-top: 30px;
+
+		&.block-title-conten {
+			padding-bottom: 20px;
+		}
+	}
+
+	.block-title-conten {
+		padding-bottom: 0;
+	}
+
+	.uou-portfolio {
+		padding: 0;
+
+		.filters {
+			margin-bottom: 35px;
+			text-align: center;
+
+			li {
+				display: inline-block;
+
+				a {
+					color: @uou-text-color;
+					text-transform: uppercase;
+
+					&:hover,
+					&.active {
+						background-color: @uou-warning-color;
+						color: @uou-text-color;
+					}
+				}
+
+				@media (max-width: @screen-sm) {
+					display: block;
+					width: 100%;
+
+					a {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}

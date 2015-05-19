@@ -20,7 +20,7 @@ var $body = $('body');
 
 $(document).ready(function() {
 
-	$("#testimonials-slider").owlCarousel({
+	$(".uou-testimonial-slider").owlCarousel({
 		singleItem: true
 	});
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
 		singleItem: true
 	});
 
-	$("#intro-slider").owlCarousel({
+	$(".intro-slider").owlCarousel({
 		singleItem: true,
 		navigation:true,
 	    navigationText: [
