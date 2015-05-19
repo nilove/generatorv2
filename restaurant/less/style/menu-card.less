@@ -1,0 +1,149 @@
+/* MENU CARD */
+
+#menu-card {
+	position: relative;
+	padding: 70px 0;
+
+	.book {
+		position: relative;
+
+		.left-side {
+			padding: 0;
+
+			.menu-dishes {
+				background: @red;
+
+				li {
+					color: @white;
+
+					.subname:before {
+						border-bottom: 1px dotted @white;
+					}
+				}
+			}
+		}
+
+		.right-side {
+			padding: 0;
+			background: #cfbf8d;
+
+			.menu-dishes {
+
+				li {
+
+					.subname:before {
+						border-bottom: 1px dotted #2a2a2c;
+					}
+				}
+			}
+		}
+
+		.header-banner,
+		.footer-banner {
+			position: relative;
+			width: 100%;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.menu-dishes {
+			padding: 35px;
+
+			li {
+				position: relative;
+				margin-bottom: 10px;
+				font-size: 14px;
+				width: 100%;
+				display: inline-block;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+				.name {
+					padding-right: 15px;
+					font-weight: 700;
+					z-index: 9999;
+				}
+
+				.price {
+					padding-left: 10px;	
+					font-weight: 700;
+					z-index: 9999;
+				}
+
+				.subname {
+					position: relative;
+					width: 100%;
+					font-size: 12px;
+					line-height: 14px;
+
+					&:before {
+						position: absolute;
+						top: -9px;
+						width: 100%;
+						left: 0;
+						content: "";
+					}
+				}
+			}
+		}
+
+		.ribbon {
+			position: absolute;
+			margin-top: -40px;
+			right: 30px;
+			width: 250px;
+			height: 100px;
+			text-align: center;
+			background: @white;
+			border: 5px solid @red;
+			border-radius: 120px / 1px;
+ 			box-shadow: 0 0 12px rgba(0,0,0,0.4);
+			z-index: 1;
+			overflow: hidden;
+			font-family: @font-family-serif;
+
+			@media (max-width: @screen-lg-desktop) {
+				left: 0;
+				right: 0;
+				margin: -40px auto 0 auto;
+			}
+
+			h5 {
+				margin: 0;
+				color: @red;
+				font-size: 27px;
+
+				small {
+					color: #1a1a1a;
+					font-size: 13px;
+					vertical-align: bottom;
+				}
+			}
+		}
+
+		.thumbnails {
+			padding-bottom: 33px;
+			padding-right: 45px;
+			float: right;
+
+			@media (max-width: @screen-lg-desktop) {
+				margin: 0 auto;
+				float: none;
+				display: block;
+				text-align: center;
+			}
+
+			img {
+				margin-left: 15px;
+				transform: rotate(15deg);
+				display: inline-block;
+				border: 5px solid @red;
+			}
+		}
+	}
+}
