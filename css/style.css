@@ -12155,6 +12155,13 @@ CANVAS PAGE STYLE
   position: relative;
   padding: 50px 0 ;
 }
+.uou-banner.constraction .uou-banner-title h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.uou-banner.constraction .uou-banner-title img {
+  padding-bottom: 10px;
+}
 .uou-banner .uou-banner-title h2 {
   color: #ffffff;
   font-weight: bold;
@@ -12501,6 +12508,17 @@ CANVAS PAGE STYLE
 .uou-constraction-toolbar .uou-block-1a .authentication li a {
   color: #ffffff;
 }
+.uou-constraction-toolbar .uou-block-2b .nav .sf-menu > li.active > a,
+.uou-constraction-toolbar .uou-block-2b .nav .sf-menu > li > a:hover {
+  color: #ffcc30;
+}
+.constraction-about .flex-direction-nav a,
+.constraction-about .flex-control-nav li {
+  background: rgba(255, 204, 48, 0.75);
+}
+.constraction-about .flex-control-nav li a.flex-active {
+  background: rgba(255, 204, 48, 0);
+}
 .uou-constraction-slider {
   position: relative;
 }
@@ -12573,6 +12591,13 @@ CANVAS PAGE STYLE
   position: relative;
   background: #f2f2f2;
 }
+.constraction-portfolio.projects-page {
+  background: none;
+  margin-top: 30px;
+}
+.constraction-portfolio.projects-page.block-title-conten {
+  padding-bottom: 20px;
+}
 .constraction-portfolio .block-title-conten {
   padding-bottom: 0;
 }
@@ -12626,6 +12651,279 @@ CANVAS PAGE STYLE
 }
 .constraction-footer .uou-block-4a.secondary {
   background: #333333;
+}
+.uou-contact-us.constraction {
+  position: relative;
+}
+.uou-contact-us.constraction .uou-contact-details {
+  position: relative;
+  width: 100%;
+  padding: 50px 0 100px;
+}
+.uou-contact-us.constraction .uou-contact-details .form {
+  background: #ffffff;
+  padding: 35px;
+  position: absolute;
+  top: -120px;
+}
+@media screen and (max-width: 768px) {
+  .uou-contact-us.constraction .uou-contact-details .form {
+    position: relative;
+    top: 0;
+  }
+}
+.uou-contact-us.constraction .uou-contact-details h4 {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #333333;
+}
+.uou-contact-us.constraction .uou-contact-details p {
+  font-size: 13px;
+}
+.uou-contact-us.constraction .uou-contact-details .uou-block-8b .list-icon-large li {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.uou-contact-us.constraction .uou-contact-details .uou-block-8b .list-icon-large li .fa {
+  top: 4px;
+  left: 0;
+  font-size: 25px;
+  color: #ffcc30;
+  width: 10px;
+}
+.uou-contact-us.constraction .uou-contact-details .uou-block-8b .list-icon-large li span {
+  font-size: 12px;
+  display: block;
+}
+.uou-contact-us.constraction .uou-contact-details .uou-block-8b .list-icon-large li span strong {
+  padding-right: 5px;
+}
+.constraction-shortcodes {
+  position: relative;
+  /* UOU Tabs */
+  /* ======================== */
+  /* Block 5b */
+  /* ======================== */
+}
+.constraction-shortcodes .uou-tabs .content {
+  border: 0;
+}
+.constraction-shortcodes .uou-tabs .tabs li {
+  float: none;
+}
+.constraction-shortcodes .uou-tabs {
+  position: relative;
+  margin: 0 0 24px;
+  padding-top: 30px;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab:before,
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab:after {
+  content: " ";
+  display: table;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab:after {
+  clear: both;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab:before,
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab:after {
+  content: " ";
+  display: table;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab:after {
+  clear: both;
+}
+.vertical.constraction-shortcodes .uou-tabs .tabs.constraction-tab {
+  float: left;
+  width: 160px;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab > li {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab > li:last-child {
+  margin-right: 0;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab > li > a {
+  display: block;
+  background: #ffffff;
+  color: #333333;
+  padding: 8px 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab > li > a:hover {
+  background: #ffcc30;
+  outline: 0;
+}
+.constraction-shortcodes .uou-tabs .tabs.constraction-tab > li.active > a {
+  color: #333333;
+  background: #ffcc30;
+}
+.vertical.constraction-shortcodes .uou-tabs .tabs.constraction-tab > li {
+  float: none;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+.constraction-shortcodes .uou-tabs .content {
+  border-top: o !important;
+}
+.constraction-shortcodes .uou-tabs .content > div {
+  display: none;
+  position: relative;
+  background: #ffffff;
+  padding: 48px 0;
+}
+.constraction-shortcodes .uou-tabs .content > div.active {
+  display: block;
+}
+.vertical.constraction-shortcodes .uou-tabs .content {
+  margin-left: 160px;
+  border-top: 0;
+  border-left: 3px solid #34495e;
+}
+.constraction-shortcodes .uou-tabs .accordion-link {
+  display: none;
+  background: #f4f4f4;
+  color: #333333;
+  padding: 8px 24px;
+  margin-bottom: 5px;
+  transition: all 0s;
+}
+.constraction-shortcodes .uou-tabs .accordion-link:hover {
+  background: #ffffff;
+  outline: 0;
+}
+.constraction-shortcodes .uou-tabs .accordion-link.active {
+  color: #333333;
+  background: #ffcc30;
+}
+@media (max-width: 767px) {
+  .constraction-shortcodes .uou-tabs.accordion-xs .tabs {
+    display: none;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-xs .accordion-link {
+    display: block;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-xs .content {
+    border: 0;
+    margin: 0;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-xs .content > div {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .constraction-shortcodes .uou-tabs.accordion-sm .tabs {
+    display: none;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-sm .accordion-link {
+    display: block;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-sm .content {
+    border: 0;
+    margin: 0;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-sm .content > div {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .constraction-shortcodes .uou-tabs.accordion-md .tabs {
+    display: none;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-md .accordion-link {
+    display: block;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-md .content {
+    border: 0;
+    margin: 0;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-md .content > div {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .constraction-shortcodes .uou-tabs.accordion-lg .tabs {
+    display: none;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-lg .accordion-link {
+    display: block;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-lg .content {
+    border: 0;
+    margin: 0;
+  }
+  .constraction-shortcodes .uou-tabs.accordion-lg .content > div {
+    margin-bottom: 5px;
+  }
+}
+.constraction-shortcodes .uou-block-5b {
+  position: relative;
+  display: block;
+}
+.constraction-shortcodes .uou-block-5b:before,
+.constraction-shortcodes .uou-block-5b:after {
+  content: " ";
+  display: table;
+}
+.constraction-shortcodes .uou-block-5b:after {
+  clear: both;
+}
+.constraction-shortcodes .uou-block-5b:before,
+.constraction-shortcodes .uou-block-5b:after {
+  content: " ";
+  display: table;
+}
+.constraction-shortcodes .uou-block-5b:after {
+  clear: both;
+}
+.constraction-shortcodes .uou-block-5b .tabs.blockquotes-tab {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.constraction-shortcodes .uou-block-5b .tabs.blockquotes-tab:before,
+.constraction-shortcodes .uou-block-5b .tabs.blockquotes-tab:after {
+  content: " ";
+  display: table;
+}
+.constraction-shortcodes .uou-block-5b .tabs.blockquotes-tab:after {
+  clear: both;
+}
+.constraction-shortcodes .uou-block-5b .tabs.blockquotes-tab:before,
+.constraction-shortcodes .uou-block-5b .tabs.blockquotes-tab:after {
+  content: " ";
+  display: table;
+}
+.constraction-shortcodes .uou-block-5b .tabs.blockquotes-tab:after {
+  clear: both;
+}
+.constraction-shortcodes .uou-block-5b .tabs.blockquotes-tab > li a {
+  color: inherit;
+  font-size: 14px;
+  cursor: default;
+  background: none;
+  padding: 8px 0;
+}
+.constraction-feature-shortcodes {
+  position: relative;
+}
+.constraction-feature-shortcodes .fa,
+.constraction-feature-shortcodes .list-icon-large .fa {
+  color: #ffcc30;
 }
 /*
 ======================================================

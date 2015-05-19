@@ -42,7 +42,29 @@
 			color: @white;
 		}
 	}
+
+
+	.uou-block-2b .nav .sf-menu > li.active > a,
+	.uou-block-2b .nav .sf-menu > li > a:hover {
+		color: @uou-warning-color;
+	}
 }
+
+.constraction-about {
+
+
+	.flex-direction-nav a,
+	.flex-control-nav li {
+		background: fadeout(@uou-warning-color , 25%);
+	}
+
+	.flex-control-nav li a.flex-active {
+		background: fadeout(@uou-warning-color , 100%);
+
+	}
+
+}
+
 
 
 @import "constraction-slider.less" ;
@@ -50,6 +72,10 @@
 @import "constraction-portfolio.less" ;
 @import "constraction-blog.less" ;
 @import "constraction-footer.less" ;
+@import "constraction-contact.less" ;
+@import "constraction-shortcodes.less" ;
+
+
 
 
 
