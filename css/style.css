@@ -13093,6 +13093,112 @@ CANVAS PAGE STYLE
 .constraction-feature-shortcodes .list-icon-large .fa {
   color: #ffcc30;
 }
+.uou-shop-slider {
+  position: relative;
+}
+.uou-shop-slider .slides li {
+  position: relative;
+  display: table;
+}
+.uou-shop-slider .slides li .uou-slider-text {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 1100px) {
+  .uou-shop-slider .slides li .uou-slider-text {
+    top: 30%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .uou-shop-slider .slides li .uou-slider-text {
+    top: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .uou-shop-slider .slides li .uou-slider-text {
+    top: 10%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .uou-shop-slider .slides li .uou-slider-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .uou-shop-slider .slides li .uou-slider-text h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+.uou-shop-slider .slides li .uou-slider-text h2,
+.uou-shop-slider .slides li .uou-slider-text p {
+  color: #ffffff;
+}
+.uou-shop-slider .slides li .uou-slider-text p {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+  .uou-shop-slider .slides li .uou-slider-text p {
+    width: 90%;
+    font-size: 12px;
+  }
+}
+.uou-shop-slider .flex-direction-nav a,
+.uou-shop-slider .flex-control-nav li {
+  background: rgba(93, 173, 224, 0.75);
+}
+.uou-shop-slider .flex-control-nav li a.flex-active {
+  background: rgba(93, 173, 224, 0);
+}
+.uou-shop-banner {
+  position: relative;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 40px 0;
+}
+.uou-shop-banner h6 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 0;
+  padding: 5px 0 3px;
+}
+.uou-shop-banner p {
+  font-size: 11px;
+  font-style: italic;
+  margin: 0;
+}
+.uou-item-single {
+  position: relative;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.uou-item-single h6 {
+  margin: 0;
+  padding-top: 10px;
+}
+.uou-item-single p {
+  font-size: 13px;
+}
+.uou-shop-category {
+  position: relative;
+}
+.uou-shop-category .uou-gallery figure .overlay-hover {
+  padding-top: 100px;
+}
+.uou-shop-category .uou-gallery figure .overlay-hover a {
+  visibility: visible;
+  opacity: 1;
+}
+.uou-shop-contact {
+  position: relative;
+}
+.uou-shop-contact .uou-contact-us.shop-contact .fa {
+  color: #5dade0 !important;
+}
 /*
 ======================================================
   MISC
