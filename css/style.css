@@ -13093,6 +13093,23 @@ CANVAS PAGE STYLE
 .constraction-feature-shortcodes .list-icon-large .fa {
   color: #ffcc30;
 }
+.block-title-conten.text-left {
+  text-align: left;
+}
+.block-title-conten h4 {
+  font-size: 20px;
+}
+.uou-shop-pagination {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+.uou-shop-pagination .pagination {
+  float: right;
+}
+.uou-shop-pagination .pagination li.active > span {
+  background: #5dade0;
+}
 .uou-shop-slider {
   position: relative;
 }
@@ -13180,6 +13197,9 @@ CANVAS PAGE STYLE
   margin: 0;
   padding-top: 10px;
 }
+.uou-item-single h6 a {
+  color: #333333;
+}
 .uou-item-single p {
   font-size: 13px;
 }
@@ -13198,6 +13218,61 @@ CANVAS PAGE STYLE
 }
 .uou-shop-contact .uou-contact-us.shop-contact .fa {
   color: #5dade0 !important;
+}
+.uou-lookbook {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: table;
+}
+.uou-lookbook .uou-lookbook-text {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 500px;
+}
+.uou-lookbook .uou-lookbook-text h3,
+.uou-lookbook .uou-lookbook-text h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.uou-lookbook .uou-lookbook-text p {
+  color: #ffffff;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+  .uou-lookbook .uou-lookbook-text p {
+    width: 100%;
+  }
+}
+.uou-shop-sidebar {
+  position: relative;
+}
+.uou-category {
+  position: relative;
+}
+.uou-category li a {
+  padding: 7px 0;
+  color: #666666;
+  display: block;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  text-transform: capitalize;
+}
+.uou-category li.active a {
+  color: #5dade0;
+}
+.sidebar-title {
+  position: relative;
+  padding: 20px 0;
+}
+.sidebar-title h4 {
+  font-size: 20px;
+  margin: 0;
 }
 /*
 ======================================================
