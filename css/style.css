@@ -5797,6 +5797,11 @@ div.mejs-speed-button {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.5);
 }
+#slider .flex-direction-nav {
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
+}
 /*
 ======================================================
   BLOCKS
@@ -11845,6 +11850,9 @@ CANVAS PAGE STYLE
   margin-top: 20px;
   text-align: center;
 }
+#team .single-member figure {
+  margin: 0;
+}
 @media (max-width: 992px) {
   #team .single-member img {
     width: 100%;
@@ -11881,7 +11889,7 @@ CANVAS PAGE STYLE
 #cta {
   position: relative;
   padding: 50px 0 80px;
-  background: url(../img/cta.jpg) no-repeat center;
+  background: #343131;
   background-size: cover;
   overflow: hidden;
 }
@@ -11939,6 +11947,9 @@ CANVAS PAGE STYLE
     margin: 0 auto;
     float: none !important;
   }
+}
+.single-page-footer .uou-block-4d .links a:hover {
+  text-decoration: none;
 }
 /* PORTFOLIO */
 .uou-portfolio {
