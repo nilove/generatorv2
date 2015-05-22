@@ -1,0 +1,16 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"uou-contact-us constraction",
+  "title":"Get in touch",
+  "p1":"his is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+  "p2":"Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.",
+   "address1":"33 New Montgomery ST., 16th floos",                       
+   "address2":"San Francisco, CA 94105",
+   "phone1":"(415)744-1530 Ext:221",
+   "phone2":"(415)744-7005",
+   "open":"8:00 AM - 5:00 PM",
+   "close":"(Monday-Friday)"
+}

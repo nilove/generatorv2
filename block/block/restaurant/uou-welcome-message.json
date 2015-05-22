@@ -1,0 +1,24 @@
+{
+  "background":"img/welcome.jpg",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"img/welcome.jpg",
+  "wrapper_class":"uou-welcome-message has-bg-image",
+  "title":"Welcome to Chameleon",
+  "text":"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.",
+  "openinghourtitle":"Opening Hours",
+  "openinghour1":"Mon - Fri: 11:30 am - 01:00 am",
+  "openinghour2":"Sat & Sun: 16:30 pm - 01:00 am",
+  "nav":[
+          {
+            "title":"Image 1",
+            "image":"img/welcome-1.jpg",
+            "link":""
+          },
+          {
+            "title":"Image 2",
+            "image":"img/welcome-2.jpg",
+            "link":""
+          }
+      ]
+}

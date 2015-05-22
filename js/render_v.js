@@ -5,7 +5,8 @@ var app = angular.module('drag-app', ["xeditable",
     "angular-medium-editor",
     "quramy-recursive",
     "ui.tree",
-    "angular-flexslider"
+    "angular-flexslider",
+    "ngMap"
 ]);
 
 app.run(function(editableOptions) {
@@ -1665,128 +1666,7 @@ app.directive("resumetabs", function($timeout) {
     }
 });
 
-app.directive('uoublock12a', ['$parse', function($parse) {
-    return {
-        restrict: 'A',
-        link: function(scope, element, attrs) {
-            $(element).each(function() {
-                n = [{
-                    lat: 37.780823,
-                    lng: -122.4231,
-                    title: "Marker 1"
-                }, {
-                    lat: 37.768068680454725,
-                    lng: -122.430739402771,
-                    title: "Marker 2"
-                }, {
-                    lat: 37.7791272169824,
-                    lng: -122.4296236038208,
-                    title: "Marker 3"
-                }, {
-                    lat: 37.770715,
-                    lng: -122.392631,
-                    title: "Marker 4"
-                }, {
-                    lat: 37.78197638783258,
-                    lng: -122.45829105377197,
-                    title: "Marker 5"
-                }, {
-                    lat: 37.769629187677,
-                    lng: -122.46798992156982,
-                    title: "Marker 6"
-                }];
 
-                function e() {
-                    var e = {
-                        scrollwheel: !1,
-                        zoom: 14,
-                        center: new google.maps.LatLng(s, l)
-                    };
-                    o = new google.maps.Map(t[0], e);
-                    for (var a = 0; a < n.length; a++) {
-                        var i = n[a];
-                        new google.maps.Marker({
-                            position: new google.maps.LatLng(i.lat, i.lng),
-                            map: o,
-                            title: i.title
-                        })
-                    }
-                }
-                var a = $(this),
-                    t = a.find(".map-container .map"),
-                    o, i = t.data("height"),
-                    s = t.data("center-lat"),
-                    l = t.data("center-lng");
-                t.css("height", i + "px"), google.maps.event.addDomListener(window, "load", e), google.maps.event.addDomListener(window, "resize", function() {
-                    //var e = o.getCenter();
-                    //google.maps.event.trigger(o, "resize"), o.setCenter(e)
-                })
-            });
-        }
-    };
-}]);
-
-
-app.directive('uoublock12b', ['$parse', function($parse) {
-    return {
-        restrict: 'A',
-        link: function(scope, element, attrs) {
-            $(element).each(function() {
-                var n = [{
-                    lat: 37.780823,
-                    lng: -122.4231,
-                    title: "Marker 1"
-                }, {
-                    lat: 37.768068680454725,
-                    lng: -122.430739402771,
-                    title: "Marker 2"
-                }, {
-                    lat: 37.7791272169824,
-                    lng: -122.4296236038208,
-                    title: "Marker 3"
-                }, {
-                    lat: 37.770715,
-                    lng: -122.392631,
-                    title: "Marker 4"
-                }, {
-                    lat: 37.78197638783258,
-                    lng: -122.45829105377197,
-                    title: "Marker 5"
-                }, {
-                    lat: 37.769629187677,
-                    lng: -122.46798992156982,
-                    title: "Marker 6"
-                }];
-
-                function e() {
-                    var e = {
-                        scrollwheel: !1,
-                        zoom: 14,
-                        center: new google.maps.LatLng(s, l)
-                    };
-                    o = new google.maps.Map(t[0], e);
-                    for (var a = 0; a < n.length; a++) {
-                        var i = n[a];
-                        new google.maps.Marker({
-                            position: new google.maps.LatLng(i.lat, i.lng),
-                            map: o,
-                            title: i.title
-                        })
-                    }
-                }
-                var a = $(this),
-                    t = a.find(".map-container .map"),
-                    o, i = t.data("height"),
-                    s = t.data("center-lat"),
-                    l = t.data("center-lng");
-                t.css("height", i + "px"), google.maps.event.addDomListener(window, "load", e), google.maps.event.addDomListener(window, "resize", function() {
-                    //var e = o.getCenter();
-                    //google.maps.event.trigger(o, "resize"), o.setCenter(e)
-                })
-            });
-        }
-    };
-}]);
 
 
 app.directive('flexsliderwithcaption', ['$parse', function($parse) {
@@ -1853,6 +1733,100 @@ app.directive('owlslider', ['$parse', function($parse) {
             $(element).owlCarousel(
             {
                 items: 6
+            });
+        }
+    };
+}]);
+
+app.directive("testimonialsslider", function($timeout) {
+    return {
+        restrict: 'A',
+        scope: {
+            blocks: '=blocks'
+        },
+        link: function(scope, element, attr) {
+            $timeout(function() {
+                console.log(scope.blocks);
+                return $(element).owlCarousel({
+                    singleItem: true
+                });
+            }, 1);
+
+            scope.$watch('blocks.length', function(n, o) {
+                console.log(n)
+                    //alert(n);
+                if (n > o)
+
+                    $timeout(function() {
+                    return $(element).owlCarousel({
+                    singleItem: true
+                });
+                }, 1);
+            });
+
+
+        }
+    }
+});
+
+
+app.directive('swipebox', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs) {
+            //$(element).swipebox();
+        }
+    };
+}]);
+
+
+app.directive('uouportfolio', ['$parse','$timeout', function($parse,$timeout) {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs) {
+         $timeout(function() {
+                 $(element).each(function() {
+                var $container = $('.portfolio-filters-content');
+                // initialize
+                $container.masonry({
+                  itemSelector: 'article'
+                });
+
+                var filterFns = {};
+
+                $('.uou-portfolio .filters li a').on( 'click', function() {
+                  var filterValue = $( this ).attr('data-filter');
+                  // use filterFn if matches value
+                  filterValue = filterFns[ filterValue ] || filterValue;
+                  $container.isotope({ filter: filterValue });
+
+                  $('.uou-portfolio .filters li a').each(function(){
+                    $(this).removeClass("active");
+                  });
+                  $(this).addClass("active");
+
+                  return false;
+                });
+              });        
+        }, 1);
+           
+
+        }
+    };
+}]);
+
+app.directive('uouclientsslidesection', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs) {
+            $(element).owlCarousel({
+       
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+           
+                items : 5,
+                itemsDesktop : [1199,3],
+                itemsDesktopSmall : [979,3]
+           
             });
         }
     };

@@ -1,0 +1,25 @@
+{
+  "background":"img/about.jpg",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"img/about.jpg",
+  "wrapper_class":"uou-about-us has-bg-image",
+  "title":"About Us",
+  "lead":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue condimentum condimentum. Maecenas",
+  "p1":"Our many years in the food industry have allowed our chefs to sharpen their skills and improvise on the dishes, serving only the best to our valued guests.",
+  "p2":"Make a selection from our variety of quality foods cuisine and American cuisine, cooked to perfection and with your satisfaction as our top priority.",
+  "blocks":[
+	  {
+	  	"image":"img/about-slider-1.jpg"
+	  },
+	  {
+	  	"image":"img/about-slider-1.jpg"	
+	  },
+	  {
+	  	"image":"img/about-slider-1.jpg"	
+	  },
+	  {
+	  	"image":"img/about-slider-1.jpg"	
+	  }
+  ]
+}

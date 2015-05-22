@@ -1,0 +1,15 @@
+<div class="container">
+      <div class="preamble light squares col-lg-8 col-lg-offset-2 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+        <img src="img/foods-icon.png" alt="">
+        <h3 class="title" plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h3>
+      </div>
+
+      <div class="dish col-lg-4 col-md-4 col-sm-6 col-xs-12" ng-repeat="nav in childNode.widgetdata.nav">
+	    <h5 class="title">{{nav.title}}</h5>
+	    <div class="dish-image">
+	      <img src="{{nav.image}}" alt="" class="img-responisve">
+	    </div>
+	    <a href="#" data-toggle="modal" data-target="#myModal_image_{{childNode.id}}" class="btn btn-large btn-red">Check the Menu</a>
+	  </div>
+</div>
+<div navsettingswithimage></div>
