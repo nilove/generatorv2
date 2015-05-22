@@ -11841,6 +11841,32 @@ CANVAS PAGE STYLE
 #clients .slide img {
   display: inline-block;
 }
+.single-page-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+.single-page-nav .uou-block-2b a,
+.single-page-nav .uou-block-2b .sf-menu li a,
+.single-page-nav .uou-block-2b .nav .sf-menu > li > a .fa {
+  color: #ffffff;
+}
+.single-page-nav .uou-block-2b a:hover,
+.single-page-nav .uou-block-2b .sf-menu li a:hover,
+.single-page-nav .uou-block-2b .nav .sf-menu > li > a .fa:hover {
+  text-decoration: none;
+}
+.single-page-nav .uou-block-2b .nav .sf-menu > li.active > a .fa {
+  color: #5dade0;
+}
+.uou-block-1a.single-page-toolbar {
+  position: relative;
+}
+.uou-block-1a.single-page-toolbar a:hover {
+  text-decoration: none;
+}
 /* TEAM */
 #team {
   position: relative;
@@ -13386,6 +13412,53 @@ CANVAS PAGE STYLE
 }
 .pinterest-color {
   background-color: #ae252b;
+}
+.landing-header {
+  position: relative;
+  width: 100%;
+  height: 730px;
+  background: url('../img/landing-page-banner.png') top center no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+.landing-header a {
+  margin: 20px 0;
+}
+.landing-header .logo,
+.landing-header h2,
+.landing-header p {
+  color: #ffffff;
+  border-color: #ffffff;
+  margin: 0;
+}
+.uou-landing-page-feature {
+  position: relative;
+  padding: 40px 0;
+}
+.uou-landing-demo {
+  position: relative;
+  padding: 30px 0;
+  background: #f4f4f4;
+}
+.uou-landing-demo h5 {
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.uou-landing-demo img {
+  margin-bottom: 20px;
+}
+.uou-another-feature {
+  position: relative;
+  padding: 60px 0;
+}
+.uou-another-feature .list-icon-large .fa {
+  color: #8a4bd1;
+}
+.landing-footer {
+  position: relative;
+}
+.landing-footer a {
+  margin: 15px 0;
 }
 /*
 ======================================================
