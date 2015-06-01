@@ -1,0 +1,30 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"uou-testimonial",
+  "title":"Testimonials",
+  "blocks":[
+	  {
+	  	"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus laoreet, congue ipsum eget, faucibus odio. Nullam finibus varius est, vitae efficitur arcu maximus sed. Proin suscipit at diam in mattis. Maecenas venenatis lacinia mollis. Nulla eu lacus vel metus egestas dictum vel nec nisl. Vivamus varius a tortor id volutpat. </p><p>Sed eu odio facilisis, efficitur arcu eu, suscipit massa. Nunc vitae mauris porta mi maximus porttitor sed viverra turpis. In hac habitasse platea dictumst morbi consectetur vitae augue sit amet iaculis. In tempor at arcu sit amet ultricies.</p>",
+	  	"author":"Mark Ruffalo",
+	  	"add":"San Francisco, California"	
+	  },
+	  {
+	  	"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus laoreet, congue ipsum eget, faucibus odio. Nullam finibus varius est, vitae efficitur arcu maximus sed. Proin suscipit at diam in mattis. Maecenas venenatis lacinia mollis. Nulla eu lacus vel metus egestas dictum vel nec nisl. Vivamus varius a tortor id volutpat. </p><p>Sed eu odio facilisis, efficitur arcu eu, suscipit massa. Nunc vitae mauris porta mi maximus porttitor sed viverra turpis. In hac habitasse platea dictumst morbi consectetur vitae augue sit amet iaculis. In tempor at arcu sit amet ultricies.</p>",
+	  	"author":"Mark Ruffalo",
+	  	"add":"San Francisco, California"	
+	  },
+	  {
+	  	"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus laoreet, congue ipsum eget, faucibus odio. Nullam finibus varius est, vitae efficitur arcu maximus sed. Proin suscipit at diam in mattis. Maecenas venenatis lacinia mollis. Nulla eu lacus vel metus egestas dictum vel nec nisl. Vivamus varius a tortor id volutpat. </p><p>Sed eu odio facilisis, efficitur arcu eu, suscipit massa. Nunc vitae mauris porta mi maximus porttitor sed viverra turpis. In hac habitasse platea dictumst morbi consectetur vitae augue sit amet iaculis. In tempor at arcu sit amet ultricies.</p>",
+	  	"author":"Mark Ruffalo",
+	  	"add":"San Francisco, California"	
+	  },
+	  {
+	  	"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus laoreet, congue ipsum eget, faucibus odio. Nullam finibus varius est, vitae efficitur arcu maximus sed. Proin suscipit at diam in mattis. Maecenas venenatis lacinia mollis. Nulla eu lacus vel metus egestas dictum vel nec nisl. Vivamus varius a tortor id volutpat. </p><p>Sed eu odio facilisis, efficitur arcu eu, suscipit massa. Nunc vitae mauris porta mi maximus porttitor sed viverra turpis. In hac habitasse platea dictumst morbi consectetur vitae augue sit amet iaculis. In tempor at arcu sit amet ultricies.</p>",
+	  	"author":"Mark Ruffalo",
+	  	"add":"San Francisco, California"	
+	  }
+  ]
+}

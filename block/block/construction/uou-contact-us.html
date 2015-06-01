@@ -1,0 +1,95 @@
+<div class="uou-block-12b">
+      <div class="map-container">
+        
+        <map zoom="4" center="37.7749295,-122.41941550000001"  style="height:500px;">
+	        <marker position="37.780823, -122.4231"  title="Marker 1"></marker>
+	    </map>
+        
+      </div>
+</div> <!-- end .uou-block-12b -->
+<div class="uou-contact-details">
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-4 col-sm-4">
+		    <h4 plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h4>
+		    <p plaintx-contenteditable ng-model="childNode.widgetdata.p1">
+		     {{childNode.widgetdata.p1 || ''}}<span></span>
+		    </p>
+		    <p plaintx-contenteditable ng-model="childNode.widgetdata.p2">
+		     {{childNode.widgetdata.p2 || ''}}<span></span>
+		    </p>
+		    
+		  </div>
+		  <div class="col-md-4 col-sm-4">
+		    <form class="form text-center">
+		  
+
+		      <input class="col-sm-4" type="text" placeholder="Name">
+		      <input class="col-sm-4" type="text" placeholder="Email">
+		      <textarea name="" id="" cols="10" rows="9" placeholder="Your message..."></textarea>
+
+
+		      <input type="submit" class="btn btn-warning" value="Send Message">
+
+		    </form>
+		    
+		  </div>
+		  <div class="col-md-4 col-sm-4">
+
+		    <div class="uou-block-8b">
+		      <ul class="list-icon-large">
+		        <li>
+		          <i class="fa fa-map-marker"></i>
+		          <span>
+		          	<strong plaintx-contenteditable ng-model="childNode.widgetdata.address1">
+		          		{{childNode.widgetdata.address1 || ''}}<span></span>
+		          	</strong>
+		          </span>
+		          <span>
+		          	<strong plaintx-contenteditable ng-model="childNode.widgetdata.address2">
+		          		{{childNode.widgetdata.address2 || ''}}<span></span>
+		          	</strong>
+		          </span>
+		        </li>
+
+		        <li>
+		          <i class="fa fa-phone"></i>
+		          <span><strong>General Phone:</strong>
+		          	<span style="display:inline;" plaintx-contenteditable ng-model="childNode.widgetdata.phone1">{{childNode.widgetdata.phone1 || ''}}
+		          		<span></span>
+		          	</span>
+		          </span>
+		          <span><strong>General Fax:</strong>
+		          	<span style="display:inline;" plaintx-contenteditable ng-model="childNode.widgetdata.phone2">{{childNode.widgetdata.phone2 || ''}}
+		          		<span></span>
+		          	</span>
+		          </span>
+
+		          
+		        </li>
+
+		        <li>
+		          <i class="fa fa-clock-o"></i>
+		          <span><strong>Operational Hours:</strong>
+		          	<span style="display:inline;" plaintx-contenteditable ng-model="childNode.widgetdata.open">{{childNode.widgetdata.open || ''}}
+		          		<span></span>
+		          	</span>
+		          </span>
+		          <span><strong>Weekdays</strong>
+		          	<span style="display:inline;" plaintx-contenteditable ng-model="childNode.widgetdata.close">{{childNode.widgetdata.close || ''}}
+		          		<span></span>
+		          	</span>
+		          </span>
+
+		          
+		        </li>
+
+		      </ul>
+		    </div> <!-- end .uou-block-8b -->
+		    
+		  </div>
+
+		</div>
+		</div>
+		</div>
+</div>

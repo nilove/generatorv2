@@ -1,0 +1,7 @@
+{
+  "background":"img/clients-section-bg.jpg",
+  "backgroundcolor":"#000",
+  "backgroundopacity":0.1,
+  "backgrondimage":"img/clients-section-bg.jpg",
+  "wrapper_class":"uou-client-slider uou-block-content has-bg-image"
+}

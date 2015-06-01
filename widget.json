@@ -1558,6 +1558,105 @@
         "row": "full-width",
         "template": "block/block/uou-banner.html",
         "category": "block"
+    },
+    {
+        "id": "uou-menu-list",
+        "title": "uou-menu-list",
+        "widget_conf": "block/block/uou-menu-list.json",
+        "src": "img/block-preview-image/block/block42.JPG",
+        "type": "uou-menu-list",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/uou-menu-list.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-testimonial",
+        "title": "uou-testimonial",
+        "widget_conf": "block/block/uou-testimonial.json",
+        "src": "img/block-preview-image/block/block43.JPG",
+        "type": "uou-testimonial",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/uou-testimonial.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-welcome-message",
+        "title": "uou-welcome-message",
+        "widget_conf": "block/block/restaurant/uou-welcome-message.json",
+        "src": "img/block-preview-image/block/block47.JPG",
+        "type": "uou-welcome-message",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/restaurant/uou-welcome-message.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-constraction-slider",
+        "title": "uou-constraction-slider",
+        "widget_conf": "block/block/construction/uou-constraction-slider.json",
+        "src": "img/block-preview-image/block/block44.JPG",
+        "type": "uou-constraction-slider",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/construction/uou-constraction-slider.html",
+        "category": "block"
+    },
+    {
+        "id": "constraction-portfolio",
+        "title": "constraction-portfolio",
+        "widget_conf": "block/block/construction/constraction-portfolio.json",
+        "src": "img/block-preview-image/block/block45.JPG",
+        "type": "constraction-portfolio",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/construction/constraction-portfolio.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-client-slider",
+        "title": "uou-client-slider",
+        "widget_conf": "block/block/construction/uou-client-slider.json",
+        "src": "img/block-preview-image/block/block46.JPG",
+        "type": "uou-client-slider",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/construction/uou-client-slider.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-contact-us",
+        "title": "uou-contact-us",
+        "widget_conf": "block/block/construction/uou-contact-us.json",
+        "src": "img/block-preview-image/block/block48.JPG",
+        "type": "uou-contact-us",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/construction/uou-contact-us.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-constraction-toolbar",
+        "title": "uou-constraction-toolbar",
+        "widget_conf": "block/block/construction/uou-constraction-toolbar.json",
+        "src": "img/block-preview-image/block/block50.JPG",
+        "type": "uou-constraction-toolbar",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/construction/uou-constraction-toolbar.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-constraction-toolbar-menu",
+        "title": "uou-constraction-toolbar-menu",
+        "widget_conf": "block/block/construction/uou-constraction-toolbar-menu.json",
+        "src": "img/block-preview-image/block/block51.JPG",
+        "type": "uou-constraction-toolbar",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/construction/uou-constraction-toolbar-menu.html",
+        "category": "block"
     }
     
 ]

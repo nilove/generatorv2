@@ -1,0 +1,40 @@
+{
+  "background":"img/foods.jpg",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":1,
+  "backgrondimage":"img/foods.jpg",
+  "wrapper_class":"uou-menu-list",
+  "title":"Experience the Best Food",
+  "nav":[
+          {
+            "title":"Breakfast",
+            "image":"img/menu-1.png",
+            "link":""
+          },
+          {
+            "title":"BREAKFAST",
+            "image":"img/menu-2.png",
+            "link":""
+          },
+          {
+            "title":"BREAKFAST",
+            "image":"img/menu-3.png",
+            "link":""
+          },
+          {
+            "title":"BREAKFAST",
+            "image":"img/menu-4.png",
+            "link":""
+          },
+          {
+            "title":"BREAKFAST",
+            "image":"img/menu-5.png",
+            "link":""
+          },
+          {
+            "title":"BREAKFAST",
+            "image":"img/menu-6.png",
+            "link":""
+          }
+      ]
+}

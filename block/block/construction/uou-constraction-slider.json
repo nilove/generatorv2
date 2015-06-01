@@ -1,0 +1,24 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"uou-constraction-slider",
+  "slides":[
+  			{
+  				"image":"img/constraction-slide.jpg",
+  				"text":"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean, lorem quis bibendum auctor nisi elit consequat ipsum nec sagittis.",
+  				"heading":"Providing The Highest Quality Service"
+  			},
+  			{
+  				"image":"img/constraction-slide.jpg",
+  				"text":"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean, lorem quis bibendum auctor nisi elit consequat ipsum nec sagittis.",
+  				"heading":"Providing The Highest Quality Service"
+  			},
+  			{
+  				"image":"img/constraction-slide.jpg",
+  				"text":"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean, lorem quis bibendum auctor nisi elit consequat ipsum nec sagittis.",
+  				"heading":"Providing The Highest Quality Service"
+  			}
+  			]
+}

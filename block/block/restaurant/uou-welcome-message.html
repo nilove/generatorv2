@@ -1,0 +1,31 @@
+
+    <div class="container">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="preamble light squares col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h3 class="title" plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h3>
+
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+        <div class="text">
+          <p plaintx-contenteditable ng-model="childNode.widgetdata.text">>{{childNode.widgetdata.text || ''}}<span></span></p>
+        </div>
+        <div class="opening">
+          <h5 class="title" plaintx-contenteditable ng-model="childNode.widgetdata.openinghourtitle">{{childNode.widgetdata.openinghourtitle || ''}}</h5>
+          <ul class="list-inline">
+            <li plaintx-contenteditable ng-model="childNode.widgetdata.openinghour1">{{childNode.widgetdata.openinghour1 || ''}}</li>
+            <li plaintx-contenteditable ng-model="childNode.widgetdata.openinghour2">{{childNode.widgetdata.openinghour2 || ''}}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <ul class="gallery custom-list list-inline">
+          <li ng-repeat="nav in childNode.widgetdata.nav">
+            <a href="#" data-toggle="modal" data-target="#myModal_image_{{childNode.id}}"><img src="{{nav.image}}" class="img-responsive" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div navsettingswithimage></div>
