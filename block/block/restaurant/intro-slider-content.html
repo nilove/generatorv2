@@ -1,0 +1,8 @@
+<div id="intro-slider" class="owl-carousel intro-slider" introslider>
+  <div ng-repeat="block in childNode.widgetdata.blocks" class="slide slide-text text-center">
+    <h5 plaintx-contenteditable ng-model="block.text1">{{block.text1 || ''}}<span></span></h5>
+    <h1 plaintx-contenteditable ng-model="block.text2">{{block.text2 || ''}}<span></span></h1>
+    <h3 plaintx-contenteditable ng-model="block.text3">{{block.text3 || ''}}<span></span></h3>
+    <h2 plaintx-contenteditable ng-model="block.text4">{{block.text4 || ''}}<span></span></h2>
+  </div>
+</div>

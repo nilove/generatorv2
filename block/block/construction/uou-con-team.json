@@ -1,0 +1,235 @@
+{
+    "id": "node1432725339525",
+    "name": "row 1",
+    "w_type": "row",
+    "class": "",
+    "margintopclass": "mt0",
+    "marginbottomclass": "mb0",
+    "extraclass": "uou-con-team uou-block-content",
+    "background_property": {
+        "background_position": "",
+        "background_repeat": "",
+        "height": 20
+    },
+    "template": "templates/row.html",
+    "nodes": [
+        {
+            "id": "widget1432725409201",
+            "class": "posrelative",
+            "extraclass": "",
+            "w_type": "widget",
+            "type": "HTML",
+            "template": "block/gui/htmlwidget.html",
+            "widgetdata": {
+                "html": "<div class=\"block-title-conten\">\n      <h4>Our Core Team</h4>\n    </div>"
+            },
+            "name": "HTML ",
+            "background_property": {
+                "background_color": "",
+                "background_image": "",
+                "background_position": "",
+                "background_repeat": "",
+                "height": 20,
+                "backgroundopacity": 0
+            }
+        },
+        {
+            "id": "node1432725352017",
+            "name": "row 1",
+            "w_type": "row",
+            "class": "row",
+            "extraclass": "container has-bg-image",
+            "margintopclass": "mt0",
+            "marginbottomclass": "mb0",
+            "background_property": {
+                "background_color": "#fff",
+                "background_position": "",
+                "background_repeat": "",
+                "height": 100,
+                "backgroundopacity": 0
+            },
+            "template": "templates/row.html",
+            "nodes": [
+                {
+                    "id": "node143272535779392",
+                    "name": "row 1",
+                    "w_type": "row",
+                    "class": "",
+                    "extraclass": "row",
+                    "background_property": {
+                        "background_color": "",
+                        "background_image": "",
+                        "background_position": "",
+                        "background_repeat": "",
+                        "height": 100
+                    },
+                    "template": "templates/row.html",
+                    "nodes": [
+                        {
+                            "id": "node143272535779333",
+                            "name": "Column 1",
+                            "w_type": "column",
+                            "class": "col-md-4 mn-height",
+                            "extraclass": "col-sm-4",
+                            "background_property": {
+                                "background_color": "",
+                                "background_image": "",
+                                "background_position": "",
+                                "background_repeat": "",
+                                "height": 100,
+                                "backgroundopacity": 0
+                            },
+                            "template": "templates/row.html",
+                            "nodes": [
+                                {
+                                    "id": "widget14327253577948",
+                                    "class": "posrelative",
+                                    "extraclass": "",
+                                    "w_type": "widget",
+                                    "type": "uou-block-6a",
+                                    "template": "block/gui/uou-block-6a-rounded.html",
+                                    "widgetdata": {
+                                        "image": "img/con-team1.jpg",
+                                        "name": "Jessica Walsh",
+                                        "company": "Founder & Web Designer",
+                                        "text": "Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
+                                        "social": [
+                                            {
+                                                "title": "Facebook",
+                                                "link": "https://www.facebook.com/",
+                                                "icons": "fa-facebook"
+                                            },
+                                            {
+                                                "title": "Twitter",
+                                                "link": "https://twitter.com/",
+                                                "icons": "fa-twitter"
+                                            },
+                                            {
+                                                "title": "Google",
+                                                "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                                "icons": "fa-google-plus"
+                                            }
+                                        ],
+                                        "template": "block/gui/uou-block-6a-rounded.html",
+                                        "type": "uou-block-6a",
+                                        "wrapper_class": "col-md-4",
+                                        "wrapper_extra_class": "col-sm-4"
+                                    },
+                                    "name": "uou-block-6a "
+                                }
+                            ]
+                        },
+                        {
+                            "id": "node143272535779467",
+                            "name": "Column 2",
+                            "w_type": "column",
+                            "class": "col-md-4 mn-height",
+                            "extraclass": "col-sm-4",
+                            "background_property": {
+                                "background_color": "",
+                                "background_image": "",
+                                "background_position": "",
+                                "background_repeat": "",
+                                "height": 100,
+                                "backgroundopacity": 0
+                            },
+                            "template": "templates/row.html",
+                            "nodes": [
+                                {
+                                    "id": "widget14327253577941",
+                                    "class": "posrelative",
+                                    "extraclass": "",
+                                    "w_type": "widget",
+                                    "type": "uou-block-6a",
+                                    "template": "block/gui/uou-block-6a-rounded.html",
+                                    "widgetdata": {
+                                        "image": "img/con-team2.jpg",
+                                        "name": "Jessica Walsh",
+                                        "company": "Founder & Web Designer",
+                                        "text": "Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
+                                        "social": [
+                                            {
+                                                "title": "Facebook",
+                                                "link": "https://www.facebook.com/",
+                                                "icons": "fa-facebook"
+                                            },
+                                            {
+                                                "title": "Twitter",
+                                                "link": "https://twitter.com/",
+                                                "icons": "fa-twitter"
+                                            },
+                                            {
+                                                "title": "Google",
+                                                "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                                "icons": "fa-google-plus"
+                                            }
+                                        ],
+                                        "template": "block/gui/uou-block-6a-rounded.html",
+                                        "type": "uou-block-6a",
+                                        "wrapper_class": "col-md-4",
+                                        "wrapper_extra_class": "col-sm-4"
+                                    },
+                                    "name": "uou-block-6a "
+                                }
+                            ]
+                        },
+                        {
+                            "id": "node143272535779413",
+                            "name": "Column 3",
+                            "w_type": "column",
+                            "class": "col-md-4 mn-height",
+                            "extraclass": "col-sm-4",
+                            "background_property": {
+                                "background_color": "",
+                                "background_image": "",
+                                "background_position": "",
+                                "background_repeat": "",
+                                "height": 100,
+                                "backgroundopacity": 0
+                            },
+                            "template": "templates/row.html",
+                            "nodes": [
+                                {
+                                    "id": "widget143272535779434",
+                                    "class": "posrelative",
+                                    "extraclass": "",
+                                    "w_type": "widget",
+                                    "type": "uou-block-6a",
+                                    "template": "block/gui/uou-block-6a-rounded.html",
+                                    "widgetdata": {
+                                        "image": "img/con-team3.jpg",
+                                        "name": "Jessica Walsh",
+                                        "company": "Founder & Web Designer",
+                                        "text": "Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
+                                        "social": [
+                                            {
+                                                "title": "Facebook",
+                                                "link": "https://www.facebook.com/",
+                                                "icons": "fa-facebook"
+                                            },
+                                            {
+                                                "title": "Twitter",
+                                                "link": "https://twitter.com/",
+                                                "icons": "fa-twitter"
+                                            },
+                                            {
+                                                "title": "Google",
+                                                "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                                "icons": "fa-google-plus"
+                                            }
+                                        ],
+                                        "template": "block/gui/uou-block-6a-rounded.html",
+                                        "type": "uou-block-6a",
+                                        "wrapper_class": "col-md-4",
+                                        "wrapper_extra_class": "col-sm-4"
+                                    },
+                                    "name": "uou-block-6a "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

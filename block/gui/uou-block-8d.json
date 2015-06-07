@@ -2,5 +2,6 @@
 	"icon":"fa-cubes",
 	"title":"Bootstrap 3",
 	"text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum.",
-	"button":"Read More"		
+	"button":"Read More",
+	"btnclass":"btn btn-primary"		
 }

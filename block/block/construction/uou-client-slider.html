@@ -1,24 +1,18 @@
  
 
       <div class="block-title-conten">
-        <h4>Our selected clients</h4>
-        <p>Lorem Ipsum proin gravida nibh velit auctor aliquet aene sollicitudin quis</p>
+        <h4 plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h4>
+        <p plaintx-contenteditable ng-model="childNode.widgetdata.text">{{childNode.widgetdata.text || ''}}</p>
       </div>
 
 
     <div class="container">
-      <div id="owl-demo" class="uou-clients-slide-section" uouclientsslidesection>
-                
-        <div class="item"><img src="../img/clients-logo1.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo2.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo3.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo4.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo5.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo1.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo2.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo3.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo4.png" alt="Owl Image"></div>
-        <div class="item"><img src="../img/clients-logo5.png" alt="Owl Image"></div>
-      </div>
-      
+      <div id="owl-demo" class="uou-clients-slide-section" uouclientsslidesection blocks="childNode.widgetdata.blocks">
+        <div class="item" ng-repeat="img in childNode.widgetdata.blocks">
+          <a href="#" data-toggle="modal" data-target="#myModal_slider_{{childNode.id}}">
+            <img src="{{img.image}}" alt="{{img.title}}"></a>
+        </div>  
+      </div>      
     </div>
+
+    <div slidermodal></div>

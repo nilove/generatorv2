@@ -1,0 +1,93 @@
+{
+	"wrapper_class":"constraction-shortcodes uou-block-content has-bg-image",
+	"backgroundcolor":"#fff",
+	"backgroundopacity":0,
+	"background":"",
+	"constructtionclass":"constraction-tab",
+	"tabs":[
+	{
+		"id":"horizontalnode14168224614344324",
+		"title":"Team",
+		"nodes":[
+			      {
+			        "id": "node14168224614344324",
+			        "name": "row 1",
+			        "w_type": "row",
+			        "class": "",
+			        "extraclass":"row mn-height",
+                	"margintopclass":"mt0",
+                	"marginbottomclass":"mb0",
+			        "background_property": {
+			          "background_image": "",
+			          "height": 200
+			        },
+			        "template": "templates/row_tab.html",
+			        "nodes": []
+			      }
+			    ]
+	},
+	{
+		"id":"horizontalnode1416822461434432423",
+		"title":"About",
+		"nodes":[
+		      {
+		        "id": "node1416822461434432423",
+		        "name": "row 1",
+		        "w_type": "row",
+		        "class": "",
+		        "extraclass":"row mn-height",
+                "margintopclass":"mt0",
+                "marginbottomclass":"mb0",
+		        "background_property": {
+		         	"background_image": "",
+			          "height": 200
+		        },
+		        "template": "templates/row_tab.html",
+		        "nodes": []
+		      }
+		    ]
+	},
+	{
+		"id":"horizontalnode1416822461434323232",
+		"title":"Privacy",
+		"nodes":[
+		      {
+		        "id": "node1416822461434323232",
+		        "name": "row 1",
+		        "w_type": "row",
+		        "class": "",
+		        "extraclass":"row mn-height",
+                "margintopclass":"mt0",
+                "marginbottomclass":"mb0",
+		        "background_property": {
+		          "background_image": "",
+			          "height": 200
+		        },
+		        "template": "templates/row_tab.html",
+		        "nodes": []
+		      }
+		    ]
+	},
+	{
+		"id":"horizontalnode14168224614343232",
+		"title":"Contact",
+		"nodes":[
+		      {
+		        "id": "node14168224614343232",
+		        "name": "row 1",
+		        "w_type": "row",
+		        "class": "",
+		        "extraclass":"row mn-height",
+                "margintopclass":"mt0",
+                "marginbottomclass":"mb0",
+		        "background_property": {
+		          "background_image": "",
+			          "height": 200
+		        },
+		        "template": "templates/row_tab.html",
+		        "nodes": []
+		      }
+		    ]
+	}
+]
+}

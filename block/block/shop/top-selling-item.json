@@ -1,0 +1,58 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"shop-page-content",
+    "title": "Top Selling items",
+    "products": [
+        {
+            "title": "Ethnic Dress",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-item-1.jpg"
+        },
+        {
+            "title": "Ethnic Dress",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-item-2.jpg"
+        },
+        {
+            "title": "Ethnic Dress",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-item-3.jpg"
+        },
+        {
+            "title": "Ethnic Dress",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-item-4.jpg"
+        },
+        {
+            "title": "Ethnic Dress",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-item-5.jpg"
+        },
+        {
+            "title": "Ethnic Dress",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-item-6.jpg"
+        },
+        {
+            "title": "Ethnic Dress",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-item-7.jpg"
+        },
+        {
+            "title": "Ethnic Dress",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-item-8.jpg"
+        }
+    ]
+}

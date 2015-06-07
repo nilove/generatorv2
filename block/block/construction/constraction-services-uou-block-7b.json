@@ -1,0 +1,51 @@
+{
+    "id": "node1433072098435",
+    "name": "row 1",
+    "w_type": "row",
+    "class": "",
+    "margintopclass": "mt0",
+    "marginbottomclass": "mb0",
+    "extraclass": "uou-block-7b has-bg-image",
+    "background_property": {
+        "background_color": "#fff",
+        "background_image": "",
+        "background_position": "",
+        "background_repeat": "",
+        "height": 20,
+        "backgroundopacity": 0
+    },
+    "template": "templates/row.html",
+    "nodes": [
+        {
+            "id": "widget1433072143393",
+            "class": "posrelative",
+            "extraclass": "",
+            "w_type": "widget",
+            "type": "footer",
+            "template": "block/block/uou-block-7b.html",
+            "widgetdata": {
+                "background": "",
+                "backgroundcolor": "#fff",
+                "backgroundopacity": 0,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
+                "footertext": "Steve Jobs, Apple",
+                "backgrondimage": "",
+                "wrapper_class": "uou-block-7b has-bg-image",
+                "image": "img/service-image1.jpg",
+                "company": "Interior Design",
+                "button": "Read More",
+                "timetext": "",
+                "btnclass": "btn btn-warning"
+            },
+            "name": "footer ",
+            "background_property": {
+                "background_color": "",
+                "background_image": "",
+                "background_position": "",
+                "background_repeat": "",
+                "height": 20,
+                "backgroundopacity": 0
+            }
+        }
+    ]
+}

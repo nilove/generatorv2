@@ -1,66 +1,21 @@
     <div class="block-title-conten">
-      <h4>Our Recent work</h4>
+      <h4 plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h4>
     </div>
-
-    <div id="#portfolio" class="uou-portfolio" uouportfolio>
+    <div class="uou-portfolio" uouportfolio>
       <div class="container">
-       
         <div class="clearfix"></div>
         <ul class="filters col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <li><a href="#" class="btn active" data-filter="">All</a></li>
-          <li><a href="#" class="btn" data-filter=".photography">Photography</a></li>
-          <li><a href="#" class="btn" data-filter=".design">Design</a></li>
-          <li><a href="#" class="btn" data-filter=".development">Development</a></li>
-          <li><a href="#" class="btn" data-filter=".branding">Branding</a></li>
-          <li><a href="#" class="btn" data-filter=".mobile">Mobile APP</a></li>
+          <li><a href="#" class="btn active alltrigger" data-filter="">All</a></li>
+          <li ng-repeat="tab in childNode.widgetdata.tabs"><a href="#" class="btn" data-filter=".{{tab.class}}" plaintx-contenteditable ng-model="tab.title">{{tab.title || ''}}<span></span></a></li>
         </ul>
         <div class="portfolio-filters-content">
-          <article class="photography">
-            <a href="img/con-portfolio1.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio1.jpg" alt="" class="work img-responsive">
-            </a>
-          </article>
-          <article class="design">
-
-            <a href="img/con-portfolio2.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio2.jpg" alt="" class="work img-responsive">
-            </a>
-          </article>
-          <article class="development">
-            <a href="img/con-portfolio3.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio3.jpg" alt="" class="work img-responsive">
-            </a>
-          </article>
-          <article class="development">
-            <a href="img/con-portfolio4.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio4.jpg" alt="" class="work img-responsive">
-            </a>
-          </article>
-          <article class="branding">
-            <a href="img/con-portfolio5.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio5.jpg" alt="" class="work img-responsive">
-            </a>
-          </article>
-          <article class="mobile">
-            <a href="img/con-portfolio6.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio6.jpg" alt="" class="work img-responsive">
-            </a>
-          </article>
-          <article class="photography">
-            <a href="img/con-portfolio7.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio7.jpg" alt="" class="work img-responsive">
-            </a>
-          </article>
-          <article class="branding">
-            <a href="img/con-portfolio8.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio8.jpg" alt="" class="work img-responsive">
-            </a>
-          </article>
-          <article class="mobile">
-            <a href="img/con-portfolio1.jpg" class="swipebox" title="My Caption" swipebox>
-              <img src="img/con-portfolio1.jpg" alt="" class="work img-responsive" swipebox>
+          <article ng-repeat="image in childNode.widgetdata.images" class="{{image.class}}">
+            <a href="#" data-toggle="modal" data-target="#myModal_portfolio_{{childNode.id}}" class="swipebox" title="{{image.title}}">
+              <img src="{{image.image}}" alt="" class="work img-responsive">
             </a>
           </article>
         </div>
       </div> <!--  end ocntainre -->
     </div> <!--  end uou-portfolio -->
+
+    <div portfoliomodal></div>

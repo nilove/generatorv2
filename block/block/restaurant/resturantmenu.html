@@ -1,0 +1,55 @@
+<header id="header">
+    <div class="uou-block-2b uou-block-2d icons has-bg-image">
+      <div class="container">
+      <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
+
+        <nav class="nav">
+          <ul class="sf-menu sf-js-enabled sf-arrows">
+            <li class="active">
+              <a href="index.html">
+                <img src="img/1.png" alt=""> HOME</a>
+
+            </li>
+            <li>
+              <a href="about-us.html">
+                <img src="img/2.png" alt=""> About</a>
+
+            </li>
+            <li>
+              <a href="gallery.html">
+                <img src="img/3.png" alt=""> Gallery</a>
+
+            </li>
+            <li>
+              <a href="#" class="logo">Chameleon</a>
+            </li>
+            <li>
+              <a href="menu.html">
+                <img src="img/4.png" alt=""> Menu</a>
+
+            </li>
+            <li>
+              <a href="testimonial.html">
+                <img src="img/5.png" alt=""> Testimonials</a>
+
+            </li>
+            <li>
+              <a href="contact.html">
+                <img src="img/6.png" alt=""> CONTACT</a>
+
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section id="intro" class="intro-slider-content">
+    <div id="intro-slider" class="owl-carousel intro-slider" introslider>
+      <div ng-repeat="block in childNode.widgetdata.blocks" class="slide slide-text text-center">
+	    <h5 plaintx-contenteditable ng-model="block.text1">{{block.text1 || ''}}<span></span></h5>
+	    <h1 plaintx-contenteditable ng-model="block.text2">{{block.text2 || ''}}<span></span></h1>
+	    <h3 plaintx-contenteditable ng-model="block.text3">{{block.text3 || ''}}<span></span></h3>
+	    <h2 plaintx-contenteditable ng-model="block.text4">{{block.text4 || ''}}<span></span></h2>
+	  </div>
+    </div>
+  </section>

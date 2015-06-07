@@ -1,0 +1,25 @@
+<div class="uou-shop-category uou-block-content">
+      <div class="block-title-conten">
+        <h4 plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h4>
+      </div>
+      <div class="uou-gallery  pb20">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6" ng-repeat="product in childNode.widgetdata.products">
+              <div class="image-single">
+                <figure>
+                  <div class="overlay-hover">
+                    <a data-toggle="modal" data-target="#myModal_product_{{childNode.id}}" class="btn btn-primary">{{product.title}}</a>
+                  </div>
+                  <img src="{{product.image}}" alt="" class="img-responsive">
+                </figure>
+              </div> <!--  edn .iamge-single -->
+            </div>
+          </div> <!-- end row -->
+        </div> <!--  end container -->
+      </div> <!--  end uou-gallery -->
+</div>
+
+<div productmenu>
+
+</div>

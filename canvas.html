@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css">
     <link rel="stylesheet" media="screen" type="text/css" href="css/colorpicker.css" />
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
-    <link rel="stylesheet" media="screen" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="css/custom.css?v=98090909" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/icon-picker.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
@@ -27,7 +27,7 @@
 </head>
 
 <body ng-controller="DragDropController">
-    <div id="main-wrapper">
+    <div id="main-wrapper" class="constraction-content-all">
         
         <div ng-include="'config/page-edit-panel.html'"></div>
         <div style="margin-bottom:100px;">
@@ -82,7 +82,7 @@
                   background-position:{{page.background_property.background_position}};
                   min-height:{{page.background_property.height}}px" ng-model="page">
                     <div q-recurse="page">
-                        <div ng-repeat="(row_key,childNode) in page.nodes" ng-if="childNode.w_type == 'row' || childNode.w_type == 'column' || childNode.w_type == 'widget'" q-recurse-node="childNode" class="posrelative mn-height {{childNode.class}} {{childNode.extraclass}} {{childNode.margintopclass}} {{childNode.marginbottomclass}}" ng-include src="childNode.template" ng-model="childNode" data-id="{{childNode.id}}" style="background-image:url('{{childNode.background_property.background_image}}');
+                        <div ng-repeat="(row_key,childNode) in page.nodes" ng-if="childNode.w_type == 'row' || childNode.w_type == 'column' || childNode.w_type == 'widget'" q-recurse-node="childNode" class="posrelative mn-height {{childNode.extraclass}} {{childNode.margintopclass}} {{childNode.marginbottomclass}}" ng-include src="childNode.template" ng-model="childNode" data-id="{{childNode.id}}" style="background-image:url('{{childNode.background_property.background_image}}');
                        min-height:{{childNode.background_property.height}}px">
                         </div>
                     </div>
@@ -126,7 +126,8 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/jquery.swipebox.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/render_v.js?v=3244389890"></script>
+    <script src="js/ng-map.min.js"></script>
+    <script src="js/render_v.js?v=32443889899890"></script>
 
 </body>
 

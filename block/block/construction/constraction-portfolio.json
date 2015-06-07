@@ -3,5 +3,76 @@
   "backgroundcolor":"#fff",
   "backgroundopacity":0,
   "backgrondimage":"",
-  "wrapper_class":"constraction-portfolio uou-block-content"
+  "wrapper_class":"constraction-portfolio uou-block-content",
+  "title":"OUR RECENT WORK",
+  "tabs":[
+  	{
+  		"title":"Photography",
+  		"class":"photography"
+  	},
+  	{
+  		"title":"Design",
+  		"class":"design"
+  	},
+  	{
+  		"title":"Development",
+  		"class":"development"
+  	},
+  	{
+  		"title":"Branding",
+  		"class":"branding"
+  	},
+  	{
+  		"title":"Mobile APP",
+  		"class":"mobile"
+  	}
+  ],
+  "images":
+  [
+	  {
+	  	"image":"img/con-portfolio1.jpg",
+	  	"class":"photography",
+	  	"title":"My Caption"
+	  },
+	  {
+	  	"image":"img/con-portfolio2.jpg",
+	  	"class":"design",
+	  	"title":"My Caption"
+	  },
+	  {
+	  	"image":"img/con-portfolio3.jpg",
+	  	"class":"development",
+	  	"title":"My Caption"
+	  },
+	  {
+	  	"image":"img/con-portfolio4.jpg",
+	  	"class":"development",
+	  	"title":"My Caption"
+	  },
+	  {
+	  	"image":"img/con-portfolio5.jpg",
+	  	"class":"branding",
+	  	"title":"My Caption"
+	  },
+	  {
+	  	"image":"img/con-portfolio6.jpg",
+	  	"class":"mobile",
+	  	"title":"My Caption"
+	  },
+	  {
+	  	"image":"img/con-portfolio7.jpg",
+	  	"class":"photography",
+	  	"title":"My Caption"
+	  },
+	  {
+	  	"image":"img/con-portfolio8.jpg",
+	  	"class":"branding",
+	  	"title":"My Caption"
+	  },
+	  {
+	  	"image":"img/con-portfolio1.jpg",
+	  	"class":"mobile",
+	  	"title":"My Caption"
+	  }
+  ]
 }

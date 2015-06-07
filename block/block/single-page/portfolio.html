@@ -1,0 +1,26 @@
+<!-- Start Portfolio -->
+  <div  uouportfolio class="uou-portfolio">
+    <div class="container">
+      <div class="preamble col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+        <h3 class="title" plaintx-contenteditable 
+                ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ""}}<span></span></h3>
+        <p plaintx-contenteditable 
+                ng-model="childNode.widgetdata.text">{{childNode.widgetdata.text || ""}}<span></span></p>
+      </div>
+      <div class="clearfix"></div>
+      <ul class="filters col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <li><a href="#" class="btn active alltrigger" data-filter="">All</a></li>
+          <li ng-repeat="tab in childNode.widgetdata.tabs"><a href="#" class="btn" data-filter=".{{tab.class}}" plaintx-contenteditable ng-model="tab.title">{{tab.title || ''}}<span></span></a></li>
+      </ul>
+      <div class="portfolio-filters-content">
+        <article ng-repeat="image in childNode.widgetdata.images" class="{{image.class}}">
+            <a href="#" data-toggle="modal" data-target="#myModal_portfolio_{{childNode.id}}" class="swipebox" title="{{image.title}}">
+              <img src="{{image.image}}" alt="" class="work img-responsive">
+            </a>
+        </article>
+      </div>
+    </div>
+  </div>
+  <!-- End Portfolio -->
+
+  <div portfoliomodal></div>

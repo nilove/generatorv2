@@ -12,5 +12,6 @@
    "phone1":"(415)744-1530 Ext:221",
    "phone2":"(415)744-7005",
    "open":"8:00 AM - 5:00 PM",
-   "close":"(Monday-Friday)"
+   "close":"(Monday-Friday)",
+   "btnclass":"btn btn-warning"
 }

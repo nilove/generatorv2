@@ -1,0 +1,15 @@
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4" ng-repeat="product in childNode.widgetdata.products">
+          <a data-toggle="modal" data-target="#myModal_product_{{childNode.id}}" href="#"><img src="{{product.image}}" alt=""></a>
+          <h6>
+                <a href="#" plaintx-contenteditable ng-model="product.title">{{product.title || ''}}<span></span></a>
+          </h6>
+          <p plaintx-contenteditable ng-model="product.price">{{product.price || ''}}<span></span></p>
+        </div>
+      </div>
+    </div> <!-- end container -->
+
+  <div productmenu>
+
+  </div>

@@ -1,0 +1,27 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"uou-shop-banner",
+    "products": [
+        {
+            "title": "FREE DOMESTIC DELIVERY",
+            "price": "on order over $23",
+            "link": "",
+            "image": "img/shop-banner-logo1.png"
+        },
+        {
+            "title": "GIFT CARD & WRAPPING",
+            "price": "the perfect way to bring a smile",
+            "link": "",
+            "image": "img/shop-banner-logo2.png"
+        },
+        {
+            "title": "WORLDWIDE SHIPPING",
+            "price": "delivery within 2 days",
+            "link": "",
+            "image": "img/shop-banner-logo3.png"
+        }
+    ]
+}

@@ -70,6 +70,102 @@
 		"title":"Template 12",
 		"src":"img/block-preview-image/page/p11.png",
 		"template":"templateconfig/template12.json"
+	},
+	{
+		"id":"template14",
+		"title":"Template 14",
+		"src":"img/block-preview-image/page/p14.png",
+		"template":"templateconfig/template14.json"
+	},
+	{
+		"id":"template15",
+		"title":"Template 15",
+		"src":"img/block-preview-image/page/p15.png",
+		"template":"templateconfig/template15.json"
+	},
+	{
+		"id":"template16",
+		"title":"Template 16",
+		"src":"img/block-preview-image/page/p16.png",
+		"template":"templateconfig/template16.json"
+	},
+	{
+		"id":"template17",
+		"title":"Template 17",
+		"src":"img/block-preview-image/page/p17.png",
+		"template":"templateconfig/template17.json"
+	},
+	{
+		"id":"template18",
+		"title":"Template 18",
+		"src":"img/block-preview-image/page/p18.png",
+		"template":"templateconfig/template18.json"
+	},
+	{
+		"id":"template19",
+		"title":"Template 19",
+		"src":"img/block-preview-image/page/p19.png",
+		"template":"templateconfig/template19.json"
+	},
+	{
+		"id":"template20",
+		"title":"Template 20",
+		"src":"img/block-preview-image/page/p20.png",
+		"template":"templateconfig/template20.json"
+	},
+	{
+		"id":"template21",
+		"title":"Template 21",
+		"src":"img/block-preview-image/page/p21.png",
+		"template":"templateconfig/template21.json"
+	},
+	{
+		"id":"template22",
+		"title":"Template 22",
+		"src":"img/block-preview-image/page/p22.png",
+		"template":"templateconfig/template22.json"
+	},
+	{
+		"id":"template23",
+		"title":"Template 23",
+		"src":"img/block-preview-image/page/p23.png",
+		"template":"templateconfig/template23.json"
+	},
+	{
+		"id":"template24",
+		"title":"Template 24",
+		"src":"img/block-preview-image/page/p25.png",
+		"template":"templateconfig/template24.json"
+	},
+	{
+		"id":"template25",
+		"title":"Template 25",
+		"src":"img/block-preview-image/page/p24.png",
+		"template":"templateconfig/template25.json"
+	},
+	{
+		"id":"template26",
+		"title":"Template 26",
+		"src":"img/block-preview-image/page/p26.png",
+		"template":"templateconfig/template26.json"
+	},
+	{
+		"id":"template27",
+		"title":"Template 27",
+		"src":"img/block-preview-image/page/p27.png",
+		"template":"templateconfig/template27.json"
+	},
+	{
+		"id":"template28",
+		"title":"Template 28",
+		"src":"img/block-preview-image/page/p28.png",
+		"template":"templateconfig/template28.json"
+	},
+	{
+		"id":"template29",
+		"title":"Template 29",
+		"src":"img/block-preview-image/page/p29.png",
+		"template":"templateconfig/template29.json"
 	}
 
 ]

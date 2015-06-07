@@ -1,0 +1,124 @@
+{
+                "id": "node1432725904195",
+                "name": "row 1",
+                "w_type": "row",
+                "class": "",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "extraclass": "footer constraction-footer",
+                "background_property": {
+                    "background_color": "",
+                    "background_image": "",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 200
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "node1432725909487",
+                        "name": "row 1",
+                        "w_type": "row",
+                        "class": "row",
+                        "extraclass": "uou-block-4e has-bg-image",
+                        "margintopclass": "mt0",
+                        "marginbottomclass": "mb0",
+                        "background_property": {
+                            "background_color": "#fff",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        },
+                        "template": "templates/row.html",
+                        "nodes": [
+                            {
+                                "id": "widget1432725945944",
+                                "class": "posrelative",
+                                "extraclass": "",
+                                "w_type": "widget",
+                                "type": "footer",
+                                "template": "block/footers/uou-block-4e-photo.html",
+                                "widgetdata": {
+                                    "title": "Chameleon",
+                                    "btnclass": "btn btn-warning",
+                                    "contact": [
+                                        {
+                                            "text": "198 West 21th Street,<br>Suite 721, New York NY 10010",
+                                            "icons": "fa-map-marker"
+                                        },
+                                        {
+                                            "text": "<a href='mailto:'>contact@company.com</a>",
+                                            "icons": "fa-envelope"
+                                        },
+                                        {
+                                            "text": "<a href='tel:'>+88 (0) 101 0000 000</a>",
+                                            "icons": "fa-phone"
+                                        }
+                                    ],
+                                    "twitter": "From Twitter",
+                                    "photostream": "Photostream",
+                                    "newsletter": "NEWSLETTER",
+                                    "buttontext": "Subscribe",
+                                    "newslettertext": "Subscribe to our newsletter to receive news, updates, free stuff and new releases by email. We don't do spam.",
+                                    "twitterfeed": [
+                                        {
+                                            "title": "RT <a href='#'>@no1son</a>: Now this <a href='#'>http://t.co/TSfMW1qMAW</a> is one hell of a stunning site!!! Awesome work guys <a href='#'>@AIRNAUTS</a>",
+                                            "text": "May 25"
+                                        },
+                                        {
+                                            "title": "Check out the wordpress version of Tucson - <a href='#'>http://t.co/sBlU3GbapT</a>",
+                                            "text": "May 25"
+                                        }
+                                    ],
+                                    "nav": [
+                                        {
+                                            "title": "Image 1",
+                                            "image": "img/con-photostream-1.jpg",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Image 2",
+                                            "image": "img/con-photostream-2.jpg",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Image 3",
+                                            "image": "img/con-photostream-3.jpg",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Image 4",
+                                            "image": "img/con-photostream-4.jpg",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Image 5",
+                                            "image": "img/con-photostream-5.jpg",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Image 6",
+                                            "image": "img/con-photostream-6.jpg",
+                                            "link": ""
+                                        }
+                                    ],
+                                    "wrapper_class": "uou-block-4e has-bg-image",
+                                    "backgroundcolor": "#fff",
+                                    "backgroundopacity": 0,
+                                    "background": ""
+                                },
+                                "name": "footer ",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 20,
+                                    "backgroundopacity": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }

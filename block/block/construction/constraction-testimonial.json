@@ -1,0 +1,188 @@
+{
+    "id": "node1433146009632",
+    "name": "row 1",
+    "w_type": "row",
+    "class": "",
+    "margintopclass": "mt0",
+    "marginbottomclass": "mb0",
+    "extraclass": "constraction-testimonial",
+    "background_property": {
+        "background_position": "",
+        "background_repeat": "",
+        "height": 20
+    },
+    "template": "templates/row.html",
+    "nodes": [
+        {
+            "id": "widget1433146196657",
+            "class": "posrelative",
+            "extraclass": "",
+            "w_type": "widget",
+            "type": "HTML",
+            "template": "block/gui/htmlwidget.html",
+            "widgetdata": {
+                "html": "<div class=\"block-title-conten\">\n      <h4>Testimonials</h4>\n    </div>"
+            },
+            "name": "HTML ",
+            "background_property": {
+                "background_color": "",
+                "background_image": "",
+                "background_position": "",
+                "background_repeat": "",
+                "height": 20,
+                "backgroundopacity": 0
+            }
+        },
+        {
+            "id": "node1433146014276",
+            "name": "row 1",
+            "w_type": "row",
+            "class": "row",
+            "extraclass": "container has-bg-image",
+            "margintopclass": "mt0",
+            "marginbottomclass": "mb0",
+            "background_property": {
+                "background_color": "#fff",
+                "background_position": "",
+                "background_repeat": "",
+                "height": 100,
+                "backgroundopacity": 0
+            },
+            "template": "templates/row.html",
+            "nodes": [
+                {
+                    "id": "node143314605014952",
+                    "name": "row 1",
+                    "w_type": "row",
+                    "class": "",
+                    "extraclass": "row",
+                    "background_property": {
+                        "background_position": "",
+                        "background_repeat": "",
+                        "height": 20
+                    },
+                    "template": "templates/row.html",
+                    "nodes": [
+                        {
+                            "id": "node143314605014958",
+                            "name": "Column 1",
+                            "w_type": "column",
+                            "class": "col-md-4 mn-height",
+                            "extraclass": "col-sm-4",
+                            "background_property": {
+                                "background_color": "",
+                                "background_image": "",
+                                "background_position": "",
+                                "background_repeat": "",
+                                "height": 100,
+                                "backgroundopacity": 0
+                            },
+                            "template": "templates/row.html",
+                            "nodes": [
+                                {
+                                    "id": "widget143314605014970",
+                                    "class": "posrelative",
+                                    "extraclass": "",
+                                    "w_type": "widget",
+                                    "type": "uou-block-5d",
+                                    "template": "block/gui/uou-block-5d.html",
+                                    "widgetdata": {
+                                        "text": "Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque. Omnis aspernatur consequatur, sint quis facere.",
+                                        "image": "img/avatar.png",
+                                        "name": "Jason Santa Maria",
+                                        "url": "smashingmagazine.com",
+                                        "class": "secondary",
+                                        "template": "block/gui/uou-block-5d.html",
+                                        "type": "uou-block-5d",
+                                        "wrapper_class": "col-md-4",
+                                        "wrapper_extra_class": "col-sm-4"
+                                    },
+                                    "name": "uou-block-5d "
+                                }
+                            ]
+                        },
+                        {
+                            "id": "node14331460501506",
+                            "name": "Column 3",
+                            "w_type": "column",
+                            "class": "col-md-4 mn-height",
+                            "extraclass": "col-sm-4",
+                            "background_property": {
+                                "background_color": "",
+                                "background_image": "",
+                                "background_position": "",
+                                "background_repeat": "",
+                                "height": 100,
+                                "backgroundopacity": 0
+                            },
+                            "template": "templates/row.html",
+                            "nodes": [
+                                {
+                                    "id": "widget14331460501505",
+                                    "class": "posrelative",
+                                    "extraclass": "",
+                                    "w_type": "widget",
+                                    "type": "uou-block-5d",
+                                    "template": "block/gui/uou-block-5d.html",
+                                    "widgetdata": {
+                                        "text": "Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque. Omnis aspernatur consequatur, sint quis facere.",
+                                        "image": "img/avatar.png",
+                                        "name": "Jason Santa Maria",
+                                        "url": "smashingmagazine.com",
+                                        "class": "secondary",
+                                        "template": "block/gui/uou-block-5d.html",
+                                        "type": "uou-block-5d",
+                                        "wrapper_class": "col-md-4",
+                                        "wrapper_extra_class": "col-sm-4"
+                                    },
+                                    "name": "uou-block-5d "
+                                }
+                            ]
+                        },
+                        {
+                            "id": "node1433146282854",
+                            "name": "column 3",
+                            "w_type": "column",
+                            "class": "col-md-4",
+                            "extraclass": "col-xs-12 col-sm-12 col-md-4",
+                            "margintopclass": "mt0",
+                            "marginbottomclass": "mb0",
+                            "background_property": {
+                                "background_position": "",
+                                "background_repeat": "",
+                                "height": 20
+                            },
+                            "template": "templates/row.html",
+                            "nodes": [
+                                {
+                                    "id": "widget1433146316982",
+                                    "class": "posrelative",
+                                    "extraclass": "",
+                                    "w_type": "widget",
+                                    "type": "uou-block-5d secondary",
+                                    "template": "block/gui/uou-block-5d.html",
+                                    "widgetdata": {
+                                        "text": "Ipsum voluptatum veritatis beatae ea sapiente minima quibusdam asperiores sunt sint commodi, veniam impedit aut possimus enim atque. Omnis aspernatur consequatur, sint quis facere.",
+                                        "image": "img/avatar.png",
+                                        "name": "Jason Santa Maria",
+                                        "url": "smashingmagazine.com",
+                                        "class": "secondary"
+                                    },
+                                    "name": "uou-block-5d secondary ",
+                                    "background_property": {
+                                        "background_color": "",
+                                        "background_image": "",
+                                        "background_position": "",
+                                        "background_repeat": "",
+                                        "height": 20,
+                                        "backgroundopacity": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

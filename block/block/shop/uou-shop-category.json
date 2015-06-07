@@ -1,0 +1,28 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"shop-page-content",
+    	  "title": "BROWSE BY CATEGORY",
+    "products": [
+        {
+            "title": "Women",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-category1.jpg"
+        },
+        {
+            "title": "Men",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-category2.jpg"
+        },
+        {
+            "title": "Kids",
+            "price": "$ 19.99",
+            "link": "",
+            "image": "img/shop-category3.jpg"
+        }
+    ]
+}

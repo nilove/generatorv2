@@ -6,7 +6,7 @@
 
     <p><?=$params["widgetdata"]["text"];?></p>
 
-    <a href="#" class="btn btn-primary"><?=$params["widgetdata"]["button"];?></a>
+    <a href="#" class="<?=$params["widgetdata"]["btnclass"];?>"><?=$params["widgetdata"]["button"];?></a>
   </div>
 
   <div class="css-table-cell image has-bg-image" data-bg-image="<?=copyimage($params["widgetdata"]["image"]);?>">

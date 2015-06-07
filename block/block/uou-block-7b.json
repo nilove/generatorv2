@@ -10,5 +10,6 @@
 	"image":"img/blog-image-3.png",
 	"company":"Perspiciatis Sint Pariatur Velit Corrupti",
 	"button":"Read More",
-	"timetext":"3 days ago"
+	"timetext":"3 days ago",
+	"btnclass":"btn btn-primary"
 }

@@ -1,0 +1,465 @@
+[
+    {
+        "id": "node1433232659674",
+        "name": "uou-block-1a",
+        "w_type": "row",
+        "extraclass": "uou-block-1a has-bg-image",
+        "margintopclass": "mt0",
+        "marginbottomclass": "mb0",
+        "background_property": {
+            "background_color": "#fff",
+            "height": 20,
+            "backgroundopacity": 0
+        },
+        "template": "templates/row.html",
+        "nodes": [
+            {
+                "id": "widget1433232659674",
+                "class": "posrelative",
+                "extraclass": "",
+                "w_type": "widget",
+                "type": "uou-block-1a",
+                "template": "block/menu/uou-block-1a.html",
+                "widgetdata": {
+                    "title": "Chameleon",
+                    "languagetitle": "NDL",
+                    "language": [
+                        {
+                            "title": "PT",
+                            "image": "img/PT.png"
+                        },
+                        {
+                            "title": "FR",
+                            "image": "img/FR.png"
+                        },
+                        {
+                            "title": "ES",
+                            "image": "img/ES.png"
+                        }
+                    ],
+                    "social": [
+                        {
+                            "title": "Facebook",
+                            "background": "#3b5999",
+                            "link": "https://www.facebook.com/",
+                            "icons": "fa-facebook",
+                            "items": []
+                        },
+                        {
+                            "title": "Twitter",
+                            "background": "#55acee",
+                            "link": "https://twitter.com/",
+                            "icons": "fa-twitter",
+                            "items": []
+                        },
+                        {
+                            "title": "Google",
+                            "background": "#dd4b39",
+                            "link": "https://www.google.com.bd/?gws_rd=ssl",
+                            "icons": "fa-google-plus",
+                            "items": []
+                        }
+                    ],
+                    "authentication": [
+                        {
+                            "title": "Login"
+                        },
+                        {
+                            "title": "Register"
+                        }
+                    ],
+                    "wrapper_class": "uou-block-1a has-bg-image",
+                    "backgroundcolor": "#fff",
+                    "backgroundopacity": 0,
+                    "background": ""
+                },
+                "name": "uou-block-1a ",
+                "background_property": {
+                    "background_color": "",
+                    "background_image": "",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": "node1433232674658",
+        "name": "resturantmenu",
+        "w_type": "row",
+        "extraclass": "fluid has-bg-image",
+        "margintopclass": "mt0",
+        "marginbottomclass": "mb0",
+        "background_property": {
+            "background_color": "#fff",
+            "background_image": "img/intro.jpg",
+            "height": 20,
+            "backgroundopacity": 0
+        },
+        "template": "templates/row.html",
+        "nodes": [
+            {
+                "id": "widget1433232674657",
+                "class": "posrelative",
+                "extraclass": "",
+                "w_type": "widget",
+                "type": "resturantmenu",
+                "template": "block/block/restaurant/resturantmenu.html",
+                "widgetdata": {
+                    "background": "img/intro.jpg",
+                    "backgroundcolor": "#fff",
+                    "backgroundopacity": 0,
+                    "backgrondimage": "img/intro.jpg",
+                    "wrapper_class": "fluid has-bg-image",
+                    "blocks": [
+                        {
+                            "text1": "The Only",
+                            "text2": "Place",
+                            "text3": "you are",
+                            "text4": "Looking For"
+                        },
+                        {
+                            "text1": "The Only",
+                            "text2": "Place",
+                            "text3": "you are",
+                            "text4": "Looking For"
+                        },
+                        {
+                            "text1": "The Only",
+                            "text2": "Place",
+                            "text3": "you are",
+                            "text4": "Looking For"
+                        },
+                        {
+                            "text1": "The Only",
+                            "text2": "Place",
+                            "text3": "you are",
+                            "text4": "Looking For"
+                        }
+                    ]
+                },
+                "name": "resturantmenu ",
+                "background_property": {
+                    "background_color": "",
+                    "background_image": "",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": "node1433232743792",
+        "name": "uou-welcome-message",
+        "w_type": "row",
+        "extraclass": "uou-welcome-message has-bg-image",
+        "margintopclass": "mt0",
+        "marginbottomclass": "mb0",
+        "background_property": {
+            "background_color": "#fff",
+            "background_image": "img/welcome.jpg",
+            "height": 20,
+            "backgroundopacity": 0
+        },
+        "template": "templates/row.html",
+        "nodes": [
+            {
+                "id": "widget1433232743792",
+                "class": "posrelative",
+                "extraclass": "",
+                "w_type": "widget",
+                "type": "uou-welcome-message",
+                "template": "block/block/restaurant/uou-welcome-message.html",
+                "widgetdata": {
+                    "background": "img/welcome.jpg",
+                    "backgroundcolor": "#fff",
+                    "backgroundopacity": 0,
+                    "backgrondimage": "img/welcome.jpg",
+                    "wrapper_class": "uou-welcome-message has-bg-image",
+                    "title": "Welcome to Chameleon",
+                    "text": "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.",
+                    "openinghourtitle": "Opening Hours",
+                    "openinghour1": "Mon - Fri: 11:30 am - 01:00 am",
+                    "openinghour2": "Sat & Sun: 16:30 pm - 01:00 am",
+                    "nav": [
+                        {
+                            "title": "Image 1",
+                            "image": "img/welcome-1.jpg",
+                            "link": ""
+                        },
+                        {
+                            "title": "Image 2",
+                            "image": "img/welcome-2.jpg",
+                            "link": ""
+                        }
+                    ]
+                },
+                "name": "uou-welcome-message ",
+                "background_property": {
+                    "background_color": "",
+                    "background_image": "",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": "node1433232777778",
+        "name": "uou-menu-list",
+        "w_type": "row",
+        "extraclass": "uou-menu-list",
+        "margintopclass": "mt0",
+        "marginbottomclass": "mb0",
+        "background_property": {
+            "background_color": "#fff",
+            "background_image": "img/foods.jpg",
+            "height": 20,
+            "backgroundopacity": 1
+        },
+        "template": "templates/row.html",
+        "nodes": [
+            {
+                "id": "widget1433232777778",
+                "class": "posrelative",
+                "extraclass": "",
+                "w_type": "widget",
+                "type": "uou-menu-list",
+                "template": "block/block/uou-menu-list.html",
+                "widgetdata": {
+                    "background": "img/foods.jpg",
+                    "backgroundcolor": "#fff",
+                    "backgroundopacity": 1,
+                    "backgrondimage": "img/foods.jpg",
+                    "wrapper_class": "uou-menu-list",
+                    "title": "Experience the Best Food",
+                    "nav": [
+                        {
+                            "title": "Breakfast",
+                            "image": "img/menu-1.png",
+                            "link": ""
+                        },
+                        {
+                            "title": "BREAKFAST",
+                            "image": "img/menu-2.png",
+                            "link": ""
+                        },
+                        {
+                            "title": "BREAKFAST",
+                            "image": "img/menu-3.png",
+                            "link": ""
+                        },
+                        {
+                            "title": "BREAKFAST",
+                            "image": "img/menu-4.png",
+                            "link": ""
+                        },
+                        {
+                            "title": "BREAKFAST",
+                            "image": "img/menu-5.png",
+                            "link": ""
+                        },
+                        {
+                            "title": "BREAKFAST",
+                            "image": "img/menu-6.png",
+                            "link": ""
+                        }
+                    ]
+                },
+                "name": "uou-menu-list ",
+                "background_property": {
+                    "background_color": "",
+                    "background_image": "",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": "node1433232758644",
+        "name": "uou-about-us",
+        "w_type": "row",
+        "extraclass": "uou-about-us has-bg-image",
+        "margintopclass": "mt0",
+        "marginbottomclass": "mb0",
+        "background_property": {
+            "background_color": "#ef3f45",
+            "background_image": "img/about.jpg",
+            "height": 20,
+            "backgroundopacity": 0.65
+        },
+        "template": "templates/row.html",
+        "nodes": [
+            {
+                "id": "widget1433232758644",
+                "class": "posrelative",
+                "extraclass": "",
+                "w_type": "widget",
+                "type": "uou-about-us",
+                "template": "block/block/restaurant/uou-about-us.html",
+                "widgetdata": {
+                    "background": "img/about.jpg",
+                    "backgroundcolor": "#ef3f45",
+                    "backgroundopacity": 0.65,
+                    "backgrondimage": "img/about.jpg",
+                    "wrapper_class": "uou-about-us has-bg-image",
+                    "title": "About Us",
+                    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue condimentum condimentum. Maecenas",
+                    "p1": "Our many years in the food industry have allowed our chefs to sharpen their skills and improvise on the dishes, serving only the best to our valued guests.",
+                    "p2": "Make a selection from our variety of quality foods cuisine and American cuisine, cooked to perfection and with your satisfaction as our top priority.",
+                    "blocks": [
+                        {
+                            "image": "img/about-slider-1.jpg"
+                        },
+                        {
+                            "image": "img/about-slider-1.jpg"
+                        },
+                        {
+                            "image": "img/about-slider-1.jpg"
+                        }
+                    ]
+                },
+                "name": "uou-about-us ",
+                "background_property": {
+                    "background_color": "",
+                    "background_image": "",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": "node1433232813318",
+        "name": "row 6",
+        "w_type": "row",
+        "class": "",
+        "margintopclass": "mt0",
+        "marginbottomclass": "mb0",
+        "extraclass": "footer",
+        "background_property": {
+            "background_color": "",
+            "background_image": "",
+            "background_position": "",
+            "background_repeat": "",
+            "height": 100
+        },
+        "template": "templates/row.html",
+        "nodes": [
+            {
+                "id": "node1433232839433",
+                "name": "row 1",
+                "w_type": "row",
+                "class": "row",
+                "extraclass": "uou-block-4d secondary has-bg-image",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1433232868757",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "footer",
+                        "template": "block/footers/uou-block-4d.html",
+                        "widgetdata": {
+                            "title": "Chameleon",
+                            "text1": "Company",
+                            "btnclass": "btn btn-error",
+                            "nav1": [
+                                {
+                                    "title": "Our Story",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Mission and Vision",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Journal",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Careers",
+                                    "link": ""
+                                }
+                            ],
+                            "text2": "Legal",
+                            "nav2": [
+                                {
+                                    "title": "Privacy Policy",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Terms & Conditions",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Secure Payments",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Careers",
+                                    "link": ""
+                                }
+                            ],
+                            "text3": "Social",
+                            "nav3": [
+                                {
+                                    "title": "Facebook",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Twitter",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Google Plus",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Pinterest",
+                                    "link": ""
+                                }
+                            ],
+                            "text4": "Newsletter",
+                            "text5": "Subscribe to our newsletter to receive our latest news and updates. We do not spam.",
+                            "wrapper_class": "uou-block-4d secondary has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "footer ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

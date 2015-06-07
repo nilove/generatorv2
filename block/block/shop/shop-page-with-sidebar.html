@@ -1,0 +1,140 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-9 col-md-push-3">
+      <div class="top-selling-item uou-block-content">
+		      <div class="block-title-conten">
+		        <h4 plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h4>
+		      </div>
+		      <div class="">
+		        <div class="row">
+		          <div class="col-md-4 col-sm-4" ng-repeat="product in childNode.widgetdata.products">
+		            <div class="uou-item-single">
+		              <a data-toggle="modal" data-target="#myModal_product_{{childNode.id}}" href="#">
+		                <img src="{{product.image}}" alt="">
+		              </a>
+		              <h6>
+		                <a href="#" plaintx-contenteditable ng-model="product.title">{{product.title || ''}}<span></span></a>
+		              </h6>
+		              <p class="price" plaintx-contenteditable ng-model="product.price">{{product.price || ''}}<span></span></p>
+		            </div> <!--  end item-single -->
+		          </div>
+		         
+		        </div> <!-- end row -->
+		        <div class="uou-shop-pagination">
+                <ul class="pagination">
+                  <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                  <li class="active"><span>1</span></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li class="disabled"><span>...</span></li>
+                  <li><a href="#">10</a></li>
+                  <li><a href="#">20</a></li>
+                  <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                </ul>
+                
+              </div> <!--  end uou-shop-pagination -->
+
+		      </div> <!-- end container -->
+		      
+		</div> <!-- end top-selling-item -->
+      
+    </div> <!-- end grid layout -->
+    <div class="col-md-3 col-md-pull-9">
+
+      <div class="uou-shop-sidebar uou-block-content">
+        <div class="block-title-conten text-left">
+         <h4 plaintx-contenteditable ng-model="childNode.widgetdata.menu1title">{{childNode.widgetdata.menu1title || ''}}<span></span></h4>
+        </div>
+
+        <ul class="list-unstyled uou-category">
+          <li ng-repeat="nav in childNode.widgetdata.menu1">
+          	<a data-toggle="modal" data-target="#myModal_nav1{{childNode.id}}" href="#">{{nav.title}}</a>
+          </li>
+        </ul>
+
+        <div class="sidebar-title">
+          <h4 plaintx-contenteditable ng-model="childNode.widgetdata.menu2title">{{childNode.widgetdata.menu2title || ''}}<span></span></h4>
+        </div>
+
+        <ul class="list-unstyled uou-category">
+          <li ng-repeat="nav in childNode.widgetdata.menu2">
+          	<a data-toggle="modal" data-target="#myModal_nav2{{childNode.id}}" href="#">{{nav.title}}</a>
+          </li>
+        </ul>
+
+        <div class="sidebar-title">
+          <h4 plaintx-contenteditable ng-model="childNode.widgetdata.menu3title">{{childNode.widgetdata.menu3title || ''}}<span></span></h4>
+        </div>
+
+        <ul class="list-unstyled uou-category">
+          <li ng-repeat="nav in childNode.widgetdata.menu3">
+          	<a data-toggle="modal" data-target="#myModal_nav3{{childNode.id}}" href="#">{{nav.title}}</a>
+          </li>
+        </ul>
+
+
+        
+
+        <div class="uou-block-13a secondary mt50">
+          <h5>Top rated products</h5>
+
+          <ul>
+            <li>
+              <img src="http://placehold.it/50/95a2af/95a2af" alt="">
+              <h6><a href="">Ipsam sint incidunt</a></h6>
+              <ul class="stars">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star-half-o"></li>
+                <li class="fa fa-star-o"></li>
+              </ul>
+              <span class="date">December 19, 2014</span>
+            </li>
+
+            <li>
+              <img src="http://placehold.it/50/95a2af/95a2af" alt="">
+              <h6><a href="#">Saepe quaerat accusamus porro</a></h6>
+              <ul class="stars">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star-half-o"></li>
+                <li class="fa fa-star-o"></li>
+              </ul>
+              <span class="date">December 19, 2014</span>
+            </li>
+
+            <li>
+              <img src="http://placehold.it/50/95a2af/95a2af" alt="">
+              <h6><a href="">Sequi tempore excepturi nisi</a></h6>
+              <ul class="stars">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star-half-o"></li>
+                <li class="fa fa-star-o"></li>
+              </ul>
+              <span class="date">December 19, 2014</span>
+            </li>
+          </ul>
+          <a href="" class="btn btn-primary">Write a Review</a>
+        </div> <!-- end .uou-block-13a -->
+      </div> <!-- end uou-shop-sidebar -->      
+    </div> <!-- end grid layout -->
+  </div> <!--  en row -->
+</div> <!-- end main -container -->
+<div productmenu>
+
+</div>
+<div nav1>
+
+</div>
+<div nav2>
+
+</div>
+<div nav3>
+
+</div>

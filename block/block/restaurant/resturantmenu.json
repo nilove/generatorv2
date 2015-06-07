@@ -1,0 +1,33 @@
+{
+  "background":"img/intro.jpg",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"img/intro.jpg",
+  "wrapper_class":"fluid has-bg-image",
+  "blocks":[
+	  {
+	  	"text1":"The Only",
+	  	"text2":"Place",
+	  	"text3":"you are",
+	  	"text4":"Looking For"
+	  },
+	  {
+	  	"text1":"The Only",
+	  	"text2":"Place",
+	  	"text3":"you are",
+	  	"text4":"Looking For"
+	  },
+	  {
+	  	"text1":"The Only",
+	  	"text2":"Place",
+	  	"text3":"you are",
+	  	"text4":"Looking For"
+	  },
+	  {
+	  	"text1":"The Only",
+	  	"text2":"Place",
+	  	"text3":"you are",
+	  	"text4":"Looking For"
+	  }
+  ]
+}

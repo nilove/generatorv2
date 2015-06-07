@@ -1,6 +1,7 @@
 {
 	"title":"Chameleon",
 	"text1":"Company",
+	"btnclass":"btn btn-primary",
 	"nav1":[
 			 {
 			 	"title":"Our Story",

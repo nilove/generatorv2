@@ -1,5 +1,5 @@
 <div class="uou-tabs">
-          <ul class="tabs">
+          <ul class="tabs <?=$params["widgetdata"]["constructtionclass"];?>">
             <?php 
             foreach ($params["widgetdata"]["tabs"] as $key => $d) 
             {

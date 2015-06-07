@@ -69,7 +69,6 @@
         "template": "block/gui/uou-block-5d.html",
         "category": "gui"
     },
-    
     {
         "id": "uou-block-6a_singlesc",
         "title": "uou-block-6a",
@@ -227,7 +226,7 @@
         "title": "uou-block-8b",
         "widget_conf": "block/gui/uou-block-8b.json",
         "src": "img/block-preview-image/block/block15.JPG",
-        "type": "footer",
+        "type": "uou-block-8b",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/block/uou-block-8b.html",
@@ -367,24 +366,24 @@
         "id": "object1",
         "title": "Row",
         "widget_conf": "",
-        "src": "http://placehold.it/200&text=row",
+        "src": "http://placehold.it/350x350?text=Row",
         "type": "row",
         "class": "to_widget",
         "template": "block/image.html",
         "wclass": "row",
-        "extraclass": "",
+        "extraclass": "row",
         "category": "layout"
     },
     {
-        "id": "object1",
+        "id": "object2",
         "title": "Column",
         "widget_conf": "",
-        "src": "http://placehold.it/200&text=column",
+        "src": "http://placehold.it/350x350?text=Column",
         "type": "column",
         "class": "to_widget",
         "template": "block/image.html",
         "wclass": "col-md-4",
-        "extraclass": "col-xs-12 col-sm-12",
+        "extraclass": "col-xs-12 col-sm-12 col-md-4",
         "category": "layout"
     },
     {
@@ -402,7 +401,7 @@
         "title": "uou-block-1a",
         "widget_conf": "block/menu/uou-block-1a.json",
         "src": "img/block-preview-image/toolbar/toolbar1.JPG",
-        "type": "menu",
+        "type": "uou-block-1a",
         "class": "to_widget",
         "row": "row",
         "template": "block/menu/uou-block-1a.html",
@@ -413,7 +412,7 @@
         "title": "uou-block-1b",
         "widget_conf": "block/menu/uou-block-1b.json",
         "src": "img/block-preview-image/toolbar/toolbar2.JPG",
-        "type": "menu",
+        "type": "uou-block-1b",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-1b.html",
@@ -424,7 +423,7 @@
         "title": "uou-block-1c",
         "widget_conf": "block/menu/uou-block-1c.json",
         "src": "img/block-preview-image/toolbar/toolbar3.JPG",
-        "type": "menu",
+        "type": "uou-block-1c",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-1c.html",
@@ -435,7 +434,7 @@
         "title": "uou-block-1d",
         "widget_conf": "block/menu/uou-block-1d.json",
         "src": "img/block-preview-image/toolbar/toolbar4.JPG",
-        "type": "menu",
+        "type": "uou-block-1d",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-1d.html",
@@ -446,7 +445,7 @@
         "title": "uou-block-1e",
         "widget_conf": "block/menu/uou-block-1e.json",
         "src": "img/block-preview-image/toolbar/toolbar5.JPG",
-        "type": "menu",
+        "type": "uou-block-1e",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-1e.html",
@@ -457,7 +456,7 @@
         "title": "uou-block-1f",
         "widget_conf": "block/menu/uou-block-1f.json",
         "src": "img/block-preview-image/toolbar/toolbar6.JPG",
-        "type": "menu",
+        "type": "uou-block-1f",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-1f.html",
@@ -468,7 +467,7 @@
         "title": "uou-block-2a",
         "widget_conf": "block/menu/uou-block-2a.json",
         "src": "img/block-preview-image/toolbar/toolbar7.JPG",
-        "type": "menu",
+        "type": "uou-block-2a",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2a.html",
@@ -479,92 +478,84 @@
         "title": "uou-block-2a-contact",
         "widget_conf": "block/menu/uou-block-2a-contact.json",
         "src": "img/block-preview-image/toolbar/toolbar8.JPG",
-        "type": "menu",
+        "type": "uou-block-2a-contact",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2a-contact.html",
         "category": "toolbar"
     },
-
     {
         "id": "uou-block-2a-search",
         "title": "uou-block-2a-search",
         "widget_conf": "block/menu/uou-block-2a-search.json",
         "src": "img/block-preview-image/toolbar/toolbar10.JPG",
-        "type": "menu",
+        "type": "uou-block-2a-search",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2a-search.html",
         "category": "toolbar"
     },
-
     {
         "id": "uou-block-2a-cart",
         "title": "uou-block-2a-cart",
         "widget_conf": "block/menu/uou-block-2a-cart.json",
         "src": "img/block-preview-image/toolbar/toolbar9.JPG",
-        "type": "menu",
+        "type": "uou-block-2a-cart",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2a-cart.html",
         "category": "toolbar"
     },
-
     {
         "id": "uou-block-2a-banner",
-        "title":"uou-block-2a-banner",
+        "title": "uou-block-2a-banner",
         "widget_conf": "block/menu/uou-block-2a-banner.json",
         "src": "img/block-preview-image/toolbar/toolbar11.JPG",
-        "type": "menu",
+        "type": "uou-block-2a-banner",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2a-banner.html",
         "category": "toolbar"
     },
-
     {
         "id": "uou-block-2d",
-        "title":"uou-block-2d",
+        "title": "uou-block-2d",
         "widget_conf": "block/menu/uou-block-2d.json",
         "src": "img/block-preview-image/toolbar/toolbar12.JPG",
-        "type": "menu",
+        "type": "uou-block-2d",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2d.html",
         "category": "toolbar"
     },
-    
     {
         "id": "uou-block-2d-cart",
-        "title":"uou-block-2d-cart",
+        "title": "uou-block-2d-cart",
         "widget_conf": "block/menu/uou-block-2d-cart.json",
         "src": "img/block-preview-image/toolbar/toolbar13.JPG",
-        "type": "menu",
+        "type": "uou-block-2d-cart",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2d-cart.html",
         "category": "toolbar"
     },
-   
     {
         "id": "uou-block-2b",
         "title": "uou-block-2b",
         "widget_conf": "block/menu/uou-block-2b.json",
         "src": "img/block-preview-image/header/header1.JPG",
-        "type": "menu",
+        "type": "uou-block-2b",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2b.html",
         "category": "menu"
     },
-    
-    
     {
         "id": "uou-block-2b-icons",
         "title": "uou-block-2b-icons",
         "widget_conf": "block/menu/uou-block-2b-icons.json",
         "src": "img/block-preview-image/header/header3.JPG",
-        "type": "menu",
+        "type": "uou-block-2b-icons",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2b-icons.html",
@@ -575,7 +566,7 @@
         "title": "uou-block-2c",
         "widget_conf": "block/menu/uou-block-2c.json",
         "src": "img/block-preview-image/header/header4.JPG",
-        "type": "menu",
+        "type": "uou-block-2c",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2c.html",
@@ -586,7 +577,7 @@
         "title": "uou-block-2c-icons",
         "widget_conf": "block/menu/uou-block-2c-icons.json",
         "src": "img/block-preview-image/header/header5.JPG",
-        "type": "menu",
+        "type": "uou-block-2c-icons",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2c-icons.html",
@@ -597,7 +588,7 @@
         "title": "uou-block-2e",
         "widget_conf": "block/menu/uou-block-2e.json",
         "src": "img/block-preview-image/header/header6.JPG",
-        "type": "menu",
+        "type": "uou-block-2e",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2e.html",
@@ -608,7 +599,7 @@
         "title": "uou-block-2e-cart",
         "widget_conf": "block/menu/uou-block-2e-cart.json",
         "src": "img/block-preview-image/header/header7.JPG",
-        "type": "menu",
+        "type": "uou-block-2e-cart",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2e-cart.html",
@@ -619,7 +610,7 @@
         "title": "uou-block-2e-search",
         "widget_conf": "block/menu/uou-block-2e-search.json",
         "src": "img/block-preview-image/header/header8.JPG",
-        "type": "menu",
+        "type": "uou-block-2e-search",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2e-search.html",
@@ -630,7 +621,7 @@
         "title": "uou-block-2f",
         "widget_conf": "block/menu/uou-block-2f.json",
         "src": "img/block-preview-image/header/header9.JPG",
-        "type": "menu",
+        "type": "uou-block-2f",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2f.html",
@@ -641,7 +632,7 @@
         "title": "uou-block-2f-border-right",
         "widget_conf": "block/menu/uou-block-2f-border-right.json",
         "src": "img/block-preview-image/header/header10.JPG",
-        "type": "menu",
+        "type": "uou-block-2f-border-right",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2f-border-right.html",
@@ -652,18 +643,18 @@
         "title": "uou-block-2f-hover-bg",
         "widget_conf": "block/menu/uou-block-2f-hover-bg.json",
         "src": "img/block-preview-image/header/header11.JPG",
-        "type": "menu",
+        "type": "uou-block-2f-hover-bg",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2f-hover-bg.html",
         "category": "menu"
-    }, 
+    },
     {
         "id": "uou-block-2f-phone",
-        "title":"uou-block-2f-phone",
+        "title": "uou-block-2f-phone",
         "widget_conf": "block/menu/uou-block-2f-phone.json",
         "src": "img/block-preview-image/header/header23.JPG",
-        "type": "menu",
+        "type": "uou-block-2f-phone",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2f-phone.html",
@@ -671,10 +662,10 @@
     },
     {
         "id": "uou-block-2f-cart",
-        "title":"uou-block-2f-cart",
+        "title": "uou-block-2f-cart",
         "widget_conf": "block/menu/uou-block-2f-cart.json",
         "src": "img/block-preview-image/header/header24.JPG",
-        "type": "menu",
+        "type": "uou-block-2f-cart",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2f-cart.html",
@@ -682,21 +673,21 @@
     },
     {
         "id": "uou-block-2f-search",
-        "title":"uou-block-2f-search",
+        "title": "uou-block-2f-search",
         "widget_conf": "block/menu/uou-block-2f.json",
         "src": "img/block-preview-image/header/header26.JPG",
-        "type": "menu",
+        "type": "uou-block-2f-search",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-2f-search.html",
         "category": "menu"
-    },   
+    },
     {
         "id": "uou-block-3a",
-        "title": ".uou-block-3a",
+        "title": "uou-block-3a",
         "widget_conf": "block/menu/uou-block-3a.json",
         "src": "img/block-preview-image/header/header12.JPG",
-        "type": "menu",
+        "type": "uou-block-3a",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3a.html",
@@ -704,10 +695,10 @@
     },
     {
         "id": "uou-block-3a-secondary",
-        "title": ".uou-block-3a-secondary",
+        "title": "uou-block-3a-secondary",
         "widget_conf": "block/menu/uou-block-3a-secondary.json",
         "src": "img/block-preview-image/header/header13.JPG",
-        "type": "menu",
+        "type": "uou-block-3a-secondary",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3a.html",
@@ -718,7 +709,7 @@
         "title": ".uou-block-3b",
         "widget_conf": "block/menu/uou-block-3b.json",
         "src": "img/block-preview-image/header/header14.JPG",
-        "type": "menu",
+        "type": "uou-block-3b",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3b.html",
@@ -729,7 +720,7 @@
         "title": ".uou-block-3b-secondary",
         "widget_conf": "block/menu/uou-block-3b-secondary.json",
         "src": "img/block-preview-image/header/header15.JPG",
-        "type": "menu",
+        "type": "uou-block-3b",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3b.html",
@@ -740,7 +731,7 @@
         "title": ".uou-block-3c",
         "widget_conf": "block/menu/uou-block-3c.json",
         "src": "img/block-preview-image/header/header16.JPG",
-        "type": "menu",
+        "type": "uou-block-3c",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3c.html",
@@ -751,7 +742,7 @@
         "title": ".uou-block-3c-secondary",
         "widget_conf": "block/menu/uou-block-3c-secondary.json",
         "src": "img/block-preview-image/header/header17.JPG",
-        "type": "menu",
+        "type": "uou-block-3c-secondary",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3c.html",
@@ -762,7 +753,7 @@
         "title": "uou-block-3d",
         "widget_conf": "block/menu/uou-block-3d.json",
         "src": "img/block-preview-image/header/header18.JPG",
-        "type": "menu",
+        "type": "uou-block-3d",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3d.html",
@@ -773,7 +764,7 @@
         "title": "uou-block-3d-with-title",
         "widget_conf": "block/menu/uou-block-3d-with-title.json",
         "src": "img/block-preview-image/header/header19.JPG",
-        "type": "menu",
+        "type": "uou-block-3d-with-title",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3d-with-title.html",
@@ -784,7 +775,7 @@
         "title": "uou-block-3d-with-contact",
         "widget_conf": "block/menu/uou-block-3d-with-contact.json",
         "src": "img/block-preview-image/header/header20.JPG",
-        "type": "menu",
+        "type": "uou-block-3d-with-contact",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3d-with-contact.html",
@@ -795,7 +786,7 @@
         "title": "uou-block-3d-with-cart",
         "widget_conf": "block/menu/uou-block-3d-with-cart.json",
         "src": "img/block-preview-image/header/header21.JPG",
-        "type": "menu",
+        "type": "uou-block-3d-with-cart",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3d-with-cart.html",
@@ -806,20 +797,18 @@
         "title": "uou-block-3d-search",
         "widget_conf": "block/menu/uou-block-3d-search.json",
         "src": "img/block-preview-image/header/header22.JPG",
-        "type": "menu",
+        "type": "uou-block-3d-search",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/menu/uou-block-3d-search.html",
         "category": "menu"
     },
-        
-
     {
         "id": "uou-block-4a",
-        "title":"uou-block-4a",
+        "title": "uou-block-4a",
         "widget_conf": "block/footers/uou-block-4a.json",
         "src": "img/block-preview-image/footer/footer1.JPG",
-        "type": "footer",
+        "type": "uou-block-4a",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4a.html",
@@ -830,7 +819,7 @@
         "title": "uou-block-4a-secondary",
         "widget_conf": "block/footers/uou-block-4a-secondary.json",
         "src": "img/block-preview-image/footer/footer2.JPG",
-        "type": "footer",
+        "type": "uou-block-4a-secondary",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4a.html",
@@ -841,7 +830,7 @@
         "title": "uou-block-4a-social-icons",
         "widget_conf": "block/footers/uou-block-4a-social-icons.json",
         "src": "img/block-preview-image/footer/footer3.JPG",
-        "type": "footer",
+        "type": "uou-block-4a-social-icons",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4a-social-icons.html",
@@ -852,7 +841,7 @@
         "title": "uou-block-4a-social-icons-secondary",
         "widget_conf": "block/footers/uou-block-4a-social-icons-secondary.json",
         "src": "img/block-preview-image/footer/footer4.JPG",
-        "type": "footer",
+        "type": "uou-block-4a-social-icons-secondary",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4a-social-icons.html",
@@ -863,7 +852,7 @@
         "title": "uou-block-4b",
         "widget_conf": "block/footers/uou-block-4b.json",
         "src": "img/block-preview-image/footer/footer5.JPG",
-        "type": "footer",
+        "type": "uou-block-4b",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4b.html",
@@ -874,7 +863,7 @@
         "title": "uou-block-4b-secondary",
         "widget_conf": "block/footers/uou-block-4b-secondary.json",
         "src": "img/block-preview-image/footer/footer6.JPG",
-        "type": "footer",
+        "type": "uou-block-4b-secondary",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4b.html",
@@ -885,7 +874,7 @@
         "title": "uou-block-4c",
         "widget_conf": "block/footers/uou-block-4c.json",
         "src": "img/block-preview-image/footer/footer7.JPG",
-        "type": "footer",
+        "type": "uou-block-4c",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4c.html",
@@ -896,7 +885,7 @@
         "title": "uou-block-4c-socondary",
         "widget_conf": "block/footers/uou-block-4c-secondary.json",
         "src": "img/block-preview-image/footer/footer8.JPG",
-        "type": "footer",
+        "type": "uou-block-4c-socondary",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4c.html",
@@ -907,7 +896,7 @@
         "title": "uou-block-4c-social-icon",
         "widget_conf": "block/footers/uou-block-4c-social-icon.json",
         "src": "img/block-preview-image/footer/footer9.JPG",
-        "type": "footer",
+        "type": "uou-block-4c-social-icon",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4c-social-icon.html",
@@ -918,7 +907,7 @@
         "title": "uou-block-4c-social-icon-secondary",
         "widget_conf": "block/footers/uou-block-4c-social-icon-secondary.json",
         "src": "img/block-preview-image/footer/footer10.JPG",
-        "type": "footer",
+        "type": "uou-block-4c-social-icon-secondary",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/footers/uou-block-4c-social-icon.html",
@@ -1012,18 +1001,30 @@
         "template": "block/footers/uou-block-4e-photo.html",
         "category": "footer"
     },
-   
     {
         "id": "tabwidget",
         "title": "Horizontal Tab",
         "widget_conf": "block/gui/tabs.json",
         "src": "img/block-preview-image/gui/gui20.JPG",
-        "type": "footer",
+        "type": "Horizontal Tab",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/gui/tabs.html",
-        "category": "gui"
+        "category": "block"
     },
+
+    {
+        "id": "contructiontabwidget",
+        "title": "Construction Horizontal Tab",
+        "widget_conf": "block/block/construction/tabs.json",
+        "src": "img/block-preview-image/block/block61.JPG",
+        "type": "Construction Horizontal Tab",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/gui/tabs.html",
+        "category": "block"
+    },
+
     {
         "id": "verticaltabwidget",
         "title": "Vertical Tab",
@@ -1090,7 +1091,6 @@
         "template": "block/gui/blog-single-video.html",
         "category": "gui"
     },
-    
     {
         "id": "sidebar",
         "title": "sidebar",
@@ -1102,7 +1102,6 @@
         "template": "block/gui/sidebar.html",
         "category": "gui"
     },
-
     {
         "id": "uou-block-5a",
         "title": "uou-block-5a",
@@ -1213,7 +1212,6 @@
         "template": "block/block/uou-block-7a-reverse.html",
         "category": "block"
     },
-
     {
         "id": "uou-block-7a-reverse-secondary",
         "title": "uou-block-7a-reverse-secondary",
@@ -1230,26 +1228,24 @@
         "title": "uou-block-7b",
         "widget_conf": "block/block/uou-block-7b.json",
         "src": "img/block-preview-image/block/block25.JPG",
-        "type": "footer",
+        "type": "uou-block-7b",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/block/uou-block-7b.html",
         "category": "block"
     },
-
     {
         "id": "uou-block-7b-reverse",
         "title": "uou-block-7b-reverse",
         "widget_conf": "block/block/uou-block-7b.json",
         "src": "img/block-preview-image/block/block26.JPG",
-        "type": "footer",
+        "type": "uou-block-7b-reverse",
         "class": "to_widget",
         "row": "full-width",
         "template": "block/block/uou-block-7b-reverse.html",
         "category": "block"
     },
-
-     {
+    {
         "id": "uou-block-7b-secondary",
         "title": "uou-block-7b",
         "widget_conf": "block/block/uou-block-7b-secondary.json",
@@ -1271,7 +1267,6 @@
         "template": "block/block/uou-block-7b-reverse.html",
         "category": "block"
     },
-
     {
         "id": "uou-block-7c",
         "title": "uou-block-7c",
@@ -1316,8 +1311,6 @@
         "template": "block/block/uou-block-7h.html",
         "category": "block"
     },
-    
-
     {
         "id": "uou-block-8a",
         "title": "uou-block-8a",
@@ -1329,9 +1322,6 @@
         "template": "block/block/uou-block-8a.html",
         "category": "block"
     },
-
-    
-
     {
         "id": "uou-block-8b",
         "title": "uou-block-8b",
@@ -1387,8 +1377,6 @@
         "template": "block/block/pricing-table.html",
         "category": "block"
     },
-    
-
     {
         "id": "uou-block-10a",
         "title": "uou-block-10a",
@@ -1411,7 +1399,6 @@
         "template": "block/block/uou-block-10b.html",
         "category": "block"
     },
-
     {
         "id": "uou-block-12a",
         "title": "uou-block-12a",
@@ -1467,74 +1454,60 @@
         "template": "block/block/buttons.html",
         "category": "block"
     },
-
     {
         "id": "sliderblock",
         "title": "sliderblock",
-        "widget_conf": "block/block/slider.json",
+        "widget_conf": "block/block/single-page/slider.json",
         "src": "img/block-preview-image/block/block34.JPG",
         "type": "Slider",
         "class": "to_widget",
         "row": "full-width",
-        "template": "block/block/slider.html",
+        "template": "block/block/single-page/slider.html",
         "category": "block"
     },
     {
         "id": "portfolio",
         "title": "portfolio",
-        "widget_conf": "block/block/portfolio.json",
+        "widget_conf": "block/block/single-page/portfolio.json",
         "src": "img/block-preview-image/block/block35.JPG",
         "type": "portfolio",
         "class": "to_widget",
         "row": "full-width",
-        "template": "block/block/portfolio.html",
+        "template": "block/block/single-page/portfolio.html",
         "category": "block"
     },
-     
     {
         "id": "features",
         "title": "features",
-        "widget_conf": "block/block/features.json",
+        "widget_conf": "block/block/single-page/features.json",
         "src": "img/block-preview-image/block/block36.JPG",
         "type": "features",
         "class": "to_widget",
         "row": "full-width",
-        "template": "block/block/features.html",
+        "template": "block/block/single-page/features.html",
         "category": "block"
     },
     
     {
-        "id": "cta",
-        "title": "cta",
-        "widget_conf": "block/block/cta.json",
-        "src": "img/block-preview-image/block/block37.JPG",
-        "type": "cta",
-        "class": "to_widget",
-        "row": "full-width",
-        "template": "block/block/cta.html",
-        "category": "block"
-    },
-
-     {
         "id": "team",
         "title": "team",
-        "widget_conf": "block/block/team.json",
+        "widget_conf": "block/block/single-page/team.json",
         "src": "img/block-preview-image/block/block38.JPG",
         "type": "team",
         "class": "to_widget",
         "row": "full-width",
-        "template": "block/block/team.html",
+        "template": "block/block/single-page/team.html",
         "category": "block"
     },
     {
         "id": "clients",
         "title": "clients",
-        "widget_conf": "block/block/clients.json",
+        "widget_conf": "block/block/single-page/clients.json",
         "src": "img/block-preview-image/block/block39.JPG",
         "type": "clients",
         "class": "to_widget",
         "row": "full-width",
-        "template": "block/block/clients.html",
+        "template": "block/block/single-page/clients.html",
         "category": "block"
     },
     {
@@ -1615,6 +1588,30 @@
         "category": "block"
     },
     {
+        "id": "intro-slider-content",
+        "title": "intro-slider-content",
+        "widget_conf": "block/block/restaurant/intro-slider-content.json",
+        "src": "img/block-preview-image/block/block72.JPG",
+        "type": "uou-client-slider",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/restaurant/intro-slider-content.html",
+        "category": "block"
+    },
+    
+    {
+        "id": "resturantmenu",
+        "title": "resturantmenu",
+        "widget_conf": "block/block/restaurant/resturantmenu.json",
+        "src": "img/block-preview-image/block/block74.JPG",
+        "type": "resturantmenu",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/restaurant/resturantmenu.html",
+        "category": "block"
+    },
+
+    {
         "id": "uou-client-slider",
         "title": "uou-client-slider",
         "widget_conf": "block/block/construction/uou-client-slider.json",
@@ -1641,10 +1638,10 @@
         "title": "uou-constraction-toolbar",
         "widget_conf": "block/block/construction/uou-constraction-toolbar.json",
         "src": "img/block-preview-image/block/block50.JPG",
-        "type": "uou-constraction-toolbar",
+        "type": "data-widget",
         "class": "to_widget",
         "row": "full-width",
-        "template": "block/block/construction/uou-constraction-toolbar.html",
+        "template": "",
         "category": "block"
     },
     {
@@ -1657,6 +1654,215 @@
         "row": "full-width",
         "template": "block/block/construction/uou-constraction-toolbar-menu.html",
         "category": "block"
+    },
+    {
+        "id": "top-selling-item",
+        "title": "top-selling-item",
+        "widget_conf": "block/block/shop/top-selling-item.json",
+        "src": "img/block-preview-image/block/block52.JPG",
+        "type": "top-selling-item",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/shop/top-selling-item.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-shop-category",
+        "title": "uou-shop-category",
+        "widget_conf": "block/block/shop/uou-shop-category.json",
+        "src": "img/block-preview-image/block/block53.JPG",
+        "type": "uou-shop-category",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/shop/uou-shop-category.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-shop-slider",
+        "title": "uou-shop-slider",
+        "widget_conf": "block/block/shop/uou-shop-slider.json",
+        "src": "img/block-preview-image/block/block54.JPG",
+        "type": "uou-shop-slider",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/shop/uou-shop-slider.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-shop-banner",
+        "title": "uou-shop-banner",
+        "widget_conf": "block/block/shop/uou-shop-banner.json",
+        "src": "img/block-preview-image/block/block56.JPG",
+        "type": "uou-shop-banner",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/shop/uou-shop-banner.html",
+        "category": "block"
+    },
+    {
+        "id": "shop-page-with-sidebar",
+        "title": "shop-page-with-sidebar",
+        "widget_conf": "block/block/shop/shop-page-with-sidebar.json",
+        "src": "img/block-preview-image/block/block57.JPG",
+        "type": "shop-page-with-sidebar",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/shop/shop-page-with-sidebar.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-shop-contact",
+        "title": "uou-shop-contact",
+        "widget_conf": "block/block/shop/uou-shop-contact.json",
+        "src": "img/block-preview-image/block/block58.JPG",
+        "type": "uou-shop-contact",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/shop/uou-shop-contact.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-lookbook",
+        "title": "uou-lookbook",
+        "widget_conf": "block/block/shop/uou-lookbook.json",
+        "src": "img/block-preview-image/block/block59.JPG",
+        "type": "uou-shop-contact",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/shop/uou-lookbook.html",
+        "category": "block"
+    },
+    {
+        "id": "uou-about-us",
+        "title": "uou-about-us",
+        "widget_conf": "block/block/restaurant/uou-about-us.json",
+        "src": "img/block-preview-image/block/block60.JPG",
+        "type": "uou-about-us",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/restaurant/uou-about-us.html",
+        "category": "block"
+    },
+
+    {
+        "id": "uou-service",
+        "title": "uou-service",
+        "widget_conf": "block/block/construction/construction.json",
+        "src": "img/block-preview-image/block/block62.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+
+    {
+        "id": "con-blog-post",
+        "title": "con-blog-post",
+        "widget_conf": "block/block/construction/con-blog-post.json",
+        "src": "img/block-preview-image/block/block63.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+
+    {
+        "id": "con-testimonial-content",
+        "title": "con-testimonial-content",
+        "widget_conf": "block/block/construction/con-testimonial-content.json",
+        "src": "img/block-preview-image/block/block64.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+
+    {
+        "id": "uou-con-team",
+        "title": "uou-con-team",
+        "widget_conf": "block/block/construction/uou-con-team.json",
+        "src": "img/block-preview-image/block/block65.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+    {
+        "id": "constraction-footer",
+        "title": "constraction-footer",
+        "widget_conf": "block/block/construction/constraction-footer.json",
+        "src": "img/block-preview-image/block/block66.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+
+    {
+        "id": "constraction-footer-text",
+        "title": "constraction-footer-text",
+        "widget_conf": "block/block/construction/constraction-footer-text.json",
+        "src": "img/block-preview-image/block/block67.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+
+    {
+        "id": "uou-banner-v",
+        "title": "uou-banner-v",
+        "widget_conf": "block/block/construction/uou-banner.json",
+        "src": "img/block-preview-image/block/block68.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+    {
+        "id": "constraction-services-uou-block-7b",
+        "title": "constraction-services-uou-block-7b",
+        "widget_conf": "block/block/construction/constraction-services-uou-block-7b.json",
+        "src": "img/block-preview-image/block/block69.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+
+    {
+        "id": "constraction-services-uou-block-7b-reverse",
+        "title": "constraction-services-uou-block-7b-reverse",
+        "widget_conf": "block/block/construction/constraction-services-uou-block-7b-reverse.json",
+        "src": "img/block-preview-image/block/block70.JPG",
+        "type": "data-widget",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "",
+        "category": "block"
+    },
+
+    {
+        "id": "restaturant-menu",
+        "title": "restaturant-menu",
+        "widget_conf": "block/block/restaurant/restaturant-menu.json",
+        "src": "img/block-preview-image/block/block73.JPG",
+        "type": "restaturant-menu",
+        "class": "to_widget",
+        "row": "full-width",
+        "template": "block/block/restaurant/restaturant-menu.html",
+        "category": "block"
     }
-    
+
+
+
+
 ]

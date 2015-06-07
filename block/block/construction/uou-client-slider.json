@@ -3,5 +3,32 @@
   "backgroundcolor":"#000",
   "backgroundopacity":0.1,
   "backgrondimage":"img/clients-section-bg.jpg",
-  "wrapper_class":"uou-client-slider uou-block-content has-bg-image"
+  "wrapper_class":"uou-client-slider uou-block-content has-bg-image",
+  "title":"Our selected clients",
+  "text":"Lorem Ipsum proin gravida nibh velit auctor aliquet aene sollicitudin quis",
+  "blocks":[
+  		{
+  			"title":"Owl Image 1",
+  			"image":"img/clients-logo1.png"
+  		},
+  		{
+  			"title":"Owl Image 2",
+  			"image":"img/clients-logo2.png"
+  		},
+  		{
+  			"title":"Owl Image 3",
+  			"image":"img/clients-logo3.png"
+  		},
+  		{
+  			"title":"Owl Image 4",
+  			"image":"img/clients-logo4.png"
+  		},
+  		{
+  			"title":"Owl Image 5",
+  			"image":"img/clients-logo5.png"
+  		}
+
+
+  ]
+
 }

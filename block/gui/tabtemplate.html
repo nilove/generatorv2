@@ -8,7 +8,7 @@
                 ng-model="childNode"
                 data-id="{{childNode.id}}" 
                 style="background-image:url('{{childNode.background_property.background_image}}');
-                       min-height:{{childNode.background_property.height}}px">
+                       min-height:{{childNode.background_property.height}}px">{{childNode}}
             </div>
 </div>
 <div class="upload_button_container edit-buttons">
@@ -26,15 +26,4 @@
      </button>   
 
                 
-</div>
-<div class="addrowbutton edit-buttons">
-     <button style="width:140px;" 
-             class="btn btn-primary btn-for-edit" 
-             addnode 
-             widgettype="'row'" 
-             extraclass="'row'" 
-             wclass="''" 
-             ng-model="hornav">
-             <i class="fa fa-plus-square fa-3x"></i> Add new row
-     </button>          
 </div>

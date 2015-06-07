@@ -1,5 +1,5 @@
 <div class="uou-tabs" uoutabs tabs="childNode.widgetdata.tabs">
-          <ul class="tabs">
+          <ul class="tabs {{childNode.widgetdata.constructtionclass}}">
             <li ng-repeat="(key,tab) in childNode.widgetdata.tabs" 
                 ng-class="{active: key==0}">
                 <a href="#{{tab.id}}" 

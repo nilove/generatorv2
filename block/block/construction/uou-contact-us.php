@@ -16,7 +16,7 @@
               <textarea name="" id="" cols="10" rows="9" placeholder="Your message..."></textarea>
 
 
-              <input type="submit" class="btn btn-warning" value="Send Message">
+              <input type="submit" class="<?=$params["widgetdata"]["btnclass"];?>" value="Send Message">
 
             </form>
             

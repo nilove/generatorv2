@@ -1,0 +1,65 @@
+{
+                "id": "node1432724066134",
+                "name": "row 1",
+                "w_type": "row",
+                "class": "",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "extraclass": "con-testimonial-content",
+                "background_property": {
+                    "background_color": "",
+                    "background_image": "",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 200
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "node1432724078558",
+                        "name": "row 1",
+                        "w_type": "row",
+                        "class": "row",
+                        "extraclass": "uou-block-5a has-bg-image",
+                        "margintopclass": "mt0",
+                        "marginbottomclass": "mb0",
+                        "background_property": {
+                            "background_color": "rgb(255, 204, 48)",
+                            "background_image": "img/con-testimonial.jpg",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": "0.2"
+                        },
+                        "template": "templates/row.html",
+                        "nodes": [
+                            {
+                                "id": "widget1432724109471",
+                                "class": "posrelative",
+                                "extraclass": "",
+                                "w_type": "widget",
+                                "type": "footer",
+                                "template": "block/block/uou-block-5a.html",
+                                "widgetdata": {
+                                    "background": "img/img-1.png",
+                                    "backgroundcolor": "#34495e",
+                                    "backgroundopacity": 0.75,
+                                    "text": "<p>“Let’s go invent tomorrow instead of worrying about what happened yesterday.”.</p>",
+                                    "footertext": "Jhon Doe, Orange",
+                                    "backgrondimage": "img/img-1.png",
+                                    "wrapper_class": "uou-block-5a has-bg-image"
+                                },
+                                "name": "footer ",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 20,
+                                    "backgroundopacity": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }

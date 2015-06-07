@@ -1,0 +1,49 @@
+<!-- Start Slider -->
+  <div id="slider" class="flexslider" flexsliderwithcaption>
+    <div class="single-page-nav">
+      <div class="uou-block-2b icons">
+       <div class="container">
+        <a href="#" class="logo">
+            <span plaintx-contenteditable 
+                ng-model="childNode.widgetdata.title">
+                {{childNode.widgetdata.title}}
+                <span></span>
+            </span>  
+        </a>
+        <nav class="nav">
+          <ul sfmenu class="sf-menu">
+            <li class="" ng-repeat="nav in childNode.widgetdata.nav">
+              <a ng-if="nav.items.length == 0" href="#" data-toggle="modal" data-target="#myModal{{childNode.id}}"><i class="fa {{nav.icons}}"></i>{{nav.title}}</a>
+              <a ng-if="nav.items.length > 0" class="sf-with-ul" href="{{nav.link}}"><i class="fa {{nav.icons}}"></i>{{nav.title}}</a>
+              <ul ng-if="nav.items.length > 0">
+                <li ng-repeat="nav1 in nav.items">
+                  <a ng-if="nav1.items.length == 0" href="{{nav1.link}}" data-toggle="modal" data-target="#myModal{{childNode.id}}">{{nav1.title}}</a>
+                  <a ng-if="nav1.items.length > 0" class="sf-with-ul" href="{{nav1.link}}" data-toggle="modal" data-target="#myModal{{childNode.id}}">{{nav1.title}}</a>
+                  <ul ng-if="nav1.items.length > 0"><li ng-repeat="nav1 in nav1.items"><a href="" data-toggle="modal" data-target="#myModal{{childNode.id}}">{{nav1.title}}</a></li></ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </div>
+    
+  <div navsettings>
+
+  </div>
+    <ul class="slides custom-list">
+      <li ng-repeat="slide in childNode.widgetdata.slides" class="slide">
+        <img src="{{slide.image}}" alt="" class="background">
+        <div class="container">
+          <div class="col-lg-5">
+            <h1 class="title" plaintx-contenteditable ng-model="slide.text">
+              {{slide.text || ''}}
+            </h1>
+            <a href="#" class="btn btn-magenta">Find Out More</a>
+          </div>
+        </div>
+      </li>  
+    </ul>
+  </div>
+  <!-- End Slider -->

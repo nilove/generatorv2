@@ -1,0 +1,42 @@
+ {
+                "id": "node1432730817778",
+                "name": "uou-banner",
+                "w_type": "row",
+                "extraclass": "uou-banner",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "background_image": "uploads/constraction-banner.jpg",
+                    "height": 20,
+                    "backgroundopacity": 1
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1432730817778",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "uou-banner",
+                        "template": "block/block/uou-banner.html",
+                        "widgetdata": {
+                            "background": "img/restaurant-banner.jpg",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 1,
+                            "backgrondimage": "img/restaurant-banner.jpg",
+                            "wrapper_class": "uou-banner",
+                            "title": "<h2 style=\"font-family: 'Open Sans', sans-serif; text-transform: uppercase;\">PROJECTS</h2>"
+                        },
+                        "name": "uou-banner ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            }

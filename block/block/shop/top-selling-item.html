@@ -1,0 +1,28 @@
+<div class="top-selling-item uou-block-content">
+      <div class="block-title-conten">
+        <h4 plaintx-contenteditable ng-model="childNode.widgetdata.title">{{childNode.widgetdata.title || ''}}<span></span></h4>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4" ng-repeat="product in childNode.widgetdata.products">
+            <div class="uou-item-single">
+              <a data-toggle="modal" data-target="#myModal_product_{{childNode.id}}" href="#">
+                <img src="{{product.image}}" alt="">
+              </a>
+              <h6>
+                <a href="#" plaintx-contenteditable ng-model="product.title">{{product.title || ''}}<span></span></a>
+              </h6>
+              <p class="price" plaintx-contenteditable ng-model="product.price">{{product.price || ''}}<span></span></p>
+            </div> <!--  end item-single -->
+          </div>
+          <div class="text-center">
+            <a class="btn btn-primary" href="#">Load More</a>
+          </div>
+        </div> <!-- end row -->
+      </div> <!-- end container -->
+      
+</div> <!-- end top-selling-item -->
+
+<div productmenu>
+
+</div>

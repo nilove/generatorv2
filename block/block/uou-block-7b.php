@@ -10,6 +10,6 @@
 
     <p><?=$params["widgetdata"]["text"];?></p>
 
-    <a href="#" class="btn btn-primary"><?=$params["widgetdata"]["button"];?></a>
+    <a href="#" class="<?=$params["widgetdata"]["btnclass"];?>"><?=$params["widgetdata"]["button"];?></a>
   </div>
 </div>

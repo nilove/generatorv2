@@ -1,0 +1,407 @@
+[
+            {
+                "id": "node1433241368749",
+                "name": "uou-block-1a",
+                "w_type": "row",
+                "extraclass": "uou-block-1a has-bg-image",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1433241368749",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "uou-block-1a",
+                        "template": "block/menu/uou-block-1a.html",
+                        "widgetdata": {
+                            "title": "Chameleon",
+                            "languagetitle": "NDL",
+                            "language": [
+                                {
+                                    "title": "PT",
+                                    "image": "img/PT.png"
+                                },
+                                {
+                                    "title": "FR",
+                                    "image": "img/FR.png"
+                                },
+                                {
+                                    "title": "ES",
+                                    "image": "img/ES.png"
+                                }
+                            ],
+                            "social": [
+                                {
+                                    "title": "Facebook",
+                                    "background": "#3b5999",
+                                    "link": "https://www.facebook.com/",
+                                    "icons": "fa-facebook",
+                                    "items": []
+                                },
+                                {
+                                    "title": "Twitter",
+                                    "background": "#55acee",
+                                    "link": "https://twitter.com/",
+                                    "icons": "fa-twitter",
+                                    "items": []
+                                },
+                                {
+                                    "title": "Google",
+                                    "background": "#dd4b39",
+                                    "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                    "icons": "fa-google-plus",
+                                    "items": []
+                                }
+                            ],
+                            "authentication": [
+                                {
+                                    "title": "Login"
+                                },
+                                {
+                                    "title": "Register"
+                                }
+                            ],
+                            "wrapper_class": "uou-block-1a has-bg-image",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "background": ""
+                        },
+                        "name": "uou-block-1a ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1433241385873",
+                "name": "resturantmenu",
+                "w_type": "row",
+                "extraclass": "fluid has-bg-image",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "background_image": "img/intro.jpg",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1433241385860",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "resturantmenu",
+                        "template": "block/block/restaurant/resturantmenu.html",
+                        "widgetdata": {
+                            "background": "img/intro.jpg",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "backgrondimage": "img/intro.jpg",
+                            "wrapper_class": "fluid has-bg-image",
+                            "blocks": [
+                                {
+                                    "text1": "The Only",
+                                    "text2": "Place",
+                                    "text3": "you are",
+                                    "text4": "Looking For"
+                                },
+                                {
+                                    "text1": "The Only",
+                                    "text2": "Place",
+                                    "text3": "you are",
+                                    "text4": "Looking For"
+                                },
+                                {
+                                    "text1": "The Only",
+                                    "text2": "Place",
+                                    "text3": "you are",
+                                    "text4": "Looking For"
+                                },
+                                {
+                                    "text1": "The Only",
+                                    "text2": "Place",
+                                    "text3": "you are",
+                                    "text4": "Looking For"
+                                }
+                            ]
+                        },
+                        "name": "resturantmenu ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1433241417791",
+                "name": "uou-banner",
+                "w_type": "row",
+                "extraclass": "uou-banner",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "background_image": "img/restaurant-banner.jpg",
+                    "height": 20,
+                    "backgroundopacity": 1
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1433241417791",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "uou-banner",
+                        "template": "block/block/uou-banner.html",
+                        "widgetdata": {
+                            "background": "img/restaurant-banner.jpg",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 1,
+                            "backgrondimage": "img/restaurant-banner.jpg",
+                            "wrapper_class": "uou-banner",
+                            "title": "Gallery"
+                        },
+                        "name": "uou-banner ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1433241430430",
+                "name": "restaurant-gallery",
+                "w_type": "row",
+                "extraclass": "uou-gallery pt80 pb80",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "background_property": {
+                    "background_color": "#fff",
+                    "background_image": "",
+                    "height": 20,
+                    "backgroundopacity": 0
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "widget1433241430430",
+                        "class": "posrelative",
+                        "extraclass": "",
+                        "w_type": "widget",
+                        "type": "restaurant-gallery",
+                        "template": "block/block/restaurant-gallery.html",
+                        "widgetdata": {
+                            "background": "",
+                            "backgroundcolor": "#fff",
+                            "backgroundopacity": 0,
+                            "backgrondimage": "",
+                            "wrapper_class": "uou-gallery pt80 pb80",
+                            "nav": [
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery1.jpg",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery2.jpg",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery3.jpg",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery4.jpg",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery5.jpg",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery6.jpg",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery7.jpg",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery8.jpg",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "Loren Ipsum Dolor",
+                                    "image": "img/res-gallery9.jpg",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        "name": "restaurant-gallery ",
+                        "background_property": {
+                            "background_color": "",
+                            "background_image": "",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "node1433241465307",
+                "name": "row 5",
+                "w_type": "row",
+                "class": "",
+                "margintopclass": "mt0",
+                "marginbottomclass": "mb0",
+                "extraclass": "footer",
+                "background_property": {
+                    "background_color": "",
+                    "background_image": "",
+                    "background_position": "",
+                    "background_repeat": "",
+                    "height": 100
+                },
+                "template": "templates/row.html",
+                "nodes": [
+                    {
+                        "id": "node1433241586468",
+                        "name": "row 1",
+                        "w_type": "row",
+                        "class": "row",
+                        "extraclass": "uou-block-4d secondary has-bg-image",
+                        "margintopclass": "mt0",
+                        "marginbottomclass": "mb0",
+                        "background_property": {
+                            "background_color": "#fff",
+                            "background_position": "",
+                            "background_repeat": "",
+                            "height": 20,
+                            "backgroundopacity": 0
+                        },
+                        "template": "templates/row.html",
+                        "nodes": [
+                            {
+                                "id": "widget1433241606439",
+                                "class": "posrelative",
+                                "extraclass": "",
+                                "w_type": "widget",
+                                "type": "footer",
+                                "template": "block/footers/uou-block-4d.html",
+                                "widgetdata": {
+                                    "title": "Chameleon",
+                                    "text1": "Company",
+                                    "btnclass": "btn btn btn-error",
+                                    "nav1": [
+                                        {
+                                            "title": "Our Story",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Mission and Vision",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Journal",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Careers",
+                                            "link": ""
+                                        }
+                                    ],
+                                    "text2": "Legal",
+                                    "nav2": [
+                                        {
+                                            "title": "Privacy Policy",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Terms & Conditions",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Secure Payments",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Careers",
+                                            "link": ""
+                                        }
+                                    ],
+                                    "text3": "Social",
+                                    "nav3": [
+                                        {
+                                            "title": "Facebook",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Twitter",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Google Plus",
+                                            "link": ""
+                                        },
+                                        {
+                                            "title": "Pinterest",
+                                            "link": ""
+                                        }
+                                    ],
+                                    "text4": "Newsletter",
+                                    "text5": "Subscribe to our newsletter to receive our latest news and updates. We do not spam.",
+                                    "wrapper_class": "uou-block-4d secondary has-bg-image",
+                                    "backgroundcolor": "#fff",
+                                    "backgroundopacity": 0,
+                                    "background": ""
+                                },
+                                "name": "footer ",
+                                "background_property": {
+                                    "background_color": "",
+                                    "background_image": "",
+                                    "background_position": "",
+                                    "background_repeat": "",
+                                    "height": 20,
+                                    "backgroundopacity": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]

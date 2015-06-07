@@ -22,58 +22,7 @@
 START MODAL FOR CONTENT BLOCK
 
 -->
-
-  <div class="modal fade" id="myModal_add_block_{{childNode.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="uou-block-3b secondary">
-
-          <h1>Add GUI Element</h1>
-          <button type="button" class="close" data-dismiss="modal" ng-click="EnablePrview();" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div> <!-- end uou-block-3b -->
-
-        <div class="modal-body">
-
-
-
-        <div class="page-layout-block">
-          <div class="block-preview-image for-ui-elements" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'layout'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
-
-                  <img src="{{widgetdf.src}}" alt="">
-
-
-
-                  <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
-
-            </div> <!-- end block-preview image -->
-
-            <div class="block-preview-image for-ui-elements" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'gui'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
-
-                    <img  src="{{widgetdf.src}}" alt="">
-
-                    <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
-
-                  </div> <!-- end block-preview image -->
-
-
-
-
-
-        </div> <!-- end modal-bloc-tab -->
-
-        </div>
-
-
-
-
-
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> -->
-      </div>
-    </div>
-  </div>
+<div ng-include="'templates/widgetsfordiv.html'"></div>
 
 <!--
 

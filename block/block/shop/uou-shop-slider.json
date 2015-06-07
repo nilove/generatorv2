@@ -1,0 +1,27 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"uou-shop-slider",
+  "slides":[
+  			{
+  				"image":"img/shop-slide-1.jpg",
+  				"text":"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean, lorem quis bibendum auctor nisi elit consequat ipsum nec sagittis.",
+  				"title":"Providing The Highest Quality Service",
+  				"link":""
+  			},
+  			{
+  				"image":"img/shop-slide-2.jpg",
+  				"text":"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean, lorem quis bibendum auctor nisi elit consequat ipsum nec sagittis.",
+  				"title":"Providing The Highest Quality Service",
+  				"link":""
+  			},
+  			{
+  				"image":"img/shop-slide-1.jpg",
+  				"text":"This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean, lorem quis bibendum auctor nisi elit consequat ipsum nec sagittis.",
+  				"title":"Providing The Highest Quality Service",
+  				"link":""
+  			}
+  			]
+}

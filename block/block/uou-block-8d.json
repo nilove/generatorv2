@@ -14,7 +14,8 @@
 							"template":"block/gui/uou-block-8d.html",
 						 	"type":"uou-block-8d",
 						 	"wrapper_class":"col-md-4",
-						 	"wrapper_extra_class":"col-sm-4"		
+						 	"wrapper_extra_class":"col-sm-4",
+						 	"btnclass":"btn btn-primary"		
 						},
 						{
 							"icon":"fa-list",
@@ -24,7 +25,8 @@
 							"template":"block/gui/uou-block-8d.html",
 						 	"type":"uou-block-8d",
 						 	"wrapper_class":"col-md-4",
-						 	"wrapper_extra_class":"col-sm-4"		
+						 	"wrapper_extra_class":"col-sm-4",
+						 	"btnclass":"btn btn-primary"		
 						},
 						{
 							"icon":"fa-paper-plane",
@@ -34,7 +36,8 @@
 							"template":"block/gui/uou-block-8d.html",
 						 	"type":"uou-block-8d",
 						 	"wrapper_class":"col-md-4",
-						 	"wrapper_extra_class":"col-sm-4"		
+						 	"wrapper_extra_class":"col-sm-4",
+						 	"btnclass":"btn btn-primary"		
 						}
 					]
 			}

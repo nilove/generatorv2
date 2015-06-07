@@ -164,8 +164,6 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
     $scope.ApplyTemplate = function(template) {
         $http.get(template).success(function(data) {
-            //alert($scope.skey);
-            //console.log(data);
             $scope.accachedwidget[$scope.skey]["nodes"] = data;
         });
     }
@@ -199,7 +197,11 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
         } else {
             $http.get($scope.widget_defination[parsed_key]["widget_conf"]).success(function(data) {
                 //alert($scope.widget_defination[parsed_key]["type"]);
-                if ($scope.widget_defination[parsed_key]["type"] == "compound-widget") {
+                if ($scope.widget_defination[parsed_key]["type"] == "data-widget")
+                {
+                    $scope.accachedwidget[$scope.skey]["nodes"].push(data);
+                }
+                else if ($scope.widget_defination[parsed_key]["type"] == "compound-widget") {
                     var wrp_class = "";
                     if (typeof(data.wrapper_class) != "undefined") {
                         wrp_class = data.wrapper_class;
@@ -664,7 +666,7 @@ app.directive('addnewtab', ['$parse', function($parse) {
                             "background_image": "",
                             "background_position": "",
                             'background_repeat': '',
-                            'height': 200
+                            'height': 100
                         },
                         "template": "templates/row.html",
                         "nodes": []
@@ -1057,7 +1059,7 @@ app.directive('addnode', ['$parse', function($parse) {
                             "background_image": "",
                             "background_position": "",
                             'background_repeat': '',
-                            "height": 200
+                            "height": 100
                         },
                         "template": "templates/row.html",
                         "nodes": []
@@ -1122,7 +1124,13 @@ app.directive('acceptwidgetbyclick', ['$parse', '$http', function($parse, $http)
                             ngModel.$viewValue.nodes.push(node);
                         } else {
                             $http.get(scope.$parent.widget_defination[parsed_key]["widget_conf"]).success(function(data) {
-                                if (scope.$parent.widget_defination[parsed_key]["type"] == "compound-widget") {
+                                
+                                if (scope.widget_defination[parsed_key]["type"] == "data-widget")
+                                {
+                                    //scope.accachedwidget[scope.skey]["nodes"].push(data);
+                                    ngModel.$viewValue.nodes.push(data);
+                                }
+                                else if (scope.$parent.widget_defination[parsed_key]["type"] == "compound-widget") {
                                     for (j in data["rows"]) {
                                         var rootnode = {
                                             "id": "node" + new Date().getTime() + "" + Math.floor((Math.random() * 100) + 1),
@@ -1288,6 +1296,54 @@ app.directive('addmainmenu', ['$parse', function($parse) {
     };
 }]);
 
+app.directive('singlemenu1', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        require: "ngModel",
+        link: function(scope, element, attrs, ngModel) {
+            $(element).click(function() {
+                scope.$apply(function() {
+                    //if(scope.menutitle != "")
+                    //{
+                    ngModel.$viewValue.push({
+                        "title": scope.menutitle,
+                        "link": scope.menulink
+                    });
+                    scope.menutitle = "";
+                    scope.menulink = "";
+                    //}  
+                });
+
+            });
+        }
+    };
+}]);
+
+app.directive('productsave', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        require: "ngModel",
+        link: function(scope, element, attrs, ngModel) {
+            $(element).click(function() {
+                scope.$apply(function() {
+                    ngModel.$viewValue.push({
+                        "title": scope.producttitle,
+                        "link": scope.productlink,
+                        "price": scope.productprice,
+                        "image": scope.productimage,
+                        "items": []
+                    });
+                    scope.producttitle = "";
+                    scope.productlink = "";
+                    scope.productprice = "";
+                    scope.productimage = "";
+                });
+
+            });
+        }
+    };
+}]);
+
 
 app.directive('addsliderfrommodal', ['$parse', function($parse) {
     return {
@@ -1299,12 +1355,12 @@ app.directive('addsliderfrommodal', ['$parse', function($parse) {
                     //if(scope.menutitle != "")
                     //{
                     ngModel.$viewValue.push({
-                        "heading": scope.sliderheading,
+                        "title": scope.slidertitle,
                         "text": scope.slidertext,
                         "image": scope.sliderimage,
                         "items": []
                     });
-                    scope.sliderheading = "";
+                    scope.slidertitle = "";
                     scope.slidertext = "";
                     scope.sliderimage = "";
 
@@ -1316,6 +1372,30 @@ app.directive('addsliderfrommodal', ['$parse', function($parse) {
         }
     };
 }]);
+
+
+app.directive('portfoliomenu', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        require: "ngModel",
+        link: function(scope, element, attrs, ngModel) {
+            $(element).click(function() {
+                scope.$apply(function() {
+                    
+                    ngModel.$viewValue.push({
+                        "title": scope.menutitle,
+                        "image": scope.menuimage,
+                        "class": scope.menuclass
+                    });
+                    scope.menutitle = "";
+                    scope.$parent.RefreshScope();
+                });
+
+            });
+        }
+    };
+}]);
+
 
 app.directive('iconpicker', ['$parse', function($parse) {
     return {
@@ -1342,6 +1422,40 @@ app.directive('navsettings', ['$parse', function($parse) {
         link: function(scope, element, attrs) {}
     };
 }]);
+
+
+app.directive('portfoliomodal', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        templateUrl: 'modal/portfoliomodal.html',
+        link: function(scope, element, attrs) {}
+    };
+}]);
+
+app.directive('nav1', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        templateUrl: 'modal/nav1.html',
+        link: function(scope, element, attrs) {}
+    };
+}]);
+
+app.directive('nav2', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        templateUrl: 'modal/nav2.html',
+        link: function(scope, element, attrs) {}
+    };
+}]);
+
+app.directive('nav3', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        templateUrl: 'modal/nav3.html',
+        link: function(scope, element, attrs) {}
+    };
+}]);
+
 
 app.directive('navsettingswithimage', ['$parse', function($parse) {
     return {
@@ -1381,6 +1495,14 @@ app.directive('socialsettings', ['$parse', function($parse) {
     return {
         restrict: 'A',
         templateUrl: 'modal/sicialmenu.html',
+        link: function(scope, element, attrs) {}
+    };
+}]);
+
+app.directive('productmenu', ['$parse', function($parse) {
+    return {
+        restrict: 'A',
+        templateUrl: 'modal/productmodal.html',
         link: function(scope, element, attrs) {}
     };
 }]);
@@ -1669,26 +1791,34 @@ app.directive("resumetabs", function($timeout) {
 
 
 
-app.directive('flexsliderwithcaption', ['$parse', function($parse) {
+app.directive('flexsliderwithcaption', ['$parse','$timeout', function($parse,$timeout) {
     return {
         restrict: 'A',
 
         link: function(scope, element, attrs) {
-            $(element).flexslider();
-            $(element).each(function(){
 
-                var self = $(this),
-                slide = self.find( '.slide' );
+            $timeout(function() {
 
-                // SET BG IMAGES
-                slide.each(function(){
-                  var img =  $(this).find( '.background' );
-                  if ( img.length > 0 ) {
-                    $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
-                    img.hide();
-                  }
-                });
-              });
+                $(element).flexslider();
+                return $(element).each(function(){
+
+                    var self = $(this),
+                    slide = self.find( '.slide' );
+
+                    // SET BG IMAGES
+                    slide.each(function(){
+                      var img =  $(this).find( '.background' );
+                      if ( img.length > 0 ) {
+                        $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
+                        img.hide();
+                      }
+                    });
+                  });
+
+            
+            }, 1);
+
+            
         }
     };
 }]);
@@ -1807,6 +1937,8 @@ app.directive('uouportfolio', ['$parse','$timeout', function($parse,$timeout) {
 
                   return false;
                 });
+                $(".alltrigger").trigger("click");
+              //alert("here");
               });        
         }, 1);
            
@@ -1815,20 +1947,96 @@ app.directive('uouportfolio', ['$parse','$timeout', function($parse,$timeout) {
     };
 }]);
 
-app.directive('uouclientsslidesection', ['$parse', function($parse) {
+
+
+
+app.directive("uouclientsslidesection", function ($timeout) {
     return {
-        restrict: 'A',
-        link: function(scope, element, attrs) {
-            $(element).owlCarousel({
-       
-                autoPlay: 3000, //Set AutoPlay to 3 seconds
-           
-                items : 5,
-                itemsDesktop : [1199,3],
-                itemsDesktopSmall : [979,3]
-           
-            });
+        scope: {blocks: '=blocks'},
+        link: function (scope, element, attr) {
+            //alert("HERE");
+            $timeout(function() {
+                return $(element).owlCarousel({
+                        autoPlay: 3000, //Set AutoPlay to 3 seconds
+                        items : 5,
+                        itemsDesktop : [1199,3],
+                        itemsDesktopSmall : [979,3]
+                    });
+            }, 1);
+            
+            scope.$watch('blocks.length', function (n, o) {
+                console.log(n)
+                if (n > o)
+                {
+                    
+                }
+                    
+            })
+                   
         }
-    };
-}]);
+    }
+});
+
+
+
+
+app.directive("introslider", function ($timeout) {
+    return {
+        scope: {blocks: '=blocks'},
+        link: function (scope, element, attr) {
+            $timeout(function() {
+                return $(element).owlCarousel({
+                        singleItem: true,
+                        navigation:true,
+                        navigationText: [
+                          "<i class='fa fa-angle-left'></i>",
+                          "<i class='fa fa-angle-right'></i>"
+                        ],
+                    });
+            }, 1);
+            
+            scope.$watch('blocks.length', function (n, o) {
+                console.log(n)
+                if (n > o)
+                {
+                    $timeout(function() {
+
+                        ;
+                    }, 1);
+                }
+                    
+            })
+                   
+        }
+    }
+});
+
+app.directive("dishesslider", function ($timeout) {
+    return {
+        scope: {blocks: '=blocks'},
+        link: function (scope, element, attr) {
+            $timeout(function() {
+                return $(element).owlCarousel({
+                        singleItem: true
+                    });
+            }, 1);
+            
+            scope.$watch('blocks.length', function (n, o) {
+                console.log(n)
+                if (n > o)
+                {
+                    $timeout(function() {
+
+                        $(element).data('owlCarousel').destroy();
+                        return $(element).owlCarousel({
+                        singleItem: true
+                        });
+                    }, 1);
+                }
+                    
+            })
+                   
+        }
+    }
+});
 

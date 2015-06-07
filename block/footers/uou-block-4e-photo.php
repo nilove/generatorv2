@@ -58,7 +58,7 @@
 
           <form class="newsletter-form" action="">
             <input type="email" placeholder="Enter your email address">
-            <input type="submit" class="btn btn-primary" value="Subscribe">
+            <input type="submit" class="<?=$params["widgetdata"]["btnclass"];?>" value="Subscribe">
           </form>
         </div>
       </div>

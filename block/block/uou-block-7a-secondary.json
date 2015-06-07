@@ -6,6 +6,7 @@
 	"footertext":"Steve Jobs, Apple",
 	"backgrondimage":"",
 	"wrapper_class":"uou-block-7a secondary has-bg-image",
+	"btnclass": "btn btn-primary btn-for-edit",
 	"slides":
 	[
 		{

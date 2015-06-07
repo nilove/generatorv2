@@ -1,0 +1,115 @@
+{
+  "background":"",
+  "backgroundcolor":"#fff",
+  "backgroundopacity":0,
+  "backgrondimage":"",
+  "wrapper_class":"shop-page-content",
+  "title": "Top Selling items",
+	"products": [
+	    {
+	        "title": "Ethnic Dress",
+	        "price": "$ 19.99",
+	        "link": "",
+	        "image": "img/shop-item-1.jpg"
+	    },
+	    {
+	        "title": "Ethnic Dress",
+	        "price": "$ 19.99",
+	        "link": "",
+	        "image": "img/shop-item-2.jpg"
+	    },
+	    {
+	        "title": "Ethnic Dress",
+	        "price": "$ 19.99",
+	        "link": "",
+	        "image": "img/shop-item-3.jpg"
+	    },
+	    {
+	        "title": "Ethnic Dress",
+	        "price": "$ 19.99",
+	        "link": "",
+	        "image": "img/shop-item-4.jpg"
+	    },
+	    {
+	        "title": "Ethnic Dress",
+	        "price": "$ 19.99",
+	        "link": "",
+	        "image": "img/shop-item-5.jpg"
+	    },
+	    {
+	        "title": "Ethnic Dress",
+	        "price": "$ 19.99",
+	        "link": "",
+	        "image": "img/shop-item-6.jpg"
+	    },
+	    {
+	        "title": "Ethnic Dress",
+	        "price": "$ 19.99",
+	        "link": "",
+	        "image": "img/shop-item-7.jpg"
+	    },
+	    {
+	        "title": "Ethnic Dress",
+	        "price": "$ 19.99",
+	        "link": "",
+	        "image": "img/shop-item-8.jpg"
+	    }
+	],
+	"menu1title":"CATEGORIES",
+	"menu1": [
+	    {
+	        "title": "Accessories",
+	        "link": ""
+	    },
+	    {
+	        "title": "Footwear",
+	        "link": ""
+	    },
+	    {
+	        "title": "Outerweat",
+	        "link": ""
+	    },
+	    {
+	        "title": "Shirting",
+	        "link": ""
+	    },
+	    {
+	        "title": "Sweaters",
+	        "link": ""
+	    },
+	    {
+	        "title": "Trousers",
+	        "link": ""
+	    },
+	    {
+	        "title": "Bags",
+	        "link": ""
+	    }
+	],
+	"menu2title":"Color Option",
+	"menu2": [
+	    {
+	        "title": "Black",
+	        "link": ""
+	    },
+	    {
+	        "title": "White",
+	        "link": ""
+	    },
+	    {
+	        "title": "Green",
+	        "link": ""
+	    }
+	],
+	"menu3title":"Size Option",
+	"menu3": [
+	    {
+	        "title": "32 inch",
+	        "link": ""
+	    },
+	    {
+	        "title": "32 inch",
+	        "link": ""
+	    }
+	]
+}

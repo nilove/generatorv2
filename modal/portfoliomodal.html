@@ -1,0 +1,79 @@
+<div class="modal fade bs-example-modal-lg" id="myModal_portfolio_{{childNode.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="uou-block-3b secondary">
+
+        <h1 class="modal-title" id="myModalLabel{{childNode.id}}">Portfolio</h1>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div> <!-- end uou-block-3b -->
+      <div class="modal-body">
+
+        <div class="row">
+
+
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+            
+
+            <div class="form-group">
+              
+                <input type="text" class="form-control"   ng-model="menutitle" placeholder="Title">
+          
+            </div>
+
+            <div class="form-group">
+              
+                <select class="form-control"  ng-model="menuclass">
+                	<option ng-repeat="tab in childNode.widgetdata.tabs" value="{{tab.class}}">{{tab.title}}</option>
+                </select>
+          
+            </div>
+
+            <div class="form-group">
+              
+                <img src='{{menuimage}}'>
+                <span  class="btn btn-success fileinput-button">
+                    <span>Image</span><input filemodel ng-model="menuimage" type="file"/>
+                  </span>
+                
+              </div>
+
+             
+          </form>
+
+          </div>
+
+          <div class="col-md-6">
+              <script type="text/ng-template" id="items_renderer_portfolio.html">
+                <div ui-tree-handle>
+                  <a class="btn btn-success btn-xs" data-nodrag ng-click="toggle(this)">
+                  	<span class="glyphicon" ng-class="{'glyphicon-chevron-right': collapsed, 'glyphicon-chevron-down': !collapsed}"></span>
+                  </a>
+                  <img style="width:50px;" src="{{item.image}}"/>
+                  <a class="pull-right btn btn-danger btn-xs" data-nodrag ng-click="remove(this)"><span class="glyphicon glyphicon-remove"></span></a>
+
+                </div>
+                
+              </script>
+              <div ui-tree="options">
+                <ol ui-tree-nodes ng-model="childNode.widgetdata.images" >
+                  <li ng-repeat="item in childNode.widgetdata.images" ui-tree-node ng-include="'items_renderer_portfolio.html'"></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer clearfix">
+           <div class="form-group">
+
+               <button class="btn btn-primary" ng-model="childNode.widgetdata.images" portfoliomenu>Save change</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

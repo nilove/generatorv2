@@ -1,0 +1,84 @@
+{
+    "id": "node1432727893661",
+    "name": "row 1",
+    "w_type": "row",
+    "class": "",
+    "margintopclass": "mt0",
+    "marginbottomclass": "mb0",
+    "extraclass": "footer constraction-footer",
+    "background_property": {
+        "background_color": "",
+        "background_image": "",
+        "background_position": "",
+        "background_repeat": "",
+        "height": 200
+    },
+    "template": "templates/row.html",
+    "nodes": [
+        {
+            "id": "node1432727903511",
+            "name": "row 1",
+            "w_type": "row",
+            "class": "row",
+            "extraclass": "uou-block-4a has-bg-image secondary",
+            "margintopclass": "mt0",
+            "marginbottomclass": "mb0",
+            "background_property": {
+                "background_color": "#fff",
+                "background_position": "",
+                "background_repeat": "",
+                "height": 20,
+                "backgroundopacity": 0
+            },
+            "template": "templates/row.html",
+            "nodes": [
+                {
+                    "id": "widget1432727935127",
+                    "class": "posrelative",
+                    "extraclass": "",
+                    "w_type": "widget",
+                    "type": "uou-block-4a-social-icons",
+                    "template": "block/footers/uou-block-4a-social-icons.html",
+                    "widgetdata": {
+                        "text": "<p>Copyright © 2014 <a href=\"http://google.com\">Chameleon</a>. All Rights reserved.</p>",
+                        "social": [
+                            {
+                                "title": "Facebook",
+                                "link": "https://www.facebook.com/",
+                                "icons": "fa-facebook"
+                            },
+                            {
+                                "title": "Twitter",
+                                "link": "https://twitter.com/",
+                                "icons": "fa-twitter"
+                            },
+                            {
+                                "title": "Google",
+                                "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                "icons": "fa-google-plus"
+                            },
+                            {
+                                "title": "Google",
+                                "link": "https://www.google.com.bd/?gws_rd=ssl",
+                                "icons": "fa-dribbble"
+                            }
+                        ],
+                        "wrapper_class": "uou-block-4a has-bg-image",
+                        "backgroundcolor": "#fff",
+                        "backgroundopacity": 0,
+                        "background": ""
+                    },
+                    "name": "uou-block-4a-social-icons ",
+                    "background_property": {
+                        "background_color": "",
+                        "background_image": "",
+                        "background_position": "",
+                        "background_repeat": "",
+                        "height": 20,
+                        "backgroundopacity": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
