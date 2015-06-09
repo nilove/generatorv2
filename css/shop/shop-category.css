@@ -1,0 +1,10 @@
+.uou-shop-category {
+  position: relative;
+}
+.uou-shop-category .uou-gallery figure .overlay-hover {
+  padding-top: 100px;
+}
+.uou-shop-category .uou-gallery figure .overlay-hover a {
+  visibility: visible;
+  opacity: 1;
+}

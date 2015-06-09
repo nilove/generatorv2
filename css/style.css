@@ -891,7 +891,7 @@ th {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 1040;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
@@ -13567,6 +13567,9 @@ CANVAS PAGE STYLE
 .uou-landing-demo h5 {
   text-transform: uppercase;
   margin-top: 0;
+}
+.uou-landing-demo h5 span {
+  font-size: 13px;
 }
 .uou-landing-demo img {
   margin-bottom: 20px;
