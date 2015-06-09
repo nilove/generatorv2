@@ -127,7 +127,7 @@
                         "class": "posrelative",
                         "extraclass": "",
                         "w_type": "widget",
-                        "type": "uou-block-2b",
+                        "type": "menu",
                         "template": "block/menu/uou-block-2b.html",
                         "widgetdata": {
                             "title": "Chameleon",
@@ -182,7 +182,7 @@
             }
         ]
     },
-    {
+   {
         "id": "node1432730817778",
         "name": "uou-banner",
         "w_type": "row",
@@ -191,7 +191,7 @@
         "marginbottomclass": "mb0",
         "background_property": {
             "background_color": "#fff",
-            "background_image": "uploads/constraction-banner.jpg",
+            "background_image": "img/constraction-banner.jpg",
             "height": 20,
             "backgroundopacity": 1
         },

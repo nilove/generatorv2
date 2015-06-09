@@ -1,13 +1,4 @@
-
-
-
-<!--
-
-START MODAL FOR CONTENT BLOCK
-
--->
-
-  <div class="modal fade" id="myModal_add_block_{{childNode.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal fade" id="myModal_add_block_{{childNode.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="uou-block-3b secondary">
@@ -16,114 +7,57 @@ START MODAL FOR CONTENT BLOCK
           <button type="button" class="close" data-dismiss="modal" ng-click="EnablePrview();" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div> <!-- end uou-block-3b -->
 
-        <div class="modal-block-tabs">
-          <div class="uou-tabs" staticuoutabs>
-            <ul class="tabs">
-              <li class="active"><a href="#uou-tab-1-gui{{childNode.id}}">Headers</a></li>
-              <li><a href="#uou-tab-2-gui{{childNode.id}}">Toolbars</a></li>
-              <li><a href="#uou-tab-3-gui{{childNode.id}}">Content Sections</a></li>
-              <li><a href="#uou-tab-4-gui{{childNode.id}}">Footers</a></li>
-              <li><a href="#uou-tab-5-gui{{childNode.id}}">GUI</a></li>
-            </ul>
-            <div class="content">
-              <div class="header-block-content active" id="uou-tab-1-gui{{childNode.id}}">
-
-                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'menu'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
-
-                  <img ng-src="{{widgetdf.src}}" alt="">
-
+        <div class="modal-body">
+          <h2 style="text-align:center">Headers</h2>
+          <div class="header-block-content">
+            <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'toolbar'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}"> 
+                <img style="width:100%;" src="{{widgetdf.src}}" alt="">
+                <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
+            </div> <!-- end block-preview image -->
+          <div class="clearfix"></div>
+          <div class="header-block-content">
+              <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'menu'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}"> 
+                  <img style="width:100%;" src="{{widgetdf.src}}" alt="">
                   <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
-
-                </div> <!-- end block-preview image -->
-
-              </div> <!-- end header-block-content -->
-
-
-              <div id="uou-tab-2-gui{{childNode.id}}" class="toolbar-content-block">
-
-                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'toolbar'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
-
-                  <img src="{{widgetdf.src}}" alt="">
-
+              </div> <!-- end block-preview image -->
+            <div class="clearfix"></div>
+          </div>
+          <h2 style="text-align:center">Footers</h2>
+          <div class="header-block-content">
+              <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'footer'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}"> 
+                  <img style="width:100%;" src="{{widgetdf.src}}" alt="">
                   <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
+              </div> <!-- end block-preview image -->
+            <div class="clearfix"></div>
+          </div>
 
-                </div> <!-- end block-preview image -->
-
-              </div> <!-- end toolbar-content-block -->
-
-
-
-              <div id="uou-tab-3-gui{{childNode.id}}" class="toolbar-content-block">
-                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'block'" id="{{widgetdf.id}}_block" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
-
-                  <img src="{{widgetdf.src}}" alt="">
+          <h2 style="text-align:center">Blocks</h2>
+          <div class="header-block-content">
+              <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'block'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}"> 
+                  <img style="width:100%;" src="{{widgetdf.src}}" alt="">
                   <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
-                  
-                  <div class="clearfix"></div>
-                </div> <!-- end block-preview image -->
+              </div> <!-- end block-preview image -->
+            <div class="clearfix"></div>
+          </div>
+          
+          <h2 style="text-align:center">Layout</h2>
+          <div class="page-layout-block">  
+            <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'layout'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
+              <div class="wd"> 
+                <img style="width:100%;height:auto;" src="{{widgetdf.src}}" alt="">
+                <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
               </div>
-
-              <div id="uou-tab-4-gui{{childNode.id}}" class="footer-content-block">
-                <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'footer'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
-
-                  <img src="{{widgetdf.src}}" alt="">
-
-                  <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
-
-                </div> <!-- end block-preview image -->
-
-              </div> <!-- end footer-block layout -->
-
-              
-
-               <div id="uou-tab-5-gui{{childNode.id}}" class="page-layout-block">
-          <div class="block-preview-image for-ui-elements" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'layout'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
-
-                  <img src="{{widgetdf.src}}" alt="">
-
-
-
-                  <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
-
             </div> <!-- end block-preview image -->
             <div class="clearfix"></div>
-            
+            <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'gui'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}"> 
+              <div class="wd">
+                <img  style="width:100;height:auto;" src="{{widgetdf.src}}" alt="">
+                <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
+              </div>
+            </div> <!-- end block-preview image -->
+        </div> <!-- end modal-bloc-tab -->
 
-            <div class="block-preview-image for-ui-elements" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'gui'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
-
-                    <img  src="{{widgetdf.src}}" alt="">
-
-                    <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
-
-                  </div> <!-- end block-preview image -->
-
-
-
-
-
-        </div> <!-- end modal-bloc-tab --> 
-
-            </div>
-          </div>
         </div>
-
-        
-
-
-
-
-
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> -->
       </div>
     </div>
   </div>
-
-<!--
-
-END CONTENT BLOCK MODAL
-
--->
-

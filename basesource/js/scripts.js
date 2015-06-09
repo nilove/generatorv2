@@ -58,11 +58,11 @@ var markers = [
 var dragging = false;
 
 $body.on('touchmove', function() {
-	dragging = true;
+  dragging = true;
 });
 
 $body.on('touchstart', function() {
-	dragging = false;
+  dragging = false;
 });
 
 
@@ -75,27 +75,38 @@ $('.has-bg-image').each(function () {
       image = $this.data('bg-image'),
       color = $this.data('bg-color'),
       opacity = $this.data('bg-opacity'),
-
       $content = $('<div/>', { 'class': 'content' }),
       $background = $('<div/>', { 'class': 'background' });
-
   if (opacity) {
     $this.children().wrapAll($content);
     $this.append($background);
-
-    $this.css({
-      'background-image': 'url(' + image + ')'
-    });
+    
+    if(typeof image !== 'undefined'){
+      $this.css({
+        'background-image': 'url(' + image + ')'
+      });  
+    }
+    
 
     $background.css({
-      'background-color': '#' + color,
+      'background-color': '' + color,
       'opacity': opacity
     });
   } else {
-    $this.css({
-      'background-image': 'url(' + image + ')',
-      'background-color': '#' + color
-    });
+    if(typeof image !== 'undefined')
+    {
+      $this.css({
+        'background-image': 'url(' + image + ')',
+        'background-color': '#' + color
+      });  
+    }
+    else
+    {
+      $this.css({
+        'background-color': '#' + color
+      });  
+    }
+    
   }
 });
 
@@ -217,8 +228,6 @@ $('select').each(function () {
 }).change(function () {
   selectPlaceholder(this);
 });
-
-
 
 
 
@@ -566,4 +575,149 @@ $('.uou-block-12c').each(function () {
   });
 });
 
+
+
+  $(".swipebox").swipebox();
+
+
+$(window).load(function(){
+  // ISOTOPE FILTERS
+  $('.uou-portfolio').each(function() {
+    var $container = $('.portfolio-filters-content');
+    // initialize
+    $container.masonry({
+      itemSelector: 'article'
+    });
+
+    var filterFns = {};
+
+    $('.uou-portfolio .filters li a').on( 'click', function() {
+      var filterValue = $( this ).attr('data-filter');
+      // use filterFn if matches value
+      filterValue = filterFns[ filterValue ] || filterValue;
+      $container.isotope({ filter: filterValue });
+
+      $('.uou-portfolio .filters li a').each(function(){
+        $(this).removeClass("active");
+      });
+      $(this).addClass("active");
+
+      return false;
+    });
+  });
+});
+
+
+
+
+
+
+  // $("#slider").owlCarousel({
+  //   singleItem: true
+  // });
+
+  // // BACKGROUND FOR EACH SLIDE
+  // $( '#slider' ).each(function(){
+
+  //   var self = $(this),
+  //   slide = self.find( '.slide' );
+
+  //   // SET BG IMAGES
+  //   slide.each(function(){
+  //     var img =  $(this).find( '.background' );
+  //     if ( img.length > 0 ) {
+  //       $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
+  //       img.hide();
+  //     }
+  //   });
+  // });
+
+
+
+
+      $('.flexslider').flexslider();
+
+      $("#clients-slider").owlCarousel({
+        items: 6
+      });
+
+      // BACKGROUND FOR EACH SLIDE
+      $( '#slider' ).each(function(){
+
+        var self = $(this),
+        slide = self.find( '.slide' );
+
+        // SET BG IMAGES
+        slide.each(function(){
+          var img =  $(this).find( '.background' );
+          if ( img.length > 0 ) {
+            $(this).css( 'background-image', 'url(' + img.attr( 'src' ) + ')' );
+            img.hide();
+          }
+        });
+      });
+      
+    $(".swipebox").swipebox();
+
+
+
+      $(".uou-clients-slide-section").owlCarousel({
+       
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+       
+            items : 5,
+            itemsDesktop : [1199,3],
+            itemsDesktopSmall : [979,3]
+       
+        });
+
+  $(".uou-testimonial-slider").owlCarousel({
+    singleItem: true
+  });
+
+  $("#dishes-slider").owlCarousel({
+    singleItem: true
+  });
+
+  $(".intro-slider").owlCarousel({
+    singleItem: true,
+    navigation:true,
+      navigationText: [
+        "<i class='fa fa-angle-left'></i>",
+        "<i class='fa fa-angle-right'></i>"
+      ],
+  });
+
+
+
+
 }(jQuery));
+
+$(window).load(function(){
+  // ISOTOPE FILTERS
+  $('#portfolio').each(function() {
+    var $container = $('.portfolio-filters-content');
+    // initialize
+    $container.masonry({
+      itemSelector: 'article'
+    });
+
+    var filterFns = {};
+
+    $('#portfolio .filters li a').on( 'click', function() {
+      var filterValue = $( this ).attr('data-filter');
+      // use filterFn if matches value
+      filterValue = filterFns[ filterValue ] || filterValue;
+      $container.isotope({ filter: filterValue });
+
+      $('#portfolio .filters li a').each(function(){
+        $(this).removeClass("active");
+      });
+      $(this).addClass("active");
+
+      return false;
+    });
+  });
+});
+
+ 

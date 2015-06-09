@@ -1,6 +1,6 @@
 <div class="container">
       <div class="preamble light squares col-lg-8 col-lg-offset-2 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
-        <img src="img/foods-icon.png" alt="">
+        <img src="<?=copyimage("img/foods-icon.png");?>" alt="">
         <h3 class="title"><?=$params["widgetdata"]["title"];?></h3>
       </div>
       <?php 

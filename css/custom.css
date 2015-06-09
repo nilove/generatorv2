@@ -727,6 +727,7 @@ nav:hover .nav-settings
   bottom: 0;
   right: 0;
   left: 0; 
+  z-index: 99999;
 }
 
 .uou-block-13a .btn
@@ -1432,4 +1433,8 @@ hr {
   transform: rotate(15deg);
   display: inline-block;
   border: 5px solid #ef3f45;
+}
+.modal
+{
+  z-index: 9999;
 }

@@ -146,7 +146,7 @@
                 "class": "posrelative",
                 "extraclass": "",
                 "w_type": "widget",
-                "type": "uou-block-2e-search",
+                "type": "menu",
                 "template": "block/menu/uou-block-2e-search.html",
                 "widgetdata": {
                     "nav": [

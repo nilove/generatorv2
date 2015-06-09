@@ -11,7 +11,7 @@
         "background_image": "",
         "background_position": "",
         "background_repeat": "",
-        "height": 200
+        "height": 20
     },
     "template": "templates/row.html",
     "nodes": [

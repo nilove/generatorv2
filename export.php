@@ -47,12 +47,14 @@ foreach ($data as $d)
         <title><?=$page_name;?></title>
         <!-- Stylesheets -->
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700|Droid+Serif:400,700,400italic">
+        <link rel="stylesheet" href="css/swipebox.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/import.css">
     </head>
     <body id="<?=$page_name;?>">
         
-        <div id="main-wrapper">
+        <div id="main-wrapper" class="constraction-content-all">
         <?php 
         foreach ($d["nodes"] as $n)
         {
@@ -181,7 +183,12 @@ foreach ($data as $d)
         <script src="js/uou-tabs.js"></script>
         <script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
         <script src="js/plugins/rangeslider.min.js"></script>
-        <script src="js/scripts.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/jquery.swipebox.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+
         </body>
 </html>                
             <?php
@@ -300,7 +307,7 @@ function GeneratePreview($params)
         $params["class"]=trim(str_replace("posrelative","",$params["class"]));
         $params["extraclass"]=trim(str_replace("posrelative","",$params["extraclass"]));
         
-        if($params["class"] != "")
+        if($params["class"] != "" && $params["class"] != "row" && $params["class"] != "col-md-4")
         {
             $class_n[]=$params["class"];
         }
@@ -311,14 +318,14 @@ function GeneratePreview($params)
         }
         
 
-        if($params["background_property"]["background_image"] != "" || $params["background_property"]["background_color"] != "" || $params["background_property"]["backgroundopacity"] != "")
+        if($params["background_property"]["background_image"] != "" || $params["background_property"]["background_image"] != "undefined" || $params["background_property"]["background_color"] != "" || $params["background_property"]["backgroundopacity"] != "")
         {
           $class_n[]="has-bg-image";
         }
 
         if($params["background_property"]["background_image"] != "")
         {
-            if($params["background_property"]["background_image"] != "none")
+            if(($params["background_property"]["background_image"] != "none") || ($params["background_property"]["background_image"]!= "undefined"))
             {
               //$class_n[]="has-bg-image";
               $additional_data[]="data-bg-image='".copyimage($params["background_property"]["background_image"])."'";  

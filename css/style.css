@@ -891,7 +891,7 @@ th {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 9999;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }

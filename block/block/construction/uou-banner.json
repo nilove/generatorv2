@@ -7,7 +7,7 @@
                 "marginbottomclass": "mb0",
                 "background_property": {
                     "background_color": "#fff",
-                    "background_image": "uploads/constraction-banner.jpg",
+                    "background_image": "img/constraction-banner.jpg",
                     "height": 20,
                     "backgroundopacity": 1
                 },
@@ -21,10 +21,10 @@
                         "type": "uou-banner",
                         "template": "block/block/uou-banner.html",
                         "widgetdata": {
-                            "background": "img/restaurant-banner.jpg",
+                            "background": "img/constraction-banner.jpg",
                             "backgroundcolor": "#fff",
                             "backgroundopacity": 1,
-                            "backgrondimage": "img/restaurant-banner.jpg",
+                            "backgrondimage": "img/constraction-banner.jpg",
                             "wrapper_class": "uou-banner",
                             "title": "<h2 style=\"font-family: 'Open Sans', sans-serif; text-transform: uppercase;\">PROJECTS</h2>"
                         },

@@ -42,15 +42,14 @@
           <div class="col-md-6">
               <script type="text/ng-template" id="items_renderer_image.html">
                 <div ui-tree-handle>
-                  <a class="btn btn-success btn-xs" data-nodrag ng-click="toggle(this)"><span class="glyphicon" ng-class="{'glyphicon-chevron-right': collapsed, 'glyphicon-chevron-down': !collapsed}"></span></a>
+                  <a class="" data-nodrag ng-click="toggle(this)">
+                    <img src="{{item.image}}" style="width:50px;"/>
+                  </a>
                   {{item.title}}
                   <a class="pull-right btn btn-danger btn-xs" data-nodrag ng-click="remove(this)"><span class="glyphicon glyphicon-remove"></span></a>
 
                 </div>
-                <ol ui-tree-nodes="options" ng-model="item.items" ng-class="{hidden: collapsed}">
-                  <li ng-repeat="item in item.items" ui-tree-node ng-include="'items_renderer_image.html'">
-                  </li>
-                </ol>
+                
               </script>
               <div ui-tree="options">
                 <ol ui-tree-nodes ng-model="childNode.widgetdata.nav" >

@@ -104,7 +104,7 @@
                 "class": "posrelative",
                 "extraclass": "",
                 "w_type": "widget",
-                "type": "uou-block-2d-cart",
+                "type": "menu",
                 "template": "block/menu/uou-block-2d-cart.html",
                 "widgetdata": {
                     "title": "Chameleon",

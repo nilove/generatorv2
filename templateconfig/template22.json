@@ -146,7 +146,7 @@
                 "class": "posrelative",
                 "extraclass": "",
                 "w_type": "widget",
-                "type": "uou-block-2e-search",
+                "type": "menu",
                 "template": "block/menu/uou-block-2e-search.html",
                 "widgetdata": {
                     "nav": [
@@ -386,7 +386,7 @@
                         "template": "block/footers/uou-block-4e-photo.html",
                         "widgetdata": {
                             "title": "Chameleon",
-                            "btnclass": "btn btn-warning",
+                            "btnclass": "btn primary",
                             "contact": [
                                 {
                                     "text": "198 West 21th Street,<br>Suite 721, New York NY 10010",

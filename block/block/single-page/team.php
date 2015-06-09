@@ -6,7 +6,7 @@
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         <div class="single-member">
           <figure>
-            <img src="img/member-1.jpg" alt="" class="img-responsive">
+            <img src="<?=copyimage("img/member-1.jpg");?>" alt="" class="img-responsive">
             <figcaption>
               <h6 class="position">General Manager</h6>
               <h4 class="name">Bryan Johnson</h4>
@@ -24,7 +24,7 @@
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         <div class="single-member">
           <figure>
-            <img src="img/member-2.jpg" alt="" class="img-responsive">
+            <img src="<?=copyimage("img/member-2.jpg");?>" alt="" class="img-responsive">
             <figcaption>
               <h6 class="position">Art Director / Designer</h6>
               <h4 class="name">Sarah Jessica Parker</h4>
@@ -42,7 +42,7 @@
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         <div class="single-member">
           <figure>
-            <img src="img/member-3.jpg" alt="" class="img-responsive">
+            <img src="<?=copyimage("img/member-3.jpg");?>" alt="" class="img-responsive">
             <figcaption>
               <h6 class="position">Web Developer</h6>
               <h4 class="name">Stefan Sagmeister</h4>

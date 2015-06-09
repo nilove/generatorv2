@@ -127,7 +127,7 @@
                         "class": "posrelative",
                         "extraclass": "",
                         "w_type": "widget",
-                        "type": "uou-block-2b",
+                        "type": "menu",
                         "template": "block/menu/uou-block-2b.html",
                         "widgetdata": {
                             "title": "Chameleon",

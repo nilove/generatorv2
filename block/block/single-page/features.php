@@ -7,7 +7,7 @@
         <p>Sed eleifend sed libero a aliquet. Vivamus condimentum varius metus, id vehicula metus imperdiet nec. Ut tortor massa, sagittis a velit eget, suscipit congue augue suspendisse potenti. Vestibulum sed facilisis ex.</p>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-      <img src="img/iphone-1.png" alt="" class="pull-left img-responsive">
+      <img src="<?=copyimage("img/iphone-1.png");?>" alt="" class="pull-left img-responsive">
       <ul class="features features-left pull-right custom-list">
         <li>
           <h4 class="title">Gorgeous Design</h4>
@@ -38,7 +38,7 @@
           <p>Sed eleifend libero a aliquet. Vivamus condimentum Ut tortor massa, sagittis a velit eget, suscipit</p>
         </li>
       </ul>
-      <img src="img/iphone-2.png" alt="" class="pull-right img-responsive">
+      <img src="<?=copyimage("img/iphone-2.png");?>" alt="" class="pull-right img-responsive">
     </div>
   </section>
   <!-- End Features -->

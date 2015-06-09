@@ -16,7 +16,7 @@
 		          ?>
 		          <div class="col-md-4 col-sm-4">
 		            <div class="uou-item-single">
-		              <img src="<?=$d["image"];?>" alt="">
+		              <img src="<?=copyimage($d["image"]);?>" alt="">
 		              <h6><a href="#"><?=$d["title"];?></a></h6>
 		              <p class="price"><?=$d["price"];?></p>
 		            </div> <!--  end item-single -->
