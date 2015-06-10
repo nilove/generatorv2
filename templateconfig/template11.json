@@ -1081,6 +1081,7 @@
                         "template": "block/footers/uou-block-4e-photo.html",
                         "widgetdata": {
                             "title": "Chameleon",
+                             "btnclass": "btn btn-primary",
                             "contact": [
                                 {
                                     "text": "198 West 21th Street,<br>Suite 721, New York NY 10010",
@@ -1183,6 +1184,7 @@
                         "widgetdata": {
                             "text1": "<p>Copyright &copy; 2014 <a href='#'>Chameleon</a>. All Rights reserved.</p>",
                             "text2": "Made with <i class='fa fa-heart'></i> by <a href='#'>UOU Apps</a>.",
+                            "btnclass": "btn btn-primary",
                             "social": [
                                 {
                                     "title": "Facebook",

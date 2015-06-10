@@ -333,7 +333,7 @@
                                 "name": "column 2",
                                 "w_type": "column",
                                 "class": "col-md-9",
-                                "extraclass": "col-xs-12 col-sm-12  ",
+                                "extraclass": "col-xs-12 col-sm-9",
                                 "margintopclass": "mt0",
                                 "marginbottomclass": "mb0",
                                 "background_property": {
@@ -451,6 +451,7 @@
                         "w_type": "widget",
                         "type": "footer",
                         "template": "block/footers/uou-block-4e-photo.html",
+                         "btnclass": "btn btn-primary",
                         "widgetdata": {
                             "title": "Chameleon",
                             "contact": [
@@ -596,7 +597,8 @@
                             "wrapper_class": "uou-block-4c has-bg-image",
                             "backgroundcolor": "#fff",
                             "backgroundopacity": 0,
-                            "background": ""
+                            "background": "",
+                            "btnclass": "btn btn-primary"
                         },
                         "name": "footer ",
                         "background_property": {

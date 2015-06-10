@@ -72,48 +72,6 @@
 		"template":"templateconfig/template12.json"
 	},
 	{
-		"id":"template14",
-		"title":"Template 14",
-		"src":"img/block-preview-image/page/p14.png",
-		"template":"templateconfig/template14.json"
-	},
-	{
-		"id":"template15",
-		"title":"Template 15",
-		"src":"img/block-preview-image/page/p15.png",
-		"template":"templateconfig/template15.json"
-	},
-	{
-		"id":"template16",
-		"title":"Template 16",
-		"src":"img/block-preview-image/page/p16.png",
-		"template":"templateconfig/template16.json"
-	},
-	{
-		"id":"template17",
-		"title":"Template 17",
-		"src":"img/block-preview-image/page/p17.png",
-		"template":"templateconfig/template17.json"
-	},
-	{
-		"id":"template18",
-		"title":"Template 18",
-		"src":"img/block-preview-image/page/p18.png",
-		"template":"templateconfig/template18.json"
-	},
-	{
-		"id":"template19",
-		"title":"Template 19",
-		"src":"img/block-preview-image/page/p19.png",
-		"template":"templateconfig/template19.json"
-	},
-	{
-		"id":"template20",
-		"title":"Template 20",
-		"src":"img/block-preview-image/page/p20.png",
-		"template":"templateconfig/template20.json"
-	},
-	{
 		"id":"template21",
 		"title":"Template 21",
 		"src":"img/block-preview-image/page/p21.png",
@@ -166,6 +124,12 @@
 		"title":"Template 29",
 		"src":"img/block-preview-image/page/p29.png",
 		"template":"templateconfig/template29.json"
+	},
+	{
+		"id":"template14",
+		"title":"Template 14",
+		"src":"img/block-preview-image/page/p14.png",
+		"template":"templateconfig/template14.json"
 	}
 
 ]
