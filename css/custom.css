@@ -1438,3 +1438,12 @@ hr {
 {
   z-index: 9999;
 }
+.deafaulttext
+{
+  position: absolute;
+  left: 30%;
+  top:30%;
+  width: 40%;
+  text-align: center;
+  display: none;
+}

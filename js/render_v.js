@@ -112,7 +112,6 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
     $scope.GetContent = function(obj) {
         var str = "<i class='fa " + obj.icons + "'></i>" + obj.text;
-        //alert(str);
         return str;
     };
 
@@ -279,7 +278,6 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
                     }
                     rootnode.nodes.push(wrappernode);
-                    console.log(rootnode);
                     $scope.accachedwidget[$scope.skey]["nodes"].push(rootnode);
                 } else {
 
@@ -368,12 +366,13 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
                 $scope.setPageScope(0);
 
             }
-
+            $(".deafaulttext").hide();
 
         } catch (e) {
             $scope.accachedwidget = [];
             $scope.addThisPage();
             $scope.setPageScope(0);
+            $(".deafaulttext").show();
             return false;
         }
         
@@ -1638,7 +1637,6 @@ app.directive("uoutabs", function($timeout) {
             }, 1);
 
             scope.$watch('tabs.length', function(n, o) {
-                console.log(n)
                     //alert(n);
                 if (n > o)
 
@@ -1756,7 +1754,6 @@ app.directive("resumetabs", function($timeout) {
             }, 1);
 
             scope.$watch('tabs.length', function(n, o) {
-                console.log(n)
 
                 if (n > o) {
                     $timeout(function() {
@@ -1876,14 +1873,12 @@ app.directive("testimonialsslider", function($timeout) {
         },
         link: function(scope, element, attr) {
             $timeout(function() {
-                console.log(scope.blocks);
                 return $(element).owlCarousel({
                     singleItem: true
                 });
             }, 1);
 
             scope.$watch('blocks.length', function(n, o) {
-                console.log(n)
                     //alert(n);
                 if (n > o)
 
@@ -1965,7 +1960,6 @@ app.directive("uouclientsslidesection", function ($timeout) {
             }, 1);
             
             scope.$watch('blocks.length', function (n, o) {
-                console.log(n)
                 if (n > o)
                 {
                     
@@ -1996,7 +1990,6 @@ app.directive("introslider", function ($timeout) {
             }, 1);
             
             scope.$watch('blocks.length', function (n, o) {
-                console.log(n)
                 if (n > o)
                 {
                     $timeout(function() {
@@ -2022,7 +2015,6 @@ app.directive("dishesslider", function ($timeout) {
             }, 1);
             
             scope.$watch('blocks.length', function (n, o) {
-                console.log(n)
                 if (n > o)
                 {
                     $timeout(function() {
