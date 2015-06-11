@@ -1443,7 +1443,10 @@ hr {
   position: absolute;
   left: 30%;
   top:30%;
-  width: 40%;
+  width: 43%;
   text-align: center;
   display: none;
+  background-color: #444;
+  color:#fff;
+  padding: 20px;
 }
