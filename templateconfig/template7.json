@@ -933,32 +933,32 @@
                             "nav": [
                                 {
                                     "title": "Image 1",
-                                    "image": "http://placehold.it/100x100/34495e/34495e",
+                                    "image": "img/100-100-holder.png",
                                     "link": ""
                                 },
                                 {
                                     "title": "Image 2",
-                                    "image": "http://placehold.it/100x100/34495e/34495e",
+                                    "image": "img/100-100-holder.png",
                                     "link": ""
                                 },
                                 {
                                     "title": "Image 3",
-                                    "image": "http://placehold.it/100x100/34495e/34495e",
+                                    "image": "img/100-100-holder.png",
                                     "link": ""
                                 },
                                 {
                                     "title": "Image 4",
-                                    "image": "http://placehold.it/100x100/34495e/34495e",
+                                    "image": "img/100-100-holder.png",
                                     "link": ""
                                 },
                                 {
                                     "title": "Image 5",
-                                    "image": "http://placehold.it/100x100/34495e/34495e",
+                                    "image": "img/100-100-holder.png",
                                     "link": ""
                                 },
                                 {
                                     "title": "Image 6",
-                                    "image": "http://placehold.it/100x100/34495e/34495e",
+                                    "image": "img/100-100-holder.png",
                                     "link": ""
                                 }
                             ],

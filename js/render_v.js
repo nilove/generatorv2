@@ -163,6 +163,7 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
     $scope.ApplyTemplate = function(template) {
         $http.get(template).success(function(data) {
+            $(".deafaulttext").hide();
             $scope.accachedwidget[$scope.skey]["nodes"] = data;
         });
     }
@@ -171,6 +172,7 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
     $scope.AddThisBlock = function(parsed_key) {
         $scope.EnablePrview();
+        $(".deafaulttext").hide();
         //alert($scope.widget_defination[parsed_key]["type"]);
         if ($scope.widget_defination[parsed_key]["type"] == 'row' || $scope.widget_defination[parsed_key]["type"] == 'column') {
             var node = {
@@ -362,17 +364,28 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
             $scope.accachedwidget = JSON.parse(localStorage.getItem("generatorscope"));
             $scope.setPageScope(parseInt(localStorage.getItem("pagescope")));
             if ($scope.accachedwidget.length == 0) {
+                $(".deafaulttext").show();
                 $scope.addThisPage();
                 $scope.setPageScope(0);
-
             }
-            $(".deafaulttext").hide();
+            else
+            {
+                if($scope.accachedwidget[0].nodes.length == 0)
+                {
+                    $(".deafaulttext").show();
+                }
+                else
+                {
+                     $(".deafaulttext").hide();
+                }
+            }
+            
+            
 
         } catch (e) {
             $scope.accachedwidget = [];
             $scope.addThisPage();
             $scope.setPageScope(0);
-            $(".deafaulttext").show();
             return false;
         }
         
@@ -1045,6 +1058,7 @@ app.directive('addnode', ['$parse', function($parse) {
 
             $(element).click(function() {
                 scope.$apply(function() {
+                    $(".deafaulttext").hide();
                     var node = {
                         "id": "node" + new Date().getTime(),
                         "name": scope.widgettype + " " + (ngModel.$viewValue.nodes.length + 1),
