@@ -1,8 +1,7 @@
 .landing-header {
 	position: relative;
 	width: 100%;
-	height: 730px;
-	background: url('../img/landing-page-banner.png') top center no-repeat;
+	background: url('../img/cham-bg.jpg') top center no-repeat;
 	background-size: cover;
 	padding-top: 30px;
 
@@ -17,6 +16,48 @@
 		color: @white;
 		border-color: @white;
 		margin: 0;
+	}
+}
+
+.demo-content-text {
+	position: relative;
+	padding: 40px;
+	width: 500px;
+	margin: 50px auto 100px;
+	background: rgba(0, 0, 0, 0.75);
+
+	@media screen and(max-width: 600px) {
+		width: 100%;
+	}
+
+	.logo {
+		font-size: 20px;
+		padding: 8px 30px;
+	}
+
+	h2 {
+		font-size: 21px;
+		padding: 20px 0 10px;
+	}
+
+	a {
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		&.btn-small {
+			padding: 5px 12px;
+		}
+
+		&.btn-magenta {
+			border: 2px solid @uou-magenta;
+
+			&:hover {
+				border-color: darken(@uou-magenta, 10%);
+			}
+		}
+
+		 
 	}
 }
 

@@ -3592,6 +3592,22 @@ fieldset[disabled] .btn {
 .btn-magenta.active {
   background-color: #702fba;
 }
+.btn-transparent {
+  color: #ffffff;
+  font-weight: normal;
+  border-radius: 0;
+  border: 2px solid #ffffff;
+}
+.btn-transparent:hover,
+.btn-transparent.hover,
+.btn-transparent:focus,
+.btn-transparent.focus,
+.btn-transparent:active,
+.btn-transparent.active {
+  color: #333333;
+  background: #ffffff;
+  text-decoration: none;
+}
 /* Large */
 .btn-large {
   font-size: 18px;
@@ -12905,7 +12921,7 @@ CANVAS PAGE STYLE
 }
 .uou-constraction-slider .flex-direction-nav a,
 .uou-constraction-slider .flex-control-nav li {
-  background: rgba(255, 204, 48, 0.75);
+  background: rgba(255, 204, 48, 0);
 }
 .uou-constraction-slider .flex-control-nav li a.flex-active {
   background: rgba(255, 204, 48, 0);
@@ -13541,8 +13557,7 @@ CANVAS PAGE STYLE
 .landing-header {
   position: relative;
   width: 100%;
-  height: 730px;
-  background: url('../img/landing-page-banner.png') top center no-repeat;
+  background: url('../img/cham-bg.jpg') top center no-repeat;
   background-size: cover;
   padding-top: 30px;
 }
@@ -13555,6 +13570,40 @@ CANVAS PAGE STYLE
   color: #ffffff;
   border-color: #ffffff;
   margin: 0;
+}
+.demo-content-text {
+  position: relative;
+  padding: 40px;
+  width: 500px;
+  margin: 50px auto 100px;
+  background: rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width: 600px) {
+  .demo-content-text {
+    width: 100%;
+  }
+}
+.demo-content-text .logo {
+  font-size: 20px;
+  padding: 8px 30px;
+}
+.demo-content-text h2 {
+  font-size: 21px;
+  padding: 20px 0 10px;
+}
+.demo-content-text a {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.demo-content-text a.btn-small {
+  padding: 5px 12px;
+}
+.demo-content-text a.btn-magenta {
+  border: 2px solid #8a4bd1;
+}
+.demo-content-text a.btn-magenta:hover {
+  border-color: #702fba;
 }
 .uou-landing-page-feature {
   position: relative;
