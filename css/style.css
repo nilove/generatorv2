@@ -13622,6 +13622,9 @@ CANVAS PAGE STYLE
 }
 .uou-landing-demo img {
   margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .uou-another-feature {
   position: relative;
