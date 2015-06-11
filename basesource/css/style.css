@@ -2970,6 +2970,7 @@ a {
 a:hover,
 a:focus {
   color: #278aca;
+  text-decoration: none;
 }
 input,
 button,

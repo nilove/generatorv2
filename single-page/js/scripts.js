@@ -26,6 +26,59 @@ $(document).ready(function() {
 		items: 6
 	});
 
+	// Mobile Sidebar
+	// ---------------------------------------------------------
+	$('.mobile-sidebar-toggle').on('click', function () {
+	  $body.toggleClass('mobile-sidebar-active');
+	  return false;
+	});
+
+	$('.mobile-sidebar-open').on('click', function () {
+	  $body.addClass('mobile-sidebar-active');
+	  return false;
+	});
+
+	$('.mobile-sidebar-close').on('click', function () {
+	  $body.removeClass('mobile-sidebar-active');
+	  return false;
+	});
+
+
+	// .uou-block-11a
+	// ---------------------------------------------------------
+	$('.uou-block-11a').each(function () {
+	  var $block = $(this);
+
+	  // nav
+	  $block.find('.main-nav').each(function () {
+	    var $this = $(this).children('ul');
+
+	    $this.find('li').each(function () {
+	      var $this = $(this);
+
+	      if ($this.children('ul').length > 0) {
+	        $this.addClass('has-submenu');
+	        $this.append('<span class="arrow"></span>');
+	      }
+	    });
+
+	    var $submenus = $this.find('.has-submenu');
+
+	    $submenus.children('.arrow').on('click', function (event) {
+	      var $this = $(this),
+	          $li = $this.parent('li');
+
+	      if (!$li.hasClass('active')) {
+	        $li.addClass('active');
+	        $li.children('ul').slideDown();
+	      } else {
+	        $li.removeClass('active');
+	        $li.children('ul').slideUp();
+	      }
+	    });
+	  });
+	});
+
 	// BACKGROUND FOR EACH SLIDE
   $( '#slider' ).each(function(){
 

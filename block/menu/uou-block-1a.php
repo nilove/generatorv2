@@ -34,7 +34,7 @@
         ?>
       </ul>
 
-      <div class="language active">
+      <div class="language">
         <a href="#" class="toggle"><img src="img/NL.png" alt="">
         	<?=$params["widgetdata"]["languagetitle"];?>
         </a>
