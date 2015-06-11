@@ -555,6 +555,7 @@
                         "template": "block/footers/uou-block-4e-photo.html",
                         "widgetdata": {
                             "title": "Chameleon",
+                             "btnclass": "btn btn-primary",
                             "contact": [
                                 {
                                     "text": "198 West 21th Street,<br>Suite 721, New York NY 10010",
@@ -656,6 +657,7 @@
                         "template": "block/footers/uou-block-4a-social-icons.html",
                         "widgetdata": {
                             "text": "<p>Copyright &copy; 2014 Chameleon. All Rights reserved.</p>",
+                            "btnclass": "btn btn-primary",
                             "social": [
                                 {
                                     "title": "Facebook",

@@ -555,6 +555,7 @@
                         "template": "block/footers/uou-block-4e-photo.html",
                         "widgetdata": {
                             "title": "Chameleon",
+                             "btnclass": "btn btn-primary",
                             "contact": [
                                 {
                                     "text": "198 West 21th Street,<br>Suite 721, New York NY 10010",
@@ -681,7 +682,8 @@
                             "wrapper_class": "uou-block-4a secondary has-bg-image",
                             "backgroundcolor": "#fff",
                             "backgroundopacity": 0,
-                            "background": ""
+                            "background": "",
+                            "btnclass": "btn btn-primary"
                         },
                         "name": "footer ",
                         "background_property": {

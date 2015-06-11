@@ -715,7 +715,7 @@
                                 "name": "column 3",
                                 "w_type": "column",
                                 "class": "col-md-4",
-                                "extraclass": "col-xs-12 col-sm-12",
+                                "extraclass": "col-xs-12 col-sm-4",
                                 "margintopclass": "mt0",
                                 "marginbottomclass": "mb0",
                                 "background_property": {
@@ -772,7 +772,7 @@
                                 "name": "column 4",
                                 "w_type": "column",
                                 "class": "col-md-4",
-                                "extraclass": "col-xs-12 col-sm-12",
+                                "extraclass": "col-xs-12 col-sm-4",
                                 "margintopclass": "mt0",
                                 "marginbottomclass": "mb0",
                                 "background_property": {
@@ -926,6 +926,7 @@
                             "photostream": "Photostream",
                             "newsletter": "NEWSLETTER",
                             "buttontext": "Subscribe",
+                             "btnclass": "btn btn-primary",
                             "newslettertext": "Subscribe to our newsletter to receive news, updates, free stuff and new releases by email. We don't do spam.",
                             "twitterfeed": [
                                 {

@@ -603,7 +603,7 @@
                                 "name": "column 1",
                                 "w_type": "column",
                                 "class": "col-md-3",
-                                "extraclass": "container has-bg-image",
+                                "extraclass": "container has-bg-image col-md-3",
                                 "margintopclass": "mt0",
                                 "marginbottomclass": "mb0",
                                 "background_property": {
@@ -900,6 +900,7 @@
                         "template": "block/footers/uou-block-4e-photo.html",
                         "widgetdata": {
                             "title": "Chameleon",
+                             "btnclass": "btn btn-primary",
                             "contact": [
                                 {
                                     "text": "198 West 21th Street,<br>Suite 721, New York NY 10010",
@@ -1001,6 +1002,7 @@
                         "template": "block/footers/uou-block-4a-social-icons.html",
                         "widgetdata": {
                             "text": "<p>Copyright &copy; 2014 Chameleon. All Rights reserved.</p>",
+                            "btnclass": "btn btn-primary",
                             "social": [
                                 {
                                     "title": "Facebook",

@@ -333,7 +333,7 @@
                                 "name": "column 2",
                                 "w_type": "column",
                                 "class": "col-md-9",
-                                "extraclass": "col-xs-12 col-sm-12  ",
+                                "extraclass": "col-xs-12 col-sm-9",
                                 "margintopclass": "mt0",
                                 "marginbottomclass": "mb0",
                                 "background_property": {
