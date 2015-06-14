@@ -1,13 +1,13 @@
 {
 	"wrapper_class":"container has-bg-image",
-	"backgroundcolor":"#fff",
+	"backgroundcolor":"",
 	"backgroundopacity":0,
 	"background":"",
 	"rows":[
  				{
  					"columns":[
 	{
-	"image":"http://placehold.it/300x300/34495e/34495e",
+	"image":"img/place300.png",
 	 "name":"Jessica Walsh",
 	 "company":"Founder & Web Designer",
 	 "text":"Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
@@ -23,7 +23,7 @@
 	 "wrapper_extra_class":"col-sm-4"		
 	},
 	{
-	"image":"http://placehold.it/300x300/34495e/34495e",
+	"image":"img/place300.png",
 	 "name":"Jessica Walsh",
 	 "company":"Founder & Web Designer",
 	 "text":"Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",
@@ -39,7 +39,7 @@
 	  "wrapper_extra_class":"col-sm-4"			
 	},
 	{
-	"image":"http://placehold.it/300x300/34495e/34495e",
+	"image":"img/place300.png",
 	 "name":"Jessica Walsh",
 	 "company":"Founder & Web Designer",
 	 "text":"Lorem Ipsum dolor sit amet consectetur. Gravid nib velit auctor aquet sollicitudin lorem quis bibendum auctor",

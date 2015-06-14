@@ -1,6 +1,6 @@
 {
   "background":"img/lookbook-banner.jpg",
-  "backgroundcolor":"#fff",
+  "backgroundcolor":"",
   "backgroundopacity":0,
   "backgrondimage":"img/lookbook-banner.jpg",
   "wrapper_class":"uou-lookbook has-bg-image",

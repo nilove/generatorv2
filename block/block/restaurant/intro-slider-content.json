@@ -1,6 +1,6 @@
 {
   "background":"img/intro.jpg",
-  "backgroundcolor":"#fff",
+  "backgroundcolor":"",
   "backgroundopacity":0,
   "backgrondimage":"img/intro.jpg",
   "wrapper_class":"intro-slider-content has-bg-image",

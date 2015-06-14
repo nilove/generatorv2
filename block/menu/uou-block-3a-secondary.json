@@ -21,8 +21,9 @@
 	      ],
 	"text":"Web Design",
 	"wrapper_class":"uou-block-3a has-bg-image secondary",
-	"backgroundcolor":"#fff",
+	"backgroundcolor":"",
 	"backgroundopacity":0,
-	"background":""      
+	"background":"",
+	"backgrondimage":""         
 
 }

@@ -1,6 +1,6 @@
 {
   "background":"img/foods.jpg",
-  "backgroundcolor":"#fff",
+  "backgroundcolor":"",
   "backgroundopacity":1,
   "backgrondimage":"img/foods.jpg",
   "wrapper_class":"uou-menu-list",

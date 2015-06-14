@@ -1,6 +1,6 @@
 {
   "background":"img/restaurant-banner.jpg",
-  "backgroundcolor":"#fff",
+  "backgroundcolor":"",
   "backgroundopacity":1,
   "backgrondimage":"img/restaurant-banner.jpg",
   "wrapper_class":"uou-banner",

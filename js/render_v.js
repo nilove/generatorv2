@@ -527,9 +527,10 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
     $scope.generateBackgrondStyle=function(bgproperty)
     {
         var bg={}; 
+        //console.log(bgproperty);
         for(i in bgproperty)
         {
-            if(bgproperty[i] != "")
+            if((bgproperty[i] != "") && (typeof bgproperty[i] !== 'undefined'))
             {
                 if(i == "background_color")
                 {
@@ -554,7 +555,6 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
 
             }
         }
-        //console.log(bg);
         return bg;
     }
 

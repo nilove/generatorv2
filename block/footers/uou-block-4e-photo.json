@@ -39,7 +39,7 @@
        {"title":"Image 6","image":"img/100-100-holder.png","link":""}
       ],
 	"wrapper_class":"uou-block-4e has-bg-image",
-	"backgroundcolor":"#fff",
+	"backgroundcolor":"",
 	"backgroundopacity":0,
 	"background":""      
 }
