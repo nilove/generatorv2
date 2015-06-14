@@ -7,7 +7,7 @@
           <div class="col-md-3 col-sm-4" ng-repeat="product in childNode.widgetdata.products">
             <div class="uou-item-single">
               <a data-toggle="modal" data-target="#myModal_product_{{childNode.id}}" href="#">
-                <img src="{{product.image}}" alt="">
+                <img ng-src="{{product.image}}" alt="">
               </a>
               <h6>
                 <a href="#" plaintx-contenteditable ng-model="product.title">{{product.title || ''}}<span></span></a>

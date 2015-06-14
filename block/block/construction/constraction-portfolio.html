@@ -11,7 +11,7 @@
         <div class="portfolio-filters-content">
           <article ng-repeat="image in childNode.widgetdata.images" class="{{image.class}}">
             <a href="#" data-toggle="modal" data-target="#myModal_portfolio_{{childNode.id}}" class="swipebox" title="{{image.title}}">
-              <img src="{{image.image}}" alt="" class="work img-responsive">
+              <img ng-src="{{image.image}}" alt="" class="work img-responsive">
             </a>
           </article>
         </div>

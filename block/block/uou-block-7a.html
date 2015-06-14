@@ -42,14 +42,14 @@
                              ng-model="s.image"/>
                 </span>
             </div>
-            <img src="{{s.image}}" alt="">
+            <img ng-src="{{s.image}}" alt="">
             
         </li>
     </flex-slider>
   </div>
 
   <div class="css-table-cell content">
-    <img src="{{childNode.widgetdata.image}}" alt="">
+    <img ng-src="{{childNode.widgetdata.image}}" alt="">
 
     <h1 plaintx-contenteditable 
         ng-model="childNode.widgetdata.company">

@@ -10,7 +10,7 @@
       <div id="owl-demo" class="uou-clients-slide-section" uouclientsslidesection blocks="childNode.widgetdata.blocks">
         <div class="item" ng-repeat="img in childNode.widgetdata.blocks">
           <a href="#" data-toggle="modal" data-target="#myModal_slider_{{childNode.id}}">
-            <img src="{{img.image}}" alt="{{img.title}}"></a>
+            <img ng-src="{{img.image}}" alt="{{img.title}}"></a>
         </div>  
       </div>      
     </div>

@@ -57,7 +57,7 @@
           <ul class="photos-list">
             <li ng-repeat="nav in childNode.widgetdata.nav">
               <a href="#" data-toggle="modal" data-target="#myModal_image_{{childNode.id}}">
-                <img src="{{nav.image}}" alt="{{nav.title}}" title="{{nav.title}}"/>
+                <img ng-src="{{nav.image}}" alt="{{nav.title}}" title="{{nav.title}}"/>
               </a>
             </li>
           </ul>

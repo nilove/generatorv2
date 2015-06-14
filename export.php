@@ -172,8 +172,7 @@ foreach ($data as $d)
               }
               ?>
             </div> <!-- end .uou-block-11a -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-2.1.3.min.js"><\/script>')</script>
+        <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/plugins/hoverIntent.js"></script>
         <script src="js/plugins/superfish.min.js"></script>
         <script src="js/plugins/mejs/mediaelement-and-player.min.js"></script>
