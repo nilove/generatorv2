@@ -524,6 +524,40 @@ app.controller('DragDropController', function($scope, $http, $filter, $sce) {
         $scope.accachedwidget.push(lc_page);
     }
 
+    $scope.generateBackgrondStyle=function(bgproperty)
+    {
+        var bg={}; 
+        for(i in bgproperty)
+        {
+            if(bgproperty[i] != "")
+            {
+                if(i == "background_color")
+                {
+                    bg["background-color"]=bgproperty[i];
+                }
+                else if(i == "background_image")
+                {
+                    bg["background-image"]='url(' + bgproperty[i] + ')';
+                }
+                else if(i == "background_repeat")
+                {
+                    bg["background-repeat"]=bgproperty[i];
+                }
+                else if(i == "background_position")
+                {
+                    bg["background-position"]=bgproperty[i];
+                }
+                else if(i == "height")
+                {
+                    bg["min-height"]=bgproperty[i];
+                }
+
+            }
+        }
+        //console.log(bg);
+        return bg;
+    }
+
     $scope.ReloadFromeScope();
 
 

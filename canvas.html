@@ -76,14 +76,11 @@
 
 
 
-                <div ng-if="page_key == skey" class="widget_container  cons" style="background-color:{{page.background_property.background_color}};
-                  background-image:url('{{page.background_property.background_image}}');
-                  background-repeat:{{page.background_property.background_repeat}};
-                  background-position:{{page.background_property.background_position}};
-                  min-height:{{page.background_property.height}}px" ng-model="page">
+                <div ng-if="page_key == skey" class="widget_container  cons" 
+                ng-style="generateBackgrondStyle(page.background_property)"
+                 ng-model="page">
                     <div q-recurse="page">
-                        <div ng-repeat="(row_key,childNode) in page.nodes" ng-if="childNode.w_type == 'row' || childNode.w_type == 'column' || childNode.w_type == 'widget'" q-recurse-node="childNode" class="posrelative mn-height {{childNode.extraclass}} {{childNode.margintopclass}} {{childNode.marginbottomclass}}" ng-include src="childNode.template" ng-model="childNode" data-id="{{childNode.id}}" style="background-image:url('{{childNode.background_property.background_image}}');
-                       min-height:{{childNode.background_property.height}}px">
+                        <div ng-repeat="(row_key,childNode) in page.nodes" ng-if="childNode.w_type == 'row' || childNode.w_type == 'column' || childNode.w_type == 'widget'" q-recurse-node="childNode" class="posrelative mn-height {{childNode.extraclass}} {{childNode.margintopclass}} {{childNode.marginbottomclass}}" ng-include src="childNode.template" ng-model="childNode" data-id="{{childNode.id}}" ng-style="generateBackgrondStyle(childNode.background_property)">
                         </div>
                     </div>
                 </div>

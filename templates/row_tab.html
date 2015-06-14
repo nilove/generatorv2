@@ -135,7 +135,7 @@ START MODAL FOR CONTENT BLOCK
         <div class="page-layout-block">
           <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'layout'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
                    <div class="wd"> 
-                  <img style="width:100;height:auto;" src="{{widgetdf.src}}" alt="">
+                  <img style="width:100;height:auto;" ng-src="{{widgetdf.src || ''}}" alt="">
 
 
 
@@ -146,7 +146,8 @@ START MODAL FOR CONTENT BLOCK
             <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'block'" id="bl{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}">
 
                   <div class="wd">  
-                  <img style="width:100;height:auto;" src="{{widgetdf.src}}" alt="">
+                  <img style="width:100;height:auto;" src="{{
+widgetdf.src || ''}}" alt="">
 
 
 
@@ -157,7 +158,7 @@ START MODAL FOR CONTENT BLOCK
             <div class="block-preview-image" ng-repeat="(key_def,widgetdf) in widget_defination" ng-if="widgetdf.category == 'gui'" id="{{widgetdf.id}}" widget-data="{{widgetdf.widgetdata}}" data-key="{{key_def}}" data-wtype="{{widgetdf.type}}" data-type="{{widgetdf.type}}"> 
                   <div class="wd">  
 
-                    <img  style="width:100;height:auto;" src="{{widgetdf.src}}" alt="">
+                    <img  style="width:100;height:auto;" ng-src="{{widgetdf.src || ''}}" alt="">
 
                     <button data-dismiss="modal" aria-label="Close" class="btn btn-small btn-success" acceptwidgetbyclick ng-model="childNode" data-key="{{key_def}}" data-id="{{childNode.id}}"><i class="fa fa-plus"></i>Add</button>
 
