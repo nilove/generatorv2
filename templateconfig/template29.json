@@ -25,7 +25,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -89,7 +89,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-1a has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -114,7 +114,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -164,7 +164,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-2b has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -190,7 +190,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "img/constraction-banner.jpg",
             "height": 20,
             "backgroundopacity": 1
@@ -206,7 +206,7 @@
                 "template": "block/block/uou-banner.html",
                 "widgetdata": {
                     "background": "img/restaurant-banner.jpg",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 1,
                     "backgrondimage": "img/restaurant-banner.jpg",
                     "wrapper_class": "uou-banner",
@@ -232,7 +232,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "height": 20,
             "backgroundopacity": 0
         },
@@ -247,7 +247,7 @@
                 "template": "block/gui/tabs.html",
                 "widgetdata": {
                     "wrapper_class": "constraction-shortcodes uou-block-content has-bg-image",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "background": "",
                     "constructtionclass": "constraction-tab",
@@ -267,7 +267,7 @@
                                     "background_property": {
                                         "height": 20,
                                         "backgroundopacity": 0,
-                                        "background_color": "#fff"
+                                        "background_color": ""
                                     },
                                     "template": "templates/row_tab.html",
                                     "nodes": [
@@ -300,7 +300,7 @@
                                                     }
                                                 ],
                                                 "wrapper_class": "uou-block-5b has-bg-image",
-                                                "backgroundcolor": "#fff",
+                                                "backgroundcolor": "",
                                                 "backgroundopacity": 0,
                                                 "background": ""
                                             },
@@ -333,7 +333,7 @@
                                     "background_property": {
                                         "height": 200,
                                         "backgroundopacity": 0,
-                                        "background_color": "#fff"
+                                        "background_color": ""
                                     },
                                     "template": "templates/row_tab.html",
                                     "nodes": [
@@ -842,7 +842,7 @@
                                         "background_image": "",
                                         "height": 20,
                                         "backgroundopacity": 0,
-                                        "background_color": "#fff"
+                                        "background_color": ""
                                     },
                                     "template": "templates/row_tab.html",
                                     "nodes": [
@@ -987,7 +987,7 @@
                                             "template": "block/block/uou-block-8b.html",
                                             "widgetdata": {
                                                 "background": "",
-                                                "backgroundcolor": "#fff",
+                                                "backgroundcolor": "",
                                                 "backgroundopacity": 0,
                                                 "backgrondimage": "",
                                                 "wrapper_class": "container has-bg-image",
@@ -1043,7 +1043,7 @@
                                             "template": "block/block/uou-block-8a.html",
                                             "widgetdata": {
                                                 "background": "",
-                                                "backgroundcolor": "#fff",
+                                                "backgroundcolor": "",
                                                 "backgroundopacity": 0,
                                                 "backgrondimage": "",
                                                 "wrapper_class": "container has-bg-image",
@@ -1095,7 +1095,7 @@
                                     "background_property": {
                                         "height": 200,
                                         "backgroundopacity": 0,
-                                        "background_color": "#fff"
+                                        "background_color": ""
                                     },
                                     "template": "templates/row_tab.html",
                                     "nodes": [
@@ -1260,7 +1260,7 @@
                                     "margintopclass": "mt0",
                                     "marginbottomclass": "mb0",
                                     "background_property": {
-                                        "background_color": "#fff",
+                                        "background_color": "",
                                         "background_image": "",
                                         "background_position": "",
                                         "background_repeat": "",
@@ -1278,7 +1278,7 @@
                                             "template": "block/block/uou-block-7a.html",
                                             "widgetdata": {
                                                 "background": "",
-                                                "backgroundcolor": "#fff",
+                                                "backgroundcolor": "",
                                                 "backgroundopacity": 0,
                                                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
                                                 "footertext": "Steve Jobs, Apple",
@@ -1354,7 +1354,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -1434,7 +1434,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4e has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -1478,7 +1478,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -1518,7 +1518,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4a has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },

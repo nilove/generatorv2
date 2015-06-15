@@ -25,7 +25,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -89,7 +89,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-1a has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -114,7 +114,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -164,7 +164,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-2b has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -190,7 +190,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "img/constraction-banner.jpg",
             "height": 20,
             "backgroundopacity": 1
@@ -206,7 +206,7 @@
                 "template": "block/block/uou-banner.html",
                 "widgetdata": {
                     "background": "img/restaurant-banner.jpg",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 1,
                     "backgrondimage": "img/restaurant-banner.jpg",
                     "wrapper_class": "uou-banner",
@@ -232,7 +232,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "",
             "height": 20,
             "backgroundopacity": 0
@@ -248,7 +248,7 @@
                 "template": "block/block/construction/constraction-portfolio.html",
                 "widgetdata": {
                     "background": "",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "",
                     "wrapper_class": "constraction-portfolio uou-block-content",
@@ -361,7 +361,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -441,7 +441,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4e has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -485,7 +485,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -525,7 +525,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4a has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },

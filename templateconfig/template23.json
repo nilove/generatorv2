@@ -7,7 +7,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "height": 20,
             "backgroundopacity": 0
         },
@@ -69,7 +69,7 @@
                         }
                     ],
                     "wrapper_class": "uou-block-1a has-bg-image",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "background": ""
                 },
@@ -93,7 +93,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "height": 20,
             "backgroundopacity": 0
         },
@@ -111,7 +111,7 @@
                     "wrapper_class": "uou-block-2d has-bg-image",
                     "phone": "(02) 123-456-7890",
                     "cart": "Shopping Cart (0)",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "background": ""
                 },
@@ -135,7 +135,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "height": 20,
             "backgroundopacity": 0
         },
@@ -178,7 +178,7 @@
                     ],
                     "righttext": "(02) 123-456-7890",
                     "wrapper_class": "uou-block-2e has-bg-image",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "background": ""
                 },
@@ -202,7 +202,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "img/lookbook-banner.jpg",
             "height": 20,
             "backgroundopacity": 0
@@ -218,7 +218,7 @@
                 "template": "block/block/shop/uou-lookbook.html",
                 "widgetdata": {
                     "background": "img/lookbook-banner.jpg",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "img/lookbook-banner.jpg",
                     "wrapper_class": "uou-lookbook has-bg-image",
@@ -246,7 +246,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "",
             "height": 20,
             "backgroundopacity": 0
@@ -262,7 +262,7 @@
                 "template": "block/block/shop/top-selling-item.html",
                 "widgetdata": {
                     "background": "",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "",
                     "wrapper_class": "shop-page-content",
@@ -356,7 +356,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -436,7 +436,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4e has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -480,7 +480,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -520,7 +520,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4a has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },

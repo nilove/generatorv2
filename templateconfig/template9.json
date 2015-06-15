@@ -7,7 +7,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -43,7 +43,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-1c has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -67,7 +67,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -110,7 +110,7 @@
                             ],
                             "righttext": "Shopping Cart (0)",
                             "wrapper_class": "uou-block-2e has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -134,7 +134,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -171,7 +171,7 @@
                             "text": "",
                             "text1": "Web Design",
                             "wrapper_class": "uou-block-3b has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -271,7 +271,7 @@
                         "template": "block/block/uou-block-7a.html",
                         "widgetdata": {
                             "background": "",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
                             "footertext": "Steve Jobs, Apple",
@@ -312,7 +312,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_image": "",
                     "height": 20,
                     "backgroundopacity": 0
@@ -328,7 +328,7 @@
                         "template": "block/block/uou-block-7a-reverse.html",
                         "widgetdata": {
                             "background": "",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
                             "footertext": "Steve Jobs, Apple",
@@ -402,7 +402,7 @@
                         "template": "block/block/uou-block-7b.html",
                         "widgetdata": {
                             "background": "",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
                             "footertext": "Steve Jobs, Apple",
@@ -446,7 +446,7 @@
                         "template": "block/block/uou-block-7b-reverse.html",
                         "widgetdata": {
                             "background": "",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas numquam repudiandae, nobis natus blanditiis fugiat placeat quod, officia ut aspernatur expedita illum perferendis animi perspiciatis sint pariatur velit corrupti dolore quidem. Voluptas nam et quibusdam quae quod, sapiente odit commodi.",
                             "footertext": "Steve Jobs, Apple",
@@ -540,7 +540,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -618,7 +618,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4e secondary has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -642,7 +642,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -681,7 +681,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4a has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },

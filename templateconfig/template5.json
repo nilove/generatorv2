@@ -7,7 +7,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -71,7 +71,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-1b has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -95,7 +95,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -143,7 +143,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-2b has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -167,7 +167,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_image": "",
                     "height": 20,
                     "backgroundopacity": 0
@@ -183,7 +183,7 @@
                         "template": "block/block/uou-block-7h.html",
                         "widgetdata": {
                             "background": "",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "backgrondimage": "",
                             "wrapper_class": "container has-bg-image",
@@ -438,7 +438,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -516,7 +516,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4e secondary has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -540,7 +540,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -595,7 +595,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4c has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": "",
                             "btnclass": "btn btn-primary"

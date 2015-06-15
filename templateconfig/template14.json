@@ -7,7 +7,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "height": 20,
             "backgroundopacity": 0
         },
@@ -69,7 +69,7 @@
                         }
                     ],
                     "wrapper_class": "uou-block-1a has-bg-image",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "background": ""
                 },
@@ -93,7 +93,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "",
             "height": 20,
             "backgroundopacity": 0
@@ -109,7 +109,7 @@
                 "template": "block/block/single-page/slider.html",
                 "widgetdata": {
                     "background": "",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "",
                     "wrapper_class": "fluid",
@@ -187,7 +187,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "",
             "height": 20,
             "backgroundopacity": 0
@@ -203,7 +203,7 @@
                 "template": "block/block/single-page/portfolio.html",
                 "widgetdata": {
                     "background": "",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "",
                     "wrapper_class": "fluid",
@@ -299,7 +299,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "",
             "height": 20,
             "backgroundopacity": 0
@@ -315,7 +315,7 @@
                 "template": "block/block/single-page/features.html",
                 "widgetdata": {
                     "background": "",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "",
                     "wrapper_class": "fluid"
@@ -372,7 +372,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb40",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "",
             "height": 20,
             "backgroundopacity": 0
@@ -388,7 +388,7 @@
                 "template": "block/block/single-page/clients.html",
                 "widgetdata": {
                     "background": "",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "",
                     "wrapper_class": "fluid"
@@ -413,7 +413,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "height": 20,
             "backgroundopacity": 0
         },
@@ -489,7 +489,7 @@
                     "text4": "Newsletter",
                     "text5": "Subscribe to our newsletter to receive our latest news and updates. We do not spam.",
                     "wrapper_class": "uou-block-4d has-bg-image",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "background": ""
                 },

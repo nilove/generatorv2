@@ -124,12 +124,5 @@
 		"title":"Template 29",
 		"src":"img/block-preview-image/page/p29.png",
 		"template":"templateconfig/template29.json"
-	},
-	{
-		"id":"template14",
-		"title":"Template 14",
-		"src":"img/block-preview-image/page/p14.png",
-		"template":"templateconfig/template14.json"
 	}
-
 ]

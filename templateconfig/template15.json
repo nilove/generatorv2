@@ -7,7 +7,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "height": 20,
             "backgroundopacity": 0
         },
@@ -69,7 +69,7 @@
                         }
                     ],
                     "wrapper_class": "uou-block-1a has-bg-image",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "background": ""
                 },
@@ -93,7 +93,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "img/intro.jpg",
             "height": 20,
             "backgroundopacity": 0
@@ -109,7 +109,7 @@
                 "template": "block/block/restaurant/resturantmenu.html",
                 "widgetdata": {
                     "background": "img/intro.jpg",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "img/intro.jpg",
                     "wrapper_class": "fluid has-bg-image",
@@ -160,7 +160,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "img/welcome.jpg",
             "height": 20,
             "backgroundopacity": 0
@@ -176,7 +176,7 @@
                 "template": "block/block/restaurant/uou-welcome-message.html",
                 "widgetdata": {
                     "background": "img/welcome.jpg",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 0,
                     "backgrondimage": "img/welcome.jpg",
                     "wrapper_class": "uou-welcome-message has-bg-image",
@@ -218,7 +218,7 @@
         "margintopclass": "mt0",
         "marginbottomclass": "mb0",
         "background_property": {
-            "background_color": "#fff",
+            "background_color": "",
             "background_image": "img/foods.jpg",
             "height": 20,
             "backgroundopacity": 1
@@ -234,7 +234,7 @@
                 "template": "block/block/uou-menu-list.html",
                 "widgetdata": {
                     "background": "img/foods.jpg",
-                    "backgroundcolor": "#fff",
+                    "backgroundcolor": "",
                     "backgroundopacity": 1,
                     "backgrondimage": "img/foods.jpg",
                     "wrapper_class": "uou-menu-list",
@@ -366,7 +366,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_position": "",
                     "background_repeat": "",
                     "height": 20,
@@ -444,7 +444,7 @@
                             "text4": "Newsletter",
                             "text5": "Subscribe to our newsletter to receive our latest news and updates. We do not spam.",
                             "wrapper_class": "uou-block-4d secondary has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },

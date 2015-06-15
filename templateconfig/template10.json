@@ -7,7 +7,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -43,7 +43,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-1c has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -67,7 +67,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -110,7 +110,7 @@
                             ],
                             "righttext": "Shopping Cart (0)",
                             "wrapper_class": "uou-block-2e has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -134,7 +134,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "background_image": "",
                     "height": 20,
                     "backgroundopacity": 0
@@ -150,7 +150,7 @@
                         "template": "block/block/uou-block-7h.html",
                         "widgetdata": {
                             "background": "",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "backgrondimage": "",
                             "wrapper_class": "container has-bg-image",
@@ -249,7 +249,7 @@
                                 "margintopclass": "mt0",
                                 "marginbottomclass": "mb0",
                                 "background_property": {
-                                    "background_color": "#fff",
+                                    "background_color": "",
                                     "background_position": "",
                                     "background_repeat": "",
                                     "height": 20,
@@ -266,7 +266,7 @@
                                         "template": "block/gui/tabs.html",
                                         "widgetdata": {
                                             "wrapper_class": "container has-bg-image",
-                                            "backgroundcolor": "#fff",
+                                            "backgroundcolor": "",
                                             "backgroundopacity": 0,
                                             "background": "",
                                             "tabs": [
@@ -717,7 +717,7 @@
                         "template": "block/block/uou-block-7f.html",
                         "widgetdata": {
                             "background": "",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "text": "<p>There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. UOU Apps, is by far one of the worlds best known brands.</p>",
                             "footertext": "Steve Jobs, Apple",
@@ -824,7 +824,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -902,7 +902,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4e secondary has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
@@ -926,7 +926,7 @@
                 "margintopclass": "mt0",
                 "marginbottomclass": "mb0",
                 "background_property": {
-                    "background_color": "#fff",
+                    "background_color": "",
                     "height": 20,
                     "backgroundopacity": 0
                 },
@@ -965,7 +965,7 @@
                                 }
                             ],
                             "wrapper_class": "uou-block-4a has-bg-image",
-                            "backgroundcolor": "#fff",
+                            "backgroundcolor": "",
                             "backgroundopacity": 0,
                             "background": ""
                         },
